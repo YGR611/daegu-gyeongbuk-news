@@ -43,11 +43,14 @@ NEWS_QUERIES = [
 # (예: "영주" 단독으로 두면 "직영주유소"처럼 전혀 상관없는 단어 안에 우연히
 #  포함돼서 오작동합니다. "상주"=상주하다, "고령"=고령화, "영양"=영양소,
 #  "구미"=구미가 당기다 등도 같은 이유로 접미사를 붙였습니다.)
-REGION_KEYWORDS = [
-    "대구", "경북", "경상북도", "대구시", "포항", "안동", "구미시", "경산", "김천",
+# 대구/경북을 화면에서 따로 필터링할 수 있도록 두 목록으로 나눠뒀습니다.
+DAEGU_REGION_KEYWORDS = ["대구", "대구시"]
+GYEONGBUK_REGION_KEYWORDS = [
+    "경북", "경상북도", "포항", "안동", "구미시", "경산", "김천",
     "영주시", "영천", "상주시", "문경", "경주시", "칠곡", "성주군", "고령군", "청도",
     "군위", "의성", "청송군", "영양군", "영덕", "울진", "봉화군", "예천", "울릉",
 ]
+REGION_KEYWORDS = DAEGU_REGION_KEYWORDS + GYEONGBUK_REGION_KEYWORDS
 
 # 지역 관련성이 있어도 뉴스로서 가치가 낮아 제외할 카테고리 (부고/인사/인물소개/공지성)
 EXCLUDE_KEYWORDS = [
@@ -413,6 +416,24 @@ def classify(article):
     return best
 
 
+def classify_region(members) -> str:
+    """이 사건(중복 묶음)이 대구 소식인지 경북 소식인지 판단합니다.
+    화면에서 대구/경북을 따로 걸러볼 수 있게 하기 위한 태그입니다.
+    같은 사건을 다룬 기사가 여러 개면 그 중 하나라도 언급하면 인정하도록
+    묶음 전체(title+desc)를 합쳐서 봅니다. 둘 다 나오면 "대구경북"(공통
+    이슈)로 두고, 화면에서는 대구/경북 필터 양쪽에 다 보이게 처리합니다."""
+    text = " ".join(m["title"] + " " + m["desc"] for m in members)
+    has_daegu = any(k in text for k in DAEGU_REGION_KEYWORDS)
+    has_gyeongbuk = any(k in text for k in GYEONGBUK_REGION_KEYWORDS)
+    if has_daegu and has_gyeongbuk:
+        return "대구경북"
+    if has_daegu:
+        return "대구"
+    if has_gyeongbuk:
+        return "경북"
+    return "대구경북"  # 둘 다 안 걸리는 애매한 경우(지역 언론사 요약문 매칭 등) 대비 기본값
+
+
 # 조사(은,는,이,가,을,를,의,에,와,과,도,만,로 등)가 명사 뒤에 그대로 붙어 있으면
 # 완전히 같은 단어인데도 다른 토큰으로 인식돼서 중복 판단을 놓치는 경우가 많습니다
 # (예: "생활개선회" vs "생활개선회와", "새마을지도자대학" vs "새마을지도자대학을",
@@ -574,6 +595,8 @@ def build_dataset():
         if routine:
             cat_weight *= ROUTINE_ANNOUNCEMENT_WEIGHT
 
+        region = classify_region(members)
+
         age_hours = max((now - rep["pub_dt"]).total_seconds() / 3600, 0)
         recency_score = max(0.0, 1 - age_hours / 48)  # 48시간 지나면 0에 수렴
         coverage_score = 1 + 0.8 * (len(press_list) - 1)
@@ -591,6 +614,7 @@ def build_dataset():
             "is_routine": routine,
             "pub_date": rep["pub_dt"].isoformat(),
             "category": cat_name,
+            "region": region,
             "importance": importance,
         })
 
