@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>대구경북 뉴스 대시보드</title>
+<style>
+  :root[data-theme="light"] .viz-root,
+  .viz-root {
+    color-scheme: light;
+    --surface-1:      #fcfcfb;
+    --page-plane:     #f9f9f7;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --gridline:       #e1e0d9;
+    --border:         rgba(11,11,11,0.10);
+    --cat-1: #2a78d6; /* 정치행정 */
+    --cat-2: #eb6834; /* 사건사고 */
+    --cat-3: #1baf7a; /* 경제 */
+    --cat-4: #eda100; /* 문화생활 */
+    --cat-5: #e87ba4; /* 스포츠 */
+    --cat-6: #008300; /* 사회복지 */
+    --cat-7: #4a3aa7; /* 범죄사법 */
+    --cat-8: #e34948; /* 일반 */
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) .viz-root {
+      color-scheme: dark;
+      --surface-1:      #1a1a19;
+      --page-plane:     #0d0d0d;
+      --text-primary:   #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted:     #898781;
+      --gridline:       #2c2c2a;
+      --border:         rgba(255,255,255,0.10);
+      --cat-1: #3987e5;
+      --cat-2: #d95926;
+      --cat-3: #199e70;
+      --cat-4: #c98500;
+      --cat-5: #d55181;
+      --cat-6: #008300;
+      --cat-7: #9085e9;
+      --cat-8: #e66767;
+    }
+  }
+  :root[data-theme="dark"] .viz-root {
+    color-scheme: dark;
+    --surface-1:      #1a1a19;
+    --page-plane:     #0d0d0d;
+    --text-primary:   #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted:     #898781;
+    --gridline:       #2c2c2a;
+    --border:         rgba(255,255,255,0.10);
+    --cat-1: #3987e5;
+    --cat-2: #d95926;
+    --cat-3: #199e70;
+    --cat-4: #c98500;
+    --cat-5: #d55181;
+    --cat-6: #008300;
+    --cat-7: #9085e9;
+    --cat-8: #e66767;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: var(--page-plane);
+    color: var(--text-primary);
+  }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 24px 16px 64px; }
+
+  header.top {
+    display: flex; align-items: baseline; justify-content: space-between;
+    flex-wrap: wrap; gap: 8px; margin-bottom: 18px;
+  }
+  header.top h1 { font-size: 22px; margin: 0; }
+  header.top .updated { font-size: 13px; color: var(--text-muted); }
+  .theme-toggle {
+    border: 1px solid var(--border); background: var(--surface-1); color: var(--text-secondary);
+    border-radius: 8px; padding: 6px 10px; font-size: 12px; cursor: pointer;
+  }
+
+  .kpi-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin-bottom: 20px; }
+  .stat-tile {
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
+    padding: 14px 16px;
+  }
+  .stat-tile .value { font-size: 26px; font-weight: 600; color: var(--text-primary); font-variant-numeric: proportional-nums; }
+  .stat-tile .label { font-size: 12px; color: var(--text-muted); margin-top: 2px; }
+
+  .filters { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; }
+  .chip {
+    border: 1px solid var(--border); background: var(--surface-1); color: var(--text-secondary);
+    border-radius: 999px; padding: 6px 12px; font-size: 13px; cursor: pointer; white-space: nowrap;
+  }
+  .chip.active { background: var(--text-primary); color: var(--surface-1); border-color: var(--text-primary); }
+
+  section.block { margin-bottom: 28px; }
+  section.block h2 { font-size: 15px; color: var(--text-secondary); margin: 0 0 10px; font-weight: 600; }
+
+  .card {
+    display: block; background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
+    padding: 14px 16px; margin-bottom: 8px; text-decoration: none; color: inherit;
+  }
+  .card:hover { border-color: var(--text-muted); }
+  .card-top { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; flex-wrap: wrap; }
+  .badge {
+    font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 999px; color: #fff;
+  }
+  .press-count { font-size: 12px; color: var(--text-muted); }
+  .card-title { font-size: 15px; font-weight: 600; color: var(--text-primary); margin: 0 0 4px; line-height: 1.4; }
+  .card-desc { font-size: 13px; color: var(--text-secondary); line-height: 1.5; margin: 0 0 6px; }
+  .card-meta { font-size: 12px; color: var(--text-muted); }
+
+  .yt-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+  .yt-card { background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; text-decoration: none; color: inherit; }
+  .yt-card img { width: 100%; display: block; aspect-ratio: 16/9; object-fit: cover; }
+  .yt-card .yt-body { padding: 10px 12px; }
+  .yt-card .yt-title { font-size: 13px; font-weight: 600; margin: 0 0 4px; line-height: 1.4; }
+  .yt-card .yt-meta { font-size: 12px; color: var(--text-muted); }
+
+  .empty { color: var(--text-muted); font-size: 13px; padding: 20px 0; }
+</style>
+</head>
+<body>
+<div class="viz-root wrap" id="root">
+  <header class="top">
+    <div>
+      <h1>대구경북 뉴스 대시보드</h1>
+      <div class="updated" id="updated-at">불러오는 중...</div>
+    </div>
+    <button class="theme-toggle" id="theme-toggle">다크모드</button>
+  </header>
+
+  <div class="kpi-row" id="kpi-row"></div>
+
+  <div class="filters" id="filters"></div>
+
+  <section class="block">
+    <h2>주요 뉴스</h2>
+    <div id="news-list"></div>
+  </section>
+
+  <section class="block" id="yt-section" style="display:none;">
+    <h2>SNS·유튜브 화제 이슈</h2>
+    <div class="yt-grid" id="yt-list"></div>
+  </section>
+</div>
+
+<script>
+const CATEGORY_COLOR = {
+  "정치행정": "var(--cat-1)",
+  "사건사고": "var(--cat-2)",
+  "경제":     "var(--cat-3)",
+  "문화생활": "var(--cat-4)",
+  "스포츠":   "var(--cat-5)",
+  "사회복지": "var(--cat-6)",
+  "범죄사법": "var(--cat-7)",
+  "일반":     "var(--cat-8)",
+};
+
+function timeAgo(iso) {
+  const d = new Date(iso);
+  const diffMin = Math.floor((Date.now() - d.getTime()) / 60000);
+  if (diffMin < 1) return "방금 전";
+  if (diffMin < 60) return `${diffMin}분 전`;
+  const diffH = Math.floor(diffMin / 60);
+  if (diffH < 24) return `${diffH}시간 전`;
+  return `${Math.floor(diffH / 24)}일 전`;
+}
+
+function fmtDateTime(iso) {
+  const d = new Date(iso);
+  return d.toLocaleString("ko-KR", { hour12: false });
+}
+
+let currentCategory = "전체";
+let dataset = null;
+
+function render() {
+  const list = document.getElementById("news-list");
+  const items = dataset.articles.filter(a => currentCategory === "전체" || a.category === currentCategory);
+  list.innerHTML = "";
+  if (items.length === 0) {
+    list.innerHTML = '<div class="empty">해당 카테고리의 뉴스가 없습니다.</div>';
+    return;
+  }
+  for (const a of items) {
+    const card = document.createElement("a");
+    card.className = "card";
+    card.href = a.link;
+    card.target = "_blank";
+    card.rel = "noopener";
+    const color = CATEGORY_COLOR[a.category] || "var(--cat-8)";
+    card.innerHTML = `
+      <div class="card-top">
+        <span class="badge" style="background:${color}">${a.category}</span>
+        ${a.press_count > 1 ? `<span class="press-count">${a.press_count}개 매체 보도</span>` : ""}
+      </div>
+      <div class="card-title">${a.title}</div>
+      <div class="card-desc">${a.desc || ""}</div>
+      <div class="card-meta">${a.press} · ${timeAgo(a.pub_date)}</div>
+    `;
+    list.appendChild(card);
+  }
+}
+
+function renderFilters() {
+  const cats = ["전체", ...Object.keys(CATEGORY_COLOR)];
+  const wrap = document.getElementById("filters");
+  wrap.innerHTML = "";
+  for (const c of cats) {
+    const chip = document.createElement("button");
+    chip.className = "chip" + (c === currentCategory ? " active" : "");
+    chip.textContent = c;
+    chip.onclick = () => { currentCategory = c; renderFilters(); render(); };
+    wrap.appendChild(chip);
+  }
+}
+
+function renderKpis() {
+  const s = dataset.stats || {};
+  const kpis = [
+    { label: "주요 이슈", value: dataset.articles.length },
+    { label: "분석한 원본 기사", value: s.total_articles_raw ?? "-" },
+    { label: "제외된 기사(중복·비관련)", value: s.excluded ?? "-" },
+  ];
+  const row = document.getElementById("kpi-row");
+  row.innerHTML = kpis.map(k => `
+    <div class="stat-tile">
+      <div class="value">${k.value}</div>
+      <div class="label">${k.label}</div>
+    </div>
+  `).join("");
+}
+
+function renderYoutube() {
+  const yt = dataset.youtube || [];
+  const section = document.getElementById("yt-section");
+  if (!yt.length) { section.style.display = "none"; return; }
+  section.style.display = "block";
+  const list = document.getElementById("yt-list");
+  list.innerHTML = yt.map(v => `
+    <a class="yt-card" href="${v.url}" target="_blank" rel="noopener">
+      <img src="${v.thumbnail}" alt="">
+      <div class="yt-body">
+        <div class="yt-title">${v.title}</div>
+        <div class="yt-meta">${v.channel} · 조회수 ${Number(v.view_count).toLocaleString()}</div>
+      </div>
+    </a>
+  `).join("");
+}
+
+async function load() {
+  try {
+    const res = await fetch("./data.json", { cache: "no-store" });
+    dataset = await res.json();
+  } catch (e) {
+    document.getElementById("updated-at").textContent = "데이터를 불러오지 못했습니다.";
+    document.getElementById("news-list").innerHTML = '<div class="empty">data.json을 아직 찾을 수 없습니다. 첫 자동 실행(GitHub Actions)이 끝나면 표시됩니다.</div>';
+    return;
+  }
+  document.getElementById("updated-at").textContent = "마지막 갱신: " + fmtDateTime(dataset.generated_at);
+  renderKpis();
+  renderFilters();
+  render();
+  renderYoutube();
+}
+
+document.getElementById("theme-toggle").addEventListener("click", () => {
+  const root = document.documentElement;
+  const cur = root.getAttribute("data-theme");
+  root.setAttribute("data-theme", cur === "dark" ? "light" : "dark");
+});
+
+load();
+setInterval(load, 5 * 60 * 1000); // 5분마다 최신 data.json 다시 확인
+</script>
+</body>
+</html>
