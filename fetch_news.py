@@ -316,7 +316,16 @@ def fetch_all_news():
             if not items:
                 break
 
-            reached_cutoff = False
+            # 네이버 결과는 대체로 최신순(sort=date)이지만, 매체별 색인 시점
+            # 차이 등으로 한 페이지(100건) 안에서 순서가 완벽하지 않은 경우가
+            # 있습니다. 예전 코드는 "24시간보다 오래된 기사를 하나라도 보면
+            # 그 즉시 이 검색어를 통째로 중단"했는데, 이러면 페이지 중간에
+            # 어쩌다 순서가 뒤섞인 기사 하나 때문에, 그 뒤에 있는 진짜 최신
+            # 기사까지 통째로 놓칠 수 있습니다. 그래서 이제는 오래된 기사는
+            # "이 기사 하나만" 건너뛰고, 같은 페이지의 나머지는 끝까지 다
+            # 확인합니다. 다음 페이지로 넘어갈지 말지만 이 페이지의 마지막
+            # 항목(대체로 이 페이지에서 가장 오래된 기사) 기준으로 판단합니다.
+            last_pub_dt = None
             for item in items:
                 link = item.get("originallink") or item.get("link")
                 title = strip_html(item.get("title", ""))
@@ -327,13 +336,12 @@ def fetch_all_news():
                 except Exception:
                     pub_dt = datetime.now(KST)
 
-                oldest_seen = pub_dt
+                last_pub_dt = pub_dt
+                if oldest_seen is None or pub_dt < oldest_seen:
+                    oldest_seen = pub_dt
 
-                # 결과는 최신순(sort=date)이라, 24시간보다 오래된 기사가
-                # 나오면 그 뒤로는 더 볼 필요 없이 이 검색어는 종료합니다.
                 if pub_dt < cutoff:
-                    reached_cutoff = True
-                    break
+                    continue  # 이 기사만 건너뛰고 페이지의 나머지는 계속 확인
 
                 if not link or link in seen_links:
                     continue
@@ -351,7 +359,7 @@ def fetch_all_news():
 
             time.sleep(0.15)  # API 예의상 살짝 딜레이
 
-            if reached_cutoff:
+            if last_pub_dt is not None and last_pub_dt < cutoff:
                 break
             if len(items) < 100:
                 break
