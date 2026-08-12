@@ -130,6 +130,37 @@ CATEGORY_RULES = [
     ("스포츠", ["프로야구", "축구", "야구", "경기", "선수", "우승", "구단"], 0.9),
 ]
 
+# KBS 대구 "단신 작성" 스킬의 "리포트/단신 판단" 기준에 나오는 "전형적 단신
+# 대상" 6가지 유형입니다. 진짜 뉴스가 맞고 관련성도 있어서 제외하지는 않지만,
+# 데이터·복수 입장·원인배경처럼 깊이 다룰 거리가 없는 정형화된 정기·행정
+# 발표성 소식이라 특종성이 낮습니다. 그래서 완전히 빼지 않고 중요도만
+# 한 단계 낮춰서(가중치 0.7배) 화면 하단으로 내려가게 합니다.
+ROUTINE_ANNOUNCEMENT_KEYWORDS = [
+    # 1) 단일 기관 사업 선정·공모 통과
+    "공모 사업에 최종 선정", "공모전에서 최종 선정", "공모 사업 선정",
+    "공모 사업에 선정", "공모전 선정", "사업에 최종 선정", "사업에 선정됐",
+    # 2) 청소년 공모전·행사 개최
+    "청소년 공모전", "학생 공모전", "백일장", "그리기대회", "그리기 대회",
+    "글짓기대회", "글짓기 대회",
+    # 3) 계절성·정기 반복 경보·통계 발표
+    "조류경보", "조류 경보", "녹조", "폭염특보", "폭염 특보", "한파특보",
+    "한파 특보", "황사경보", "황사 경보", "오존주의보", "오존 주의보",
+    "적조주의보", "적조 주의보",
+    # 4) 단일 기관 주도 펀드·기금 결성
+    "펀드를 출범", "펀드 출범", "펀드 결성", "기금을 조성", "기금 조성",
+    # 5) 조례 심사·행정 절차 진행
+    "조례안", "상임위 심사", "본회의를 통과", "조례 개정안", "조례 수정안",
+    # 6) 시설 휴장·재개장 안내
+    "임시휴장", "임시휴관", "정기휴관", "휴장합니다", "재개장합니다",
+]
+
+ROUTINE_ANNOUNCEMENT_WEIGHT = 0.7  # 완전 제외는 아니고 중요도만 낮추는 배율
+
+
+def is_routine_announcement(article) -> bool:
+    text = article["title"] + " " + article["desc"]
+    return any(k in text for k in ROUTINE_ANNOUNCEMENT_KEYWORDS)
+
 # 참고: 예전에는 set(list("이가을를은는...")) 형태로 만들어서 실제로는
 # 한 글자짜리 문자 집합이 되어버렸고(글자 단위로 쪼개짐), tokenize()가 애초에
 # 길이 1 이하 토큰을 걸러내기 때문에 사실상 아무 효과가 없었습니다. 아래처럼
@@ -264,6 +295,9 @@ def fetch_all_news():
 
     for q in NEWS_QUERIES:
         start = 1
+        query_count = 0
+        oldest_seen = None  # 이 검색어에서 지금까지 확인한 것 중 가장 오래된 기사 시각
+
         while start <= NAVER_MAX_START:
             try:
                 data = call_naver("news", q, display=100, sort="date", start=start)
@@ -290,6 +324,8 @@ def fetch_all_news():
                 except Exception:
                     pub_dt = datetime.now(KST)
 
+                oldest_seen = pub_dt
+
                 # 결과는 최신순(sort=date)이라, 24시간보다 오래된 기사가
                 # 나오면 그 뒤로는 더 볼 필요 없이 이 검색어는 종료합니다.
                 if pub_dt < cutoff:
@@ -299,6 +335,7 @@ def fetch_all_news():
                 if not link or link in seen_links:
                     continue
                 seen_links.add(link)
+                query_count += 1
 
                 press = urllib.parse.urlparse(link).netloc.replace("www.", "")
                 articles.append({
@@ -311,9 +348,30 @@ def fetch_all_news():
 
             time.sleep(0.15)  # API 예의상 살짝 딜레이
 
-            if reached_cutoff or len(items) < 100:
+            if reached_cutoff:
+                break
+            if len(items) < 100:
                 break
             start += 100
+        else:
+            # while 조건(start <= NAVER_MAX_START)이 거짓이 되어 자연 종료된 경우만
+            # 여기로 옵니다 = 네이버 API가 검색어당 최대로 허용하는 1000건을 전부
+            # 확인했는데도 아직 24시간 전까지 도달하지 못한 경우입니다. 이 검색어가
+            # 그만큼 검색량이 많다는 뜻이라, 1000건보다 더 오래된(그러나 여전히
+            # 24시간 이내인) 기사는 이번 수집에서 놓쳤을 수 있습니다. 네이버 API
+            # 자체가 검색어당 조회 가능한 결과를 1000건으로 제한하고 있어서, 이
+            # 경우는 코드로 더 파고들 수 없는 한계이지만 최소한 로그로 남깁니다.
+            if oldest_seen is not None:
+                gap_hours = (datetime.now(KST) - oldest_seen).total_seconds() / 3600
+                print(
+                    f"[INFO] '{q}' 검색: 네이버 API 1000건 상한에 도달했지만 아직 "
+                    f"{FETCH_WINDOW_HOURS}시간 전까지는 못 갔습니다 (지금까지 확인한 가장 "
+                    f"오래된 기사가 {gap_hours:.1f}시간 전 — 이보다 오래됐지만 여전히 "
+                    f"{FETCH_WINDOW_HOURS}시간 이내인 기사는 이번 수집에서 놓쳤을 수 있습니다).",
+                    file=sys.stderr,
+                )
+
+        print(f"[INFO] '{q}' 검색: {query_count}건 수집", file=sys.stderr)
 
     return articles
 
@@ -512,6 +570,10 @@ def build_dataset():
         press_list = sorted(set(m["press"] for m in members))
         press_name_list = sorted(set(press_display_name(p) for p in press_list))
 
+        routine = is_routine_announcement(rep)
+        if routine:
+            cat_weight *= ROUTINE_ANNOUNCEMENT_WEIGHT
+
         age_hours = max((now - rep["pub_dt"]).total_seconds() / 3600, 0)
         recency_score = max(0.0, 1 - age_hours / 48)  # 48시간 지나면 0에 수렴
         coverage_score = 1 + 0.8 * (len(press_list) - 1)
@@ -526,6 +588,7 @@ def build_dataset():
             "press_count": len(press_list),
             "press_list": press_list,
             "press_name_list": press_name_list,
+            "is_routine": routine,
             "pub_date": rep["pub_dt"].isoformat(),
             "category": cat_name,
             "importance": importance,
