@@ -50,11 +50,17 @@ EXCLUDE_KEYWORDS = [
     "부고", "부음", "인사동정", "동정]", "[인사]", "승진 인사", "정기인사",
     "인사말씀", "축사", "화보", "포토뉴스", "날씨]", "오늘의 날씨",
     "[새의자]", "[인물]", "[프로필]", "[동정]", "[모시는 자리]", "이임", "취임",
+    # 단순 일기예보성 기사 (지역 뉴스로서 가치가 낮음)
+    "낮 최고", "아침 최저", "체감온도", "체감 온도", "미세먼지 농도", "자외선지수",
+    "예상 강수량",
+    # 공공기관 입찰·공고성 게시물 (뉴스가 아님)
+    "[입찰", "입찰공고", "입찰 정보", "낙찰자",
 ]
 
-# 대구경북이 아닌 다른 지역의 언론사 도메인.
-# 이런 곳들은 기사 안에서 "대구"가 다른 지역 소식에 곁다리로 한 번 언급된 것뿐인
-# 경우가 많아서(예: 인물 약력 소개, 여러 지점을 나열하는 프랜차이즈 기사 등),
+# 대구경북이 아닌 다른 지역의 언론사, 그리고 게임·연예 등 특정 분야만 다루는
+# 전문지 도메인. 이런 곳들은 기사 안에서 "대구"가 다른 지역 소식/행사 후원사
+# 명단 등에 곁다리로 한 번 언급된 것뿐인 경우가 많아서(예: 인물 약력 소개,
+# 여러 지점을 나열하는 프랜차이즈 기사, 대회 후원 기관 나열 등),
 # 제목에 지역 키워드가 직접 들어있을 때만 관련 기사로 인정합니다.
 OTHER_REGION_PRESS_DOMAINS = {
     "kado.net",          # 강원도민일보
@@ -71,8 +77,19 @@ OTHER_REGION_PRESS_DOMAINS = {
     "ccdailynews.com",   # 충청일보
     "cctoday.co.kr",     # 충청투데이
     "joongdo.co.kr",     # 중도일보(대전)
+    "daejonilbo.com",    # 대전일보
     "incheonilbo.com",   # 인천일보
     "kyeonggi.com",      # 경기일보
+    "kgnews.co.kr",      # 경기신문
+    "idomin.com",        # 경남도민일보
+    "siminsori.com",     # 시민의소리(광주전남)
+    # 게임·연예 등 특정 분야 전문지 (지역 뉴스가 아니라 후원사 명단 등에
+    # 대구/경북이 스쳐 지나가듯 언급되는 경우가 많음)
+    "gamevu.co.kr",
+    "inven.co.kr",
+    "gamemeca.com",
+    "thisisgame.com",
+    "gamedonga.co.kr",
 }
 
 CATEGORY_RULES = [
@@ -273,18 +290,29 @@ def jaccard(a: set, b: set) -> float:
     return inter / union if union else 0.0
 
 
+QUOTE_PATTERN = re.compile(r"['\"‘’“”]([^'\"‘’“”]{4,30})['\"‘’“”]")
+
+
+def extract_quoted_phrases(title: str):
+    """제목 속 따옴표로 묶인 문구를 뽑아낸다.
+    ('대구형 응급의료 안전망' 처럼 정책·사업명을 그대로 인용하는 경우가 많아서,
+    이 문구를 공유하면 표현이 달라도 사실상 같은 사건으로 볼 수 있다.)"""
+    return set(m.strip() for m in QUOTE_PATTERN.findall(title) if len(m.strip()) >= 4)
+
+
 def cluster_articles(articles, window_hours=30, title_threshold=0.4,
                       combined_threshold=0.3, min_distinctive_shared=2):
     """같은 사건을 다룬 기사를 묶는다 (union-find).
 
-    아래 세 신호 중 하나라도 만족하면 같은 사건으로 묶습니다. 제목만 비교하면
+    아래 네 신호 중 하나라도 만족하면 같은 사건으로 묶습니다. 제목만 비교하면
     매체마다 표현이 달라서(예: "3층 규제 풀린다" vs "고도지구 폐지 추진") 놓치는
-    경우가 많아, 요약까지 함께 보고 + 이 사건에서만 등장하는 단어를 공유하는지도
-    같이 확인합니다.
+    경우가 많아, 요약까지 함께 보고 + 이 사건에서만 등장하는 단어를 공유하는지,
+    같은 정책·사업명을 따옴표로 인용하는지도 같이 확인합니다.
 
     1) 제목 단어 유사도가 높다
     2) 제목+요약을 합친 단어 유사도가 어느 정도 높다 (표현은 달라도 같은 사실을 담은 경우)
     3) 여러 기사 중 드물게만 등장하는(=이 사건에서만 나오는) 단어를 2개 이상 공유한다
+    4) 제목에 따옴표로 인용된 정책·사업명이 서로 같다
     """
     n = len(articles)
     parent = list(range(n))
@@ -302,6 +330,7 @@ def cluster_articles(articles, window_hours=30, title_threshold=0.4,
 
     title_tokens = [tokenize(a["title"]) for a in articles]
     combined_tokens = [tokenize(a["title"]) | tokenize(a["desc"]) for a in articles]
+    quoted_phrases = [extract_quoted_phrases(a["title"]) for a in articles]
 
     doc_freq = {}
     for toks in combined_tokens:
@@ -314,6 +343,10 @@ def cluster_articles(articles, window_hours=30, title_threshold=0.4,
             if dt > window_hours:
                 continue
 
+            if quoted_phrases[i] & quoted_phrases[j]:
+                union(i, j)
+                continue
+
             if jaccard(title_tokens[i], title_tokens[j]) >= title_threshold:
                 union(i, j)
                 continue
@@ -323,7 +356,7 @@ def cluster_articles(articles, window_hours=30, title_threshold=0.4,
                 continue
 
             shared = combined_tokens[i] & combined_tokens[j]
-            distinctive_shared = [t for t in shared if doc_freq.get(t, 0) <= 2]
+            distinctive_shared = [t for t in shared if doc_freq.get(t, 0) <= 3]
             if len(distinctive_shared) >= min_distinctive_shared:
                 union(i, j)
 
