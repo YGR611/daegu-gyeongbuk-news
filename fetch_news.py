@@ -45,11 +45,35 @@ REGION_KEYWORDS = [
     "의성", "청송", "영양", "영덕", "울진", "봉화", "예천", "울릉",
 ]
 
-# 지역 관련성이 있어도 뉴스로서 가치가 낮아 제외할 카테고리 (부고/인사/공지성)
+# 지역 관련성이 있어도 뉴스로서 가치가 낮아 제외할 카테고리 (부고/인사/인물소개/공지성)
 EXCLUDE_KEYWORDS = [
     "부고", "부음", "인사동정", "동정]", "[인사]", "승진 인사", "정기인사",
     "인사말씀", "축사", "화보", "포토뉴스", "날씨]", "오늘의 날씨",
+    "[새의자]", "[인물]", "[프로필]", "[동정]", "[모시는 자리]", "이임", "취임",
 ]
+
+# 대구경북이 아닌 다른 지역의 언론사 도메인.
+# 이런 곳들은 기사 안에서 "대구"가 다른 지역 소식에 곁다리로 한 번 언급된 것뿐인
+# 경우가 많아서(예: 인물 약력 소개, 여러 지점을 나열하는 프랜차이즈 기사 등),
+# 제목에 지역 키워드가 직접 들어있을 때만 관련 기사로 인정합니다.
+OTHER_REGION_PRESS_DOMAINS = {
+    "kado.net",          # 강원도민일보
+    "kwnews.co.kr",      # 강원일보
+    "gjdream.com",       # 광주드림
+    "gjnews.com",        # 광주매일신문
+    "jnilbo.com",        # 전남일보
+    "jjan.kr",           # 전북일보
+    "jjeilbo.com",       # 전북제일신문
+    "busan.com",         # 부산일보
+    "kookje.co.kr",      # 국제신문(부산)
+    "jemin.com",         # 제민일보(제주)
+    "ihalla.com",        # 한라일보(제주)
+    "ccdailynews.com",   # 충청일보
+    "cctoday.co.kr",     # 충청투데이
+    "joongdo.co.kr",     # 중도일보(대전)
+    "incheonilbo.com",   # 인천일보
+    "kyeonggi.com",      # 경기일보
+}
 
 CATEGORY_RULES = [
     ("사건사고", ["사고", "화재", "붕괴", "추락", "폭발", "충돌", "전복", "실종", "익사",
@@ -67,6 +91,80 @@ CATEGORY_RULES = [
 ]
 
 STOPWORDS = set(list("이가을를은는의에서와과도만로으로하다했다되다된다있다없다위해대해"))
+
+# 도메인 -> 한글 매체명. 여기 없는 도메인은 그냥 도메인이 표시됩니다.
+# 새로운 매체를 추가하고 싶으면 이 딕셔너리에 한 줄만 추가하면 됩니다.
+PRESS_NAME_MAP = {
+    # 대구경북 지역 매체
+    "imaeil.com": "매일신문",
+    "yeongnam.com": "영남일보",
+    "idaegu.co.kr": "대구신문",
+    "dgn.kr": "대구경북일보",
+    "dailydgnews.com": "데일리대구경북뉴스",
+    "dg1news.com": "대구뉴스",
+    "daegunews.net": "대구뉴스",
+    "kyongbuk.co.kr": "경북일보",
+    "kbmaeil.com": "경북매일",
+    "kbsm.net": "경북신문",
+    "kbin.co.kr": "경북in뉴스",
+    "newgbnews.com": "일간경북신문",
+    "gbprimenews.com": "프라임경북뉴스",
+    "tk.newdaily.co.kr": "뉴데일리대구경북",
+    "dgmbc.com": "대구MBC",
+    "tbc.co.kr": "TBC",
+    # 통신사·방송사
+    "yna.co.kr": "연합뉴스",
+    "yonhapnewstv.co.kr": "연합뉴스TV",
+    "news1.kr": "뉴스1",
+    "newsis.com": "뉴시스",
+    "ytn.co.kr": "YTN",
+    "sbs.co.kr": "SBS",
+    "news.sbs.co.kr": "SBS",
+    "imbc.com": "MBC",
+    "imnews.imbc.com": "MBC",
+    "mbc.co.kr": "MBC",
+    "kbs.co.kr": "KBS",
+    "news.kbs.co.kr": "KBS",
+    "jtbc.co.kr": "JTBC",
+    # 전국 종합일간지·경제지
+    "chosun.com": "조선일보",
+    "donga.com": "동아일보",
+    "joongang.co.kr": "중앙일보",
+    "hani.co.kr": "한겨레",
+    "khan.co.kr": "경향신문",
+    "seoul.co.kr": "서울신문",
+    "segye.com": "세계일보",
+    "kmib.co.kr": "국민일보",
+    "munhwa.com": "문화일보",
+    "hankyung.com": "한국경제",
+    "mk.co.kr": "매일경제",
+    "mt.co.kr": "머니투데이",
+    "edaily.co.kr": "이데일리",
+    "fnnews.com": "파이낸셜뉴스",
+    "sedaily.com": "서울경제",
+    "asiae.co.kr": "아시아경제",
+    "dt.co.kr": "디지털타임스",
+    "etnews.com": "전자신문",
+    "nocutnews.co.kr": "노컷뉴스",
+    "pressian.com": "프레시안",
+    "news.naver.com": "네이버뉴스",
+    "n.news.naver.com": "네이버뉴스",
+}
+
+
+def press_display_name(domain: str) -> str:
+    """도메인을 한글 매체명으로 변환. 매핑에 없으면 도메인을 그대로 반환."""
+    domain = domain.lower()
+    if domain in PRESS_NAME_MAP:
+        return PRESS_NAME_MAP[domain]
+    # www. 등 앞의 서브도메인을 하나씩 떼어가며 재시도
+    parts = domain.split(".")
+    while len(parts) > 2:
+        parts = parts[1:]
+        candidate = ".".join(parts)
+        if candidate in PRESS_NAME_MAP:
+            return PRESS_NAME_MAP[candidate]
+    return domain
 
 
 def strip_html(text: str) -> str:
@@ -135,10 +233,19 @@ def fetch_all_news():
 
 
 def is_relevant(article) -> bool:
-    text = article["title"] + " " + article["desc"]
-    if not any(k in text for k in REGION_KEYWORDS):
-        return False
+    title = article["title"]
+    text = title + " " + article["desc"]
+
     if any(k in text for k in EXCLUDE_KEYWORDS):
+        return False
+
+    # 다른 지역 언론사는 "제목"에 지역 키워드가 있어야 인정.
+    # (본문 어딘가에 대구/경북이 스쳐 지나가듯 언급된 기사를 걸러내기 위함
+    #  예: 인물 약력에 "대구 OO고 졸업", 여러 지점을 나열하는 프랜차이즈 기사 등)
+    if article.get("press") in OTHER_REGION_PRESS_DOMAINS:
+        return any(k in title for k in REGION_KEYWORDS)
+
+    if not any(k in text for k in REGION_KEYWORDS):
         return False
     return True
 
@@ -166,8 +273,19 @@ def jaccard(a: set, b: set) -> float:
     return inter / union if union else 0.0
 
 
-def cluster_articles(articles, window_hours=30, threshold=0.45):
-    """같은 사건을 다룬 기사를 묶는다 (union-find)."""
+def cluster_articles(articles, window_hours=30, title_threshold=0.4,
+                      combined_threshold=0.3, min_distinctive_shared=2):
+    """같은 사건을 다룬 기사를 묶는다 (union-find).
+
+    아래 세 신호 중 하나라도 만족하면 같은 사건으로 묶습니다. 제목만 비교하면
+    매체마다 표현이 달라서(예: "3층 규제 풀린다" vs "고도지구 폐지 추진") 놓치는
+    경우가 많아, 요약까지 함께 보고 + 이 사건에서만 등장하는 단어를 공유하는지도
+    같이 확인합니다.
+
+    1) 제목 단어 유사도가 높다
+    2) 제목+요약을 합친 단어 유사도가 어느 정도 높다 (표현은 달라도 같은 사실을 담은 경우)
+    3) 여러 기사 중 드물게만 등장하는(=이 사건에서만 나오는) 단어를 2개 이상 공유한다
+    """
     n = len(articles)
     parent = list(range(n))
 
@@ -182,13 +300,31 @@ def cluster_articles(articles, window_hours=30, threshold=0.45):
         if rx != ry:
             parent[ry] = rx
 
-    tokens = [tokenize(a["title"]) for a in articles]
+    title_tokens = [tokenize(a["title"]) for a in articles]
+    combined_tokens = [tokenize(a["title"]) | tokenize(a["desc"]) for a in articles]
+
+    doc_freq = {}
+    for toks in combined_tokens:
+        for t in toks:
+            doc_freq[t] = doc_freq.get(t, 0) + 1
+
     for i in range(n):
         for j in range(i + 1, n):
             dt = abs((articles[i]["pub_dt"] - articles[j]["pub_dt"]).total_seconds()) / 3600
             if dt > window_hours:
                 continue
-            if jaccard(tokens[i], tokens[j]) >= threshold:
+
+            if jaccard(title_tokens[i], title_tokens[j]) >= title_threshold:
+                union(i, j)
+                continue
+
+            if jaccard(combined_tokens[i], combined_tokens[j]) >= combined_threshold:
+                union(i, j)
+                continue
+
+            shared = combined_tokens[i] & combined_tokens[j]
+            distinctive_shared = [t for t in shared if doc_freq.get(t, 0) <= 2]
+            if len(distinctive_shared) >= min_distinctive_shared:
                 union(i, j)
 
     groups = {}
@@ -215,6 +351,7 @@ def build_dataset():
         rep = members[-1]  # 가장 최근 기사를 대표로
         cat_name, cat_weight = classify(rep)
         press_list = sorted(set(m["press"] for m in members))
+        press_name_list = sorted(set(press_display_name(p) for p in press_list))
 
         age_hours = max((now - rep["pub_dt"]).total_seconds() / 3600, 0)
         recency_score = max(0.0, 1 - age_hours / 48)  # 48시간 지나면 0에 수렴
@@ -226,8 +363,10 @@ def build_dataset():
             "desc": rep["desc"],
             "link": rep["link"],
             "press": rep["press"],
+            "press_name": press_display_name(rep["press"]),
             "press_count": len(press_list),
             "press_list": press_list,
+            "press_name_list": press_name_list,
             "pub_date": rep["pub_dt"].isoformat(),
             "category": cat_name,
             "importance": importance,
