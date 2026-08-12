@@ -467,17 +467,6 @@ def tokenize(title: str):
     return set(strip_josa(w) for w in words if len(w) > 1 and w not in STOPWORDS)
 
 
-def bigrams(text: str):
-    """제목+요약에서 '연속된 두 단어' 묶음을 뽑아낸다.
-    ("응급실 뺑뺑이", "대구형 응급의료" 처럼 두 단어가 붙어야 의미가 통하는
-    사건 고유의 표현은, 단어 하나하나로 쪼개면 다른 기사에도 흔해서
-    "드물게 등장하는 단어" 신호에 안 걸리는 경우가 많다. 두 단어를 붙여서
-    보면 훨씬 더 그 사건에 특정적인 신호가 된다.)"""
-    words = re.findall(r"[가-힣A-Za-z0-9]+", text)
-    stems = [strip_josa(w) for w in words if len(w) > 1 and w not in STOPWORDS]
-    return set(zip(stems, stems[1:]))
-
-
 def jaccard(a: set, b: set) -> float:
     if not a or not b:
         return 0.0
@@ -502,7 +491,7 @@ def cluster_articles(articles, window_hours=30, title_threshold=0.4,
                       combined_threshold=0.3, min_distinctive_shared=2):
     """같은 사건을 다룬 기사를 묶는다 (union-find).
 
-    아래 다섯 신호 중 하나라도 만족하면 같은 사건으로 묶습니다. 제목만 비교하면
+    아래 네 신호 중 하나라도 만족하면 같은 사건으로 묶습니다. 제목만 비교하면
     매체마다 표현이 달라서(예: "3층 규제 풀린다" vs "고도지구 폐지 추진") 놓치는
     경우가 많아, 요약까지 함께 보고 + 이 사건에서만 등장하는 단어를 공유하는지,
     같은 정책·사업명을 따옴표로 인용하는지도 같이 확인합니다.
@@ -511,10 +500,6 @@ def cluster_articles(articles, window_hours=30, title_threshold=0.4,
     2) 제목+요약을 합친 단어 유사도가 어느 정도 높다 (표현은 달라도 같은 사실을 담은 경우)
     3) 여러 기사 중 드물게만 등장하는(=이 사건에서만 나오는) 단어를 2개 이상 공유한다
     4) 제목이나 요약에 따옴표로 인용된 정책·사업명·슬로건이 서로 같다
-    5) "응급실 뺑뺑이"처럼 붙어야 뜻이 통하는 두 단어 묶음(bigram) 중
-       드물게만 등장하는 것을 하나라도 공유한다 (헤드라인 앵글이 매체마다
-       완전히 달라도, 같은 정책 보도자료를 인용 보도한 기사들은 이런
-       고유 표현을 그대로 옮겨 쓰는 경우가 많다)
     """
     n = len(articles)
     parent = list(range(n))
@@ -533,17 +518,11 @@ def cluster_articles(articles, window_hours=30, title_threshold=0.4,
     title_tokens = [tokenize(a["title"]) for a in articles]
     combined_tokens = [tokenize(a["title"]) | tokenize(a["desc"]) for a in articles]
     quoted_phrases = [extract_quoted_phrases(a["title"] + " " + a["desc"]) for a in articles]
-    combined_bigrams = [bigrams(a["title"] + " " + a["desc"]) for a in articles]
 
     doc_freq = {}
     for toks in combined_tokens:
         for t in toks:
             doc_freq[t] = doc_freq.get(t, 0) + 1
-
-    bigram_doc_freq = {}
-    for bg in combined_bigrams:
-        for b in bg:
-            bigram_doc_freq[b] = bigram_doc_freq.get(b, 0) + 1
 
     for i in range(n):
         for j in range(i + 1, n):
@@ -567,11 +546,6 @@ def cluster_articles(articles, window_hours=30, title_threshold=0.4,
             distinctive_shared = [t for t in shared if doc_freq.get(t, 0) <= 3]
             if len(distinctive_shared) >= min_distinctive_shared:
                 union(i, j)
-                continue
-
-            shared_bigrams = combined_bigrams[i] & combined_bigrams[j]
-            if any(bigram_doc_freq.get(b, 0) <= 3 for b in shared_bigrams):
-                union(i, j)
 
     groups = {}
     for i in range(n):
@@ -594,10 +568,26 @@ def build_dataset():
     for idx_list in groups:
         members = [relevant[i] for i in idx_list]
         members.sort(key=lambda a: a["pub_dt"])
-        rep = members[-1]  # 가장 최근 기사를 대표로
+        # 대표 기사 선정: 대구경북 지역 언론사(화이트리스트) 기사가 있으면 그 중
+        # 가장 최근 것을, 지역 언론사가 하나도 없으면(전국 매체만 보도한 경우)
+        # 예전처럼 전체 중 가장 최근 기사를 대표로 씁니다. 지역 언론사가 현장
+        # 사정을 더 잘 아는 경우가 많아서, 단순히 "누가 제일 늦게 올렸는지"보다
+        # 지역 매체를 우선하는 게 대체로 더 신뢰할 만한 대표 기사가 됩니다.
+        whitelist_members = [m for m in members if m["press"] in DAEGU_GYEONGBUK_LOCAL_DOMAINS]
+        rep = whitelist_members[-1] if whitelist_members else members[-1]
         cat_name, cat_weight = classify(rep)
         press_list = sorted(set(m["press"] for m in members))
         press_name_list = sorted(set(press_display_name(p) for p in press_list))
+        related = [
+            {
+                "title": m["title"],
+                "link": m["link"],
+                "press": m["press"],
+                "press_name": press_display_name(m["press"]),
+            }
+            for m in sorted(members, key=lambda a: a["pub_dt"], reverse=True)
+            if m is not rep
+        ]
 
         routine = is_routine_announcement(rep)
         if routine:
@@ -619,6 +609,7 @@ def build_dataset():
             "press_count": len(press_list),
             "press_list": press_list,
             "press_name_list": press_name_list,
+            "related": related,
             "is_routine": routine,
             "pub_date": rep["pub_dt"].isoformat(),
             "category": cat_name,
