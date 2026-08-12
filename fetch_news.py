@@ -196,12 +196,12 @@ def strip_html(text: str) -> str:
     return html.unescape(text).strip()
 
 
-def call_naver(endpoint: str, query: str, display: int = 100, sort: str = "date"):
+def call_naver(endpoint: str, query: str, display: int = 100, sort: str = "date", start: int = 1):
     if not NAVER_CLIENT_ID or not NAVER_CLIENT_SECRET:
         raise RuntimeError("NAVER_CLIENT_ID / NAVER_CLIENT_SECRET 환경변수가 없습니다.")
     url = (
         f"https://openapi.naver.com/v1/search/{endpoint}.json?"
-        f"query={urllib.parse.quote(query)}&display={display}&sort={sort}"
+        f"query={urllib.parse.quote(query)}&display={display}&sort={sort}&start={start}"
     )
     req = urllib.request.Request(
         url,
@@ -215,44 +215,68 @@ def call_naver(endpoint: str, query: str, display: int = 100, sort: str = "date"
         return json.loads(resp.read().decode("utf-8"))
 
 
+FETCH_WINDOW_HOURS = 24  # 이 시간 이내에 나온 기사만 수집합니다.
+NAVER_MAX_START = 901    # 네이버 검색 API 제약: start + display - 1 <= 1000 (display=100 기준 마지막 페이지)
+
+
 def fetch_all_news():
     seen_links = set()
     articles = []
+    cutoff = datetime.now(KST) - timedelta(hours=FETCH_WINDOW_HOURS)
+
     for q in NEWS_QUERIES:
-        try:
-            data = call_naver("news", q, display=100, sort="date")
-        except urllib.error.HTTPError as e:
-            body = e.read().decode("utf-8", errors="ignore")
-            print(f"[WARN] '{q}' 검색 실패: HTTP {e.code} {body}", file=sys.stderr)
-            continue
-        except Exception as e:
-            print(f"[WARN] '{q}' 검색 실패: {e}", file=sys.stderr)
-            continue
-
-        for item in data.get("items", []):
-            link = item.get("originallink") or item.get("link")
-            if not link or link in seen_links:
-                continue
-            seen_links.add(link)
-
-            title = strip_html(item.get("title", ""))
-            desc = strip_html(item.get("description", ""))
-            pub_raw = item.get("pubDate", "")
+        start = 1
+        while start <= NAVER_MAX_START:
             try:
-                pub_dt = datetime.strptime(pub_raw, "%a, %d %b %Y %H:%M:%S %z").astimezone(KST)
-            except Exception:
-                pub_dt = datetime.now(KST)
+                data = call_naver("news", q, display=100, sort="date", start=start)
+            except urllib.error.HTTPError as e:
+                body = e.read().decode("utf-8", errors="ignore")
+                print(f"[WARN] '{q}' 검색 실패(start={start}): HTTP {e.code} {body}", file=sys.stderr)
+                break
+            except Exception as e:
+                print(f"[WARN] '{q}' 검색 실패(start={start}): {e}", file=sys.stderr)
+                break
 
-            press = urllib.parse.urlparse(link).netloc.replace("www.", "")
+            items = data.get("items", [])
+            if not items:
+                break
 
-            articles.append({
-                "title": title,
-                "desc": desc,
-                "link": link,
-                "press": press,
-                "pub_dt": pub_dt,
-            })
-        time.sleep(0.15)  # API 예의상 살짝 딜레이
+            reached_cutoff = False
+            for item in items:
+                link = item.get("originallink") or item.get("link")
+                title = strip_html(item.get("title", ""))
+                desc = strip_html(item.get("description", ""))
+                pub_raw = item.get("pubDate", "")
+                try:
+                    pub_dt = datetime.strptime(pub_raw, "%a, %d %b %Y %H:%M:%S %z").astimezone(KST)
+                except Exception:
+                    pub_dt = datetime.now(KST)
+
+                # 결과는 최신순(sort=date)이라, 24시간보다 오래된 기사가
+                # 나오면 그 뒤로는 더 볼 필요 없이 이 검색어는 종료합니다.
+                if pub_dt < cutoff:
+                    reached_cutoff = True
+                    break
+
+                if not link or link in seen_links:
+                    continue
+                seen_links.add(link)
+
+                press = urllib.parse.urlparse(link).netloc.replace("www.", "")
+                articles.append({
+                    "title": title,
+                    "desc": desc,
+                    "link": link,
+                    "press": press,
+                    "pub_dt": pub_dt,
+                })
+
+            time.sleep(0.15)  # API 예의상 살짝 딜레이
+
+            if reached_cutoff or len(items) < 100:
+                break
+            start += 100
+
     return articles
 
 
