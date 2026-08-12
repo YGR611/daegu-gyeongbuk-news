@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-08-13T05:31:33.980240+09:00",
+  "generated_at": "2026-08-13T05:43:18.874532+09:00",
   "articles": [
     {
-      "title": "\"36년 살며 이런 가뭄 처음\"…댐·저수지 말라붙은 청도·경주",
-      "desc": "대구지방기상청에 따르면 청도에는 지난달 76.5mm가 내렸으며, 이달 들어 강수량은 기록된 것이 없습니다. 농민들은 말라가는 논에 조금이라도 물을 대려고 안간힘을 썼습니다. 운문사 인근의 논을 따라 나 있는 농수로에는...",
-      "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008702831&plink=ORI&cooper=NAVER",
-      "press": "news.sbs.co.kr",
-      "press_name": "SBS",
-      "press_count": 130,
+      "title": "대구·경북 다시 34도 무더위…곳곳 최대 40㎜ 소나기",
+      "desc": "13일 대구·경북은 낮 기온이 34도까지 오르며 다시 무덥겠다. 지역 곳곳에는 비 또는 소나기가 내리겠다. 대구지방기상청은 이날 \"대구·경북은 가끔 구름 많고 경북 동해안은 대체로 흐리겠다\"고 예보했다. 경북...",
+      "link": "https://www.newsis.com/view/NISX20260813_0003746948",
+      "press": "newsis.com",
+      "press_name": "뉴시스",
+      "press_count": 136,
       "press_list": [
         "100ssd.co.kr",
         "ajunews.com",
         "andongmbc.co.kr",
         "asiatoday.co.kr",
         "biz.heraldcorp.com",
-        "biz.newdaily.co.kr",
         "bizwork.co.kr",
         "breaknews.com",
         "ccdailynews.com",
         "ccdn.co.kr",
         "ccnnews.co.kr",
         "chungnamilbo.co.kr",
+        "cnbizm.com",
         "cnbnews.com",
         "cwn.kr",
         "dailian.co.kr",
@@ -39,7 +39,7 @@
         "enewstoday.co.kr",
         "eroun.net",
         "etnews.com",
-        "etoday.co.kr",
+        "facttv.kr",
         "ferrotimes.com",
         "fnnews.com",
         "fpn119.co.kr",
@@ -67,9 +67,9 @@
         "kgnews.co.kr",
         "khan.co.kr",
         "kmib.co.kr",
+        "knnews.co.kr",
         "korea.kr",
         "kormedi.com",
-        "kpinews.kr",
         "ksmnews.co.kr",
         "kukinews.com",
         "kyongbuk.co.kr",
@@ -77,17 +77,20 @@
         "lawissue.co.kr",
         "livesnews.com",
         "m-i.kr",
+        "medicalworldnews.co.kr",
+        "medigatenews.com",
+        "medipana.com",
         "metroseoul.co.kr",
         "mhns.co.kr",
         "mt.co.kr",
         "mtnews.net",
         "munhwa.com",
+        "mydaily.co.kr",
         "naeil.com",
         "news.bbsi.co.kr",
         "news.einfomax.co.kr",
         "news.kbs.co.kr",
         "news.lghellovision.net",
-        "news.sbs.co.kr",
         "news.skbroadband.com",
         "news.tf.co.kr",
         "news.unn.net",
@@ -98,7 +101,6 @@
         "newsis.com",
         "newsmin.co.kr",
         "newspim.com",
-        "newsprime.co.kr",
         "newstnt.com",
         "newsworker.co.kr",
         "newsworks.co.kr",
@@ -112,6 +114,7 @@
         "popcornnews.net",
         "ppss.kr",
         "pressian.com",
+        "rapportian.com",
         "sedaily.com",
         "segye.com",
         "sentv.co.kr",
@@ -120,6 +123,7 @@
         "sidae.com",
         "sisafocus.co.kr",
         "sisajournal.com",
+        "sportsseoul.com",
         "srn.hcn.co.kr",
         "straightnews.co.kr",
         "tbc.co.kr",
@@ -132,7 +136,9 @@
         "view.asiae.co.kr",
         "viva100.com",
         "webeconomy.co.kr",
+        "weekly.khan.co.kr",
         "weeklytoday.com",
+        "whitepaper.co.kr",
         "wikitree.co.kr",
         "yeongnam.com",
         "yna.co.kr",
@@ -143,20 +149,19 @@
       "press_name_list": [
         "100ssd.co.kr",
         "KBS",
-        "SBS",
         "TBC",
         "YTN",
         "ajunews.com",
         "andongmbc.co.kr",
         "asiatoday.co.kr",
         "biz.heraldcorp.com",
-        "biz.newdaily.co.kr",
         "bizwork.co.kr",
         "breaknews.com",
         "ccdailynews.com",
         "ccdn.co.kr",
         "ccnnews.co.kr",
         "chungnamilbo.co.kr",
+        "cnbizm.com",
         "cnbnews.com",
         "cwn.kr",
         "dailian.co.kr",
@@ -170,7 +175,7 @@
         "energydaily.co.kr",
         "enewstoday.co.kr",
         "eroun.net",
-        "etoday.co.kr",
+        "facttv.kr",
         "ferrotimes.com",
         "fpn119.co.kr",
         "g-enews.com",
@@ -190,18 +195,22 @@
         "jeonmae.co.kr",
         "joongdo.co.kr",
         "kgnews.co.kr",
+        "knnews.co.kr",
         "korea.kr",
         "kormedi.com",
-        "kpinews.kr",
         "ksmnews.co.kr",
         "kukinews.com",
         "kyosu.net",
         "lawissue.co.kr",
         "livesnews.com",
         "m-i.kr",
+        "medicalworldnews.co.kr",
+        "medigatenews.com",
+        "medipana.com",
         "metroseoul.co.kr",
         "mhns.co.kr",
         "mtnews.net",
+        "mydaily.co.kr",
         "naeil.com",
         "news.bbsi.co.kr",
         "news.einfomax.co.kr",
@@ -214,7 +223,6 @@
         "newsfreezone.co.kr",
         "newsmin.co.kr",
         "newspim.com",
-        "newsprime.co.kr",
         "newstnt.com",
         "newsworker.co.kr",
         "newsworks.co.kr",
@@ -226,11 +234,13 @@
         "polinews.co.kr",
         "popcornnews.net",
         "ppss.kr",
+        "rapportian.com",
         "sentv.co.kr",
         "shinailbo.co.kr",
         "sidae.com",
         "sisafocus.co.kr",
         "sisajournal.com",
+        "sportsseoul.com",
         "srn.hcn.co.kr",
         "straightnews.co.kr",
         "thepowernews.co.kr",
@@ -241,6 +251,7 @@
         "viva100.com",
         "webeconomy.co.kr",
         "weeklytoday.com",
+        "whitepaper.co.kr",
         "wikitree.co.kr",
         "youngnong.co.kr",
         "경북매일",
@@ -271,32 +282,10 @@
         "프레시안",
         "한국경제"
       ],
-      "pub_date": "2026-08-13T05:04:00+09:00",
+      "is_routine": false,
+      "pub_date": "2026-08-13T05:30:00+09:00",
       "category": "일반",
-      "importance": 105.19
-    },
-    {
-      "title": "대구가톨릭대의료원, 개원 46주년 맞아 ‘이념의 벽’ 제막",
-      "desc": "대구가톨릭대학교의료원이 개원 46주년을 맞아 설립 이념을 시각화한 ‘이념의 벽’ 제막식을 열었다고 12일 밝혔다. 의료원은 이날 병원 로비에 ‘이념의 벽’을 설치했다. 이 벽에는 환우의 전인적 치유, 의료지식과...",
-      "link": "https://www.medigatenews.com/news/2169344219",
-      "press": "medigatenews.com",
-      "press_name": "medigatenews.com",
-      "press_count": 4,
-      "press_list": [
-        "idaegu.co.kr",
-        "medigatenews.com",
-        "metroseoul.co.kr",
-        "srn.hcn.co.kr"
-      ],
-      "press_name_list": [
-        "medigatenews.com",
-        "metroseoul.co.kr",
-        "srn.hcn.co.kr",
-        "대구신문"
-      ],
-      "pub_date": "2026-08-13T04:42:00+09:00",
-      "category": "사회복지",
-      "importance": 5.04
+      "importance": 109.995
     },
     {
       "title": "'여성청소년 건강 지킨다'…구미시, 한화시스템서 '핑크박스' 100세트·장...",
@@ -317,93 +306,32 @@
         "daily.hankooki.com",
         "뉴시스"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T23:28:00+09:00",
       "category": "경제",
-      "importance": 4.701
+      "importance": 4.697
     },
     {
-      "title": "대구 쪽방주민 200세대에 생필품…'하우징 퍼스트' 첫 민관 지원",
-      "desc": "취약계층에 먼저 안정적인 주거를 제공한 뒤, 필요한 복지서비스를 연계하는 방식으로 대구시가 전국... 함께 대구시 남구에 위치한 공공임대주택을 찾아, 쪽방상담소 관계자와 간담회를 진행하고 쪽방주민 200세대를...",
-      "link": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4081012",
-      "press": "kyongbuk.co.kr",
-      "press_name": "경북일보",
+      "title": "항일운동부터 국수 공장까지… 대구근대역사관 15주년 특별전",
+      "desc": "대구근대역사관은 개관 15주년을 기념해 11월 말까지 특별기획전 ‘꺼지지 않는 불꽃, 대구 학생 항일운동’을 진행한다고 12일 밝혔다. 일제강점기 대구 지역 중등학교 학생들의 항일운동을 조명한 전시전이다. 6월부터...",
+      "link": "https://www.donga.com/news/Society/article/all/20260812/134467279/2",
+      "press": "donga.com",
+      "press_name": "동아일보",
       "press_count": 3,
       "press_list": [
-        "imaeil.com",
-        "kyongbuk.co.kr",
-        "whitepaper.co.kr"
+        "dkilbo.com",
+        "donga.com",
+        "kbmaeil.com"
       ],
       "press_name_list": [
-        "whitepaper.co.kr",
-        "경북일보",
-        "매일신문"
+        "dkilbo.com",
+        "경북매일",
+        "동아일보"
       ],
-      "pub_date": "2026-08-12T18:54:00+09:00",
-      "category": "사회복지",
-      "importance": 3.885
-    },
-    {
-      "title": "영진전문대·효림산업 맞손…자동차 부품 '전문 테크니션' 키운다",
-      "desc": "설립된 자동차부품 전문기업으로 디스크·너클·서포트링·휠 캐리어·프로펠러 샤프트 등 고정밀 부품을 생산하고 있다. 올해 경상북도 클린경영대상을 수상한 데 이어 고용노동부 '노사문화 우수기업' 인증을 받았다.",
-      "link": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4081041",
-      "press": "kyongbuk.co.kr",
-      "press_name": "경북일보",
-      "press_count": 3,
-      "press_list": [
-        "imaeil.com",
-        "kyongbuk.co.kr",
-        "pressian.com"
-      ],
-      "press_name_list": [
-        "경북일보",
-        "매일신문",
-        "프레시안"
-      ],
-      "pub_date": "2026-08-12T20:46:00+09:00",
+      "is_routine": false,
+      "pub_date": "2026-08-13T04:32:00+09:00",
       "category": "경제",
-      "importance": 3.759
-    },
-    {
-      "title": "문종금 한러친선협회 이사장, 포항시 ‘명예자문대사’ 위촉",
-      "desc": "러시아·CIS 지역 교류 확대 및 해외 투자 ·기업 유치 등 자문 기대 한·러 스포츠·문화 교류 이끌어온 민간외교 전문가, 무보수 명예직 위촉 경북 포항시는 12일 시청 대외협력실에서 한·러 민간외교와 스포츠·문화...",
-      "link": "https://www.segye.com/newsView/20260812523722?OutUrl=naver",
-      "press": "segye.com",
-      "press_name": "세계일보",
-      "press_count": 3,
-      "press_list": [
-        "newsis.com",
-        "segye.com",
-        "yna.co.kr"
-      ],
-      "press_name_list": [
-        "뉴시스",
-        "세계일보",
-        "연합뉴스"
-      ],
-      "pub_date": "2026-08-12T20:25:00+09:00",
-      "category": "정치행정",
-      "importance": 3.751
-    },
-    {
-      "title": "\"10명 중 6명 남성\"…대구 지자체 소속 위원회 성비 불균형 여전",
-      "desc": "현행 '양성평등기본법'과 '대구시 양성평등 기본 조례'는 지방자치단체가 각종 위원회를 구성할 때 위촉직 위원의 특정 성별이 60%를 초과하지 않도록 규정하고 있다. 대구여성회 등은 \"위원회 구성에서 성별 균형이...",
-      "link": "https://www.news1.kr/local/daegu-gyeongbuk/6256953",
-      "press": "news1.kr",
-      "press_name": "뉴스1",
-      "press_count": 3,
-      "press_list": [
-        "news1.kr",
-        "sentv.co.kr",
-        "tk.newdaily.co.kr"
-      ],
-      "press_name_list": [
-        "sentv.co.kr",
-        "뉴데일리대구경북",
-        "뉴스1"
-      ],
-      "pub_date": "2026-08-12T15:13:00+09:00",
-      "category": "정치행정",
-      "importance": 3.632
+      "importance": 3.933
     },
     {
       "title": "경북 영천시 '전국~영천 자랑! 영천에 빠져드는 30초!' 숏폼 홍보 행사",
@@ -424,68 +352,114 @@
         "뉴스1",
         "매일신문"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T15:17:00+09:00",
       "category": "문화생활",
-      "importance": 3.488
+      "importance": 3.484
     },
     {
-      "title": "광복 81년, 대구 10월항쟁 80년...\"미완의 해방, 분단 넘어 통일로\"",
-      "desc": "대구경북자주통일평화연대, 트럼프반대·전쟁반대 대구공동행동은 12일 오후 중구 동성로 CGV대구한일 앞에서 '광복 81주년, 10월항쟁 80주년 대구경북 8.15 자주평화대회'를 열었다. 윤금순 대구경북자주통일평화연대...",
-      "link": "https://www.pn.or.kr/news/articleView.html?idxno=33982",
-      "press": "pn.or.kr",
-      "press_name": "pn.or.kr",
+      "title": "깐깐한 검증 통과한 대구 새 먹거리 공개",
+      "desc": "대구시가 깐깐한 검증을 거쳐 지역을 대표할 새로운 먹거리 라인업을 확보했다. 대구시는 12일 안전성과 품질, 지역 대표성을 두루 갖춘 3개 제품을 '제5호 대구우수식품'으로 신규 인증했다. 새롭게 지정한 제품은...",
+      "link": "https://www.hidomin.com/news/articleView.html?idxno=717106",
+      "press": "hidomin.com",
+      "press_name": "hidomin.com",
       "press_count": 3,
       "press_list": [
-        "dkilbo.com",
+        "hidomin.com",
         "imaeil.com",
-        "pn.or.kr"
-      ],
-      "press_name_list": [
-        "dkilbo.com",
-        "pn.or.kr",
-        "매일신문"
-      ],
-      "pub_date": "2026-08-12T21:40:00+09:00",
-      "category": "일반",
-      "importance": 3.436
-    },
-    {
-      "title": "대구 법원·검찰청 후적지, 청년·창업 복합거점으로",
-      "desc": "대구시가 법원·검찰청이 옮겨간 뒤 남는 땅을 청년과 창업, 문화 기능을 합친 거점으로 개발하는 구상을 내놨습니다. 시가 수립한 '2040 대구 도시기본계획'을 보면 수성구 범어동 4만 4천㎡ 규모의 부지를...",
-      "link": "https://www.tbc.co.kr/news/view?pno=20260812084138AE03790&id=209669",
-      "press": "tbc.co.kr",
-      "press_name": "TBC",
-      "press_count": 2,
-      "press_list": [
-        "dgmbc.com",
         "tbc.co.kr"
       ],
       "press_name_list": [
         "TBC",
-        "대구MBC"
+        "hidomin.com",
+        "매일신문"
       ],
-      "pub_date": "2026-08-12T21:16:00+09:00",
-      "category": "범죄사법",
-      "importance": 3.285
+      "is_routine": false,
+      "pub_date": "2026-08-12T20:58:00+09:00",
+      "category": "일반",
+      "importance": 3.418
     },
     {
-      "title": "경북교육청, 교원 340여 명 대상 '학생 마약류 예방교육' 연수",
-      "desc": "경북교육청은 도내 각급학교 마약류 예방교육 담당교원과 교육지원청 업무담당자 340여 명을 대상으로 연수를 개최한다고 12일 밝혔다. 경북교육청은 최근 청소년을 노린 마약범죄와 유해약물 노출 사례가 늘어남에 따라...",
-      "link": "https://www.hankookilbo.com/news/article/A2026081214000003182?did=NA",
-      "press": "hankookilbo.com",
-      "press_name": "hankookilbo.com",
-      "press_count": 2,
+      "title": "대한민국 양대 발레단, 올가을·겨울 대구 무대 맞붙는다",
+      "desc": "대한민국 클래식 발레를 대표하는 국립발레단과 유니버설발레단이 올가을과 겨울 대구 관객들을 찾아온다. 대구문화예술진흥원 대구문화예술회관(관장 김희철)은 각 단체를 대표하는 고전 명작 ‘잠자는 숲속의...",
+      "link": "https://www.kbmaeil.com/article/20260812500616",
+      "press": "kbmaeil.com",
+      "press_name": "경북매일",
+      "press_count": 3,
       "press_list": [
-        "hankookilbo.com",
-        "sentv.co.kr"
+        "imaeil.com",
+        "kbmaeil.com",
+        "kyongbuk.co.kr"
       ],
       "press_name_list": [
-        "hankookilbo.com",
-        "sentv.co.kr"
+        "경북매일",
+        "경북일보",
+        "매일신문"
       ],
-      "pub_date": "2026-08-12T14:30:00+09:00",
-      "category": "범죄사법",
-      "importance": 3.109
+      "is_routine": false,
+      "pub_date": "2026-08-12T17:26:00+09:00",
+      "category": "일반",
+      "importance": 3.344
+    },
+    {
+      "title": "대구강서소방서장, 물류창고 화재안전 현장지도",
+      "desc": "= 대구강서소방서(서장 신기선)는 12일 관내 물류창고를 대상으로 관서장 화재안전 현장지도를 실시했다고... 대상은 신세계이마트 대구물류센터다. 신기선 서장은 관계자들과 함께 소방ㆍ전기ㆍ가스시설의 유지관리...",
+      "link": "http://fpn119.co.kr/255187",
+      "press": "fpn119.co.kr",
+      "press_name": "fpn119.co.kr",
+      "press_count": 2,
+      "press_list": [
+        "fpn119.co.kr",
+        "idaegu.co.kr"
+      ],
+      "press_name_list": [
+        "fpn119.co.kr",
+        "대구신문"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T17:32:00+09:00",
+      "category": "사건사고",
+      "importance": 3.31
+    },
+    {
+      "title": "울진 원전사고 대비 봉화·영양에 방재주거시설 31곳 추가 지정",
+      "desc": "경상북도는 올해 울진 원전 반경 30km 안에 위치한 영양과 봉화군 학교 및 체육관 31곳을 방사능 방재 임시주거시설로 추가 지정해 부족한 수용 규모를 보완했다고 설명했습니다.",
+      "link": "http://andongmbc.co.kr/adboard/NewsView84155",
+      "press": "andongmbc.co.kr",
+      "press_name": "andongmbc.co.kr",
+      "press_count": 2,
+      "press_list": [
+        "andongmbc.co.kr",
+        "news.kbs.co.kr"
+      ],
+      "press_name_list": [
+        "KBS",
+        "andongmbc.co.kr"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T15:44:00+09:00",
+      "category": "사건사고",
+      "importance": 3.261
+    },
+    {
+      "title": "뮤지컬 제작 프로듀서 키운다",
+      "desc": "대구국제뮤지컬페스티벌(DIMF)은 2026 DIMF 뮤지컬캠퍼스 프로듀서 전공 수강생을 9월 9일까지 모집한다. 올해 새롭게 출범한 DIMF 뮤지컬캠퍼스는 11년간 운영해 온 DIMF 뮤지컬아카데미를 확대·개편한 종합 뮤지컬 교육...",
+      "link": "https://www.idaegu.co.kr/news/articleView.html?idxno=556545",
+      "press": "idaegu.co.kr",
+      "press_name": "대구신문",
+      "press_count": 2,
+      "press_list": [
+        "idaegu.co.kr",
+        "kbsm.net"
+      ],
+      "press_name_list": [
+        "경북신문",
+        "대구신문"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T21:24:00+09:00",
+      "category": "사회복지",
+      "importance": 3.021
     },
     {
       "title": "한국소방안전원 대구경북지부, 소방기술자 대상 ‘소방연혁법’ 전문과...",
@@ -502,28 +476,110 @@
         "fpn119.co.kr",
         "경북신문"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T20:56:00+09:00",
       "category": "사회복지",
-      "importance": 3.014
+      "importance": 3.009
     },
     {
-      "title": "양식 어류 폐사 계속....피해 규모는 감소세",
-      "desc": "고수온 경보가 내려진 경북 동해안에서 양식 어류 폐사가 이어지고 있습니다. 경북도 환동해본부는 오늘(12일) 오후 2시 기준 포항 11만 마리를 비롯해 영덕과 울진 등 3개 시군에서 11만 4천여 마리의 양식 어류가...",
-      "link": "https://www.tbc.co.kr/news/view?pno=20260812162844AE03844&id=209664",
-      "press": "tbc.co.kr",
-      "press_name": "TBC",
+      "title": "주진우 \"비상계엄 해제 표결 당시 150석 찼는데 李 기다려\"",
+      "desc": "주진우 국민의힘 의원이 12·3 비상계엄 당시 추경호 대구시장(당시 국민의힘 원내대표)의 의원총회 소집은 통상적인 절차였다고 진술했다. 주 의원은 당시 우원식 전 국회의장이 이재명 대통령(당시 더불어민주당 대표)의...",
+      "link": "https://www.imaeil.com/page/view/2026081220084609345",
+      "press": "imaeil.com",
+      "press_name": "매일신문",
       "press_count": 2,
       "press_list": [
-        "andongmbc.co.kr",
-        "tbc.co.kr"
+        "imaeil.com",
+        "news1.kr"
       ],
       "press_name_list": [
-        "TBC",
-        "andongmbc.co.kr"
+        "뉴스1",
+        "매일신문"
       ],
-      "pub_date": "2026-08-12T21:12:00+09:00",
+      "is_routine": false,
+      "pub_date": "2026-08-12T22:09:00+09:00",
+      "category": "정치행정",
+      "importance": 2.906
+    },
+    {
+      "title": "대구시교육청 '학교 환경교육 콜로키움'… 지역사회와 손잡고 기후위기...",
+      "desc": "대구시교육청,기후위기,환경교육,환경교육콜로키움,백두대간 대구시교육청이 기후위기에 대응하기 위해 지역 환경기관과 함께 '학교 환경교육 콜로키움'을 개최한다. 대구시교육청 제공 대구시교육청이 기후위기 시대에...",
+      "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3071875",
+      "press": "newsclaim.co.kr",
+      "press_name": "newsclaim.co.kr",
+      "press_count": 2,
+      "press_list": [
+        "newsclaim.co.kr",
+        "yeongnam.com"
+      ],
+      "press_name_list": [
+        "newsclaim.co.kr",
+        "영남일보"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T16:36:00+09:00",
+      "category": "사회복지",
+      "importance": 2.906
+    },
+    {
+      "title": "\"36년 살며 이런 가뭄 처음\"…댐·저수지 말라붙은 청도·경주",
+      "desc": "대구지방기상청에 따르면 청도에는 지난달 76.5mm가 내렸으며, 이달 들어 강수량은 기록된 것이 없습니다. 농민들은 말라가는 논에 조금이라도 물을 대려고 안간힘을 썼습니다. 운문사 인근의 논을 따라 나 있는 농수로에는...",
+      "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008702831&plink=ORI&cooper=NAVER",
+      "press": "news.sbs.co.kr",
+      "press_name": "SBS",
+      "press_count": 2,
+      "press_list": [
+        "news.sbs.co.kr",
+        "yna.co.kr"
+      ],
+      "press_name_list": [
+        "SBS",
+        "연합뉴스"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-13T05:04:00+09:00",
+      "category": "일반",
+      "importance": 2.786
+    },
+    {
+      "title": "한국 가곡의 예술성·시대적 가치 재조명",
+      "desc": "대구문화예술진흥원 제공 한국 가곡의 아름다움과 가치를 세대 간 음악적 해석으로 만나는 무대가 대구에서 펼쳐진다. 대구문화예술진흥원 문화예술본부(본부장 방성택)는 '2026 대구문화예술지원사업 지속연주활동지원...",
+      "link": "https://www.idaegu.co.kr/news/articleView.html?idxno=556544",
+      "press": "idaegu.co.kr",
+      "press_name": "대구신문",
+      "press_count": 2,
+      "press_list": [
+        "dkilbo.com",
+        "idaegu.co.kr"
+      ],
+      "press_name_list": [
+        "dkilbo.com",
+        "대구신문"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T21:24:00+09:00",
       "category": "일반",
       "importance": 2.627
+    },
+    {
+      "title": "한국기행 ‘토종로드’ 3부…안동에서 이어지는 토종의 맛과 멋!",
+      "desc": "1501년 경북 안동 지역에서 태어나 1570년 세상을 떠났다. 1534년 문과에 급제한 뒤 관직에 나아가 성균관 대사성, 대제학 등을 지냈다. 단양군수와 풍기군수로도 근무했다. 이황은 관직 생활과 함께 성리학 연구와 제자...",
+      "link": "https://www.wikitree.co.kr/articles/1151724",
+      "press": "wikitree.co.kr",
+      "press_name": "wikitree.co.kr",
+      "press_count": 2,
+      "press_list": [
+        "straightnews.co.kr",
+        "wikitree.co.kr"
+      ],
+      "press_name_list": [
+        "straightnews.co.kr",
+        "wikitree.co.kr"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T20:00:00+09:00",
+      "category": "일반",
+      "importance": 2.597
     },
     {
       "title": "구미대, '경북 청소년 드론스포츠대회' 개최",
@@ -540,9 +596,10 @@
         "hidomin.com",
         "news.unn.net"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T17:00:00+09:00",
       "category": "일반",
-      "importance": 2.539
+      "importance": 2.535
     },
     {
       "title": "영천에서 승용차가 전봇대 들이받아...건물 1곳 정전",
@@ -557,9 +614,10 @@
       "press_name_list": [
         "YTN"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-13T02:55:00+09:00",
       "category": "사건사고",
-      "importance": 2.529
+      "importance": 2.524
     },
     {
       "title": "신규 입주 '0' 대구 동구…1862가구 재개발 13년 만에 본궤도",
@@ -576,26 +634,64 @@
         "widedaily.com",
         "뉴시스"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T10:40:00+09:00",
       "category": "일반",
-      "importance": 2.407
+      "importance": 2.403
     },
     {
-      "title": "청송군, 873억 규모 추경 편성…농어촌 기본소득·산불복구 등 중점 투자",
-      "desc": "경북 청송군이 올해 첫 추가경정예산안을 당초보다 873억원 늘린 6,323억원 규모로... that each project is carried out without any setbacks.\" 원본 기사 보기:브레이크뉴스 대구경북",
-      "link": "http://www.breaknews.com/1228485",
-      "press": "breaknews.com",
-      "press_name": "breaknews.com",
+      "title": "동구문화재단, '아양써머락페스타' 공연",
+      "desc": "대구동구문화재단은 '2026 아양써머락페스타'를 22일 오후 7시 동촌유원지 해맞이다리 앞 특설무대에서 개최한다. '아양써머락페스타'는 대구동구문화재단의 대표 여름 음악 축제로, 지역 인디밴드와 전국적으로...",
+      "link": "https://www.idaegu.co.kr/news/articleView.html?idxno=556549",
+      "press": "idaegu.co.kr",
+      "press_name": "대구신문",
       "press_count": 1,
       "press_list": [
-        "breaknews.com"
+        "idaegu.co.kr"
       ],
       "press_name_list": [
-        "breaknews.com"
+        "대구신문"
       ],
-      "pub_date": "2026-08-12T15:42:00+09:00",
+      "is_routine": false,
+      "pub_date": "2026-08-12T21:24:00+09:00",
       "category": "사건사고",
-      "importance": 2.226
+      "importance": 2.375
+    },
+    {
+      "title": "대구고법, 19층 호텔 시행사 손 들어준 1심 판결 뒤집어",
+      "desc": "대구고법 제1행정부(재판장 손병원 고법수석판사, 어재원 고법판사·조용민 판사)는 2026년 6월 19일 원고 롯데스퀘어(롯데시티) 호텔(대구 중구 봉산동 지상 6층~지상 19층) 시행사가 피고 대구동부교육지원청 교육장을...",
+      "link": "http://www.lawissue.co.kr/view.php?ud=2026081223590615339a8c8bf58f_12",
+      "press": "lawissue.co.kr",
+      "press_name": "lawissue.co.kr",
+      "press_count": 1,
+      "press_list": [
+        "lawissue.co.kr"
+      ],
+      "press_name_list": [
+        "lawissue.co.kr"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-13T00:04:00+09:00",
+      "category": "범죄사법",
+      "importance": 2.353
+    },
+    {
+      "title": "대구경찰, 성매매 사범 126명 검거",
+      "desc": "대구경찰이 올해 성매매 범죄 특별단속을 통해 사범 126명을 붙잡았다. 작년에 비해 30%가량 늘어난 수치다. 12일 대구경찰청에 따르면 온·오프라인 성매매 특별단속 결과, 올해 현재까지 지역에서 23건, 126명(2명 구속)...",
+      "link": "https://www.idaegu.co.kr/news/articleView.html?idxno=556559",
+      "press": "idaegu.co.kr",
+      "press_name": "대구신문",
+      "press_count": 1,
+      "press_list": [
+        "idaegu.co.kr"
+      ],
+      "press_name_list": [
+        "대구신문"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T21:24:00+09:00",
+      "category": "범죄사법",
+      "importance": 2.283
     },
     {
       "title": "고속도로 교통사고 발생 2분43초 지나면 '2차 사고'…경찰, '도로 밖 대...",
@@ -610,9 +706,10 @@
       "press_name_list": [
         "매일신문"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T15:10:00+09:00",
       "category": "사건사고",
-      "importance": 2.211
+      "importance": 2.206
     },
     {
       "title": "경북북부제2교도소, 교정시설 첫 산불 방어용 '수막타워'공사 중",
@@ -627,9 +724,10 @@
       "press_name_list": [
         "lawissue.co.kr"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T14:36:00+09:00",
       "category": "사건사고",
-      "importance": 2.196
+      "importance": 2.19
     },
     {
       "title": "[오늘의 주요일정]대구·경북(8월13일 목요일)",
@@ -644,9 +742,10 @@
       "press_name_list": [
         "뉴시스"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-13T05:00:00+09:00",
       "category": "정치행정",
-      "importance": 2.188
+      "importance": 2.183
     },
     {
       "title": "대구교통공사, 공기업 경영평가 3년 연속 1위",
@@ -661,9 +760,10 @@
       "press_name_list": [
         "동아일보"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-13T04:32:00+09:00",
       "category": "경제",
-      "importance": 2.177
+      "importance": 2.173
     },
     {
       "title": "문경시, '하하하운동' 전개…건강체조·웃음 프로그램 진행",
@@ -678,9 +778,10 @@
       "press_name_list": [
         "gukjenews.com"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T22:50:00+09:00",
       "category": "사회복지",
-      "importance": 2.14
+      "importance": 2.135
     },
     {
       "title": "'차기 경찰청장 후보군' 4명 치안정감 승진…치안감도 9명 승진",
@@ -695,13 +796,50 @@
       "press_name_list": [
         "매일신문"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T14:41:00+09:00",
       "category": "범죄사법",
-      "importance": 2.113
+      "importance": 2.108
+    },
+    {
+      "title": "국내 최초 국립소방병원 개원",
+      "desc": "소방청 통계연보에 따르면 지난해 공무상 부상을 당한 소방공무원은 전국 1천271명, 대구는 37명으로 집계됐다. 국립소방병원은 소방공무원에 대한 진료·치료·재활·건강관리 등을 체계적으로 지원할 수 있는 전문...",
+      "link": "https://www.idaegu.co.kr/news/articleView.html?idxno=556586",
+      "press": "idaegu.co.kr",
+      "press_name": "대구신문",
+      "press_count": 1,
+      "press_list": [
+        "idaegu.co.kr"
+      ],
+      "press_name_list": [
+        "대구신문"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T21:24:00+09:00",
+      "category": "사회복지",
+      "importance": 2.101
+    },
+    {
+      "title": "대구파티마병원, 갑상선내분비외과 개설",
+      "desc": "대구파티마병원이 갑상선내분비외과를 신설하고 영남대학교병원 출신 강진구 과장(사진)을 영입해 본격적인 진료를 시작했다. 대구파티마병원 제공대구파티마병원이 갑상선내분비외과를 신설하고 최신 로봇수술...",
+      "link": "https://www.idaegu.co.kr/news/articleView.html?idxno=556576",
+      "press": "idaegu.co.kr",
+      "press_name": "대구신문",
+      "press_count": 1,
+      "press_list": [
+        "idaegu.co.kr"
+      ],
+      "press_name_list": [
+        "대구신문"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T21:24:00+09:00",
+      "category": "사회복지",
+      "importance": 2.101
     },
     {
       "title": "[Q&A] 공황장애, 발작 두려워 일상 위축되기 전 치료하세요",
-      "desc": "가장 두려워하는 것이 발작 자체보다 '이해받지 못하는 것'일 수 있다는 점을 기억해 주셨으면 합니다. 곁에서 믿고 기다려 주는 한 사람의 존재가 큰 힘이 됩니다. 도움말=박승현 대동병원 부원장(대구시의사회 의무이사)",
+      "desc": "대구지역 정신건강의학과 전문의를 만나 공황장애의 주요 증상과 악화 요인, 일상에서 실천할 수 있는... 곁에서 믿고 기다려 주는 한 사람의 존재가 큰 힘이 됩니다. 도움말=박승현 대동병원 부원장(대구시의사회 의무이사)",
       "link": "https://www.idaegu.co.kr/news/articleView.html?idxno=556575",
       "press": "idaegu.co.kr",
       "press_name": "대구신문",
@@ -712,9 +850,28 @@
       "press_name_list": [
         "대구신문"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T21:24:00+09:00",
       "category": "사회복지",
-      "importance": 2.105
+      "importance": 2.101
+    },
+    {
+      "title": "고령군가족센터, 여름방학 진로·직업학교",
+      "desc": "고령군가족센터는 지난 4일부터 7일까지 대구보건대학교 직업이음센터가 마련한 '2026 여름방학 진로·직업학교'에 관내 다문화청소년들이 참여했다고 밝혔다. 학생들은 대학 실습시설에서 바리스타, 물리치료사...",
+      "link": "https://www.idaegu.co.kr/news/articleView.html?idxno=556537",
+      "press": "idaegu.co.kr",
+      "press_name": "대구신문",
+      "press_count": 1,
+      "press_list": [
+        "idaegu.co.kr"
+      ],
+      "press_name_list": [
+        "대구신문"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T21:04:00+09:00",
+      "category": "사회복지",
+      "importance": 2.093
     },
     {
       "title": "포항 1000억대 골프장 허가, 시장 공백기에 무슨 일이 있었나",
@@ -729,9 +886,10 @@
       "press_name_list": [
         "동아일보"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T14:00:00+09:00",
       "category": "범죄사법",
-      "importance": 2.096
+      "importance": 2.091
     },
     {
       "title": "지구대·파출소 대구시로?…자치경찰 이원화 '시험대'",
@@ -746,9 +904,10 @@
       "press_name_list": [
         "경북일보"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T14:00:00+09:00",
       "category": "범죄사법",
-      "importance": 2.096
+      "importance": 2.091
     },
     {
       "title": "경북 영천경찰서-영천우체국, 택배차량 활용 교통안전 홍보",
@@ -763,9 +922,28 @@
       "press_name_list": [
         "매일신문"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T13:48:00+09:00",
       "category": "범죄사법",
-      "importance": 2.09
+      "importance": 2.085
+    },
+    {
+      "title": "'1세대 프로파일러' 표창원, 대구서 행복의 조건 말한다",
+      "desc": "대구경북첨단의료산업진흥재단(케이메디허브)이 국내 1세대 프로파일러로 알려진 표창원 강사를 초청해... 케이메디허브(이사장 박구선)가 오는 19일 오전 10시 대구 동구 재단 국제회의실에서 표창원 강사를 초청해 올해...",
+      "link": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4081036",
+      "press": "kyongbuk.co.kr",
+      "press_name": "경북일보",
+      "press_count": 1,
+      "press_list": [
+        "kyongbuk.co.kr"
+      ],
+      "press_name_list": [
+        "경북일보"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T20:42:00+09:00",
+      "category": "사회복지",
+      "importance": 2.084
     },
     {
       "title": "울릉군, 응급의학과 전문의 근무일 5일→20일로 확대",
@@ -780,9 +958,10 @@
       "press_name_list": [
         "phmbc.co.kr"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T20:42:00+09:00",
       "category": "사회복지",
-      "importance": 2.089
+      "importance": 2.084
     },
     {
       "title": "안동 선성현문화단지, ‘내 친구 토째비와 함께 하는 여름 나들이’ 개...",
@@ -797,9 +976,10 @@
       "press_name_list": [
         "travelitoday.com"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T10:20:00+09:00",
       "category": "사건사고",
-      "importance": 2.08
+      "importance": 2.075
     },
     {
       "title": "공공배달앱 대구로 홍보모델 원태인 선수, 결식아동 배달비 1천만 원 후...",
@@ -814,9 +994,10 @@
       "press_name_list": [
         "thepowernews.co.kr"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T23:28:00+09:00",
       "category": "정치행정",
-      "importance": 2.061
+      "importance": 2.057
     },
     {
       "title": "청소년들 꼭 가보면 좋겠다... 광복절 맞아 소개하는 대구 독립운동유적",
@@ -831,9 +1012,64 @@
       "press_name_list": [
         "ohmynews.com"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T12:06:00+09:00",
       "category": "범죄사법",
-      "importance": 2.046
+      "importance": 2.041
+    },
+    {
+      "title": "대구 북구, 장애인체육회 설립·청렴행정·가뭄 대응·평생학습도시 재...",
+      "desc": "대구 북구가 장애인체육회 설립 추진을 비롯해 청렴한 공직문화 조성, 가뭄 대응을 위한 농업용수 확보, 교육부 평생학습도시 재선정 등 구정 핵심 과제를 속도감 있게 추진하며 주민 중심 행정 강화에 나서고 있다. 대구...",
+      "link": "https://www.polinews.co.kr/news/articleView.html?idxno=739984",
+      "press": "polinews.co.kr",
+      "press_name": "polinews.co.kr",
+      "press_count": 1,
+      "press_list": [
+        "polinews.co.kr"
+      ],
+      "press_name_list": [
+        "polinews.co.kr"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T18:14:00+09:00",
+      "category": "사회복지",
+      "importance": 2.025
+    },
+    {
+      "title": "예비 교감 60명, 경산 한방촌서 '쉼이 있는 직무연수'",
+      "desc": "대구한의대학교(총장 변창훈)와 경산시(시장 조현일)가 관학협력으로 운영하는 경산 동의한방촌이 대구지역 초등학교 교감 승진 대상자를 대상으로 한방웰니스 직무연수를 실시했다. 대구교육연수원(원장 이옥정)과...",
+      "link": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4081055",
+      "press": "kyongbuk.co.kr",
+      "press_name": "경북일보",
+      "press_count": 1,
+      "press_list": [
+        "kyongbuk.co.kr"
+      ],
+      "press_name_list": [
+        "경북일보"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T21:52:00+09:00",
+      "category": "정치행정",
+      "importance": 2.02
+    },
+    {
+      "title": "계명대 동산병원, 급성기 뇌졸중 평가 ‘11년 연속 1등급’",
+      "desc": "김준형 계명대 동산병원장은 “뇌혈관 질환은 신속한 초기 대응이 중요한 질환인 만큼 환자의 생명과 직결되는 골든타임을 지키는 것이 무엇보다 중요하다”며 “11회 연속 1등급에 안주하지 않고 대구...",
+      "link": "https://tk.newdaily.co.kr/site/data/html/2026/08/12/2026081200304.html",
+      "press": "tk.newdaily.co.kr",
+      "press_name": "뉴데일리대구경북",
+      "press_count": 1,
+      "press_list": [
+        "tk.newdaily.co.kr"
+      ],
+      "press_name_list": [
+        "뉴데일리대구경북"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T17:52:00+09:00",
+      "category": "사회복지",
+      "importance": 2.016
     },
     {
       "title": "성주 대동초, 대구경북영어마을 몰입형 영어체험학습",
@@ -848,9 +1084,46 @@
       "press_name_list": [
         "seongjuro.co.kr"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T17:46:00+09:00",
       "category": "사회복지",
-      "importance": 2.018
+      "importance": 2.014
+    },
+    {
+      "title": "대구청소년창의센터, 청소년참여예산제 최우수상",
+      "desc": "대구청소년창의센터 꿈&꿈 청소년운영위원회 '물에구름'이 지난 8일 대구광역시장애인희망드림센터에서 열린 '2026년 대구광역시 청소년참여예산제' 본선에서 최우수상과 우수지도자상을 수상했다. 물에구름은 '나의 첫...",
+      "link": "https://www.idaegu.co.kr/news/articleView.html?idxno=556611",
+      "press": "idaegu.co.kr",
+      "press_name": "대구신문",
+      "press_count": 1,
+      "press_list": [
+        "idaegu.co.kr"
+      ],
+      "press_name_list": [
+        "대구신문"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T21:34:00+09:00",
+      "category": "정치행정",
+      "importance": 2.013
+    },
+    {
+      "title": "대구공업대 호텔외식조리계열, 전통병과·떡제조기능사 특강 운영",
+      "desc": "▲대구공업대학교 호텔외식조리계열 재학생들이 교내 실습실에서 '떡제조기능사 자격증 및 전통병과 특강'에 참여해 전통병과 제조 실습을 하고 있다.대구공업대 제공 대구공업대학교 호텔외식조리계열은 지난 3일부터...",
+      "link": "https://www.dkilbo.com/news/articleView.html?idxno=551205",
+      "press": "dkilbo.com",
+      "press_name": "dkilbo.com",
+      "press_count": 1,
+      "press_list": [
+        "dkilbo.com"
+      ],
+      "press_name_list": [
+        "dkilbo.com"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T17:20:00+09:00",
+      "category": "사회복지",
+      "importance": 2.003
     },
     {
       "title": "현장서 놓쳐도 끝까지 추적…대구경찰, 광복절 폭주족 '전방위 단속'",
@@ -865,9 +1138,28 @@
       "press_name_list": [
         "경북일보"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T10:10:00+09:00",
       "category": "범죄사법",
-      "importance": 1.996
+      "importance": 1.991
+    },
+    {
+      "title": "\"수강신청, '새로고침' 이제 그만\"…코딩 모르던 한 경북대생, AI로 '여석...",
+      "desc": "2학기 개강을 앞두고 대학가의 수강신청 전쟁이 한창인 가운데 경북대학교 한 재학생이 생성형 인공지능(AI)을 활용해 수강신청 과목의 여석을 자동으로 확인하고 알려주는 프로그램을 개발해 화제가 되고 있다. 경북대...",
+      "link": "https://www.imaeil.com/page/view/2026081210574933213",
+      "press": "imaeil.com",
+      "press_name": "매일신문",
+      "press_count": 1,
+      "press_list": [
+        "imaeil.com"
+      ],
+      "press_name_list": [
+        "매일신문"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T16:06:00+09:00",
+      "category": "사회복지",
+      "importance": 1.974
     },
     {
       "title": "포항제철소, 태풍·집중호우 대비 주요 설비 특별점검",
@@ -882,9 +1174,28 @@
       "press_name_list": [
         "breaknews.com"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T15:42:00+09:00",
       "category": "사회복지",
-      "importance": 1.969
+      "importance": 1.964
+    },
+    {
+      "title": "[글로벌+] 구마모토 지진 이후···엔저 막기 위해 손잡은 미국과 일본",
+      "desc": "일본의 여러 소식을 대구MBC 시사 라디오 방송 '여론현장' 김혜숙 앵커가 도쿄에 있는 이종수 대구MBC 통신원에게 들어봅니다. Q. 세계 각지의 뉴스 현지 통신원 통해서 직접 들어보는 월드 리포트입니다. 오늘은 일본...",
+      "link": "https://dgmbc.com/NewsArticle/856226",
+      "press": "dgmbc.com",
+      "press_name": "대구MBC",
+      "press_count": 1,
+      "press_list": [
+        "dgmbc.com"
+      ],
+      "press_name_list": [
+        "대구MBC"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T15:32:00+09:00",
+      "category": "사회복지",
+      "importance": 1.96
     },
     {
       "title": "[경북] 경산시, 세명병원과 계절근로자 의료 지원 업무협약",
@@ -899,48 +1210,51 @@
       "press_name_list": [
         "YTN"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T15:14:00+09:00",
       "category": "사회복지",
-      "importance": 1.958
+      "importance": 1.953
     },
     {
-      "title": "[우리 아기가 태어났어요]신세계병원 덕담",
-      "desc": "아빠 엄마 형아랑 함께 우리 네 식구 잘살아 보자.\" ▶송효진(40)·강희석(39·경북 안동시 풍천면) 부부 첫째 아들 수박이(3.5㎏) 6월 11일 출생. \"우리 첫 아가 수박아, 건강하게 태어나줘서 고맙고 예의바르고 선한...",
-      "link": "https://www.imaeil.com/page/view/2026080619032178260",
-      "press": "imaeil.com",
-      "press_name": "매일신문",
+      "title": "대구광역시장애인체육회, '2026 장애인체육 유관기관 종사자 교육' 개최",
+      "desc": "정성용 기자┃대구광역시장애인체육회가 지역 장애인체육 활성화와 관련 기관 종사자들의 전문성 강화를 위한 교육의 장을 마련했다. 대구광역시장애인체육회는 12일 대구복합스포츠타운 시민체육관에서 '2026...",
+      "link": "https://www.stnsports.co.kr/news/articleView.html?idxno=320803",
+      "press": "stnsports.co.kr",
+      "press_name": "stnsports.co.kr",
       "press_count": 1,
       "press_list": [
-        "imaeil.com"
+        "stnsports.co.kr"
       ],
       "press_name_list": [
-        "매일신문"
+        "stnsports.co.kr"
       ],
-      "pub_date": "2026-08-12T14:54:00+09:00",
+      "is_routine": false,
+      "pub_date": "2026-08-12T18:37:00+09:00",
+      "category": "정치행정",
+      "importance": 1.946
+    },
+    {
+      "title": "달성군, 스쿨존 25곳 ‘바닥신호등’… 보행 안전시설 33곳으로 늘어",
+      "desc": "대구 달성군은 서재초등학교 등 관내 횡단보도 25개소에 바닥형 보행신호등을 추가 설치했다고 7일 밝혔다. 이번에 설치된 시설은 횡단보도 대기선 바닥에 LED 장치를 매립하고 기존 신호등과 연동하는 방식이다....",
+      "link": "https://tk.newdaily.co.kr/site/data/html/2026/08/12/2026081200138.html",
+      "press": "tk.newdaily.co.kr",
+      "press_name": "뉴데일리대구경북",
+      "press_count": 1,
+      "press_list": [
+        "tk.newdaily.co.kr"
+      ],
+      "press_name_list": [
+        "뉴데일리대구경북"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T14:28:00+09:00",
       "category": "사회복지",
-      "importance": 1.95
+      "importance": 1.935
     },
     {
-      "title": "대구시, 민선9기 첫 5급 이하 인사 단행",
-      "desc": "양창우 ▲인공지능혁신성장실 대학인재혁신과(대구테크노파크RISE센터) 김주희 ▲경제국 고용노동정책과(고용노동부) 김정민 ▲원스톱기업투자센터 투자유치과(대구경북경제자유구역청) 장주영 배성원 더파워 기자",
-      "link": "https://www.thepowernews.co.kr/view.php?ud=202608101638311309c923548bdf_7",
-      "press": "thepowernews.co.kr",
-      "press_name": "thepowernews.co.kr",
-      "press_count": 1,
-      "press_list": [
-        "thepowernews.co.kr"
-      ],
-      "press_name_list": [
-        "thepowernews.co.kr"
-      ],
-      "pub_date": "2026-08-12T18:14:00+09:00",
-      "category": "경제",
-      "importance": 1.941
-    },
-    {
-      "title": "칠곡서 열린 ‘쇼그맨3’…전석 매진 속 웃음바다",
-      "desc": "경북 칠곡군이 마련한 코미디 공연 ‘쇼그맨3’가 전석 매진을 기록하며 관객들의 뜨거운 호응 속에 막을 내렸다. 칠곡군은 최근 교육문화회관 대공연장에서 ‘쇼그맨3’ 공연을 개최했다. 이날 공연에는 개그맨 김원효...",
-      "link": "https://www.kbmaeil.com/article/20260812500390",
+      "title": "칠곡 북삼중 육상부, 전국대회서 금 1·은 2개 획득",
+      "desc": "경북 칠곡 북삼중학교 육상부가 전국대회에서 금메달 1개와 은메달 2개를 획득하며 기량을 뽐냈다. 북삼중 육상부는 지난 6일부터 10일까지 충북 보은공설운동장에서 열린 제55회 추계 전국 중·고등학교 육상경기대회에...",
+      "link": "https://www.kbmaeil.com/article/20260812500399",
       "press": "kbmaeil.com",
       "press_name": "경북매일",
       "press_count": 1,
@@ -950,26 +1264,28 @@
       "press_name_list": [
         "경북매일"
       ],
-      "pub_date": "2026-08-12T14:32:00+09:00",
+      "is_routine": false,
+      "pub_date": "2026-08-12T14:28:00+09:00",
       "category": "사회복지",
-      "importance": 1.941
+      "importance": 1.935
     },
     {
-      "title": "옛 경북여상 건물 ‘안전 D등급’...경북예중 신설 속도내나",
-      "desc": "학교법인 협성교육재단의 경북여자상업고등학교(왼쪽)와 경북예술고등학교 전경 <대구시교육청 제공> 대구 남구 대명동 옛 경북여상 건물이 정밀안전진단에서 D등급을 받으면서 학교법인 협성교육재단이 추진해온...",
-      "link": "https://www.yeongnam.com/web/view.php?key=20260812024051426",
-      "press": "yeongnam.com",
-      "press_name": "영남일보",
+      "title": "호남 반도체 과속에 절차 무시?…강대식 \"LH, 참여 요청 전 투자심사\"",
+      "desc": "12일 강대식 국민의힘 의원실(대구 동구군위을)에 따르면 청와대는 지난달 6일 '삼전닉스'의 약 800조원 규모... 이전 사업인 대구에는 왜 이 같은 속도와 행정력이 발휘되지 않는지 정부가 분명히 설명해야 한다\"고 꼬집었다.",
+      "link": "https://www.imaeil.com/page/view/2026081217520607862",
+      "press": "imaeil.com",
+      "press_name": "매일신문",
       "press_count": 1,
       "press_list": [
-        "yeongnam.com"
+        "imaeil.com"
       ],
       "press_name_list": [
-        "영남일보"
+        "매일신문"
       ],
-      "pub_date": "2026-08-12T14:24:00+09:00",
-      "category": "사회복지",
-      "importance": 1.938
+      "is_routine": false,
+      "pub_date": "2026-08-12T17:53:00+09:00",
+      "category": "경제",
+      "importance": 1.929
     },
     {
       "title": "경북TP, 스마트제조혁신센터 성과평가 7년 연속 '최고등급'",
@@ -984,9 +1300,10 @@
       "press_name_list": [
         "dkilbo.com"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T17:20:00+09:00",
       "category": "경제",
-      "importance": 1.921
+      "importance": 1.916
     },
     {
       "title": "한국어 교실에 K-컬처를 더하다…LA한국교육원·경북교육청 연수",
@@ -1001,43 +1318,28 @@
       "press_name_list": [
         "koreadaily.com"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T13:40:00+09:00",
       "category": "사회복지",
-      "importance": 1.92
+      "importance": 1.915
     },
     {
-      "title": "2차 공공기관 이전전쟁…대구 IBK·영천 마사회, 이번에도 남 좋은 일만...",
-      "desc": "대구경북도 예외가 아니다. 대구는 IBK기업은행을 정조준했고 경북도와 영천시는 한국마사회 본사 유치에 사활을 걸었다. 그러나 돌아가는 상황이 녹록지 않다. 부산은 금융 공기업을 노리고 있고, 전남광주통합특별시는...",
-      "link": "https://www.kbmaeil.com/article/20260812500554",
-      "press": "kbmaeil.com",
-      "press_name": "경북매일",
+      "title": "영천 지역기업 2곳, 금호일반산단에 52억원 투자…34명 신규 고용",
+      "desc": "경북 영천에서 성장한 지역기업 2곳이 영천금호일반산업단지에 생산시설을 확충하고 신규 일자리 창출에 나선다. 영천시는 지난 11일 시청 영상회의실에서 ㈜디에스프레스, 농업회사법인 ㈜심박과 영천금호일반산업단지...",
+      "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5050807",
+      "press": "shinailbo.co.kr",
+      "press_name": "shinailbo.co.kr",
       "press_count": 1,
       "press_list": [
-        "kbmaeil.com"
+        "shinailbo.co.kr"
       ],
       "press_name_list": [
-        "경북매일"
+        "shinailbo.co.kr"
       ],
-      "pub_date": "2026-08-12T16:52:00+09:00",
-      "category": "경제",
-      "importance": 1.91
-    },
-    {
-      "title": "[인터뷰] 이형원 대구시의원 \"처음이라 배울 것 많아, 주어진 일부터 제...",
-      "desc": "그는 \"기회가 주어졌을 때 피하면 계속 배울 수 없다\"며 \"예결위 활동을 통해 대구시 예산의 흐름과 의회가 돌아가는 구조를 하나씩 익혀가겠다\"고 말했다. 의원실을 찾는 방문객과 지역 주민들의 민원을 챙기는 일도 빼놓을...",
-      "link": "https://www.cnbnews.com/news/articleView.html?idxno=1011295",
-      "press": "cnbnews.com",
-      "press_name": "cnbnews.com",
-      "press_count": 1,
-      "press_list": [
-        "cnbnews.com"
-      ],
-      "press_name_list": [
-        "cnbnews.com"
-      ],
-      "pub_date": "2026-08-12T16:34:00+09:00",
+      "is_routine": false,
+      "pub_date": "2026-08-12T16:22:00+09:00",
       "category": "정치행정",
-      "importance": 1.903
+      "importance": 1.894
     },
     {
       "title": "[인터뷰] 장은주 경북도의원 \"소수의 목소리도 도정 안에서 제대로 내겠...",
@@ -1052,9 +1354,10 @@
       "press_name_list": [
         "cnbnews.com"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T15:50:00+09:00",
       "category": "정치행정",
-      "importance": 1.886
+      "importance": 1.882
     },
     {
       "title": "[기자노트-이상원] 울진군의회 3개 특위를 바라보는 눈",
@@ -1069,26 +1372,10 @@
       "press_name_list": [
         "매일신문"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T15:33:00+09:00",
       "category": "정치행정",
-      "importance": 1.88
-    },
-    {
-      "title": "1만여 육상 동호인 집결! 대구, 스포츠관광 도시 시험대 오른다",
-      "desc": "대회는 대구시와 세계마스터즈육상연맹(WMA)이 주최, 대구 수성구 대구스타다움 일대에서 펼쳐진다. 추경호 대구시장도 개막을 앞두고 경기장과 선수 편의시설은 물론 폭염 등 기상 상황에 따라 경기 운영에 차질이...",
-      "link": "https://www.dailian.co.kr/news/view/1677358/?sc=Naver",
-      "press": "dailian.co.kr",
-      "press_name": "dailian.co.kr",
-      "press_count": 1,
-      "press_list": [
-        "dailian.co.kr"
-      ],
-      "press_name_list": [
-        "dailian.co.kr"
-      ],
-      "pub_date": "2026-08-12T14:50:00+09:00",
-      "category": "정치행정",
-      "importance": 1.863
+      "importance": 1.875
     },
     {
       "title": "9월 개장 앞둔 렛츠런파크 영천 '최종 점검'… 우희종 회장 \"안전이 최우...",
@@ -1103,9 +1390,10 @@
       "press_name_list": [
         "youngnong.co.kr"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T22:10:00+09:00",
       "category": "일반",
-      "importance": 1.847
+      "importance": 1.843
     },
     {
       "title": "이주노동자·결혼이주여성의 삶, 문학으로",
@@ -1120,9 +1408,64 @@
       "press_name_list": [
         "대구신문"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T21:24:00+09:00",
       "category": "일반",
-      "importance": 1.831
+      "importance": 1.827
+    },
+    {
+      "title": "대구 곳곳 공영주자창 조성 사업 '속도'",
+      "desc": "대구 북구 산격3동 공영주차장이 주민들의 주차 난을 해소하기 위해 127면 규모로 증축돼 이달 말 준공을 마친 후 시범운영에 들어갈 예정이다. 전영호기자 riki17@idaegu.co.kr 대구 곳곳에서 공영주차장 조성 사업이 속도를...",
+      "link": "https://www.idaegu.co.kr/news/articleView.html?idxno=556588",
+      "press": "idaegu.co.kr",
+      "press_name": "대구신문",
+      "press_count": 1,
+      "press_list": [
+        "idaegu.co.kr"
+      ],
+      "press_name_list": [
+        "대구신문"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T21:24:00+09:00",
+      "category": "일반",
+      "importance": 1.827
+    },
+    {
+      "title": "[광복 기획]연간 60만 명 찾는 서대문형무소...대구는 옛터만",
+      "desc": "일제강점기 대구형무소에서 순국한 항일 독립운동가가 서울 서대문형무소보다 더 많다는 사실, 알고 계십니까? 서대문형무소는 이제 목숨 건 대일 항쟁을 기억하는 대표 장소가 됐지만 대구형무소는 지금 흔적조차...",
+      "link": "https://www.tbc.co.kr/news/view?pno=20260807131356AE03609&id=209661",
+      "press": "tbc.co.kr",
+      "press_name": "TBC",
+      "press_count": 1,
+      "press_list": [
+        "tbc.co.kr"
+      ],
+      "press_name_list": [
+        "TBC"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T21:10:00+09:00",
+      "category": "일반",
+      "importance": 1.822
+    },
+    {
+      "title": "“‘손으로 만든 회화’가 판화다”…구자현, 디지털 복제시대에 던진...",
+      "desc": "어디서 본 듯한 것은 가짜고, 비슷한 것은 가짜입니다.” 대구 출신 판화가 구자현의 작업을 관통하는... 구자현의 개인전 ‘구자현 판화전’이 12일부터 9월 18일까지 대구 수성구 갤러리 히든스페이스에서 열린다. 이번...",
+      "link": "https://tk.newdaily.co.kr/site/data/html/2026/08/12/2026081200332.html",
+      "press": "tk.newdaily.co.kr",
+      "press_name": "뉴데일리대구경북",
+      "press_count": 1,
+      "press_list": [
+        "tk.newdaily.co.kr"
+      ],
+      "press_name_list": [
+        "뉴데일리대구경북"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T21:10:00+09:00",
+      "category": "일반",
+      "importance": 1.822
     },
     {
       "title": "대구 모든 학교 흡연·약물 예방학교 지정",
@@ -1137,43 +1480,46 @@
       "press_name_list": [
         "KBS"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T09:38:00+09:00",
       "category": "사회복지",
-      "importance": 1.823
+      "importance": 1.819
     },
     {
-      "title": "청년창업지원센터 상주올래-극동대 취창업지원센터, 지역 청년창업 생태...",
-      "desc": "청년창업지원센터 상주올래는 상주 지역 청년 창업기업의 안정적인 성장과 사업화를 종합적으로 지원하기 위해 경상북도 상주시가 설립하고 ㈜한국능률협회컨설팅이 운영하는 창업지원기관이다. 현재 지역 창업 생태계...",
-      "link": "https://www.kbsm.net/news/view.php?idx=530144",
-      "press": "kbsm.net",
-      "press_name": "경북신문",
+      "title": "이육사의 ‘강철’ 같은 독립의지 詩노래로…유고 발간 80주년, 종손녀 ...",
+      "desc": "대구콘서트하우스 제공 1944년, 광복을 한 해 앞두고 옥중 순국한 이육사의 시집이 유고로 발간된 지 80주년을... 7시30분 대구콘서트하우스 챔버홀에서 열린다.이육사는 일제강점기 시대의 아픔을 시로 남긴 대표적인...",
+      "link": "https://www.yeongnam.com/web/view.php?key=20260812024341593",
+      "press": "yeongnam.com",
+      "press_name": "영남일보",
       "press_count": 1,
       "press_list": [
-        "kbsm.net"
+        "yeongnam.com"
       ],
       "press_name_list": [
-        "경북신문"
+        "영남일보"
       ],
-      "pub_date": "2026-08-12T11:24:00+09:00",
-      "category": "경제",
-      "importance": 1.785
+      "is_routine": false,
+      "pub_date": "2026-08-12T20:44:00+09:00",
+      "category": "일반",
+      "importance": 1.813
     },
     {
-      "title": "한화 대박 소식 떴다! 김서현+정우주 컴백 임박했나, 경산→대구로 합류...",
-      "desc": "한화 퓨처스팀은 오는 14일까지 경산에서 삼성과 경기를 가진다. 마침 한화 1군은 14일부터 대구에서 삼성 라이온즈와 주말 3연전을 치른다. 이때 올라올 가능성도 배제할 수 없다.",
-      "link": "https://www.mydaily.co.kr/page/view/2026081219074148872",
-      "press": "mydaily.co.kr",
-      "press_name": "mydaily.co.kr",
+      "title": "대구·경북 복지부 산하기관 '싹쓸이' 통폐합 기류 … 호남엔 바이오클...",
+      "desc": "대구경북첨단의료산업진흥재단은 오송첨단의료산업진흥재단과의 통합 법안이 국회 본회의를 앞두고 있고 한국한의약진흥원도 오송 소재 한국보건산업진흥원 흡수안이 거론되고 있다. 문제는 기존 거점을 손보는 동시에...",
+      "link": "https://biz.newdaily.co.kr/site/data/html/2026/08/11/2026081100289.html",
+      "press": "biz.newdaily.co.kr",
+      "press_name": "biz.newdaily.co.kr",
       "press_count": 1,
       "press_list": [
-        "mydaily.co.kr"
+        "biz.newdaily.co.kr"
       ],
       "press_name_list": [
-        "mydaily.co.kr"
+        "biz.newdaily.co.kr"
       ],
-      "pub_date": "2026-08-13T04:41:00+09:00",
-      "category": "스포츠",
-      "importance": 1.784
+      "is_routine": false,
+      "pub_date": "2026-08-12T08:00:00+09:00",
+      "category": "사회복지",
+      "importance": 1.78
     },
     {
       "title": "[안보에 가려진 포항 오천의 눈물] 〈3ㆍ끝〉 이젠, 눈물 닦아줄 차례",
@@ -1188,9 +1534,64 @@
       "press_name_list": [
         "hidomin.com"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T19:06:00+09:00",
       "category": "일반",
-      "importance": 1.783
+      "importance": 1.779
+    },
+    {
+      "title": "마른 호수에 웃음을 채우다, 다시 찾은 송해공원",
+      "desc": "지난 8일, 대구 달성군 옥포읍에 자리한 옥연지 송해공원을 찾았다. 지난해 8월에 이어 1년 만의 방문이었다. 그때 찾았던 송해공원의 호수는 잔잔한 물이 호수 가득 아른아른 조명을 비추며 채워져 있었다. 하지만 1년 뒤...",
+      "link": "https://www.kbmaeil.com/article/20260812500128",
+      "press": "kbmaeil.com",
+      "press_name": "경북매일",
+      "press_count": 1,
+      "press_list": [
+        "kbmaeil.com"
+      ],
+      "press_name_list": [
+        "경북매일"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T18:32:00+09:00",
+      "category": "일반",
+      "importance": 1.767
+    },
+    {
+      "title": "독립영화 ‘바람이 전하는 말’을 보고",
+      "desc": "이번 박시윤 작가와 이현철 선생의 연대 덕에 대구 오오극장에서도 관람의 기회가 닿았다. 어둠 속에서... 선생은 1·4 후퇴 때 대구로 내려와 학창 시절을 보내고 기타를 배웠기에 대구와의 인연도 깊다. 당시 함께 기타를...",
+      "link": "https://www.kbmaeil.com/article/20260812500097",
+      "press": "kbmaeil.com",
+      "press_name": "경북매일",
+      "press_count": 1,
+      "press_list": [
+        "kbmaeil.com"
+      ],
+      "press_name_list": [
+        "경북매일"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T18:30:00+09:00",
+      "category": "일반",
+      "importance": 1.766
+    },
+    {
+      "title": "대구시, 민선9기 첫 5급 이하 인사 단행",
+      "desc": "대구광역시는 이달 3일자로 시행한 국·과장급 인사에 이어 시정의 변화와 혁신을 뒷받침할 실무진용을 구축하는 5급 이하 인사를 10일자로 시행했다고 밝혔다. 이번 인사는 대구시정의 실무를 담당하는 5급 이하 직원의 첫...",
+      "link": "https://www.thepowernews.co.kr/view.php?ud=202608101638311309c923548bdf_7",
+      "press": "thepowernews.co.kr",
+      "press_name": "thepowernews.co.kr",
+      "press_count": 1,
+      "press_list": [
+        "thepowernews.co.kr"
+      ],
+      "press_name_list": [
+        "thepowernews.co.kr"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T18:14:00+09:00",
+      "category": "일반",
+      "importance": 1.761
     },
     {
       "title": "경상북도의회, \"역사적·지리적 명백한 한국 땅\"… 일본 독도 영유권 주...",
@@ -1205,43 +1606,28 @@
       "press_name_list": [
         "news.einfomax.co.kr"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T10:20:00+09:00",
       "category": "정치행정",
-      "importance": 1.76
+      "importance": 1.756
     },
     {
-      "title": "대구 최초 구군장애인체육회 설립 가시화",
-      "desc": "대구시장애인체육회가 장애인 체육 저변을 넓히기 위해 구·군 단위 장애인체육회를 설립하려고 애쓰는 중이다. 이런 가운데 북구청과의 협의를 통해 북구장애인체육회가 닻을 올릴 태세다. 시장애인체육회는 최근 대구...",
-      "link": "https://www.imaeil.com/page/view/2026081114582605096",
-      "press": "imaeil.com",
-      "press_name": "매일신문",
+      "title": "대구경북 호국보훈현장을 찾아서 (4)",
+      "desc": "11일 독립운동 후손들이 마을회관에 모여서  1945년 8월15일을 기억하면 태극기를 흔들고 있다. 김희동 기자 광복 81주년을 맞이했습니다. 우리는 흔히 독립운동이라 하면 대도시의 대규모 만세 시위나 역사 교과서 속...",
+      "link": "https://www.dkilbo.com/news/articleView.html?idxno=551244",
+      "press": "dkilbo.com",
+      "press_name": "dkilbo.com",
       "press_count": 1,
       "press_list": [
-        "imaeil.com"
+        "dkilbo.com"
       ],
       "press_name_list": [
-        "매일신문"
+        "dkilbo.com"
       ],
-      "pub_date": "2026-08-12T10:00:00+09:00",
-      "category": "정치행정",
-      "importance": 1.753
-    },
-    {
-      "title": "우재준·구자근, 반도체 부지선정 구미 배제 집중 추궁",
-      "desc": "구 의원은 부지뿐 아니라 용수, 전력 모두 경북이 충분한 자격을 갖추고 있다고 설명하고 “그럼에도 불구하고 차관님이나 산업부에선 여러 가지 부지를 제안해서 ‘속도’라고 이야기한다”며 “이런 부분들을 명확성을...",
-      "link": "https://www.kbmaeil.com/article/20260812500606",
-      "press": "kbmaeil.com",
-      "press_name": "경북매일",
-      "press_count": 1,
-      "press_list": [
-        "kbmaeil.com"
-      ],
-      "press_name_list": [
-        "경북매일"
-      ],
-      "pub_date": "2026-08-12T17:38:00+09:00",
+      "is_routine": false,
+      "pub_date": "2026-08-12T17:40:00+09:00",
       "category": "일반",
-      "importance": 1.752
+      "importance": 1.749
     },
     {
       "title": "[의료칼럼] 골든타임은 도로 위에서 사라진다",
@@ -1256,9 +1642,10 @@
       "press_name_list": [
         "매일신문"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T06:31:00+09:00",
       "category": "사회복지",
-      "importance": 1.749
+      "importance": 1.744
     },
     {
       "title": "추경호 대구시장 “불필요한 일은 줄이고, 시민을 위한 일은 속도를 더...",
@@ -1273,31 +1660,15 @@
       "press_name_list": [
         "sentv.co.kr"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T09:38:00+09:00",
       "category": "정치행정",
-      "importance": 1.744
+      "importance": 1.74
     },
     {
-      "title": "\"이웃의 위기 신호 가장 가까이서 감지한다\"… 영덕군, 민관 손잡고 생...",
-      "desc": "경북 영덕군이 군민의 소중한 생명의 존엄성을 지키고 정서적 위기에 처한 이웃을 사전에 발굴·보호하기 위해 지역 밀착형 민관 협력체계를 한층 공고히 다졌다. 영덕군보건소는 지난 8월 11일 (사)농가주부모임...",
-      "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2458755",
-      "press": "enewstoday.co.kr",
-      "press_name": "enewstoday.co.kr",
-      "press_count": 1,
-      "press_list": [
-        "enewstoday.co.kr"
-      ],
-      "press_name_list": [
-        "enewstoday.co.kr"
-      ],
-      "pub_date": "2026-08-12T17:12:00+09:00",
-      "category": "일반",
-      "importance": 1.743
-    },
-    {
-      "title": "경남으로 달려간 포항 소방차",
+      "title": "경남 비상 급수 작전에 출동한 포항 소방차",
       "desc": "12일 유례없는 여름 가뭄에 시달리고 있는 경남지역에 국가소방동원령 발령되자 경북 포항남·북부소방서에 대기 중이던 대형 물탱크 차량 2대가 급수 지원을 위해 출동해 급수지원을 하고 있다. 경북소방본부에...",
-      "link": "https://www.news1.kr/photos/8053155",
+      "link": "https://www.news1.kr/photos/8053154",
       "press": "news1.kr",
       "press_name": "뉴스1",
       "press_count": 1,
@@ -1307,9 +1678,10 @@
       "press_name_list": [
         "뉴스1"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T17:10:00+09:00",
       "category": "일반",
-      "importance": 1.743
+      "importance": 1.738
     },
     {
       "title": "[만평] 박형룡 민주당 대구시당위원장 \"국민의힘은 국회의원 12명이지만...",
@@ -1324,9 +1696,10 @@
       "press_name_list": [
         "대구MBC"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T08:39:00+09:00",
       "category": "정치행정",
-      "importance": 1.722
+      "importance": 1.717
     },
     {
       "title": "울릉군 '울릉도·독도 국가지질공원 활성화 방안 연구용역 최종보고 및...",
@@ -1341,9 +1714,82 @@
       "press_name_list": [
         "cnbnews.com"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T15:48:00+09:00",
       "category": "일반",
-      "importance": 1.714
+      "importance": 1.71
+    },
+    {
+      "title": "현대무용 ‘문’, 9월 경산서 선보인다…달에 닿는 전설의 문을 무대로",
+      "desc": "Foundation stated, “This production, which combines contemporary dance, media visuals, and an adventure story, can be enjoyed by everyone from children to adults.” 원본 기사 보기:브레이크뉴스 대구경북",
+      "link": "http://www.breaknews.com/1228480",
+      "press": "breaknews.com",
+      "press_name": "breaknews.com",
+      "press_count": 1,
+      "press_list": [
+        "breaknews.com"
+      ],
+      "press_name_list": [
+        "breaknews.com"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T15:42:00+09:00",
+      "category": "일반",
+      "importance": 1.708
+    },
+    {
+      "title": "\"세 살 때 일본 갔다 해방 뒤 고향으로\"… 영양 90대 주민들이 기억한 광...",
+      "desc": "아버지, 어머니, 오빠하고 다 같이 일본으로 갔어.\" 광복 81주년을 앞두고 만난 경북 영양군 영양읍 현리 남도진(95) 할머니의 기억은 90여 년 전 일제강점기로 거슬러 올라갔다. 세 살 무렵 가족을 따라 일본으로 건너간 남...",
+      "link": "https://www.imaeil.com/page/view/2026081016424530477",
+      "press": "imaeil.com",
+      "press_name": "매일신문",
+      "press_count": 1,
+      "press_list": [
+        "imaeil.com"
+      ],
+      "press_name_list": [
+        "매일신문"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T15:37:00+09:00",
+      "category": "일반",
+      "importance": 1.706
+    },
+    {
+      "title": "청도 운문댐 저수율 24.7%",
+      "desc": "12일 경북 청도군 운문댐의 저수율이 24.7%를 기록하며 수위가 내려가 있다. 2026.8.12",
+      "link": "https://www.yna.co.kr/view/PYH20260812158100053?input=1196m",
+      "press": "yna.co.kr",
+      "press_name": "연합뉴스",
+      "press_count": 1,
+      "press_list": [
+        "yna.co.kr"
+      ],
+      "press_name_list": [
+        "연합뉴스"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T15:33:00+09:00",
+      "category": "일반",
+      "importance": 1.705
+    },
+    {
+      "title": "'무용지물' 대구 스마트·디지털 시설…운영비 부담에 곳곳이 'OFF'",
+      "desc": "대구지역 곳곳에 스마트 기술을 접목한 거리 조성 및 상권 활성화 사업이 추진됐지만, 사업이 끝난 뒤 디지털... 대구 남구 명덕역 물베기거리 인근에는 거리 상가 홍보영상이 송출되는 스마트벤치가 설치돼 있다. 2023년...",
+      "link": "https://www.idaegu.com/news/articleView.html?idxno=664988",
+      "press": "idaegu.com",
+      "press_name": "idaegu.com",
+      "press_count": 1,
+      "press_list": [
+        "idaegu.com"
+      ],
+      "press_name_list": [
+        "idaegu.com"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T15:26:00+09:00",
+      "category": "일반",
+      "importance": 1.702
     },
     {
       "title": "경북도 농업용수 고갈‥군부대 급수차량 투입",
@@ -1358,9 +1804,118 @@
       "press_name_list": [
         "MBC"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T15:21:00+09:00",
       "category": "일반",
-      "importance": 1.705
+      "importance": 1.701
+    },
+    {
+      "title": "청송교육지원청, 급식 현장 안전 강화… 종사자 84명 교육",
+      "desc": "경상북도청송교육지원청(교육장 남정일)은 지난 7일 봉화교육지원청, 영양교육지원청과 함께 초·중·고등학교 급식종사자 84명을 대상으로 ‘여름 방학 중 급식종사자 정기안전보건교육’을 실시했다. 이번 교육은 6시간...",
+      "link": "https://tk.newdaily.co.kr/site/data/html/2026/08/11/2026081100323.html",
+      "press": "tk.newdaily.co.kr",
+      "press_name": "뉴데일리대구경북",
+      "press_count": 1,
+      "press_list": [
+        "tk.newdaily.co.kr"
+      ],
+      "press_name_list": [
+        "뉴데일리대구경북"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T07:52:00+09:00",
+      "category": "정치행정",
+      "importance": 1.699
+    },
+    {
+      "title": "[김도훈 기자의 한 페이지] 김보미 작곡가 \"'대구 품은 시 노래' 따뜻한...",
+      "desc": "8월 '대구의 시혼(詩魂) 인물을 노래하다'(4·11·18·25일, 아트팩토리 청춘), 7월 '시, 노래로 피어나다'(17일, 수성아트피아 소극장), 5월 '달성시향(達城詩響)-고택에 머물다'(2일, 달성군 육신사 금수관)…. 최근 대구에서...",
+      "link": "https://www.imaeil.com/page/view/2026081214392650107",
+      "press": "imaeil.com",
+      "press_name": "매일신문",
+      "press_count": 1,
+      "press_list": [
+        "imaeil.com"
+      ],
+      "press_name_list": [
+        "매일신문"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T15:09:00+09:00",
+      "category": "일반",
+      "importance": 1.696
+    },
+    {
+      "title": "예천군, 국립중앙박물관과 손잡고 지역 유물 반환 및 문화 협력 물꼬 튼...",
+      "desc": "오미봉 태함 또한 과거 지역 내 마땅한 보관 시설을 갖추지 못해 국가귀속 과정을 거쳐 국립대구박물관으로 이전되는 아픔을 겪었다. 안 군수는 이날 유물 반환 건의에 그치지 않고, 오는 2027년 개최될 국보 순회 전의...",
+      "link": "https://www.dkilbo.com/news/articleView.html?idxno=551146",
+      "press": "dkilbo.com",
+      "press_name": "dkilbo.com",
+      "press_count": 1,
+      "press_list": [
+        "dkilbo.com"
+      ],
+      "press_name_list": [
+        "dkilbo.com"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T15:06:00+09:00",
+      "category": "일반",
+      "importance": 1.695
+    },
+    {
+      "title": "2차 공공기관 대도시 집중 이전 무게…대구시 유치전 ‘사활’",
+      "desc": "추경호 대구시장이 혁신도시 공공기관장들에게 협력을 요청한 가운데 대구, 경북이 사활을 걸고 유치전에 나서야 한다는 위기감이 커지고 있습니다. 신주현 기자가 보도합니다. [리포트] 추경호 대구시장이 대구 혁신도시...",
+      "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8634701&ref=A",
+      "press": "news.kbs.co.kr",
+      "press_name": "KBS",
+      "press_count": 1,
+      "press_list": [
+        "news.kbs.co.kr"
+      ],
+      "press_name_list": [
+        "KBS"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T07:40:00+09:00",
+      "category": "정치행정",
+      "importance": 1.695
+    },
+    {
+      "title": "지하철 못 타는 전동킥보드…대리운전 기사들 '위험천만' 귀갓길",
+      "desc": "#대리운전을 하며 대구와 경산을 오가는 A(50대) 씨는 최근 생계 필수품이나 다름없는 전동킥보드를 처분할지... 그는 \"대구 중심지와 거리가 먼 '왜관'에서 손님을 내려줬는데, 전동휠 때문에 대경선 열차에 오르지 못했다...",
+      "link": "https://www.imaeil.com/page/view/2026081214251532714",
+      "press": "imaeil.com",
+      "press_name": "매일신문",
+      "press_count": 1,
+      "press_list": [
+        "imaeil.com"
+      ],
+      "press_name_list": [
+        "매일신문"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T14:58:00+09:00",
+      "category": "일반",
+      "importance": 1.693
+    },
+    {
+      "title": "[문화식객 이춘호의 미각기행] 다방에서 카페까지",
+      "desc": "◆대구다방의 종착역 미도다방 필자의 1980~81년은 음악다방과 음악감상실에 머문다. 그리고 그것과 연동해서 향촌동 판코리아, 중앙상가 지하 대보나이트와 무궁화캐빈도 뻔질나게 들락거렸다. 대구역부터 중앙파출소...",
+      "link": "https://www.imaeil.com/page/view/2026080915130245720",
+      "press": "imaeil.com",
+      "press_name": "매일신문",
+      "press_count": 1,
+      "press_list": [
+        "imaeil.com"
+      ],
+      "press_name_list": [
+        "매일신문"
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-12T14:51:00+09:00",
+      "category": "일반",
+      "importance": 1.69
     },
     {
       "title": "경주시체육회 자금난…‘기부금 캠페인’까지 벌이나",
@@ -1375,26 +1930,10 @@
       "press_name_list": [
         "영남일보"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T14:26:00+09:00",
       "category": "일반",
-      "importance": 1.686
-    },
-    {
-      "title": "[로컬퍼스트 김천] <하> 철도산업으로 경제지도 바뀐다",
-      "desc": "나아가 김천~의성(대구경북신공항) 철도와 김천~청주공항 철도까지 추진해 충청권 및 공항 거점까지 교통망을 넓힐 계획이다. 시는 국토교통부를 방문하는 등 해당 노선들이 제5차 국가철도망 구축계획에 반영될 수...",
-      "link": "https://www.idaegu.com/news/articleView.html?idxno=664979",
-      "press": "idaegu.com",
-      "press_name": "idaegu.com",
-      "press_count": 1,
-      "press_list": [
-        "idaegu.com"
-      ],
-      "press_name_list": [
-        "idaegu.com"
-      ],
-      "pub_date": "2026-08-12T13:40:00+09:00",
-      "category": "일반",
-      "importance": 1.67
+      "importance": 1.681
     },
     {
       "title": "달서구청 김제승 '최강 검객'",
@@ -1409,9 +1948,10 @@
       "press_name_list": [
         "대구신문"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T22:14:00+09:00",
       "category": "스포츠",
-      "importance": 1.663
+      "importance": 1.66
     },
     {
       "title": "공무원 공금횡령 빈발 경북, 시·군 전수점검 나서",
@@ -1426,26 +1966,28 @@
       "press_name_list": [
         "wikitree.co.kr"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T10:26:00+09:00",
       "category": "일반",
-      "importance": 1.602
+      "importance": 1.598
     },
     {
-      "title": "예비 교감 60명, 경산 한방촌서 '쉼이 있는 직무연수'",
-      "desc": "경상북도 웰니스 관광지 지정에 이어 2025 경주 APEC 관련 지정시설로 선정됐으며, 총 15개 체험 프로그램을 한곳에서 즐길 수 있는 원스톱 한방문화 공간으로 운영되고 있다.",
-      "link": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4081055",
-      "press": "kyongbuk.co.kr",
-      "press_name": "경북일보",
+      "title": "군위군, 질서위반행위 과태료 5년간 방치···법치 행정 신뢰 '바닥'",
+      "desc": "사실이 대구시 감사에 적발된 것이다. 이번 적발은 단순한 행정 실수를 넘어, 공정한 법 집행이라는 행정의 근간을 군위군 스스로 흔들었다는 점에서 군민들의 거센 비판과 실망감을 자아내고 있다. 최근 공개된 대구시...",
+      "link": "http://www.newsprime.co.kr/news/article.html?no=743557",
+      "press": "newsprime.co.kr",
+      "press_name": "newsprime.co.kr",
       "press_count": 1,
       "press_list": [
-        "kyongbuk.co.kr"
+        "newsprime.co.kr"
       ],
       "press_name_list": [
-        "경북일보"
+        "newsprime.co.kr"
       ],
-      "pub_date": "2026-08-12T21:52:00+09:00",
-      "category": "문화생활",
-      "importance": 1.564
+      "is_routine": false,
+      "pub_date": "2026-08-12T08:42:00+09:00",
+      "category": "일반",
+      "importance": 1.562
     },
     {
       "title": "문경 슈필라움, 한여름 음악 공연 개최",
@@ -1460,26 +2002,28 @@
       "press_name_list": [
         "대구신문"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T21:34:00+09:00",
       "category": "문화생활",
-      "importance": 1.559
+      "importance": 1.556
     },
     {
-      "title": "한국 가곡의 예술성·시대적 가치 재조명",
-      "desc": "공연은 대구시와 대구문화예술진흥원의 후원으로 진행된다. 이번 공연은 디오오케스트라가 주최·주관하며, 한국 가곡이 지닌 예술성과 시대적 가치를 오늘의 무대에서 새롭게 조명하기 위해 마련됐다. 특히 원로...",
-      "link": "https://www.idaegu.co.kr/news/articleView.html?idxno=556544",
-      "press": "idaegu.co.kr",
-      "press_name": "대구신문",
+      "title": "코레일 대구본부, 12일부터 동대구역서 스마트 교통 안내 키오스크 '교...",
+      "desc": "대구의 관문인 동대구역을 이용하는 지역 주민과 관광객들의 이동 및 환승 동선이 대폭 개선될 전망이다. 한국철도공사(코레일) 대구본부는 12일 열차 운행 현황부터 연계 교통, 지역 관광 정보까지 한눈에 확인할 수 있는...",
+      "link": "https://www.hidomin.com/news/articleView.html?idxno=717031",
+      "press": "hidomin.com",
+      "press_name": "hidomin.com",
       "press_count": 1,
       "press_list": [
-        "idaegu.co.kr"
+        "hidomin.com"
       ],
       "press_name_list": [
-        "대구신문"
+        "hidomin.com"
       ],
-      "pub_date": "2026-08-12T21:24:00+09:00",
+      "is_routine": false,
+      "pub_date": "2026-08-12T16:06:00+09:00",
       "category": "문화생활",
-      "importance": 1.556
+      "importance": 1.459
     },
     {
       "title": "경주 보문단지 용도변경 첫 관문 '공공기여율'... \"13일 결정\"",
@@ -1494,14 +2038,15 @@
       "press_name_list": [
         "경북신문"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T15:44:00+09:00",
       "category": "문화생활",
-      "importance": 1.456
+      "importance": 1.452
     },
     {
-      "title": "[김도훈 기자의 한 페이지] 김보미 작곡가 \"'대구 품은 시 노래' 따뜻한...",
-      "desc": "경북대에서 작곡을 전공한 그는 2022년 우연히 SNS에서 본 영아츠컴퍼니 주최 창작가곡 공모전에 당선되며... 제61회 경북도민체육대회 개회식 주제공연의 작곡을 맡았다. 그밖에 몇몇 지역 창작뮤지컬 곡 작업을 했다. 매년...",
-      "link": "https://www.imaeil.com/page/view/2026081214392650107",
+      "title": "부채에 펼쳐낸 필묵의 아름다움…대구미술협회 여름기획전 '무더위를 잠...",
+      "desc": "대구미술협회가 여름기획전 '무더위를 잠재우는 바람'을 오는 15일부터 28일까지 CL갤러리(대구 수성구 들안로 155 리포브빌딩 1층)에서 연다. 이번 전시에는 서예·문인화 작가 60여 명이 참여한다. 이들은 일상적이고...",
+      "link": "https://www.imaeil.com/page/view/2026081214423579363",
       "press": "imaeil.com",
       "press_name": "매일신문",
       "press_count": 1,
@@ -1511,26 +2056,10 @@
       "press_name_list": [
         "매일신문"
       ],
-      "pub_date": "2026-08-12T15:09:00+09:00",
+      "is_routine": false,
+      "pub_date": "2026-08-12T14:44:00+09:00",
       "category": "문화생활",
-      "importance": 1.445
-    },
-    {
-      "title": "이탈리아 아방가르드 거장, 피아노 현을 뒤흔들다… 대구문예회관 '마리...",
-      "desc": "대구시는 지난 2017년 10월 유네스코 음악창의도시 네트워크에 가입한 이래 세계 각국의 주요 음악도시들과 다각적인 예술 교류를 지속해왔다. 대구문화예술회관은 이번 마리오 마리아니 공연에 이어 오는...",
-      "link": "https://www.dkilbo.com/news/articleView.html?idxno=551169",
-      "press": "dkilbo.com",
-      "press_name": "dkilbo.com",
-      "press_count": 1,
-      "press_list": [
-        "dkilbo.com"
-      ],
-      "press_name_list": [
-        "dkilbo.com"
-      ],
-      "pub_date": "2026-08-12T15:06:00+09:00",
-      "category": "문화생활",
-      "importance": 1.445
+      "importance": 1.435
     },
     {
       "title": "\"대구 복싱 전통 잇는다\" 중리중 복싱부, 국가대표 3명 잇따라 배출",
@@ -1545,33 +2074,17 @@
       "press_name_list": [
         "매일신문"
       ],
+      "is_routine": false,
       "pub_date": "2026-08-12T10:00:00+09:00",
       "category": "스포츠",
-      "importance": 1.434
-    },
-    {
-      "title": "경북도, 관광기념품 공모전 수상작 22점 선정…대상 '경주 쿠키'",
-      "desc": "제29회 경상북도 관광기념품 공모전 대상에 선정된 경주시 강민철 씨의 '경주 쿠키'. 경북도가 '제29회 경상북도 관광기념품 공모전' 수상작 22점을 선정했다. 대상은 첨성대와 석굴암 등 경주의 문화유산을 활용한 강민철...",
-      "link": "http://www.metroseoul.co.kr/article/20260811500522",
-      "press": "metroseoul.co.kr",
-      "press_name": "metroseoul.co.kr",
-      "press_count": 1,
-      "press_list": [
-        "metroseoul.co.kr"
-      ],
-      "press_name_list": [
-        "metroseoul.co.kr"
-      ],
-      "pub_date": "2026-08-12T10:36:00+09:00",
-      "category": "문화생활",
-      "importance": 1.365
+      "importance": 1.43
     }
   ],
   "youtube": [],
   "stats": {
-    "total_articles_raw": 1550,
-    "total_relevant": 781,
-    "total_clusters": 74,
-    "excluded": 769
+    "total_articles_raw": 2004,
+    "total_relevant": 911,
+    "total_clusters": 98,
+    "excluded": 1093
   }
 }
