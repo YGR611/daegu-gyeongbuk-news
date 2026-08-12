@@ -137,6 +137,7 @@
 
   <div class="kpi-row" id="kpi-row"></div>
 
+  <div class="filters" id="sort-row"></div>
   <div class="filters" id="filters"></div>
 
   <section class="block">
@@ -178,11 +179,23 @@ function fmtDateTime(iso) {
 }
 
 let currentCategory = "전체";
+let currentSort = "importance"; // "importance" | "recent"
 let dataset = null;
+
+function sortItems(items) {
+  const copy = items.slice();
+  if (currentSort === "recent") {
+    copy.sort((a, b) => new Date(b.pub_date) - new Date(a.pub_date));
+  } else {
+    copy.sort((a, b) => b.importance - a.importance);
+  }
+  return copy;
+}
 
 function render() {
   const list = document.getElementById("news-list");
-  const items = dataset.articles.filter(a => currentCategory === "전체" || a.category === currentCategory);
+  let items = dataset.articles.filter(a => currentCategory === "전체" || a.category === currentCategory);
+  items = sortItems(items);
   list.innerHTML = "";
   if (items.length === 0) {
     list.innerHTML = '<div class="empty">해당 카테고리의 뉴스가 없습니다.</div>';
@@ -195,6 +208,7 @@ function render() {
     card.target = "_blank";
     card.rel = "noopener";
     const color = CATEGORY_COLOR[a.category] || "var(--cat-8)";
+    const pressName = a.press_name || a.press;
     card.innerHTML = `
       <div class="card-top">
         <span class="badge" style="background:${color}">${a.category}</span>
@@ -202,9 +216,25 @@ function render() {
       </div>
       <div class="card-title">${a.title}</div>
       <div class="card-desc">${a.desc || ""}</div>
-      <div class="card-meta">${a.press} · ${timeAgo(a.pub_date)}</div>
+      <div class="card-meta">${pressName} · ${timeAgo(a.pub_date)}</div>
     `;
     list.appendChild(card);
+  }
+}
+
+function renderSort() {
+  const options = [
+    { key: "importance", label: "중요도순" },
+    { key: "recent", label: "최신순" },
+  ];
+  const wrap = document.getElementById("sort-row");
+  wrap.innerHTML = "";
+  for (const o of options) {
+    const chip = document.createElement("button");
+    chip.className = "chip" + (o.key === currentSort ? " active" : "");
+    chip.textContent = o.label;
+    chip.onclick = () => { currentSort = o.key; renderSort(); render(); };
+    wrap.appendChild(chip);
   }
 }
 
@@ -265,6 +295,7 @@ async function load() {
   }
   document.getElementById("updated-at").textContent = "마지막 갱신: " + fmtDateTime(dataset.generated_at);
   renderKpis();
+  renderSort();
   renderFilters();
   render();
   renderYoutube();
