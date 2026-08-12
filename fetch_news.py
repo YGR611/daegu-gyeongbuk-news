@@ -73,6 +73,11 @@ EXCLUDE_KEYWORDS = [
     "참여 매장은", "신규 오픈", "그랜드 오픈", "지사 개소",
     # TV 프로그램 맛집 소개 재탕 기사 (뉴스로서 가치가 낮은 클릭베이트성 기사)
     "맛집 위치는", "6시 내고향", "생방송 투데이", "생생정보",
+    # 소규모 기부·기탁·나눔 미담성 기사 (지역 뉴스로서 가치가 낮은 홍보성 훈훈한 소식)
+    "기탁식", "성금 기탁", "물품 기탁", "나눔에 나섰다", "나눔을 이어갔다",
+    "폭염에 지친", "나눔", "[영웅시대]",
+    # 백화점·매장 팝업 행사 등 유통업체 프로모션 (기업 홍보기사)
+    "팝업 행사", "프로모션으로",
 ]
 
 # 연합뉴스·뉴시스 등 통신사가 배포하는 '사진 캡션'성 기사 탐지용.
@@ -125,7 +130,29 @@ CATEGORY_RULES = [
     ("스포츠", ["프로야구", "축구", "야구", "경기", "선수", "우승", "구단"], 0.9),
 ]
 
-STOPWORDS = set(list("이가을를은는의에서와과도만로으로하다했다되다된다있다없다위해대해"))
+# 참고: 예전에는 set(list("이가을를은는...")) 형태로 만들어서 실제로는
+# 한 글자짜리 문자 집합이 되어버렸고(글자 단위로 쪼개짐), tokenize()가 애초에
+# 길이 1 이하 토큰을 걸러내기 때문에 사실상 아무 효과가 없었습니다. 아래처럼
+# 실제 불용어 "단어" 목록으로 고쳐서, 뉴스 문장에 자주 나오지만 사건 특정에는
+# 도움이 안 되는 접속사·상투적 보도 표현을 토큰에서 제외합니다.
+STOPWORDS = {
+    "위해", "위한", "대해", "대한", "관해", "관한", "통해", "따라", "따른",
+    "이번", "오늘", "지난", "현재", "한편", "이날", "당시",
+    "밝혔다", "말했다", "전했다", "있다", "없다", "된다", "한다", "됐다", "했다",
+    "이라고", "라고", "라며", "이라며",
+}
+
+# 제목이 "~해야", "~걸어야", "~나서야", "~잡아야" 처럼 "-아야/-어야"(~해야
+# 한다는 뜻을 줄인 표현) 로 끝나면 사실 보도가 아니라 주장·의견을 담은
+# 사설/칼럼성 제목인 경우가 많습니다. (예: "대구시는 '기업은행 본점' 유치에
+# 사활 걸어야" - [사설] 태그가 없어도 사설과 같은 형식) 따옴표·괄호 등 꼬리에
+# 붙는 문장부호는 떼고 마지막 글자를 확인합니다.
+OPINION_TITLE_PATTERN = re.compile(r"(아야|어야)$")
+
+
+def looks_like_opinion_title(title: str) -> bool:
+    cleaned = title.strip().rstrip("\"'”’)]」』】.!?· ")
+    return bool(OPINION_TITLE_PATTERN.search(cleaned))
 
 # 도메인 -> 한글 매체명. 여기 없는 도메인은 그냥 도메인이 표시됩니다.
 # 새로운 매체를 추가하고 싶으면 이 딕셔너리에 한 줄만 추가하면 됩니다.
@@ -301,6 +328,9 @@ def is_relevant(article) -> bool:
     if PHOTO_CAPTION_PATTERN.search(text):
         return False
 
+    if looks_like_opinion_title(title):
+        return False
+
     # 제목에 지역 키워드가 직접 있으면 어느 매체든 인정.
     if any(k in title for k in REGION_KEYWORDS):
         return True
@@ -350,6 +380,17 @@ def tokenize(title: str):
     return set(strip_josa(w) for w in words if len(w) > 1 and w not in STOPWORDS)
 
 
+def bigrams(text: str):
+    """제목+요약에서 '연속된 두 단어' 묶음을 뽑아낸다.
+    ("응급실 뺑뺑이", "대구형 응급의료" 처럼 두 단어가 붙어야 의미가 통하는
+    사건 고유의 표현은, 단어 하나하나로 쪼개면 다른 기사에도 흔해서
+    "드물게 등장하는 단어" 신호에 안 걸리는 경우가 많다. 두 단어를 붙여서
+    보면 훨씬 더 그 사건에 특정적인 신호가 된다.)"""
+    words = re.findall(r"[가-힣A-Za-z0-9]+", text)
+    stems = [strip_josa(w) for w in words if len(w) > 1 and w not in STOPWORDS]
+    return set(zip(stems, stems[1:]))
+
+
 def jaccard(a: set, b: set) -> float:
     if not a or not b:
         return 0.0
@@ -374,7 +415,7 @@ def cluster_articles(articles, window_hours=30, title_threshold=0.4,
                       combined_threshold=0.3, min_distinctive_shared=2):
     """같은 사건을 다룬 기사를 묶는다 (union-find).
 
-    아래 네 신호 중 하나라도 만족하면 같은 사건으로 묶습니다. 제목만 비교하면
+    아래 다섯 신호 중 하나라도 만족하면 같은 사건으로 묶습니다. 제목만 비교하면
     매체마다 표현이 달라서(예: "3층 규제 풀린다" vs "고도지구 폐지 추진") 놓치는
     경우가 많아, 요약까지 함께 보고 + 이 사건에서만 등장하는 단어를 공유하는지,
     같은 정책·사업명을 따옴표로 인용하는지도 같이 확인합니다.
@@ -382,7 +423,11 @@ def cluster_articles(articles, window_hours=30, title_threshold=0.4,
     1) 제목 단어 유사도가 높다
     2) 제목+요약을 합친 단어 유사도가 어느 정도 높다 (표현은 달라도 같은 사실을 담은 경우)
     3) 여러 기사 중 드물게만 등장하는(=이 사건에서만 나오는) 단어를 2개 이상 공유한다
-    4) 제목에 따옴표로 인용된 정책·사업명이 서로 같다
+    4) 제목이나 요약에 따옴표로 인용된 정책·사업명·슬로건이 서로 같다
+    5) "응급실 뺑뺑이"처럼 붙어야 뜻이 통하는 두 단어 묶음(bigram) 중
+       드물게만 등장하는 것을 하나라도 공유한다 (헤드라인 앵글이 매체마다
+       완전히 달라도, 같은 정책 보도자료를 인용 보도한 기사들은 이런
+       고유 표현을 그대로 옮겨 쓰는 경우가 많다)
     """
     n = len(articles)
     parent = list(range(n))
@@ -401,11 +446,17 @@ def cluster_articles(articles, window_hours=30, title_threshold=0.4,
     title_tokens = [tokenize(a["title"]) for a in articles]
     combined_tokens = [tokenize(a["title"]) | tokenize(a["desc"]) for a in articles]
     quoted_phrases = [extract_quoted_phrases(a["title"] + " " + a["desc"]) for a in articles]
+    combined_bigrams = [bigrams(a["title"] + " " + a["desc"]) for a in articles]
 
     doc_freq = {}
     for toks in combined_tokens:
         for t in toks:
             doc_freq[t] = doc_freq.get(t, 0) + 1
+
+    bigram_doc_freq = {}
+    for bg in combined_bigrams:
+        for b in bg:
+            bigram_doc_freq[b] = bigram_doc_freq.get(b, 0) + 1
 
     for i in range(n):
         for j in range(i + 1, n):
@@ -428,6 +479,11 @@ def cluster_articles(articles, window_hours=30, title_threshold=0.4,
             shared = combined_tokens[i] & combined_tokens[j]
             distinctive_shared = [t for t in shared if doc_freq.get(t, 0) <= 3]
             if len(distinctive_shared) >= min_distinctive_shared:
+                union(i, j)
+                continue
+
+            shared_bigrams = combined_bigrams[i] & combined_bigrams[j]
+            if any(bigram_doc_freq.get(b, 0) <= 3 for b in shared_bigrams):
                 union(i, j)
 
     groups = {}
