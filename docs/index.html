@@ -60,10 +60,12 @@
   }
   header.top h1 { font-size: 22px; margin: 0; }
   header.top .updated { font-size: 13px; color: var(--text-muted); }
+  .header-actions { display: flex; gap: 8px; align-items: center; }
   .theme-toggle {
     border: 1px solid var(--border); background: var(--surface-1); color: var(--text-secondary);
     border-radius: 8px; padding: 6px 10px; font-size: 12px; cursor: pointer;
   }
+  .theme-toggle:disabled { opacity: 0.6; cursor: default; }
 
   .kpi-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin-bottom: 20px; }
   .stat-tile {
@@ -114,12 +116,16 @@
       <h1>대구경북 뉴스 대시보드</h1>
       <div class="updated" id="updated-at">불러오는 중...</div>
     </div>
-    <button class="theme-toggle" id="theme-toggle">다크모드</button>
+    <div class="header-actions">
+      <button class="theme-toggle" id="refresh-btn">새로고침</button>
+      <button class="theme-toggle" id="theme-toggle">다크모드</button>
+    </div>
   </header>
 
   <div class="kpi-row" id="kpi-row"></div>
 
   <div class="filters" id="sort-row"></div>
+  <div class="filters" id="region-row"></div>
   <div class="filters" id="filters"></div>
 
   <section class="block">
@@ -161,6 +167,7 @@ function fmtDateTime(iso) {
 }
 
 let currentCategory = "전체";
+let currentRegion = "전체"; // "전체" | "대구" | "경북"
 let currentSort = "importance"; // "importance" | "recent"
 let dataset = null;
 
@@ -174,9 +181,16 @@ function sortItems(items) {
   return copy;
 }
 
+function matchesRegion(a) {
+  if (currentRegion === "전체") return true;
+  return a.region === currentRegion || a.region === "대구경북";
+}
+
 function render() {
   const list = document.getElementById("news-list");
-  let items = dataset.articles.filter(a => currentCategory === "전체" || a.category === currentCategory);
+  let items = dataset.articles.filter(a =>
+    (currentCategory === "전체" || a.category === currentCategory) && matchesRegion(a)
+  );
   items = sortItems(items);
   list.innerHTML = "";
   if (items.length === 0) {
@@ -216,6 +230,19 @@ function renderSort() {
     chip.className = "chip" + (o.key === currentSort ? " active" : "");
     chip.textContent = o.label;
     chip.onclick = () => { currentSort = o.key; renderSort(); render(); };
+    wrap.appendChild(chip);
+  }
+}
+
+function renderRegion() {
+  const regions = ["전체", "대구", "경북"];
+  const wrap = document.getElementById("region-row");
+  wrap.innerHTML = "";
+  for (const r of regions) {
+    const chip = document.createElement("button");
+    chip.className = "chip" + (r === currentRegion ? " active" : "");
+    chip.textContent = r;
+    chip.onclick = () => { currentRegion = r; renderRegion(); render(); };
     wrap.appendChild(chip);
   }
 }
@@ -278,6 +305,7 @@ async function load() {
   document.getElementById("updated-at").textContent = "마지막 갱신: " + fmtDateTime(dataset.generated_at);
   renderKpis();
   renderSort();
+  renderRegion();
   renderFilters();
   render();
   renderYoutube();
@@ -290,6 +318,16 @@ themeToggleBtn.addEventListener("click", () => {
   const next = cur === "dark" ? "light" : "dark";
   root.setAttribute("data-theme", next);
   themeToggleBtn.textContent = next === "dark" ? "라이트모드" : "다크모드";
+});
+
+const refreshBtn = document.getElementById("refresh-btn");
+refreshBtn.addEventListener("click", async () => {
+  refreshBtn.disabled = true;
+  const original = refreshBtn.textContent;
+  refreshBtn.textContent = "새로고침 중...";
+  await load();
+  refreshBtn.textContent = original;
+  refreshBtn.disabled = false;
 });
 
 load();
