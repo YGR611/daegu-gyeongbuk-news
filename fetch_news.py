@@ -66,9 +66,20 @@ EXCLUDE_KEYWORDS = [
     "e스포츠", "이스포츠", "게임대회", "PC방", "LCK ", "LoL ",
     # 사설·칼럼·기고 등 의견성 글 (사실 보도가 아니라 개인 의견이라 제외)
     "[사설]", "[칼럼]", "[기고]", "[시론]", "[특별기고]", "[데스크시각]", "[여의도포럼]",
+    "[영남시론]", "[대구논단]", "[치유의 인문학]",
     # 사진 한 장 + 짧은 설명뿐인 '포토에세이'성 기사에 자주 나오는 상투적 표현
     "즐기고 있다", "만끽하고 있다", "펼쳐지고 있다", "연출하고 있다", "수놓고 있다",
+    # 기업 홍보·매장 오픈·프랜차이즈성 보도자료 (사실 보도라기보다 광고성 기사)
+    "참여 매장은", "신규 오픈", "그랜드 오픈", "지사 개소",
+    # TV 프로그램 맛집 소개 재탕 기사 (뉴스로서 가치가 낮은 클릭베이트성 기사)
+    "맛집 위치는", "6시 내고향", "생방송 투데이", "생생정보",
 ]
+
+# 연합뉴스·뉴시스 등 통신사가 배포하는 '사진 캡션'성 기사 탐지용.
+# 본문 없이 사진 설명 한 줄 + 촬영일자 + 기자 이메일로 끝나는 경우가 많아서
+# (예: "...공판에 출석하고 있다.(공동취재) 2026.08.12. since1999@newsis.com")
+# 정규식으로 걸러냅니다. 제목에 지역 키워드가 있어도 이 패턴이면 제외합니다.
+PHOTO_CAPTION_PATTERN = re.compile(r"\d{4}\.\d{1,2}\.\d{1,2}\.\s*[\w.\-]+@[\w.\-]+")
 
 # 확실한 대구경북 지역 언론사(신문·방송) 도메인만 모았습니다. 이 목록에 있는
 # 곳에서 나온 기사는 기존처럼 "제목 또는 요약문 어디든" 지역 키워드가 있으면
@@ -287,6 +298,9 @@ def is_relevant(article) -> bool:
     if any(k in text for k in EXCLUDE_KEYWORDS):
         return False
 
+    if PHOTO_CAPTION_PATTERN.search(text):
+        return False
+
     # 제목에 지역 키워드가 직접 있으면 어느 매체든 인정.
     if any(k in title for k in REGION_KEYWORDS):
         return True
@@ -311,9 +325,29 @@ def classify(article):
     return best
 
 
+# 조사(은,는,이,가,을,를,의,에,와,과,도,만,로 등)가 명사 뒤에 그대로 붙어 있으면
+# 완전히 같은 단어인데도 다른 토큰으로 인식돼서 중복 판단을 놓치는 경우가 많습니다
+# (예: "생활개선회" vs "생활개선회와", "새마을지도자대학" vs "새마을지도자대학을",
+#  "김천대는" vs "김천대에서"). 완벽한 형태소 분석기는 아니지만, 흔한 조사를
+# 어미에서 떼어내는 간단한 규칙만으로도 이런 경우 상당수가 해결됩니다.
+# (중복 묶기에만 쓰이는 함수라, 관련성 판단(is_relevant)에는 영향을 주지 않습니다.)
+JOSA_SUFFIXES = sorted([
+    "에서는", "으로는", "이라는", "에게서", "부터는", "까지는",
+    "에서", "으로", "부터", "까지", "에게", "한테", "에는", "와는", "과는",
+    "은", "는", "이", "가", "을", "를", "의", "에", "와", "과", "도", "만", "로",
+], key=len, reverse=True)
+
+
+def strip_josa(word: str) -> str:
+    for suf in JOSA_SUFFIXES:
+        if word.endswith(suf) and len(word) - len(suf) >= 2:
+            return word[: -len(suf)]
+    return word
+
+
 def tokenize(title: str):
     words = re.findall(r"[가-힣A-Za-z0-9]+", title)
-    return set(w for w in words if len(w) > 1 and w not in STOPWORDS)
+    return set(strip_josa(w) for w in words if len(w) > 1 and w not in STOPWORDS)
 
 
 def jaccard(a: set, b: set) -> float:
@@ -327,11 +361,13 @@ def jaccard(a: set, b: set) -> float:
 QUOTE_PATTERN = re.compile(r"['\"‘’“”]([^'\"‘’“”]{4,30})['\"‘’“”]")
 
 
-def extract_quoted_phrases(title: str):
-    """제목 속 따옴표로 묶인 문구를 뽑아낸다.
-    ('대구형 응급의료 안전망' 처럼 정책·사업명을 그대로 인용하는 경우가 많아서,
-    이 문구를 공유하면 표현이 달라도 사실상 같은 사건으로 볼 수 있다.)"""
-    return set(m.strip() for m in QUOTE_PATTERN.findall(title) if len(m.strip()) >= 4)
+def extract_quoted_phrases(text: str):
+    """제목+요약 속 따옴표로 묶인 문구를 뽑아낸다.
+    ('대구형 응급의료 안전망' 처럼 정책·사업명·슬로건을 그대로 인용하는 경우가 많은데,
+    제목에는 없고 요약문에만 인용구가 있는 경우도 많아서 (예: 행사 슬로건) 제목뿐
+    아니라 요약문까지 함께 봐야 놓치지 않는다. 이 문구를 공유하면 표현이 달라도
+    사실상 같은 사건으로 볼 수 있다.)"""
+    return set(m.strip() for m in QUOTE_PATTERN.findall(text) if len(m.strip()) >= 4)
 
 
 def cluster_articles(articles, window_hours=30, title_threshold=0.4,
@@ -364,7 +400,7 @@ def cluster_articles(articles, window_hours=30, title_threshold=0.4,
 
     title_tokens = [tokenize(a["title"]) for a in articles]
     combined_tokens = [tokenize(a["title"]) | tokenize(a["desc"]) for a in articles]
-    quoted_phrases = [extract_quoted_phrases(a["title"]) for a in articles]
+    quoted_phrases = [extract_quoted_phrases(a["title"] + " " + a["desc"]) for a in articles]
 
     doc_freq = {}
     for toks in combined_tokens:
