@@ -528,18 +528,28 @@ def extract_quoted_phrases(text: str):
 
 
 def cluster_articles(articles, window_hours=30, title_threshold=0.4,
-                      combined_threshold=0.3, min_distinctive_shared=2):
+                      combined_threshold=0.32, distinctive_threshold=2, min_quote_len=8):
     """같은 사건을 다룬 기사를 묶는다 (union-find).
 
-    아래 네 신호 중 하나라도 만족하면 같은 사건으로 묶습니다. 제목만 비교하면
-    매체마다 표현이 달라서(예: "3층 규제 풀린다" vs "고도지구 폐지 추진") 놓치는
-    경우가 많아, 요약까지 함께 보고 + 이 사건에서만 등장하는 단어를 공유하는지,
-    같은 정책·사업명을 따옴표로 인용하는지도 같이 확인합니다.
+    아래 신호를 만족하면 같은 사건으로 묶습니다. 제목만 비교하면 매체마다 표현이
+    달라서(예: "3층 규제 풀린다" vs "고도지구 폐지 추진") 놓치는 경우가 많아,
+    요약까지 함께 보고 + 이 사건에서만 등장하는 단어를 공유하는지, 같은
+    정책·사업명을 따옴표로 인용하는지도 같이 확인합니다.
 
-    1) 제목 단어 유사도가 높다
-    2) 제목+요약을 합친 단어 유사도가 어느 정도 높다 (표현은 달라도 같은 사실을 담은 경우)
-    3) 여러 기사 중 드물게만 등장하는(=이 사건에서만 나오는) 단어를 2개 이상 공유한다
-    4) 제목이나 요약에 따옴표로 인용된 정책·사업명·슬로건이 서로 같다
+    1) 제목 단어 유사도가 높다 (그 자체로 충분히 강한 신호)
+    2) 제목이나 요약에 따옴표로 인용된 정책·사업명·슬로건이 서로 같다 (너무 짧은
+       인용구는 "총력을 다하겠다"처럼 흔한 문구일 수 있어 min_quote_len 이상만 인정)
+    3) 제목+요약을 합친 단어 유사도가 어느 정도 높으면서(combined_threshold),
+       동시에 이 사건에서만 나오는(=흔치 않은) 단어도 같이 공유한다
+       (distinctive_threshold)
+
+    3번은 원래 "단어 유사도가 높다" 또는 "드문 단어를 공유한다" 둘 중 하나만
+    만족해도 묶었는데, 그러면 "포항"처럼 그 날 여러 사건에 걸쳐 등장하는
+    지역·기관명 하나만 우연히 겹쳐도 전혀 다른 사건이 묶여버리는 문제가 있었습니다
+    (실제로 "경북교육 2030 비전 선포"(포항에서 열림) 기사가 "포항시 소나무재선충병
+    방제", "포항시의회 경북도 방문"처럼 전혀 다른 사건과 42건이나 한 묶음으로 잘못
+    합쳐진 적이 있습니다). 그래서 두 조건을 동시에 만족해야만 묶이도록 강화해서,
+    이런 "약한 신호 하나로 다리처럼 이어지는" 연쇄 병합을 막았습니다.
     """
     n = len(articles)
     parent = list(range(n))
@@ -570,7 +580,8 @@ def cluster_articles(articles, window_hours=30, title_threshold=0.4,
             if dt > window_hours:
                 continue
 
-            if quoted_phrases[i] & quoted_phrases[j]:
+            shared_quotes = [q for q in (quoted_phrases[i] & quoted_phrases[j]) if len(q) >= min_quote_len]
+            if shared_quotes:
                 union(i, j)
                 continue
 
@@ -579,13 +590,10 @@ def cluster_articles(articles, window_hours=30, title_threshold=0.4,
                 continue
 
             if jaccard(combined_tokens[i], combined_tokens[j]) >= combined_threshold:
-                union(i, j)
-                continue
-
-            shared = combined_tokens[i] & combined_tokens[j]
-            distinctive_shared = [t for t in shared if doc_freq.get(t, 0) <= 3]
-            if len(distinctive_shared) >= min_distinctive_shared:
-                union(i, j)
+                shared = combined_tokens[i] & combined_tokens[j]
+                distinctive_shared = [t for t in shared if doc_freq.get(t, 0) <= 2]
+                if len(distinctive_shared) >= distinctive_threshold:
+                    union(i, j)
 
     groups = {}
     for i in range(n):
@@ -603,6 +611,19 @@ def build_dataset():
 
     groups = cluster_articles(relevant)
     now = datetime.now(KST)
+
+    # 진짜 전국적 대형 이슈가 아닌 이상 한 사건이 20개 넘는 매체에 걸쳐 묶이는
+    # 경우는 드뭅니다. 혹시라도 서로 다른 사건이 잘못 한 묶음으로 합쳐지는 문제가
+    # 다시 생기면 눈에 띄도록, 큰 묶음은 액션 로그에 남겨서 나중에 점검할 수
+    # 있게 합니다 (자동으로 기사를 빼거나 하지는 않습니다).
+    for idx_list in groups:
+        if len(idx_list) > 20:
+            sample_titles = [relevant[i]["title"] for i in idx_list[:5]]
+            print(
+                f"[INFO] 큰 묶음 발견 ({len(idx_list)}건) - 서로 다른 사건이 잘못 "
+                f"묶였는지 확인해보세요: {sample_titles}",
+                file=sys.stderr,
+            )
 
     results = []
     for idx_list in groups:
