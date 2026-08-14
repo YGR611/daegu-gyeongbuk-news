@@ -188,7 +188,11 @@ function fmtDateTime(iso) {
 }
 
 let currentCategory = "전체";
-let currentRegion = "전체"; // "전체" | "대구" | "경북"
+// "전체" | "대구" | "경북" | "경북동해안" | "경북북부"
+// "경북"은 기본적으로 동해안(포항·영덕·울진·울릉)·북부(안동·예천·문경·봉화·
+// 영양·청송·의성·영주) 권역 기사는 제외하고 보여주며, 그 지역 기사는 각자
+// 전용 탭을 눌러야만 보입니다.
+let currentRegion = "전체";
 let currentSort = "importance"; // "importance" | "recent"
 let dataset = null;
 
@@ -204,6 +208,18 @@ function sortItems(items) {
 
 function matchesRegion(a) {
   if (currentRegion === "전체") return true;
+  const zones = a.gb_zones || [];
+  if (currentRegion === "경북동해안") {
+    return (a.region === "경북" || a.region === "대구경북") && zones.includes("동해안");
+  }
+  if (currentRegion === "경북북부") {
+    return (a.region === "경북" || a.region === "대구경북") && zones.includes("북부");
+  }
+  if (currentRegion === "경북") {
+    // 동해안·북부 권역으로 따로 분류된 기사는 기본 "경북" 탭에서는 숨기고
+    // 해당 전용 탭에서만 보이게 합니다.
+    return (a.region === "경북" || a.region === "대구경북") && zones.length === 0;
+  }
   return a.region === currentRegion || a.region === "대구경북";
 }
 
@@ -286,14 +302,20 @@ function renderSort() {
 }
 
 function renderRegion() {
-  const regions = ["전체", "대구", "경북"];
+  const regions = [
+    { key: "전체", label: "전체" },
+    { key: "대구", label: "대구" },
+    { key: "경북", label: "경북" },
+    { key: "경북동해안", label: "경북 동해안 권역" },
+    { key: "경북북부", label: "경북 북부 권역" },
+  ];
   const wrap = document.getElementById("region-row");
   wrap.innerHTML = "";
   for (const r of regions) {
     const chip = document.createElement("button");
-    chip.className = "chip" + (r === currentRegion ? " active" : "");
-    chip.textContent = r;
-    chip.onclick = () => { currentRegion = r; renderRegion(); render(); };
+    chip.className = "chip" + (r.key === currentRegion ? " active" : "");
+    chip.textContent = r.label;
+    chip.onclick = () => { currentRegion = r.key; renderRegion(); render(); };
     wrap.appendChild(chip);
   }
 }
