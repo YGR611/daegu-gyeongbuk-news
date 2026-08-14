@@ -85,9 +85,10 @@
   section.block { margin-bottom: 28px; }
   section.block h2 { font-size: 15px; color: var(--text-secondary); margin: 0 0 10px; font-weight: 600; }
 
+  .card-group { margin-bottom: 8px; }
   .card {
     display: block; background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
-    padding: 14px 16px; margin-bottom: 8px; text-decoration: none; color: inherit;
+    padding: 14px 16px; margin-bottom: 0; text-decoration: none; color: inherit;
   }
   .card:hover { border-color: var(--text-muted); }
   .card-top { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; flex-wrap: wrap; }
@@ -95,9 +96,29 @@
     font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 999px; color: #fff;
   }
   .press-count { font-size: 12px; color: var(--text-muted); }
+  .press-count-toggle {
+    font: inherit; font-size: 12px; color: var(--text-muted); background: none; border: none; padding: 0;
+    cursor: pointer; display: inline-flex; align-items: center; gap: 3px;
+  }
+  .press-count-toggle:hover { color: var(--text-secondary); text-decoration: underline; }
+  .press-count-toggle .chevron { display: inline-block; font-size: 9px; transition: transform 0.15s ease; }
+  .press-count-toggle[aria-expanded="true"] .chevron { transform: rotate(180deg); }
   .card-title { font-size: 15px; font-weight: 600; color: var(--text-primary); margin: 0 0 4px; line-height: 1.4; }
   .card-desc { font-size: 13px; color: var(--text-secondary); line-height: 1.5; margin: 0 0 6px; }
   .card-meta { font-size: 12px; color: var(--text-muted); }
+
+  .related-list {
+    background: var(--page-plane); border: 1px solid var(--border); border-top: 1px dashed var(--border);
+    border-radius: 0 0 12px 12px; padding: 4px 16px 6px;
+  }
+  .related-item {
+    display: flex; gap: 8px; align-items: baseline; padding: 7px 0; text-decoration: none; color: inherit;
+    border-top: 1px solid var(--border); font-size: 13px;
+  }
+  .related-item:first-child { border-top: none; }
+  .related-item:hover .related-title { text-decoration: underline; }
+  .related-press { flex: 0 0 auto; color: var(--text-muted); font-size: 12px; min-width: 70px; }
+  .related-title { color: var(--text-secondary); line-height: 1.4; }
 
   .yt-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
   .yt-card { background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; text-decoration: none; color: inherit; }
@@ -198,6 +219,9 @@ function render() {
     return;
   }
   for (const a of items) {
+    const group = document.createElement("div");
+    group.className = "card-group";
+
     const card = document.createElement("a");
     card.className = "card";
     card.href = a.link;
@@ -205,16 +229,43 @@ function render() {
     card.rel = "noopener";
     const color = CATEGORY_COLOR[a.category] || "var(--cat-8)";
     const pressName = a.press_name || a.press;
+    const hasRelated = a.press_count > 1 && Array.isArray(a.related) && a.related.length > 0;
     card.innerHTML = `
       <div class="card-top">
         <span class="badge" style="background:${color}">${a.category}</span>
-        ${a.press_count > 1 ? `<span class="press-count">${a.press_count}개 매체 보도</span>` : ""}
+        ${hasRelated
+          ? `<button type="button" class="press-count-toggle" aria-expanded="false">${a.press_count}개 매체 보도 <span class="chevron">▾</span></button>`
+          : (a.press_count > 1 ? `<span class="press-count">${a.press_count}개 매체 보도</span>` : "")}
       </div>
       <div class="card-title">${a.title}</div>
       <div class="card-desc">${a.desc || ""}</div>
       <div class="card-meta">${pressName} · ${timeAgo(a.pub_date)}</div>
     `;
-    list.appendChild(card);
+    group.appendChild(card);
+
+    if (hasRelated) {
+      const relatedWrap = document.createElement("div");
+      relatedWrap.className = "related-list";
+      relatedWrap.style.display = "none";
+      relatedWrap.innerHTML = a.related.map(r => `
+        <a class="related-item" href="${r.link}" target="_blank" rel="noopener">
+          <span class="related-press">${r.press_name || r.press}</span>
+          <span class="related-title">${r.title}</span>
+        </a>
+      `).join("");
+      group.appendChild(relatedWrap);
+
+      const toggleBtn = card.querySelector(".press-count-toggle");
+      toggleBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const isOpen = relatedWrap.style.display !== "none";
+        relatedWrap.style.display = isOpen ? "none" : "block";
+        toggleBtn.setAttribute("aria-expanded", String(!isOpen));
+      });
+    }
+
+    list.appendChild(group);
   }
 }
 
