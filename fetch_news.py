@@ -54,6 +54,31 @@ GYEONGBUK_REGION_KEYWORDS = [
 ]
 REGION_KEYWORDS = DAEGU_REGION_KEYWORDS + GYEONGBUK_REGION_KEYWORDS
 
+# "청도"(경북 청도군) 같은 두 글자 시·군 이름은 "구청도"(구청+도)처럼 전혀 다른
+# 뜻의 흔한 한국어 단어 안에 우연히 그대로 들어있는 경우가 있습니다. 이런 경우는
+# "시/군" 접미사를 붙이는 방식(위 주석 참고)으로는 못 막습니다 - 실제 기사에서
+# "안동", "김천"처럼 접미사 없이 지역명만 쓰는 경우도 많아서, 접미사를 강제하면
+# 반대로 진짜 관련 기사를 놓치게 되기 때문입니다. 대신 아래처럼 "이 단어가
+# 나오면 특정 시·군을 가리키는 게 절대 아니다"라고 확실히 말할 수 있는 흔한
+# 단어들만 지역 키워드 검사 전에 미리 지워서 오탐을 막습니다.
+# (실제로 "동구·수성구청도 단속에 참여한다"는 순수 대구 기사가 "청도"(청도군)
+# 키워드에 우연히 걸려서 "경북" 기사로 잘못 분류된 적이 있습니다.)
+REGION_FALSE_POSITIVE_WORDS = [
+    "경북대",       # 경북대학교/경북대병원 등은 대구 소재 기관명 ("경북" 오탐 방지)
+    "환경산업",     # "경산" 오탐 (예: "친환경산업")
+    "구청도", "군청도", "시청도",  # "청도" 오탐 (예: "동구청도 참여했다")
+    "편의성",       # "의성" 오탐 (예: "이용 편의성 개선")
+    "제안동의",     # "안동" 오탐 (예: "안건 제안동의를 표결했다")
+    "주문경로",     # "문경" 오탐 (예: "간편한 주문경로 도입")
+]
+
+
+def strip_region_false_positives(text: str) -> str:
+    for w in REGION_FALSE_POSITIVE_WORDS:
+        text = text.replace(w, "")
+    return text
+
+
 # 화면의 "경북" 탭은 기본적으로 아래 10개 시·군(대구와 인접한 경북 중남부
 # 권역) 기사만 보여주고, 동해안권/북부권은 그 지역 이름을 딴 탭을 눌러야만
 # 보이게 합니다. 이 딕셔너리는 그 탭 분류에 쓰는 시·군 키워드 묶음입니다.
@@ -429,8 +454,13 @@ def is_relevant(article) -> bool:
     if looks_like_opinion_title(title):
         return False
 
+    # 지역 키워드를 검사하기 전, "구청도"·"편의성"처럼 우연히 지역명을 포함한
+    # 흔한 단어는 미리 지워서 오탐을 막습니다 (REGION_FALSE_POSITIVE_WORDS 참고).
+    title_for_region = strip_region_false_positives(title)
+    text_for_region = strip_region_false_positives(text)
+
     # 제목에 지역 키워드가 직접 있으면 어느 매체든 인정.
-    if any(k in title for k in REGION_KEYWORDS):
+    if any(k in title_for_region for k in REGION_KEYWORDS):
         return True
 
     # 제목에는 없고 요약문에만 있는 경우: 확실한 대구경북 지역 언론사에서
@@ -438,7 +468,7 @@ def is_relevant(article) -> bool:
     # 언급된 기사를 걸러내기 위함 - 예: 인물 약력에 "대구 OO고 졸업",
     # 여러 지점을 나열하는 프랜차이즈 기사, 전국 뉴스 속 지역 비교 등)
     if article.get("press") in DAEGU_GYEONGBUK_LOCAL_DOMAINS:
-        return any(k in text for k in REGION_KEYWORDS)
+        return any(k in text_for_region for k in REGION_KEYWORDS)
 
     return False
 
@@ -459,7 +489,7 @@ def classify_region(members) -> str:
     같은 사건을 다룬 기사가 여러 개면 그 중 하나라도 언급하면 인정하도록
     묶음 전체(title+desc)를 합쳐서 봅니다. 둘 다 나오면 "대구경북"(공통
     이슈)로 두고, 화면에서는 대구/경북 필터 양쪽에 다 보이게 처리합니다."""
-    text = " ".join(m["title"] + " " + m["desc"] for m in members)
+    text = strip_region_false_positives(" ".join(m["title"] + " " + m["desc"] for m in members))
     has_daegu = any(k in text for k in DAEGU_REGION_KEYWORDS)
     has_gyeongbuk = any(k in text for k in GYEONGBUK_REGION_KEYWORDS)
     if has_daegu and has_gyeongbuk:
@@ -478,7 +508,7 @@ def classify_gb_zones(members) -> list:
     중남부 등 나머지 지역), 동해안·북부는 각각 전용 탭에서만 보여주기 위한
     태그입니다. 두 권역이 함께 언급되면(예: "포항~안동 연결 도로") 두 태그가
     모두 붙어서 두 탭 모두에서 보입니다."""
-    text = " ".join(m["title"] + " " + m["desc"] for m in members)
+    text = strip_region_false_positives(" ".join(m["title"] + " " + m["desc"] for m in members))
     return [zone for zone, keywords in GB_ZONE_KEYWORDS.items() if any(k in text for k in keywords)]
 
 
