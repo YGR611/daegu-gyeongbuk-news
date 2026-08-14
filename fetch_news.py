@@ -44,13 +44,26 @@ NEWS_QUERIES = [
 #  포함돼서 오작동합니다. "상주"=상주하다, "고령"=고령화, "영양"=영양소,
 #  "구미"=구미가 당기다 등도 같은 이유로 접미사를 붙였습니다.)
 # 대구/경북을 화면에서 따로 필터링할 수 있도록 두 목록으로 나눠뒀습니다.
-DAEGU_REGION_KEYWORDS = ["대구", "대구시"]
+# 군위군은 2023년 7월 대구광역시로 편입돼 지금은 행정구역상 경북이 아니라
+# 대구이므로, 경북 키워드가 아니라 대구 키워드 목록에 넣습니다.
+DAEGU_REGION_KEYWORDS = ["대구", "대구시", "군위"]
 GYEONGBUK_REGION_KEYWORDS = [
     "경북", "경상북도", "포항", "안동", "구미시", "경산", "김천",
     "영주시", "영천", "상주시", "문경", "경주시", "칠곡", "성주군", "고령군", "청도",
-    "군위", "의성", "청송군", "영양군", "영덕", "울진", "봉화군", "예천", "울릉",
+    "의성", "청송군", "영양군", "영덕", "울진", "봉화군", "예천", "울릉",
 ]
 REGION_KEYWORDS = DAEGU_REGION_KEYWORDS + GYEONGBUK_REGION_KEYWORDS
+
+# 화면의 "경북" 탭은 기본적으로 아래 10개 시·군(대구와 인접한 경북 중남부
+# 권역) 기사만 보여주고, 동해안권/북부권은 그 지역 이름을 딴 탭을 눌러야만
+# 보이게 합니다. 이 딕셔너리는 그 탭 분류에 쓰는 시·군 키워드 묶음입니다.
+# (REGION_KEYWORDS와 별개로, "경북"으로 이미 판정된 기사 안에서 한 번 더
+# 세부 권역을 나누는 용도입니다.) 영주시는 지리적으로 안동·봉화·예천과
+# 가까운 경북 북부 생활권이라 "북부" 권역에 포함했습니다.
+GB_ZONE_KEYWORDS = {
+    "동해안": ["포항", "영덕", "울진", "울릉"],
+    "북부": ["안동", "예천", "문경", "봉화군", "영양군", "청송군", "의성", "영주시"],
+}
 
 # 지역 관련성이 있어도 뉴스로서 가치가 낮아 제외할 카테고리 (부고/인사/인물소개/공지성)
 EXCLUDE_KEYWORDS = [
@@ -458,6 +471,17 @@ def classify_region(members) -> str:
     return "대구경북"  # 둘 다 안 걸리는 애매한 경우(지역 언론사 요약문 매칭 등) 대비 기본값
 
 
+def classify_gb_zones(members) -> list:
+    """경북 기사 중 "동해안"(포항·영덕·울진·울릉) 또는 "북부"(안동·예천·문경·
+    봉화·영양·청송·의성·영주) 권역에 해당하는 시·군이 언급됐는지 확인합니다.
+    화면의 "경북" 기본 탭은 이 목록에 하나도 안 걸리는 기사만 보여주고(=경북
+    중남부 등 나머지 지역), 동해안·북부는 각각 전용 탭에서만 보여주기 위한
+    태그입니다. 두 권역이 함께 언급되면(예: "포항~안동 연결 도로") 두 태그가
+    모두 붙어서 두 탭 모두에서 보입니다."""
+    text = " ".join(m["title"] + " " + m["desc"] for m in members)
+    return [zone for zone, keywords in GB_ZONE_KEYWORDS.items() if any(k in text for k in keywords)]
+
+
 # 조사(은,는,이,가,을,를,의,에,와,과,도,만,로 등)가 명사 뒤에 그대로 붙어 있으면
 # 완전히 같은 단어인데도 다른 토큰으로 인식돼서 중복 판단을 놓치는 경우가 많습니다
 # (예: "생활개선회" vs "생활개선회와", "새마을지도자대학" vs "새마을지도자대학을",
@@ -610,6 +634,7 @@ def build_dataset():
             cat_weight *= ROUTINE_ANNOUNCEMENT_WEIGHT
 
         region = classify_region(members)
+        gb_zones = classify_gb_zones(members) if region in ("경북", "대구경북") else []
 
         age_hours = max((now - rep["pub_dt"]).total_seconds() / 3600, 0)
         recency_score = max(0.0, 1 - age_hours / 48)  # 48시간 지나면 0에 수렴
@@ -630,6 +655,7 @@ def build_dataset():
             "pub_date": rep["pub_dt"].isoformat(),
             "category": cat_name,
             "region": region,
+            "gb_zones": gb_zones,
             "importance": importance,
         })
 
