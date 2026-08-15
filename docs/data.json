@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T23:54:23.865879+09:00",
+  "generated_at": "2026-08-16T00:48:38.637126+09:00",
   "articles": [
     {
       "title": "상주-영천 고속도로, 9중 추돌 사고로 경상 6명",
@@ -139,7 +139,7 @@
       "category": "사건사고",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 16.933
+      "importance": 16.908
     },
     {
       "title": "이송됐던 경북 의성 외국인 근로자 사망",
@@ -219,7 +219,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 9.528
+      "importance": 9.503
     },
     {
       "title": "영천복숭아 90톤, 전국 이마트 132개점서 만난다",
@@ -273,7 +273,7 @@
       "category": "정치행정",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 5.583
+      "importance": 5.562
     },
     {
       "title": "대구경찰청, '광복절 폭주족' 29명 적발",
@@ -319,45 +319,55 @@
       "category": "범죄사법",
       "region": "대구",
       "gb_zones": [],
-      "importance": 5.17
+      "importance": 5.147
     },
     {
-      "title": "정한석 경북도의회 교육위원장, '경북교육 2030 대전환 비전' 현장 실천...",
-      "desc": "열린 '경북교육 2030 대전환 비전 선포식'에서 새 교육 비전의 현장 안착 중요성을 강조했다.2026.8.13[사진=박종근 기자] 경상북도의회 정한석 교육위원장은 13일 경상북도교육청문화원 대공연장에서 열린 '경북교육 2030...",
-      "link": "https://www.straightnews.co.kr/news/articleView.html?idxno=309002",
+      "title": "의성군, 제81주년 광복절 맞아 순국선열 추모 참배행사 개최",
+      "desc": "경북 의성군은 15일 제81주년 광복절을 맞아 항일독립운동기념탑에서 참배행사를 진행했다.2026.8.15[사진=의성군] 경북 의성군은 15일 제81주년 광복절을 맞아 항일독립운동기념탑에서 참배행사를 진행했다. 이번 행사에는...",
+      "link": "https://www.straightnews.co.kr/news/articleView.html?idxno=309005",
       "press": "straightnews.co.kr",
       "press_name": "straightnews.co.kr",
-      "press_count": 3,
+      "press_count": 4,
       "press_list": [
-        "gukjenews.com",
-        "metroseoul.co.kr",
-        "straightnews.co.kr"
+        "seoulfn.com",
+        "sisafocus.co.kr",
+        "straightnews.co.kr",
+        "viva100.com"
       ],
       "press_name_list": [
-        "gukjenews.com",
-        "metroseoul.co.kr",
-        "straightnews.co.kr"
+        "seoulfn.com",
+        "sisafocus.co.kr",
+        "straightnews.co.kr",
+        "viva100.com"
       ],
       "related": [
         {
-          "title": "경북도의회 교육위원회, 경북교육 2030 현장 변화 위한 지원 검토",
-          "link": "http://www.metroseoul.co.kr/article/20260814500315",
-          "press": "metroseoul.co.kr",
-          "press_name": "metroseoul.co.kr"
+          "title": "의성군, 광복절 맞아 '순국선열·애국지사' 추모",
+          "link": "http://www.sisafocus.co.kr/news/articleView.html?idxno=363857",
+          "press": "sisafocus.co.kr",
+          "press_name": "sisafocus.co.kr"
         },
         {
-          "title": "경북도의회 교육위, 경북교육 미래 비전 공유 및 지원책 모색",
-          "link": "https://www.gukjenews.com/news/articleView.html?idxno=3665423",
-          "press": "gukjenews.com",
-          "press_name": "gukjenews.com"
+          "title": "경북 의성군, 광복절 맞아 독립정신 되새기다",
+          "link": "https://www.viva100.com/article/20260815500097",
+          "press": "viva100.com",
+          "press_name": "viva100.com"
+        },
+        {
+          "title": "의성군, 제81주년 광복절 참배행사 거행···\"순국선열의 숭고한 희생 ...",
+          "link": "https://www.seoulfn.com/news/articleView.html?idxno=635769",
+          "press": "seoulfn.com",
+          "press_name": "seoulfn.com"
         }
       ],
       "is_routine": false,
-      "pub_date": "2026-08-15T10:34:00+09:00",
-      "category": "정치행정",
+      "pub_date": "2026-08-15T15:14:00+09:00",
+      "category": "문화생활",
       "region": "경북",
-      "gb_zones": [],
-      "importance": 3.654
+      "gb_zones": [
+        "북부"
+      ],
+      "importance": 3.57
     },
     {
       "title": "\"독립운동 성지 경북, 광복 100년 향해 도약\"…광복절 경축식 엄수",
@@ -395,7 +405,7 @@
       "category": "일반",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 3.569
+      "importance": 3.55
     },
     {
       "title": "광주 제1전투비행단, 서산·충주·예천으로 임시 분산 배치",
@@ -435,7 +445,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 3.439
+      "importance": 3.42
     },
     {
       "title": "포항 보릿돌교 붕괴 현장 '위험구역' 행정명령…갯바위 낚시 등 출입통...",
@@ -467,7 +477,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 3.394
+      "importance": 3.37
     },
     {
       "title": "80대 사망사고 낸 화물차 운전자, 경북 고령서 검거",
@@ -497,7 +507,7 @@
       "category": "사건사고",
       "region": "경북",
       "gb_zones": [],
-      "importance": 3.297
+      "importance": 3.272
     },
     {
       "title": "붕괴사고 포항 보릿돌교, 위험구역 설정…반경 100m 출입금지 행정명령",
@@ -529,7 +539,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 3.275
+      "importance": 3.25
     },
     {
       "title": "광주 한 도로서 80대 男 숨진 채 발견…차량 운전자 \"몰랐다\"",
@@ -559,7 +569,7 @@
       "category": "사건사고",
       "region": "경북",
       "gb_zones": [],
-      "importance": 3.262
+      "importance": 3.237
     },
     {
       "title": "대구시, 제81주년 광복절 경축식 개최",
@@ -589,7 +599,37 @@
       "category": "정치행정",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.995
+      "importance": 2.975
+    },
+    {
+      "title": "정한석 경북도의회 교육위원장, '경북교육 2030 대전환 비전' 현장 실천...",
+      "desc": "열린 '경북교육 2030 대전환 비전 선포식'에서 새 교육 비전의 현장 안착 중요성을 강조했다.2026.8.13[사진=박종근 기자] 경상북도의회 정한석 교육위원장은 13일 경상북도교육청문화원 대공연장에서 열린 '경북교육 2030...",
+      "link": "https://www.straightnews.co.kr/news/articleView.html?idxno=309002",
+      "press": "straightnews.co.kr",
+      "press_name": "straightnews.co.kr",
+      "press_count": 2,
+      "press_list": [
+        "metroseoul.co.kr",
+        "straightnews.co.kr"
+      ],
+      "press_name_list": [
+        "metroseoul.co.kr",
+        "straightnews.co.kr"
+      ],
+      "related": [
+        {
+          "title": "경북도의회 교육위원회, 경북교육 2030 현장 변화 위한 지원 검토",
+          "link": "http://www.metroseoul.co.kr/article/20260814500315",
+          "press": "metroseoul.co.kr",
+          "press_name": "metroseoul.co.kr"
+        }
+      ],
+      "is_routine": false,
+      "pub_date": "2026-08-15T10:34:00+09:00",
+      "category": "정치행정",
+      "region": "경북",
+      "gb_zones": [],
+      "importance": 2.754
     },
     {
       "title": "대구본부세관, 대구한의대와 'K-메디'...해외시장 진출 지원 맞손",
@@ -619,7 +659,7 @@
       "category": "정치행정",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.735
+      "importance": 2.715
     },
     {
       "title": "대구·경북에 광복절 연휴 최대 120㎜ 비…가뭄 해갈 기대감 ↑",
@@ -651,7 +691,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 2.592
+      "importance": 2.573
     },
     {
       "title": "\"복잡해지는 화재, 정확한 원인 밝힌다\"…경북소방, 감식 역량 강화",
@@ -672,7 +712,28 @@
       "category": "사건사고",
       "region": "경북",
       "gb_zones": [],
-      "importance": 2.571
+      "importance": 2.546
+    },
+    {
+      "title": "“동생을 죽였어요” 소녀의 슬픈 자백…‘칠곡 아동학대 사망’ 범인은...",
+      "desc": "1심 대구지법은 임씨에게 징역 10년, 친아버지에게 징역 3년을 선고했고 2심에서는 언니를 세탁기에 가두고 돌린 혐의 등이 추가 기소되면서 임씨 징역 9년, 친아버지 징역 3년이 더해졌다. 2015년 9월 대법원은 임씨 징역...",
+      "link": "https://www.sedaily.com/article/20079516?ref=naver",
+      "press": "sedaily.com",
+      "press_name": "서울경제",
+      "press_count": 1,
+      "press_list": [
+        "sedaily.com"
+      ],
+      "press_name_list": [
+        "서울경제"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-08-16T00:01:00+09:00",
+      "category": "범죄사법",
+      "region": "대구경북",
+      "gb_zones": [],
+      "importance": 2.479
     },
     {
       "title": "'향찰'이 던진 자치경찰의 숙제…분권은 살리고 통제는 강화",
@@ -693,7 +754,7 @@
       "category": "범죄사법",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 2.446
+      "importance": 2.422
     },
     {
       "title": "대구경찰, '광복절 폭주' 29명 단속...\"사전 조치로 대규모 차단\"",
@@ -714,7 +775,7 @@
       "category": "범죄사법",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.419
+      "importance": 2.396
     },
     {
       "title": "산불 딛고 다시 피어난 만휴정…관광객 1천명 온기, 향낭에 담겨 이재민...",
@@ -737,7 +798,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 2.384
+      "importance": 2.36
     },
     {
       "title": "상주영천고속도로서 차량 9대 충돌··· 6명 다쳐",
@@ -758,7 +819,7 @@
       "category": "사건사고",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 2.383
+      "importance": 2.359
     },
     {
       "title": "광주-대구 고속도로에서 다중 추돌 사고 잇따라",
@@ -779,7 +840,7 @@
       "category": "사건사고",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.373
+      "importance": 2.348
     },
     {
       "title": "경북청소년상담복지센터, 박열의사기념관서 광복 의미 되새겨",
@@ -802,7 +863,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 2.344
+      "importance": 2.321
     },
     {
       "title": "동해해경청, 광복절 연휴 앞두고 경북 연안 안전점검",
@@ -825,7 +886,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 2.344
+      "importance": 2.321
     },
     {
       "title": "'붕괴사고' 포항 보릿돌교 주변 위험구역 지정",
@@ -848,7 +909,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 2.309
+      "importance": 2.284
     },
     {
       "title": "경북서 하루 새 사고 잇따라…공장 기계 사고 30대 사망, 교통·작업 중...",
@@ -871,7 +932,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 2.298
+      "importance": 2.274
     },
     {
       "title": "영덕서 하루 새 교통사고 2건 발생... 2명 다쳐",
@@ -894,7 +955,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 2.287
+      "importance": 2.262
     },
     {
       "title": "말복 점심 먹다 흉기 난동... 청도 노인회관서 80대 주민이 이웃 찔러",
@@ -915,7 +976,7 @@
       "category": "사건사고",
       "region": "경북",
       "gb_zones": [],
-      "importance": 2.269
+      "importance": 2.244
     },
     {
       "title": "광복절 폭주족 비상…대구·부산 선제 단속",
@@ -943,7 +1004,7 @@
       "category": "범죄사법",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.258
+      "importance": 2.235
     },
     {
       "title": "'청정지역' 대구 남구서 재선충병 다시 발생",
@@ -964,7 +1025,7 @@
       "category": "사회복지",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.25
+      "importance": 2.229
     },
     {
       "title": "영천 야사동서 승용차 가로등 들이받아…60대 운전자 경상",
@@ -985,7 +1046,7 @@
       "category": "사건사고",
       "region": "경북",
       "gb_zones": [],
-      "importance": 2.237
+      "importance": 2.213
     },
     {
       "title": "가로등 들이받고 터널 벽 충돌…경북서 운전 부주의 사고 잇따라",
@@ -1008,39 +1069,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 2.231
-    },
-    {
-      "title": "의성군, 제81주년 광복절 맞아 순국선열 추모 참배행사 개최",
-      "desc": "경북 의성군은 15일 제81주년 광복절을 맞아 항일독립운동기념탑에서 참배행사를 진행했다.2026.8.15[사진=의성군] 경북 의성군은 15일 제81주년 광복절을 맞아 항일독립운동기념탑에서 참배행사를 진행했다. 이번 행사에는...",
-      "link": "https://www.straightnews.co.kr/news/articleView.html?idxno=309005",
-      "press": "straightnews.co.kr",
-      "press_name": "straightnews.co.kr",
-      "press_count": 2,
-      "press_list": [
-        "sisafocus.co.kr",
-        "straightnews.co.kr"
-      ],
-      "press_name_list": [
-        "sisafocus.co.kr",
-        "straightnews.co.kr"
-      ],
-      "related": [
-        {
-          "title": "의성군, 광복절 맞아 '순국선열·애국지사' 추모",
-          "link": "http://www.sisafocus.co.kr/news/articleView.html?idxno=363857",
-          "press": "sisafocus.co.kr",
-          "press_name": "sisafocus.co.kr"
-        }
-      ],
-      "is_routine": false,
-      "pub_date": "2026-08-15T15:14:00+09:00",
-      "category": "문화생활",
-      "region": "경북",
-      "gb_zones": [
-        "북부"
-      ],
-      "importance": 2.226
+      "importance": 2.207
     },
     {
       "title": "경산서 전여친 승용차로 들이받은 40대의 이유",
@@ -1061,7 +1090,7 @@
       "category": "범죄사법",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 2.219
+      "importance": 2.196
     },
     {
       "title": "최유철 의성군수, 국비 19조7000억 정조준…550억 추경 ‘민생·미래’ ...",
@@ -1084,7 +1113,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 2.206
+      "importance": 2.184
     },
     {
       "title": "광복절 새벽 대구 도심에 모인 폭주족…경찰 단속에 29명 검거",
@@ -1105,7 +1134,7 @@
       "category": "범죄사법",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.206
+      "importance": 2.183
     },
     {
       "title": "대구경찰, 광복절 폭주족 특별단속 75명 검거",
@@ -1135,7 +1164,7 @@
       "category": "범죄사법",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.199
+      "importance": 2.182
     },
     {
       "title": "경북도, 제4차 기후위기 적응대책 수립…지역별 기후위험 분석",
@@ -1156,28 +1185,7 @@
       "category": "사건사고",
       "region": "경북",
       "gb_zones": [],
-      "importance": 2.192
-    },
-    {
-      "title": "경주시-우즈벡 카슈카다리야주, 경제·산업 교류 확대 모색",
-      "desc": "경북 경주시가 우즈베키스탄 카슈카다리야주 경제사절단과 경제·산업 분야 교류 확대 방안을 논의했다. 우즈벡 카슈카다리야주 경제사절단과 경제·산업 분야 협력 방안을 논의하는 주낙영 경주시장을 비롯한 시 관계자들...",
-      "link": "https://www.gukjenews.com/news/articleView.html?idxno=3665798",
-      "press": "gukjenews.com",
-      "press_name": "gukjenews.com",
-      "press_count": 1,
-      "press_list": [
-        "gukjenews.com"
-      ],
-      "press_name_list": [
-        "gukjenews.com"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-08-15T22:50:00+09:00",
-      "category": "정치행정",
-      "region": "경북",
-      "gb_zones": [],
-      "importance": 2.175
+      "importance": 2.167
     },
     {
       "title": "\"드론 공격·테러 빈틈없이 차단\"…경주시, 통합방위태세 점검",
@@ -1198,7 +1206,28 @@
       "category": "정치행정",
       "region": "경북",
       "gb_zones": [],
-      "importance": 2.175
+      "importance": 2.155
+    },
+    {
+      "title": "경주시-우즈벡 카슈카다리야주, 경제·산업 교류 확대 모색",
+      "desc": "경북 경주시가 우즈베키스탄 카슈카다리야주 경제사절단과 경제·산업 분야 교류 확대 방안을 논의했다. 우즈벡 카슈카다리야주 경제사절단과 경제·산업 분야 협력 방안을 논의하는 주낙영 경주시장을 비롯한 시 관계자들...",
+      "link": "https://www.gukjenews.com/news/articleView.html?idxno=3665798",
+      "press": "gukjenews.com",
+      "press_name": "gukjenews.com",
+      "press_count": 1,
+      "press_list": [
+        "gukjenews.com"
+      ],
+      "press_name_list": [
+        "gukjenews.com"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-08-15T22:50:00+09:00",
+      "category": "정치행정",
+      "region": "경북",
+      "gb_zones": [],
+      "importance": 2.155
     },
     {
       "title": "추경호 대구시장 “대구, 대한민국 새 성장 이끄는 도시로”",
@@ -1219,7 +1248,7 @@
       "category": "정치행정",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.171
+      "importance": 2.15
     },
     {
       "title": "“태극기만 들면 다냐” 광복절마다 되풀이되는 도로 위 폭주…대구서...",
@@ -1240,7 +1269,7 @@
       "category": "범죄사법",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.17
+      "importance": 2.146
     },
     {
       "title": "경북 의성서 캄보디아 국적 30대 노동자, 기계 끼임 사고로 숨져",
@@ -1263,7 +1292,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 2.166
+      "importance": 2.142
     },
     {
       "title": "울진군보건소, 다중이용시설 8곳 레지오넬라 검사",
@@ -1286,7 +1315,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 2.158
+      "importance": 2.136
     },
     {
       "title": "점촌도서관, 하반기 평생교육 21개 강좌 운영",
@@ -1307,7 +1336,7 @@
       "category": "사회복지",
       "region": "경북",
       "gb_zones": [],
-      "importance": 2.157
+      "importance": 2.135
     },
     {
       "title": "北이탈 대학생·청년들…독도서 '통일의 노래' 합창",
@@ -1330,7 +1359,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 2.153
+      "importance": 2.131
     },
     {
       "title": "김병우 대구경찰청장, 율하경로당 찾아 고령자 대상 교통안전 당부",
@@ -1351,7 +1380,7 @@
       "category": "범죄사법",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.15
+      "importance": 2.127
     },
     {
       "title": "[백투더투데이] 카메라출동-“차량 관리예? 별로 신경을···”",
@@ -1372,7 +1401,7 @@
       "category": "범죄사법",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.141
+      "importance": 2.118
     },
     {
       "title": "대구 동성로서 광복절 문화제 열려",
@@ -1393,7 +1422,7 @@
       "category": "사회복지",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.133
+      "importance": 2.111
     },
     {
       "title": "경산시, 자동차부품 산업 AI 로봇으로 영역 넓힌다.",
@@ -1414,7 +1443,7 @@
       "category": "정치행정",
       "region": "경북",
       "gb_zones": [],
-      "importance": 2.132
+      "importance": 2.111
     },
     {
       "title": "이만희 복지위원장, 경북 국립의대 설립 힘 싣는다",
@@ -1437,7 +1466,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 2.125
+      "importance": 2.103
     },
     {
       "title": "국립칠곡숲체원, 이용권 가족 대상 ‘숲누林’ 캠프 운영",
@@ -1458,7 +1487,7 @@
       "category": "사회복지",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 2.121
+      "importance": 2.099
     },
     {
       "title": "칠곡 갤러리 파미, 첫 자체 기획전…원도심 문화공간 역할 확대",
@@ -1479,7 +1508,7 @@
       "category": "사회복지",
       "region": "경북",
       "gb_zones": [],
-      "importance": 2.118
+      "importance": 2.096
     },
     {
       "title": "영양 밤하늘이 과학교실로…영양교육지원청·㈜별따는 영양, 학생 천문...",
@@ -1500,7 +1529,7 @@
       "category": "사회복지",
       "region": "경북",
       "gb_zones": [],
-      "importance": 2.118
+      "importance": 2.096
     },
     {
       "title": "[이통장 발언대] 이병락 임고면 이장협의회장, “농산물 단순판매 넘어...",
@@ -1521,7 +1550,7 @@
       "category": "사회복지",
       "region": "경북",
       "gb_zones": [],
-      "importance": 2.108
+      "importance": 2.087
     },
     {
       "title": "영덕 장사해수욕장서 120cm 멸종위기 푸른바다거북 사체로 발견",
@@ -1544,7 +1573,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 2.077
+      "importance": 2.053
     },
     {
       "title": "청도 노인회관서 80대 남성 흉기 휘둘러…2명 중경상",
@@ -1565,7 +1594,7 @@
       "category": "범죄사법",
       "region": "경북",
       "gb_zones": [],
-      "importance": 2.075
+      "importance": 2.052
     },
     {
       "title": "전국한우협회 대구경북도지회, 영천 장애인에 한우곰탕 1250팩 전달",
@@ -1586,7 +1615,7 @@
       "category": "정치행정",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 2.064
+      "importance": 2.043
     },
     {
       "title": "[세무관서장 회의] 대구국세청, 체납관리단 우수사례 공유…실질적 세정...",
@@ -1607,7 +1636,7 @@
       "category": "범죄사법",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.048
+      "importance": 2.025
     },
     {
       "title": "대구한의대, 과테말라서 85만5000달러 수출 협력 MOU",
@@ -1628,28 +1657,7 @@
       "category": "정치행정",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 2.033
-    },
-    {
-      "title": "'제8회 대구데이 페스티벌', 22~23일 수성못서 개최",
-      "desc": "(사)이벤트협회는 15일 오는 22~23일 대구 수성못 상화동산에서 ‘제8회 대구데이 페스티벌’을 개최한다고 밝혔다. 대구시와 대구시교육청, 수성구가 후원하는 이번 축제는 지역의 역사와 인물, 먹거리, 문화 콘텐츠를...",
-      "link": "https://www.news1.kr/local/daegu-gyeongbuk/6260190",
-      "press": "news1.kr",
-      "press_name": "뉴스1",
-      "press_count": 1,
-      "press_list": [
-        "news1.kr"
-      ],
-      "press_name_list": [
-        "뉴스1"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-08-15T12:43:00+09:00",
-      "category": "사회복지",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 2.032
+      "importance": 2.013
     },
     {
       "title": "경북FTA통상진흥센터, 농수산식품 수출기업 해외진출 지원",
@@ -1670,7 +1678,28 @@
       "category": "경제",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 2.03
+      "importance": 2.01
+    },
+    {
+      "title": "'제8회 대구데이 페스티벌', 22~23일 수성못서 개최",
+      "desc": "(사)이벤트협회는 15일 오는 22~23일 대구 수성못 상화동산에서 ‘제8회 대구데이 페스티벌’을 개최한다고 밝혔다. 대구시와 대구시교육청, 수성구가 후원하는 이번 축제는 지역의 역사와 인물, 먹거리, 문화 콘텐츠를...",
+      "link": "https://www.news1.kr/local/daegu-gyeongbuk/6260190",
+      "press": "news1.kr",
+      "press_name": "뉴스1",
+      "press_count": 1,
+      "press_list": [
+        "news1.kr"
+      ],
+      "press_name_list": [
+        "뉴스1"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-08-15T12:43:00+09:00",
+      "category": "사회복지",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 2.01
     },
     {
       "title": "대구시 수성구청, 청년 홍보 역량 키워 소상공인 지원...로컬크리에이터...",
@@ -1691,7 +1720,7 @@
       "category": "사회복지",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.019
+      "importance": 1.997
     },
     {
       "title": "대구시 서구청, 임산부 친환경 농산물 지원사업 추진...380명 대상 선정",
@@ -1712,7 +1741,7 @@
       "category": "사회복지",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.017
+      "importance": 1.995
     },
     {
       "title": "대구시, 제 81주년 광복절 경축식, 앞서 국립신암선열공원 참배",
@@ -1733,7 +1762,7 @@
       "category": "정치행정",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.013
+      "importance": 1.992
     },
     {
       "title": "대구·경북에서도 제81주년 광복절 경축식과 기념행사 열려",
@@ -1754,7 +1783,7 @@
       "category": "정치행정",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 2.007
+      "importance": 1.986
     },
     {
       "title": "계명문화대-대구강서소방서, 소방·안전 전문인력 양성 협약 체결",
@@ -1775,7 +1804,7 @@
       "category": "사회복지",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.005
+      "importance": 1.983
     },
     {
       "title": "대구보건대학교, 지역 시니어 29명 대상 '기능회복 안티에이징 과정' 운...",
@@ -1796,7 +1825,7 @@
       "category": "사회복지",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.004
+      "importance": 1.983
     },
     {
       "title": "경북도, 광복절 경축식…석주 이상룡 ‘대한민국장’ 추서 서명운동",
@@ -1817,7 +1846,7 @@
       "category": "정치행정",
       "region": "경북",
       "gb_zones": [],
-      "importance": 1.999
+      "importance": 1.978
     },
     {
       "title": "경산시, 가뭄 위기 선제 대응…긴급 대책 회의 열고 저수지 준설·관정...",
@@ -1838,7 +1867,7 @@
       "category": "사회복지",
       "region": "경북",
       "gb_zones": [],
-      "importance": 1.983
+      "importance": 1.961
     },
     {
       "title": "대구교육청, 사이버도박·딥페이크 등 청소년 범죄 예방 강화",
@@ -1859,7 +1888,7 @@
       "category": "사회복지",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.978
+      "importance": 1.956
     },
     {
       "title": "대구교육청, 상반기 적극행정 우수공무원 6명·2팀 선정",
@@ -1880,7 +1909,7 @@
       "category": "사회복지",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.977
+      "importance": 1.956
     },
     {
       "title": "대구교육청, 18∼21일 을지연습…1300여명 참여",
@@ -1901,7 +1930,7 @@
       "category": "사회복지",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.977
+      "importance": 1.956
     },
     {
       "title": "경북교육청, 10월 문 여는 AI교육관 시설·콘텐츠 점검",
@@ -1924,7 +1953,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 1.977
+      "importance": 1.956
     },
     {
       "title": "상주시, 화서면 농촌중심지활성화사업 본격화",
@@ -1945,7 +1974,7 @@
       "category": "사회복지",
       "region": "경북",
       "gb_zones": [],
-      "importance": 1.974
+      "importance": 1.952
     },
     {
       "title": "경북대, 'AIx 바이오 혁신 연구 거점 사업단' 출범해 신약개발 거점 구축...",
@@ -1966,7 +1995,7 @@
       "category": "사회복지",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.97
+      "importance": 1.948
     },
     {
       "title": "[약손+] 몸속에 부는 칼바람 ‘통풍’ ④통풍 유발 ‘고요산혈증’ 원인...",
@@ -1987,7 +2016,7 @@
       "category": "사회복지",
       "region": "경북",
       "gb_zones": [],
-      "importance": 1.97
+      "importance": 1.948
     },
     {
       "title": "타 지역 유치전 막아라…고령축산물공판장 '지역 내 이전' 합의",
@@ -2008,7 +2037,7 @@
       "category": "일반",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.963
+      "importance": 1.944
     },
     {
       "title": "임종식 경북교육감 \"독립운동 교육, 암기 대신 체험으로 전환\"",
@@ -2029,7 +2058,7 @@
       "category": "정치행정",
       "region": "경북",
       "gb_zones": [],
-      "importance": 1.96
+      "importance": 1.939
     },
     {
       "title": "iM뱅크, 2026년 신입행원 공채…29일까지 접수",
@@ -2050,49 +2079,7 @@
       "category": "일반",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.957
-    },
-    {
-      "title": "대구 취업자 1만7천명 늘었지만…여성은 취업자 그대로, 실업자 45%↑",
-      "desc": "대구지역 취업자 수가 증가하고 실업률도 하락하는 등 전반적인 고용지표가 개선되고 있지만, 여성... 동북지방데이터청이 발표한 '2026년 7월 대구광역시 고용동향'에 따르면, 대구지역 취업자는 122만8천 명으로...",
-      "link": "https://www.idaegu.com/news/articleView.html?idxno=665033",
-      "press": "idaegu.com",
-      "press_name": "idaegu.com",
-      "press_count": 1,
-      "press_list": [
-        "idaegu.com"
-      ],
-      "press_name_list": [
-        "idaegu.com"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-08-15T13:16:00+09:00",
-      "category": "경제",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 1.956
-    },
-    {
-      "title": "[너흰 병원 가니? 난 보건소 간다④] 노년 성건강부터 다리 밑 운동교실...",
-      "desc": "대구 수성구보건소 전경. 최시웅기자 \"가까우니까 좋습니다. 병원에 가면 사람이 많아 한참 기다려야 하는데, 보건소는 조용하고 여유가 있습니다.\"11일 대구 수성구보건소 앞에서 만난 양선자(여·70)씨는 이따금 외출길에...",
-      "link": "https://www.yeongnam.com/web/view.php?key=20260815028248816",
-      "press": "yeongnam.com",
-      "press_name": "영남일보",
-      "press_count": 1,
-      "press_list": [
-        "yeongnam.com"
-      ],
-      "press_name_list": [
-        "영남일보"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-08-15T09:32:00+09:00",
-      "category": "사회복지",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 1.956
+      "importance": 1.938
     },
     {
       "title": "대구 남구에서 소나무재선충병 감염목 확인",
@@ -2113,7 +2100,28 @@
       "category": "일반",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.955
+      "importance": 1.936
+    },
+    {
+      "title": "대구 취업자 1만7천명 늘었지만…여성은 취업자 그대로, 실업자 45%↑",
+      "desc": "대구지역 취업자 수가 증가하고 실업률도 하락하는 등 전반적인 고용지표가 개선되고 있지만, 여성... 동북지방데이터청이 발표한 '2026년 7월 대구광역시 고용동향'에 따르면, 대구지역 취업자는 122만8천 명으로...",
+      "link": "https://www.idaegu.com/news/articleView.html?idxno=665033",
+      "press": "idaegu.com",
+      "press_name": "idaegu.com",
+      "press_count": 1,
+      "press_list": [
+        "idaegu.com"
+      ],
+      "press_name_list": [
+        "idaegu.com"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-08-15T13:16:00+09:00",
+      "category": "경제",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 1.935
     },
     {
       "title": "‘학생들이 독립을 외쳤다’…대구 학생 항일운동 재조명",
@@ -2134,7 +2142,28 @@
       "category": "일반",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.953
+      "importance": 1.934
+    },
+    {
+      "title": "[너흰 병원 가니? 난 보건소 간다④] 노년 성건강부터 다리 밑 운동교실...",
+      "desc": "대구 수성구보건소 전경. 최시웅기자 \"가까우니까 좋습니다. 병원에 가면 사람이 많아 한참 기다려야 하는데, 보건소는 조용하고 여유가 있습니다.\"11일 대구 수성구보건소 앞에서 만난 양선자(여·70)씨는 이따금 외출길에...",
+      "link": "https://www.yeongnam.com/web/view.php?key=20260815028248816",
+      "press": "yeongnam.com",
+      "press_name": "영남일보",
+      "press_count": 1,
+      "press_list": [
+        "yeongnam.com"
+      ],
+      "press_name_list": [
+        "영남일보"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-08-15T09:32:00+09:00",
+      "category": "사회복지",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 1.934
     },
     {
       "title": "문경시민 6만4천662명 모두 추석 전 25만원 받는다…민생회복지원금 지...",
@@ -2157,7 +2186,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 1.952
+      "importance": 1.931
     },
     {
       "title": "[대구·경북 날씨예보] 밤부터 최대 120mm 이상 폭우…호우·소나기 동시...",
@@ -2178,7 +2207,7 @@
       "category": "사회복지",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.948
+      "importance": 1.926
     },
     {
       "title": "[영상뉴스] 의성군, 지역 현안사업 국비 확보 위해 국회 방문",
@@ -2201,30 +2230,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 1.946
-    },
-    {
-      "title": "경북교육청, 의성 인공지능교육관 개관 준비 점검…10월 정식 개관",
-      "desc": "임종식 경북교육감과 최태림 경북도의원 등이 14일 의성군 금성면 경상북도교육청 인공지능교육관을 찾아 개관 준비 상황을 점검하고 있다. 경북교육청이 오는 10월 정식 개관하는 경상북도교육청 인공지능교육관의...",
-      "link": "http://www.metroseoul.co.kr/article/20260814500313",
-      "press": "metroseoul.co.kr",
-      "press_name": "metroseoul.co.kr",
-      "press_count": 1,
-      "press_list": [
-        "metroseoul.co.kr"
-      ],
-      "press_name_list": [
-        "metroseoul.co.kr"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-08-15T08:50:00+09:00",
-      "category": "사회복지",
-      "region": "경북",
-      "gb_zones": [
-        "북부"
-      ],
-      "importance": 1.939
+      "importance": 1.924
     },
     {
       "title": "경북 북부 중만생종 벼 출수기 2~3주 빨라...영농 관리 당부",
@@ -2247,7 +2253,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 1.937
+      "importance": 1.918
     },
     {
       "title": "하양~영천 도시철도 연장, 노선·사업비 갈등",
@@ -2268,7 +2274,7 @@
       "category": "일반",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.936
+      "importance": 1.917
     },
     {
       "title": "[놓치기 아까운 경제뉴스]대백 매각될까?...iM금융 핀테크 재편",
@@ -2289,7 +2295,30 @@
       "category": "일반",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.936
+      "importance": 1.917
+    },
+    {
+      "title": "경북교육청, 의성 인공지능교육관 개관 준비 점검…10월 정식 개관",
+      "desc": "임종식 경북교육감과 최태림 경북도의원 등이 14일 의성군 금성면 경상북도교육청 인공지능교육관을 찾아 개관 준비 상황을 점검하고 있다. 경북교육청이 오는 10월 정식 개관하는 경상북도교육청 인공지능교육관의...",
+      "link": "http://www.metroseoul.co.kr/article/20260814500313",
+      "press": "metroseoul.co.kr",
+      "press_name": "metroseoul.co.kr",
+      "press_count": 1,
+      "press_list": [
+        "metroseoul.co.kr"
+      ],
+      "press_name_list": [
+        "metroseoul.co.kr"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-08-15T08:50:00+09:00",
+      "category": "사회복지",
+      "region": "경북",
+      "gb_zones": [
+        "북부"
+      ],
+      "importance": 1.917
     },
     {
       "title": "모레까지 최대 120mm 비...가뭄 해소 기대",
@@ -2310,49 +2339,7 @@
       "category": "일반",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.935
-    },
-    {
-      "title": "경북창조경제혁신센터, G-Star 얼라이언스 업무협약 체결",
-      "desc": "경북창조경제혁신센터(대표이사 유주현)는 지난 13일 경북산학융합원 대회의실에서 'G-Star 얼라이언스 활성화를 위한 상호교류 및 업무협력 협약식'을 개최하고, 경북 지역 창업생태계 강화를 위한 기관 간 협력체계를...",
-      "link": "https://www.hidomin.com/news/articleView.html?idxno=717346",
-      "press": "hidomin.com",
-      "press_name": "hidomin.com",
-      "press_count": 1,
-      "press_list": [
-        "hidomin.com"
-      ],
-      "press_name_list": [
-        "hidomin.com"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-08-15T12:20:00+09:00",
-      "category": "경제",
-      "region": "경북",
-      "gb_zones": [],
-      "importance": 1.935
-    },
-    {
-      "title": "경상북도의회 김일수 행정보건복지위원회 위원장, 한국장애인고용공단...",
-      "desc": "한국장애인고용공단 경북지사(지사장 이효성)를 방문해 경상북도 장애인고용 관련 현장의 소리를 청취했다. 이번 방문은 한국장애인고용공단 이효성 경북지사장으로부터 경상북도지역의 장애인고용관련 주요 이슈를...",
-      "link": "https://www.hidomin.com/news/articleView.html?idxno=717345",
-      "press": "hidomin.com",
-      "press_name": "hidomin.com",
-      "press_count": 1,
-      "press_list": [
-        "hidomin.com"
-      ],
-      "press_name_list": [
-        "hidomin.com"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-08-15T12:20:00+09:00",
-      "category": "정치행정",
-      "region": "경북",
-      "gb_zones": [],
-      "importance": 1.935
+      "importance": 1.916
     },
     {
       "title": "포항시, 구룡포 보릿돌교 일원 ‘위험구역’ 지정…육·해상 출입 통제",
@@ -2375,7 +2362,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 1.933
+      "importance": 1.914
     },
     {
       "title": "장동혁, 광복절 태극기 집회서 “李대통령 연임 개헌 저지”",
@@ -2396,7 +2383,49 @@
       "category": "일반",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.933
+      "importance": 1.914
+    },
+    {
+      "title": "경상북도의회 김일수 행정보건복지위원회 위원장, 한국장애인고용공단...",
+      "desc": "한국장애인고용공단 경북지사(지사장 이효성)를 방문해 경상북도 장애인고용 관련 현장의 소리를 청취했다. 이번 방문은 한국장애인고용공단 이효성 경북지사장으로부터 경상북도지역의 장애인고용관련 주요 이슈를...",
+      "link": "https://www.hidomin.com/news/articleView.html?idxno=717345",
+      "press": "hidomin.com",
+      "press_name": "hidomin.com",
+      "press_count": 1,
+      "press_list": [
+        "hidomin.com"
+      ],
+      "press_name_list": [
+        "hidomin.com"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-08-15T12:20:00+09:00",
+      "category": "정치행정",
+      "region": "경북",
+      "gb_zones": [],
+      "importance": 1.914
+    },
+    {
+      "title": "경북창조경제혁신센터, G-Star 얼라이언스 업무협약 체결",
+      "desc": "경북창조경제혁신센터(대표이사 유주현)는 지난 13일 경북산학융합원 대회의실에서 'G-Star 얼라이언스 활성화를 위한 상호교류 및 업무협력 협약식'을 개최하고, 경북 지역 창업생태계 강화를 위한 기관 간 협력체계를...",
+      "link": "https://www.hidomin.com/news/articleView.html?idxno=717346",
+      "press": "hidomin.com",
+      "press_name": "hidomin.com",
+      "press_count": 1,
+      "press_list": [
+        "hidomin.com"
+      ],
+      "press_name_list": [
+        "hidomin.com"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-08-15T12:20:00+09:00",
+      "category": "경제",
+      "region": "경북",
+      "gb_zones": [],
+      "importance": 1.914
     },
     {
       "title": "'광복절 연휴' 대구·경북 최고 120mm 강하고 많은 비",
@@ -2417,7 +2446,7 @@
       "category": "일반",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.921
+      "importance": 1.903
     },
     {
       "title": "홍준표, 이진숙 겨냥? \"5·18 부정·폄훼는 시대정신 부정\"",
@@ -2438,7 +2467,7 @@
       "category": "정치행정",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.918
+      "importance": 1.897
     },
     {
       "title": "농협대구본부, 폭염·가뭄 대응 위해 농축산 피해 예방 현장 특별점검 ...",
@@ -2459,7 +2488,7 @@
       "category": "정치행정",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.917
+      "importance": 1.896
     },
     {
       "title": "영주 '8·15 광복쌀' 첫 수확…109일 만에 햅쌀 결실",
@@ -2482,7 +2511,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 1.917
+      "importance": 1.896
     },
     {
       "title": "폭염·고수온으로 경북도내 가축·양식 어류 폐사 급증",
@@ -2503,7 +2532,7 @@
       "category": "사회복지",
       "region": "경북",
       "gb_zones": [],
-      "importance": 1.913
+      "importance": 1.891
     },
     {
       "title": "경북 폭염·열대야 2배 늘어...‘기후위기 적응대책’ 본격화",
@@ -2524,7 +2553,7 @@
       "category": "사회복지",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.912
+      "importance": 1.89
     },
     {
       "title": "손제이 대역전극·이규은 2차 연장 버디… '제33회 송암배' 화려한 막 내...",
@@ -2545,7 +2574,7 @@
       "category": "경제",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.908
+      "importance": 1.888
     },
     {
       "title": "김민석, 與 호남 순회경선서 과반 1위…전남광주57.0%·전북 58.39%",
@@ -2566,7 +2595,7 @@
       "category": "일반",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.906
+      "importance": 1.887
     },
     {
       "title": "안병윤 예천군수, 이철우 지사에 주요 현안 지원 건의",
@@ -2589,7 +2618,51 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 1.897
+      "importance": 1.876
+    },
+    {
+      "title": "내일날씨, 제주·부산·대구 '100mm이상 비소식' 월요일까지",
+      "desc": "경남중부남해안 200mm 이상)/ 대구.경북: 50~100mm(많은 곳 120mm 이상)/ (16~17일) 울릉도.독도: 30~80mm... 전남: 5~40mm - (경상권) 대구.경북, 경남내륙: 5~40mm 16일부터 남부지방을 중심으로 바람이 순간풍속 55km/h(15m...",
+      "link": "https://www.gukjenews.com/news/articleView.html?idxno=3665714",
+      "press": "gukjenews.com",
+      "press_name": "gukjenews.com",
+      "press_count": 1,
+      "press_list": [
+        "gukjenews.com"
+      ],
+      "press_name_list": [
+        "gukjenews.com"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-08-15T18:30:00+09:00",
+      "category": "일반",
+      "region": "대구경북",
+      "gb_zones": [
+        "동해안"
+      ],
+      "importance": 1.869
+    },
+    {
+      "title": "'예술을 소유하다' 2026 경북예술장터 서울 인사동서 개막",
+      "desc": "사진=2026경북예술장터 김은선작가/최정희 기자 경북 지역 예술인들의 창작 활동을 한자리에서 만나볼 수 있는 '2026 경북예술장터'가 서울 인사동에서 막을 올렸다. '2026 경북예술장터'는 8월 13일부터 23일까지 서울...",
+      "link": "https://www.gukjenews.com/news/articleView.html?idxno=3665749",
+      "press": "gukjenews.com",
+      "press_name": "gukjenews.com",
+      "press_count": 1,
+      "press_list": [
+        "gukjenews.com"
+      ],
+      "press_name_list": [
+        "gukjenews.com"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-08-15T18:30:00+09:00",
+      "category": "일반",
+      "region": "경북",
+      "gb_zones": [],
+      "importance": 1.869
     },
     {
       "title": "김장호 구미시장 \"구미, 반도체 특화단지 수용 용지·전력 충분\"",
@@ -2613,51 +2686,7 @@
         "동해안",
         "북부"
       ],
-      "importance": 1.89
-    },
-    {
-      "title": "내일날씨, 제주·부산·대구 '100mm이상 비소식' 월요일까지",
-      "desc": "경남중부남해안 200mm 이상)/ 대구.경북: 50~100mm(많은 곳 120mm 이상)/ (16~17일) 울릉도.독도: 30~80mm... 전남: 5~40mm - (경상권) 대구.경북, 경남내륙: 5~40mm 16일부터 남부지방을 중심으로 바람이 순간풍속 55km/h(15m...",
-      "link": "https://www.gukjenews.com/news/articleView.html?idxno=3665714",
-      "press": "gukjenews.com",
-      "press_name": "gukjenews.com",
-      "press_count": 1,
-      "press_list": [
-        "gukjenews.com"
-      ],
-      "press_name_list": [
-        "gukjenews.com"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-08-15T18:30:00+09:00",
-      "category": "일반",
-      "region": "대구경북",
-      "gb_zones": [
-        "동해안"
-      ],
-      "importance": 1.887
-    },
-    {
-      "title": "'예술을 소유하다' 2026 경북예술장터 서울 인사동서 개막",
-      "desc": "사진=2026경북예술장터 김은선작가/최정희 기자 경북 지역 예술인들의 창작 활동을 한자리에서 만나볼 수 있는 '2026 경북예술장터'가 서울 인사동에서 막을 올렸다. '2026 경북예술장터'는 8월 13일부터 23일까지 서울...",
-      "link": "https://www.gukjenews.com/news/articleView.html?idxno=3665749",
-      "press": "gukjenews.com",
-      "press_name": "gukjenews.com",
-      "press_count": 1,
-      "press_list": [
-        "gukjenews.com"
-      ],
-      "press_name_list": [
-        "gukjenews.com"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-08-15T18:30:00+09:00",
-      "category": "일반",
-      "region": "경북",
-      "gb_zones": [],
-      "importance": 1.887
+      "importance": 1.869
     },
     {
       "title": "\"순국선열 희생과 헌신에 감사\" 경북도청서 광복절 경축식",
@@ -2678,7 +2707,7 @@
       "category": "정치행정",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.885
+      "importance": 1.864
     },
     {
       "title": "대구·경북, 광복절 경축행사…\"선열의 뜻 새겨 더 강한 나라 만들겠다...",
@@ -2699,7 +2728,7 @@
       "category": "정치행정",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.882
+      "importance": 1.862
     },
     {
       "title": "[경제기획 HOUSE④] 집이 만든 또다른 불평등…거래도 안되는 자산의 덫",
@@ -2720,7 +2749,7 @@
       "category": "경제",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.877
+      "importance": 1.856
     },
     {
       "title": "경산시, 미래 모빌리티 로봇산업 육성 위한 국비 확보 총력",
@@ -2741,7 +2770,7 @@
       "category": "정치행정",
       "region": "경북",
       "gb_zones": [],
-      "importance": 1.876
+      "importance": 1.855
     },
     {
       "title": "[서훈 재평가 시급한 대구경북 독립운동가의 알려지지 않은 기록 上]신...",
@@ -2762,7 +2791,7 @@
       "category": "정치행정",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.873
+      "importance": 1.852
     },
     {
       "title": "'심우준 선발 제외' 한화, 연패 탈출 위한 타순 변경 승부수 [오!쎈 대구...",
@@ -2783,7 +2812,7 @@
       "category": "일반",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.863
+      "importance": 1.844
     },
     {
       "title": "“9440억 재산분할 너무 과하다”…최태원 SK회장 대법원 재상고 진짜 속...",
@@ -2804,7 +2833,28 @@
       "category": "경제",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.861
+      "importance": 1.84
+    },
+    {
+      "title": "영천시 적극행정 최우수에 조영흔 주무관 선정",
+      "desc": "‘천원주택’, 경북 시부 최초 무인민원발급기 수수료 무료화 및 장애인 편의 개선, 장기 방치 빈집 철거와... 특허기술을 지방재정 확충으로 연결한 성과는 경북도에서도 좋은 평가를 받았다. 영천시 세무과 김민곤...",
+      "link": "https://www.kbsm.net/news/view.php?idx=530464",
+      "press": "kbsm.net",
+      "press_name": "경북신문",
+      "press_count": 1,
+      "press_list": [
+        "kbsm.net"
+      ],
+      "press_name_list": [
+        "경북신문"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-08-15T17:04:00+09:00",
+      "category": "일반",
+      "region": "경북",
+      "gb_zones": [],
+      "importance": 1.839
     },
     {
       "title": "박용선 포항시장은 소나무재선충과의 전쟁에서 이길수 있을까",
@@ -2827,70 +2877,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 1.859
-    },
-    {
-      "title": "영천시 적극행정 최우수에 조영흔 주무관 선정",
-      "desc": "‘천원주택’, 경북 시부 최초 무인민원발급기 수수료 무료화 및 장애인 편의 개선, 장기 방치 빈집 철거와... 특허기술을 지방재정 확충으로 연결한 성과는 경북도에서도 좋은 평가를 받았다. 영천시 세무과 김민곤...",
-      "link": "https://www.kbsm.net/news/view.php?idx=530464",
-      "press": "kbsm.net",
-      "press_name": "경북신문",
-      "press_count": 1,
-      "press_list": [
-        "kbsm.net"
-      ],
-      "press_name_list": [
-        "경북신문"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-08-15T17:04:00+09:00",
-      "category": "일반",
-      "region": "경북",
-      "gb_zones": [],
-      "importance": 1.858
-    },
-    {
-      "title": "경북도, 10개국 재외동포 청년과 모국 역사·문화 공유",
-      "desc": "이철우 경북도지사와 고도원 아침편지문화재단 이사장 등이 14일 경북도청에서 K-디아스포라 재외동포 청년들과 만남을 가진 뒤 기념촬영을 하고 있다. 경북도가 미국과 호주, 스페인, 독일 등 10개국 재외동포 청년 30명을...",
-      "link": "http://www.metroseoul.co.kr/article/20260814500311",
-      "press": "metroseoul.co.kr",
-      "press_name": "metroseoul.co.kr",
-      "press_count": 1,
-      "press_list": [
-        "metroseoul.co.kr"
-      ],
-      "press_name_list": [
-        "metroseoul.co.kr"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-08-15T08:50:00+09:00",
-      "category": "정치행정",
-      "region": "경북",
-      "gb_zones": [],
-      "importance": 1.855
-    },
-    {
-      "title": "삼익THK, 2분기 영업이익 17억 원…분기 흑자 전환",
-      "desc": "대구의 자동화 장비업체 삼익THK가 반도체 관련 수주가 늘면서 적자 폭을 크게 줄였습니다. 금융감독원 전자공시를 보면 올해(2026년) 상반기 연결 기준 매출은 1,431억 원으로 1년 전보다 27.5% 늘었고, 영업손실은...",
-      "link": "https://www.tbc.co.kr/news/view?pno=20260814173031AE04011&id=209808",
-      "press": "tbc.co.kr",
-      "press_name": "TBC",
-      "press_count": 1,
-      "press_list": [
-        "tbc.co.kr"
-      ],
-      "press_name_list": [
-        "TBC"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-08-15T16:52:00+09:00",
-      "category": "일반",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 1.853
+      "importance": 1.838
     },
     {
       "title": "이월드, 테마파크는 13억 원 적자…쥬얼리 부문이 흑자 견인",
@@ -2911,7 +2898,28 @@
       "category": "일반",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.853
+      "importance": 1.834
+    },
+    {
+      "title": "삼익THK, 2분기 영업이익 17억 원…분기 흑자 전환",
+      "desc": "대구의 자동화 장비업체 삼익THK가 반도체 관련 수주가 늘면서 적자 폭을 크게 줄였습니다. 금융감독원 전자공시를 보면 올해(2026년) 상반기 연결 기준 매출은 1,431억 원으로 1년 전보다 27.5% 늘었고, 영업손실은...",
+      "link": "https://www.tbc.co.kr/news/view?pno=20260814173031AE04011&id=209808",
+      "press": "tbc.co.kr",
+      "press_name": "TBC",
+      "press_count": 1,
+      "press_list": [
+        "tbc.co.kr"
+      ],
+      "press_name_list": [
+        "TBC"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-08-15T16:52:00+09:00",
+      "category": "일반",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 1.834
     },
     {
       "title": "주호영 의원 \"이 대통령에 행정통합 협조 요청\"",
@@ -2932,7 +2940,28 @@
       "category": "일반",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.853
+      "importance": 1.834
+    },
+    {
+      "title": "경북도, 10개국 재외동포 청년과 모국 역사·문화 공유",
+      "desc": "이철우 경북도지사와 고도원 아침편지문화재단 이사장 등이 14일 경북도청에서 K-디아스포라 재외동포 청년들과 만남을 가진 뒤 기념촬영을 하고 있다. 경북도가 미국과 호주, 스페인, 독일 등 10개국 재외동포 청년 30명을...",
+      "link": "http://www.metroseoul.co.kr/article/20260814500311",
+      "press": "metroseoul.co.kr",
+      "press_name": "metroseoul.co.kr",
+      "press_count": 1,
+      "press_list": [
+        "metroseoul.co.kr"
+      ],
+      "press_name_list": [
+        "metroseoul.co.kr"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-08-15T08:50:00+09:00",
+      "category": "정치행정",
+      "region": "경북",
+      "gb_zones": [],
+      "importance": 1.834
     },
     {
       "title": "포항시 고수온 피해 12억 원 돌파…광복절 연휴 비 예보 촉각",
@@ -2955,7 +2984,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 1.851
+      "importance": 1.832
     },
     {
       "title": "추석 열차 승차권, 9월3일부터 예매…‘SR 회원’은 사전전환 필수",
@@ -2976,7 +3005,7 @@
       "category": "일반",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.846
+      "importance": 1.828
     },
     {
       "title": "포항시의회, 경북도·도의회 찾아 지역 현안 협력 요청",
@@ -2999,49 +3028,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 1.845
-    },
-    {
-      "title": "경북창조경제혁신센터, 'G-Star 얼라이언스' 구축…지역 스타트업 전 주...",
-      "desc": "경북창조경제혁신센터가 지역 창업기업의 아이디어 발굴부터 기술사업화, 투자 유치까지 전 주기를 책임지는 실질적 협력 네트워크를 가동한다. 경북창조경제혁신센터(대표 유주현)는 최근 경북산학융합원에서...",
-      "link": "https://www.etnews.com/20260815000004",
-      "press": "etnews.com",
-      "press_name": "전자신문",
-      "press_count": 1,
-      "press_list": [
-        "etnews.com"
-      ],
-      "press_name_list": [
-        "전자신문"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-08-15T08:17:00+09:00",
-      "category": "경제",
-      "region": "경북",
-      "gb_zones": [],
-      "importance": 1.842
-    },
-    {
-      "title": "경북도내 첫 벼베기…칠곡 김종기씨 조생종 황금벼·고시히카리·윤담 ...",
-      "desc": "경북도내에서 올해 첫 벼베기가 14일 칠곡군 기산면 금종쌀 김종기(77) 대표 농가에서 진행됐다. 김 대표는 6㏊ 규모에서 지난 4월 15일 조생종 황금벼와 고시히카리, 윤담 품종을 모내기해, 일반 농가보다 한 달 가량...",
-      "link": "https://www.imaeil.com/page/view/2026081515474492770",
-      "press": "imaeil.com",
-      "press_name": "매일신문",
-      "press_count": 1,
-      "press_list": [
-        "imaeil.com"
-      ],
-      "press_name_list": [
-        "매일신문"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-08-15T16:14:00+09:00",
-      "category": "일반",
-      "region": "경북",
-      "gb_zones": [],
-      "importance": 1.84
+      "importance": 1.824
     },
     {
       "title": "경북안동지역자활센터·안동시·서안동농협장례식장, 다회용기 확산 맞...",
@@ -3064,7 +3051,28 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 1.84
+      "importance": 1.821
+    },
+    {
+      "title": "경북도내 첫 벼베기…칠곡 김종기씨 조생종 황금벼·고시히카리·윤담 ...",
+      "desc": "경북도내에서 올해 첫 벼베기가 14일 칠곡군 기산면 금종쌀 김종기(77) 대표 농가에서 진행됐다. 김 대표는 6㏊ 규모에서 지난 4월 15일 조생종 황금벼와 고시히카리, 윤담 품종을 모내기해, 일반 농가보다 한 달 가량...",
+      "link": "https://www.imaeil.com/page/view/2026081515474492770",
+      "press": "imaeil.com",
+      "press_name": "매일신문",
+      "press_count": 1,
+      "press_list": [
+        "imaeil.com"
+      ],
+      "press_name_list": [
+        "매일신문"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-08-15T16:14:00+09:00",
+      "category": "일반",
+      "region": "경북",
+      "gb_zones": [],
+      "importance": 1.821
     },
     {
       "title": "칠곡 기산면서 경북 첫 벼베기…햅쌀 출하 시작",
@@ -3085,7 +3093,28 @@
       "category": "일반",
       "region": "경북",
       "gb_zones": [],
-      "importance": 1.839
+      "importance": 1.821
+    },
+    {
+      "title": "경북창조경제혁신센터, 'G-Star 얼라이언스' 구축…지역 스타트업 전 주...",
+      "desc": "경북창조경제혁신센터가 지역 창업기업의 아이디어 발굴부터 기술사업화, 투자 유치까지 전 주기를 책임지는 실질적 협력 네트워크를 가동한다. 경북창조경제혁신센터(대표 유주현)는 최근 경북산학융합원에서...",
+      "link": "https://www.etnews.com/20260815000004",
+      "press": "etnews.com",
+      "press_name": "전자신문",
+      "press_count": 1,
+      "press_list": [
+        "etnews.com"
+      ],
+      "press_name_list": [
+        "전자신문"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-08-15T08:17:00+09:00",
+      "category": "경제",
+      "region": "경북",
+      "gb_zones": [],
+      "importance": 1.821
     },
     {
       "title": "대구경북작가회의 22일 제32회 여름 문학제",
@@ -3106,7 +3135,7 @@
       "category": "일반",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.829
+      "importance": 1.81
     },
     {
       "title": "[양진오의 대구경북의 집이야기] 쉼으로 물든 집, 영양 서석지 경정",
@@ -3127,7 +3156,7 @@
       "category": "일반",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.807
+      "importance": 1.788
     },
     {
       "title": "내신 부담 줄이는 5등급제, 자퇴 부추기는 요인?",
@@ -3148,7 +3177,7 @@
       "category": "일반",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.796
+      "importance": 1.777
     },
     {
       "title": "영천복숭아 90t 전국 동시 판매…대전 성심당 납품 품질 경쟁력도 입증",
@@ -3169,7 +3198,7 @@
       "category": "일반",
       "region": "경북",
       "gb_zones": [],
-      "importance": 1.794
+      "importance": 1.775
     },
     {
       "title": "비 내리는 포항 송도해수욕장",
@@ -3192,7 +3221,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 1.79
+      "importance": 1.771
     },
     {
       "title": "오페라·시노래로 만나는 저항시인 이육사…대구서 잇따라 선보여",
@@ -3213,7 +3242,7 @@
       "category": "일반",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.777
+      "importance": 1.758
     },
     {
       "title": "[프로야구 대구전적] 삼성 11-6 한화",
@@ -3234,7 +3263,7 @@
       "category": "스포츠",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.774
+      "importance": 1.757
     },
     {
       "title": "호남서 압승한 김민석, 남은 경기·서울서 정청래 뒤집을까",
@@ -3255,7 +3284,7 @@
       "category": "스포츠",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.757
+      "importance": 1.74
     },
     {
       "title": "경산에서 여름의 활기를 만끽하는 가볼 만한 곳들",
@@ -3276,7 +3305,7 @@
       "category": "일반",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.755
+      "importance": 1.737
     },
     {
       "title": "뉴욕 광장 전광판 달군 '봉화사과' 한글 광고…봉화군 젊은 공무원 '역...",
@@ -3299,7 +3328,28 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 1.747
+      "importance": 1.728
+    },
+    {
+      "title": "대구세계마스터즈육상, 왕년 육상 스타 '총출동'",
+      "desc": "왕년의 세계적인 육상 스타들이 오는 22일 개막하는 대구세계마스터즈육상경기대회에 출전합니다.... 2026 대구세계마스터즈육상경기대회는 다음 달(9월) 3일까지 대구스타디움 일원에서 열리며 35살 이상 세계 각국...",
+      "link": "https://www.tbc.co.kr/news/view?pno=20260814155204AE03994&id=209826",
+      "press": "tbc.co.kr",
+      "press_name": "TBC",
+      "press_count": 1,
+      "press_list": [
+        "tbc.co.kr"
+      ],
+      "press_name_list": [
+        "TBC"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-08-15T20:52:00+09:00",
+      "category": "스포츠",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 1.726
     },
     {
       "title": "[기자수첩] 시민과 함께 만드는 '힘찬 문경'",
@@ -3322,28 +3372,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 1.744
-    },
-    {
-      "title": "대구세계마스터즈육상, 왕년 육상 스타 '총출동'",
-      "desc": "왕년의 세계적인 육상 스타들이 오는 22일 개막하는 대구세계마스터즈육상경기대회에 출전합니다.... 2026 대구세계마스터즈육상경기대회는 다음 달(9월) 3일까지 대구스타디움 일원에서 열리며 35살 이상 세계 각국...",
-      "link": "https://www.tbc.co.kr/news/view?pno=20260814155204AE03994&id=209826",
-      "press": "tbc.co.kr",
-      "press_name": "TBC",
-      "press_count": 1,
-      "press_list": [
-        "tbc.co.kr"
-      ],
-      "press_name_list": [
-        "TBC"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-08-15T20:52:00+09:00",
-      "category": "스포츠",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 1.743
+      "importance": 1.725
     },
     {
       "title": "성주군 올해 첫 벼베기…조용수 씨, 수확 쌀 이웃에 기부",
@@ -3364,7 +3393,7 @@
       "category": "일반",
       "region": "경북",
       "gb_zones": [],
-      "importance": 1.743
+      "importance": 1.724
     },
     {
       "title": "TV 안방서 되새기는 광복 81주년… 선열들의 ‘숭고한 헌신’",
@@ -3385,7 +3414,7 @@
       "category": "일반",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.731
+      "importance": 1.712
     },
     {
       "title": "울릉행 여객선 출항 통제 논란…“KOMSA 자체 판단, 절차·기준 명확했나...",
@@ -3408,7 +3437,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 1.723
+      "importance": 1.705
     },
     {
       "title": "대구경북패션조합·롯데아울렛 이시아폴리스점, 브랜드 판로 확대 합심",
@@ -3429,7 +3458,7 @@
       "category": "일반",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.721
+      "importance": 1.703
     },
     {
       "title": "울진군의회 임시회 마무리",
@@ -3452,7 +3481,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 1.718
+      "importance": 1.699
     },
     {
       "title": "고수온 여파에 포항시 강도다리 40만 마리 긴급 방류",
@@ -3475,7 +3504,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 1.718
+      "importance": 1.699
     },
     {
       "title": "고령군, 33년 된 축산물공판장 신축·이전 추진",
@@ -3496,7 +3525,7 @@
       "category": "일반",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.717
+      "importance": 1.698
     },
     {
       "title": "[만나보니] 위안부 할머니들이 모두 떠난다면···어떻게 기억하고 어...",
@@ -3517,49 +3546,7 @@
       "category": "일반",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.713
-    },
-    {
-      "title": "여성만 수건·비누값 받은 경북 경산 목욕탕···인권위 \"성차별\"",
-      "desc": "경북 경산의 목욕장 업소가 여성에게만 수건과 비누값을 받는 건 차별이라고 국가인권위원회가 밝혔습니다.... 한편, 2025년 7월 인권위는 경북 구미의 한 목욕탕이 여성 손님에게만 수건 이용 요금을 부과하고 있다는...",
-      "link": "https://dgmbc.com/NewsArticle/856499",
-      "press": "dgmbc.com",
-      "press_name": "대구MBC",
-      "press_count": 1,
-      "press_list": [
-        "dgmbc.com"
-      ],
-      "press_name_list": [
-        "대구MBC"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-08-15T10:08:00+09:00",
-      "category": "일반",
-      "region": "경북",
-      "gb_zones": [],
-      "importance": 1.713
-    },
-    {
-      "title": "경북 성주군, 하천·계곡 불법 시설과 영업 행위 불시 단속 강화",
-      "desc": "경북 성주군은 하천과 계곡의 불법 점용과 변칙 영업 행위를 막기 위해 불시 단속을 강화하고 있습니다. 성주군은 단속이 취약한 주말이나 점심시간을 노려 철거된 시설을 다시 설치하거나 가설 건축물에서 몰래 영업하는...",
-      "link": "https://dgmbc.com/NewsArticle/856230",
-      "press": "dgmbc.com",
-      "press_name": "대구MBC",
-      "press_count": 1,
-      "press_list": [
-        "dgmbc.com"
-      ],
-      "press_name_list": [
-        "대구MBC"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-08-15T10:08:00+09:00",
-      "category": "일반",
-      "region": "경북",
-      "gb_zones": [],
-      "importance": 1.713
+      "importance": 1.694
     },
     {
       "title": "“문단에 새바람 일으킬 것”… 출사표 던진 장호병 한국문협 부이사장",
@@ -3580,7 +3567,49 @@
       "category": "일반",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.712
+      "importance": 1.694
+    },
+    {
+      "title": "여성만 수건·비누값 받은 경북 경산 목욕탕···인권위 \"성차별\"",
+      "desc": "경북 경산의 목욕장 업소가 여성에게만 수건과 비누값을 받는 건 차별이라고 국가인권위원회가 밝혔습니다.... 한편, 2025년 7월 인권위는 경북 구미의 한 목욕탕이 여성 손님에게만 수건 이용 요금을 부과하고 있다는...",
+      "link": "https://dgmbc.com/NewsArticle/856499",
+      "press": "dgmbc.com",
+      "press_name": "대구MBC",
+      "press_count": 1,
+      "press_list": [
+        "dgmbc.com"
+      ],
+      "press_name_list": [
+        "대구MBC"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-08-15T10:08:00+09:00",
+      "category": "일반",
+      "region": "경북",
+      "gb_zones": [],
+      "importance": 1.694
+    },
+    {
+      "title": "경북 성주군, 하천·계곡 불법 시설과 영업 행위 불시 단속 강화",
+      "desc": "경북 성주군은 하천과 계곡의 불법 점용과 변칙 영업 행위를 막기 위해 불시 단속을 강화하고 있습니다. 성주군은 단속이 취약한 주말이나 점심시간을 노려 철거된 시설을 다시 설치하거나 가설 건축물에서 몰래 영업하는...",
+      "link": "https://dgmbc.com/NewsArticle/856230",
+      "press": "dgmbc.com",
+      "press_name": "대구MBC",
+      "press_count": 1,
+      "press_list": [
+        "dgmbc.com"
+      ],
+      "press_name_list": [
+        "대구MBC"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-08-15T10:08:00+09:00",
+      "category": "일반",
+      "region": "경북",
+      "gb_zones": [],
+      "importance": 1.694
     },
     {
       "title": "군위군, 전국 이마트서 ‘골든볼 사과 산지직송전’ 열어",
@@ -3601,7 +3630,7 @@
       "category": "일반",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.71
+      "importance": 1.691
     },
     {
       "title": "한국자유총연맹 상주시지회, 제81주년 광복절 맞아 태극기달기 캠페인 ...",
@@ -3622,28 +3651,7 @@
       "category": "일반",
       "region": "경북",
       "gb_zones": [],
-      "importance": 1.708
-    },
-    {
-      "title": "“탄생 270주년의 울림”… 대구시향이 완성하는 모차르트의 완벽한 세...",
-      "desc": "‘천재 작곡가’ 모차르트(1756~1791) 탄생 270주년을 맞아 대구시립교향악단이 그의 음악 세계를 다각도로 조명하는 특별한 기획 무대를 선보인다. 대구시향은 오는 8월 27일과 28일 오후 7시30분 대구콘서트하우스...",
-      "link": "https://www.kbmaeil.com/article/20260815500035",
-      "press": "kbmaeil.com",
-      "press_name": "경북매일",
-      "press_count": 1,
-      "press_list": [
-        "kbmaeil.com"
-      ],
-      "press_name_list": [
-        "경북매일"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-08-15T09:46:00+09:00",
-      "category": "일반",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 1.705
+      "importance": 1.689
     },
     {
       "title": "의성 얼음판 달군 아시아 컬링클럽…6개국 38개 팀 '열전'",
@@ -3666,7 +3674,28 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 1.705
+      "importance": 1.688
+    },
+    {
+      "title": "“탄생 270주년의 울림”… 대구시향이 완성하는 모차르트의 완벽한 세...",
+      "desc": "‘천재 작곡가’ 모차르트(1756~1791) 탄생 270주년을 맞아 대구시립교향악단이 그의 음악 세계를 다각도로 조명하는 특별한 기획 무대를 선보인다. 대구시향은 오는 8월 27일과 28일 오후 7시30분 대구콘서트하우스...",
+      "link": "https://www.kbmaeil.com/article/20260815500035",
+      "press": "kbmaeil.com",
+      "press_name": "경북매일",
+      "press_count": 1,
+      "press_list": [
+        "kbmaeil.com"
+      ],
+      "press_name_list": [
+        "경북매일"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-08-15T09:46:00+09:00",
+      "category": "일반",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 1.687
     },
     {
       "title": "주호영 등 국힘 중진들, ‘분권형 개헌론’ 불 지피는 이 대통령에 힘 ...",
@@ -3687,7 +3716,7 @@
       "category": "일반",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.704
+      "importance": 1.685
     },
     {
       "title": "울릉도 '카페 울라' 오픈...KT&G '릴 아카이브'",
@@ -3710,7 +3739,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 1.698
+      "importance": 1.679
     },
     {
       "title": "대구 주유소 기름값 전국 최저…경북도 평균 밑돌아",
@@ -3731,7 +3760,7 @@
       "category": "일반",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.691
+      "importance": 1.672
     },
     {
       "title": "청도군, '워크온' 걷기 챌린지 255명 참여…100명에 상품 증정",
@@ -3752,7 +3781,7 @@
       "category": "일반",
       "region": "경북",
       "gb_zones": [],
-      "importance": 1.678
+      "importance": 1.659
     },
     {
       "title": "“광고 안 합니다”…27세 봉화 공무원의 32만원 ‘뉴욕 승부수’",
@@ -3775,7 +3804,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 1.675
+      "importance": 1.656
     },
     {
       "title": "의성, 농산물보다 '지역의 하루'를 판다…농촌관광 새 실험",
@@ -3798,7 +3827,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 1.669
+      "importance": 1.653
     },
     {
       "title": "최고 151km 찍은 70억 FA, 사령탑이 더 반긴 건 따로 있었다 [오!쎈 대구...",
@@ -3819,7 +3848,7 @@
       "category": "스포츠",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.668
+      "importance": 1.651
     },
     {
       "title": "대구·경북서 광복 81주년 경축행사 잇따라",
@@ -3840,7 +3869,7 @@
       "category": "문화생활",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.661
+      "importance": 1.645
     },
     {
       "title": "[오피셜] ‘수비라인 안정감 높였다!’ 후반기 반등 노리는 대구FC, 센터...",
@@ -3861,7 +3890,7 @@
       "category": "스포츠",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.659
+      "importance": 1.642
     },
     {
       "title": "\"독립정신 계승\"...81주년 광복절 경축",
@@ -3882,28 +3911,7 @@
       "category": "문화생활",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.644
-    },
-    {
-      "title": "2연승 삼성라이온즈, 승리 주역 구자욱 '5안타 2홈런'",
-      "desc": "14일 대구삼성라이온즈파크에서 펼쳐진 2026 신한 SOL KBO리그 한화이글스와의 주말 3연전 1차전에서 삼성은 홈런 4개를 기록한 타선과 최원태의 시즌 4번째 승리에 힘입어 8-5 승리를 거둡니다. 4회까지 3번의 삼자범퇴...",
-      "link": "https://dgmbc.com/NewsArticle/856869",
-      "press": "dgmbc.com",
-      "press_name": "대구MBC",
-      "press_count": 1,
-      "press_list": [
-        "dgmbc.com"
-      ],
-      "press_name_list": [
-        "대구MBC"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-08-15T06:42:00+09:00",
-      "category": "일반",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 1.642
+      "importance": 1.628
     },
     {
       "title": "광복절 맞아 대구 지역 선조들의 항일운동 조명 전시회 열려",
@@ -3924,7 +3932,28 @@
       "category": "문화생활",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.64
+      "importance": 1.624
+    },
+    {
+      "title": "2연승 삼성라이온즈, 승리 주역 구자욱 '5안타 2홈런'",
+      "desc": "14일 대구삼성라이온즈파크에서 펼쳐진 2026 신한 SOL KBO리그 한화이글스와의 주말 3연전 1차전에서 삼성은 홈런 4개를 기록한 타선과 최원태의 시즌 4번째 승리에 힘입어 8-5 승리를 거둡니다. 4회까지 3번의 삼자범퇴...",
+      "link": "https://dgmbc.com/NewsArticle/856869",
+      "press": "dgmbc.com",
+      "press_name": "대구MBC",
+      "press_count": 1,
+      "press_list": [
+        "dgmbc.com"
+      ],
+      "press_name_list": [
+        "대구MBC"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-08-15T06:42:00+09:00",
+      "category": "일반",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 1.623
     },
     {
       "title": "[AI프리뷰] 15일 대구 삼성-한화전, 박준영(등번호 96) 한화 분위기 바꿀...",
@@ -3945,7 +3974,7 @@
       "category": "스포츠",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.631
+      "importance": 1.614
     },
     {
       "title": "\"잠실·대구·부산 날씨 비상\" 비 소식에 야구 우천 취소되나?",
@@ -3966,7 +3995,7 @@
       "category": "스포츠",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.618
+      "importance": 1.601
     },
     {
       "title": "울진군 방과후아카데미, 청소년 89명과 여름캠프 운영",
@@ -3989,7 +4018,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 1.595
+      "importance": 1.579
     },
     {
       "title": "81주년 광복절 기념 행사 잇따라",
@@ -4010,7 +4039,7 @@
       "category": "문화생활",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.582
+      "importance": 1.566
     },
     {
       "title": "무더위 식히는 경북 계곡 3선...빙계.용추.옥계",
@@ -4034,7 +4063,7 @@
         "동해안",
         "북부"
       ],
-      "importance": 1.575
+      "importance": 1.559
     },
     {
       "title": "청도군, 청도천 악취에 관광객 ‘눈살’…‘관광 청도’ 구호 무색",
@@ -4055,7 +4084,7 @@
       "category": "문화생활",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.562
+      "importance": 1.546
     },
     {
       "title": "대구문학관 광복 81주년 기념 문학 공모전 성료",
@@ -4076,7 +4105,7 @@
       "category": "문화생활",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.555
+      "importance": 1.539
     },
     {
       "title": "경일대 통역봉사단, 대구세계마스터즈육상경기대회 통역 지원",
@@ -4097,7 +4126,7 @@
       "category": "스포츠",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.552
+      "importance": 1.535
     },
     {
       "title": "세징야 복귀한 대구FC···연승으로 선두권 추격 노려",
@@ -4118,7 +4147,7 @@
       "category": "스포츠",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.542
+      "importance": 1.525
     },
     {
       "title": "푸른 여름 의성, 역사와 자연이 어우러진 가볼 만한 곳들을 찾아",
@@ -4141,7 +4170,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 1.522
+      "importance": 1.506
     },
     {
       "title": "대구시 군위군, ‘위안부’ 피해자 기림의 날로 평화와 인권을 되새기다",
@@ -4162,51 +4191,7 @@
       "category": "문화생활",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.509
-    },
-    {
-      "title": "한국 야구 유일 ‘4할타자’ 백인천 전 삼성라이온즈 감독 별세…향년 ...",
-      "desc": "1996년~97년 삼성 라이온즈 감독을 맡아 대구경북 야구계에서도 프로야구 원년 세대의 상징적 인물로 꼽혀온 고인의 별세 소식에 지역 야구 팬들 사이에서도 안타까움이 이어지고 있다. 특히 대구경북은 삼성...",
-      "link": "https://www.kbmaeil.com/article/20260815500013",
-      "press": "kbmaeil.com",
-      "press_name": "경북매일",
-      "press_count": 1,
-      "press_list": [
-        "kbmaeil.com"
-      ],
-      "press_name_list": [
-        "경북매일"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-08-15T08:22:00+09:00",
-      "category": "스포츠",
-      "region": "대구경북",
-      "gb_zones": [],
-      "importance": 1.509
-    },
-    {
-      "title": "경북 의성군, 광복절 맞아 독립정신 되새기다",
-      "desc": "의성군은 15일 항일독립운동기념탑에서 제81주년 광복절을 맞아 순국선열과 애국지사의 숭고한 희생을 기리고 독립정신을 되새기는 참배 행사를 개최했다. 이번 행사에는 최유철 의성군수와 의성군의회 의장, 도·군의원...",
-      "link": "https://www.viva100.com/article/20260815500097",
-      "press": "viva100.com",
-      "press_name": "viva100.com",
-      "press_count": 1,
-      "press_list": [
-        "viva100.com"
-      ],
-      "press_name_list": [
-        "viva100.com"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-08-15T13:08:00+09:00",
-      "category": "문화생활",
-      "region": "경북",
-      "gb_zones": [
-        "북부"
-      ],
-      "importance": 1.509
+      "importance": 1.493
     },
     {
       "title": "경북 의성군, 아시아 컬링의 중심으로 도약하다",
@@ -4229,7 +4214,28 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 1.509
+      "importance": 1.493
+    },
+    {
+      "title": "한국 야구 유일 ‘4할타자’ 백인천 전 삼성라이온즈 감독 별세…향년 ...",
+      "desc": "1996년~97년 삼성 라이온즈 감독을 맡아 대구경북 야구계에서도 프로야구 원년 세대의 상징적 인물로 꼽혀온 고인의 별세 소식에 지역 야구 팬들 사이에서도 안타까움이 이어지고 있다. 특히 대구경북은 삼성...",
+      "link": "https://www.kbmaeil.com/article/20260815500013",
+      "press": "kbmaeil.com",
+      "press_name": "경북매일",
+      "press_count": 1,
+      "press_list": [
+        "kbmaeil.com"
+      ],
+      "press_name_list": [
+        "경북매일"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-08-15T08:22:00+09:00",
+      "category": "스포츠",
+      "region": "대구경북",
+      "gb_zones": [],
+      "importance": 1.492
     },
     {
       "title": "황영조·쿨라 등 올림픽 스타들 대구세계마스터즈육상 참가",
@@ -4250,7 +4256,7 @@
       "category": "스포츠",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.476
+      "importance": 1.459
     },
     {
       "title": "경북보건대 스마트팜과, 경북 농업기계 산업체 간담회 개최",
@@ -4271,7 +4277,7 @@
       "category": "문화생활",
       "region": "경북",
       "gb_zones": [],
-      "importance": 1.47
+      "importance": 1.454
     },
     {
       "title": "대구 수성문화재단, 마스터즈 육상대회에 '웰컴투수성' 홍보관 운영",
@@ -4292,7 +4298,7 @@
       "category": "문화생활",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.456
+      "importance": 1.44
     },
     {
       "title": "대구간송미술관, 겸재 정선 특별전 개최",
@@ -4313,7 +4319,7 @@
       "category": "문화생활",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.456
+      "importance": 1.44
     },
     {
       "title": "군위군, 2026년 을지연습 준비상황 보고회 개최",
@@ -4334,7 +4340,7 @@
       "category": "문화생활",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.453
+      "importance": 1.437
     },
     {
       "title": "\"스드메·예복·예물 한 번에\" 대구 대박웨딩박람회 시즌36, 9월 5일 개막",
@@ -4355,7 +4361,7 @@
       "category": "문화생활",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.436
+      "importance": 1.42
     },
     {
       "title": "대구웨딩박람회 8월 29~30일 개최…13개 웨딩홀 참석 확정",
@@ -4376,7 +4382,7 @@
       "category": "문화생활",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.436
+      "importance": 1.42
     },
     {
       "title": "청도군, 8급 이하 실무직원과 소통 간담회 6회 개최…조직문화 개선 앞...",
@@ -4397,7 +4403,7 @@
       "category": "문화생활",
       "region": "경북",
       "gb_zones": [],
-      "importance": 1.426
+      "importance": 1.41
     },
     {
       "title": "안동 국가유산 품은 '월영야행' 관광객 발길 이어져",
@@ -4420,7 +4426,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 1.423
+      "importance": 1.407
     },
     {
       "title": "바위틈 찬바람부터 용이 승천한 폭포까지…경북 계곡 여행 3선",
@@ -4444,7 +4450,7 @@
         "동해안",
         "북부"
       ],
-      "importance": 1.418
+      "importance": 1.402
     },
     {
       "title": "구미소방서, 경상북도 의용소방대 강의경연대회 '우수상' 수상",
@@ -4465,7 +4471,7 @@
       "category": "사회복지",
       "region": "경북",
       "gb_zones": [],
-      "importance": 1.416
+      "importance": 1.401
     },
     {
       "title": "대구 남구, '관사 규정 삭제' 조례안 입법예고…\"공유재산 현황 공개\"",
@@ -4486,7 +4492,7 @@
       "category": "정치행정",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.408
+      "importance": 1.393
     },
     {
       "title": "\"30초 영상에 매력 담아라\"… 경산시, 청년 숏폼 영상 공모",
@@ -4507,28 +4513,7 @@
       "category": "문화생활",
       "region": "경북",
       "gb_zones": [],
-      "importance": 1.401
-    },
-    {
-      "title": "'대구를 수놓은 홈런쇼' 삼성, 한화에 8-5 승...백투백에 멀티 홈런까지",
-      "desc": "방망이가 대구 하늘에 홈런쇼를 수놓았다. 삼성 라이온즈가 14일 대구 삼성라이온즈파크에서 열린 2026 신한 SOL 뱅크 KBO리그 한화 이글스와의 홈 경기에서 8-5로 진땀승을 거뒀다. 주역은 둘이었다. 오랜만에 5.2이닝...",
-      "link": "http://www.maniareport.com/view.php?ud=2026081422232050916cf2d78c68_19",
-      "press": "maniareport.com",
-      "press_name": "maniareport.com",
-      "press_count": 1,
-      "press_list": [
-        "maniareport.com"
-      ],
-      "press_name_list": [
-        "maniareport.com"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-08-15T00:29:00+09:00",
-      "category": "스포츠",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 1.361
+      "importance": 1.385
     },
     {
       "title": "\"골목상권 살아야 울릉도 경제도 산다…주민 목소리 담은 울릉군의회, ...",
@@ -4551,7 +4536,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 1.329
+      "importance": 1.315
     },
     {
       "title": "[대구소식] 남구, '유명무실' 관사 규정 없애고 공유재산 공개",
@@ -4572,28 +4557,7 @@
       "category": "정치행정",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.285
-    },
-    {
-      "title": "대구모먼트웨딩박람회, 오는 8월 22~23일 호텔 인터불고 엑스코서 개최",
-      "desc": "'대구모먼트웨딩박람회'가 오는 8월 22일과 23일 양일간 호텔 인터불고 엑스코에서 열린다. 이번 박람회는... 대구 지역 웨딩홀의 잔여 예식 시간도 안내해 특정 날짜를 염두에 둔 예비부부가 예약 가능 여부를 확인할 수...",
-      "link": "https://www.woodkorea.co.kr/news/articleView.html?idxno=90807",
-      "press": "woodkorea.co.kr",
-      "press_name": "woodkorea.co.kr",
-      "press_count": 1,
-      "press_list": [
-        "woodkorea.co.kr"
-      ],
-      "press_name_list": [
-        "woodkorea.co.kr"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-08-15T00:00:00+09:00",
-      "category": "문화생활",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 1.277
+      "importance": 1.27
     },
     {
       "title": "대구행복진흥원, 가뭄에 대구어린이세상 \"물 아껴쓰기 운동 시작합니다...",
@@ -4614,14 +4578,14 @@
       "category": "일반",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.217
+      "importance": 1.204
     }
   ],
   "youtube": [],
   "stats": {
-    "total_articles_raw": 1041,
-    "total_relevant": 242,
-    "total_clusters": 197,
-    "excluded": 799
+    "total_articles_raw": 1028,
+    "total_relevant": 241,
+    "total_clusters": 195,
+    "excluded": 787
   }
 }
