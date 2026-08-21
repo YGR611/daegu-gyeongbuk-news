@@ -90,17 +90,31 @@
     display: block; background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
     padding: 14px 16px; margin-bottom: 0; text-decoration: none; color: inherit;
   }
-  .card:hover { border-color: var(--text-muted); }
+  /* :hover는 마우스가 있는 기기에서만 적용합니다. 터치 기기(휴대폰)에서
+     :hover가 걸려 있으면 iOS 사파리 등에서 "첫 탭은 호버 상태만 활성화하고
+     실제 클릭은 두 번째 탭에서 일어나는" 버그가 있어서, 카드를 눌러도 한
+     번에 안 눌리고 두 번 눌러야 하는 것처럼 보이는 원인이 됩니다. */
+  @media (hover: hover) and (pointer: fine) {
+    .card:hover { border-color: var(--text-muted); }
+  }
   .card-top { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; flex-wrap: wrap; }
   .badge {
     font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 999px; color: #fff;
   }
   .press-count { font-size: 12px; color: var(--text-muted); }
   .press-count-toggle {
-    font: inherit; font-size: 12px; color: var(--text-muted); background: none; border: none; padding: 0;
+    font: inherit; font-size: 12px; color: var(--text-muted); background: none; border: none;
+    /* 실제 클릭 가능 영역이 글자 크기(세로 16px)에 딱 맞춰져 있으면 마우스로
+       정확히 맞추기 어려워서 "클릭이 잘 안 된다"는 문제의 원인이 됩니다.
+       padding으로 클릭 영역을 넓히고, 시각적으로는 같은 위치에 보이도록
+       margin을 그만큼 음수로 줘서 상쇄합니다(레이아웃은 그대로 유지). */
+    padding: 6px 8px; margin: -6px -8px;
+    border-radius: 6px;
     cursor: pointer; display: inline-flex; align-items: center; gap: 3px;
   }
-  .press-count-toggle:hover { color: var(--text-secondary); text-decoration: underline; }
+  @media (hover: hover) and (pointer: fine) {
+    .press-count-toggle:hover { color: var(--text-secondary); text-decoration: underline; background: var(--gridline); }
+  }
   .press-count-toggle .chevron { display: inline-block; font-size: 9px; transition: transform 0.15s ease; }
   .press-count-toggle[aria-expanded="true"] .chevron { transform: rotate(180deg); }
   .card-title { font-size: 15px; font-weight: 600; color: var(--text-primary); margin: 0 0 4px; line-height: 1.4; }
@@ -116,7 +130,9 @@
     border-top: 1px solid var(--border); font-size: 13px;
   }
   .related-item:first-child { border-top: none; }
-  .related-item:hover .related-title { text-decoration: underline; }
+  @media (hover: hover) and (pointer: fine) {
+    .related-item:hover .related-title { text-decoration: underline; }
+  }
   .related-press { flex: 0 0 auto; color: var(--text-muted); font-size: 12px; min-width: 70px; }
   .related-title { color: var(--text-secondary); line-height: 1.4; }
 
@@ -229,11 +245,16 @@ function render() {
     (currentCategory === "전체" || a.category === currentCategory) && matchesRegion(a)
   );
   items = sortItems(items);
-  list.innerHTML = "";
   if (items.length === 0) {
     list.innerHTML = '<div class="empty">해당 카테고리의 뉴스가 없습니다.</div>';
     return;
   }
+  // 정렬/필터를 바꿀 때마다 520개 안팎의 카드를 통째로 새로 그리는데,
+  // 화면에 이미 붙어있는 #news-list에 하나씩 appendChild하면 그때마다 브라우저가
+  // 레이아웃을 다시 계산할 수 있어 느려집니다. 화면 밖의 DocumentFragment에
+  // 전부 모아뒀다가 마지막에 딱 한 번만 붙여서 화면 다시 그리기를 1번으로
+  // 줄입니다.
+  const fragment = document.createDocumentFragment();
   for (const a of items) {
     const group = document.createElement("div");
     group.className = "card-group";
@@ -260,29 +281,39 @@ function render() {
     group.appendChild(card);
 
     if (hasRelated) {
-      const relatedWrap = document.createElement("div");
-      relatedWrap.className = "related-list";
-      relatedWrap.style.display = "none";
-      relatedWrap.innerHTML = a.related.map(r => `
-        <a class="related-item" href="${r.link}" target="_blank" rel="noopener">
-          <span class="related-press">${r.press_name || r.press}</span>
-          <span class="related-title">${r.title}</span>
-        </a>
-      `).join("");
-      group.appendChild(relatedWrap);
-
+      // 관련기사 목록은 실제로 토글을 눌러서 펼쳐보는 사람만 필요합니다.
+      // 예전에는 매체가 30개가 넘게 묶인 기사까지 포함해서 "안 보이는"
+      // 관련기사 DOM을 매번 미리 다 만들어뒀는데(전체적으로 300개가 넘는
+      // 요소), 이게 정렬/필터를 누를 때마다 불필요하게 반복돼서 렌더링을
+      // 느리게 만드는 원인 중 하나였습니다. 이제는 토글을 처음 누르는
+      // 순간에만 만들고, 그 다음부터는 만들어둔 걸 재사용합니다(다시
+      // 만들지 않음).
+      let relatedWrap = null;
       const toggleBtn = card.querySelector(".press-count-toggle");
       toggleBtn.addEventListener("click", (e) => {
         e.preventDefault();
         e.stopPropagation();
-        const isOpen = relatedWrap.style.display !== "none";
+        if (!relatedWrap) {
+          relatedWrap = document.createElement("div");
+          relatedWrap.className = "related-list";
+          relatedWrap.innerHTML = a.related.map(r => `
+            <a class="related-item" href="${r.link}" target="_blank" rel="noopener">
+              <span class="related-press">${r.press_name || r.press}</span>
+              <span class="related-title">${r.title}</span>
+            </a>
+          `).join("");
+          group.appendChild(relatedWrap);
+        }
+        const isOpen = relatedWrap.style.display === "block";
         relatedWrap.style.display = isOpen ? "none" : "block";
         toggleBtn.setAttribute("aria-expanded", String(!isOpen));
       });
     }
 
-    list.appendChild(group);
+    fragment.appendChild(group);
   }
+  list.innerHTML = "";
+  list.appendChild(fragment);
 }
 
 function renderSort() {
@@ -368,7 +399,9 @@ function renderYoutube() {
 
 async function load() {
   try {
-    const res = await fetch("./data.json", { cache: "no-store" });
+    // 쿼리에 매번 다른 값을 붙여서, 브라우저뿐 아니라 깃허브 페이지의
+    // CDN(엣지 캐시)까지 우회해 항상 최신 data.json을 받아오도록 합니다.
+    const res = await fetch("./data.json?t=" + Date.now(), { cache: "no-store" });
     dataset = await res.json();
   } catch (e) {
     document.getElementById("updated-at").textContent = "데이터를 불러오지 못했습니다.";
