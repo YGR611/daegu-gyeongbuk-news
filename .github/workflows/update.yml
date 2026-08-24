@@ -3,7 +3,7 @@ name: Update Daegu-Gyeongbuk News Dashboard
 on:
   schedule:
     # 10분마다 (0,10,20,30,40,50분) 실행. GitHub Actions 스케줄은 몇 분씩 밀릴 수 있습니다.
-    - cron: "*/10 * * * *"
+          - cron: "*/20 * * * *"  # Runs every 20 minutes
   workflow_dispatch: {}   # Actions 탭에서 수동 실행 버튼도 사용 가능
   push:
     branches: [ "main" ]
