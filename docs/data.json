@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T04:04:11.672802+09:00",
+  "generated_at": "2026-10-11T07:35:16.643283+09:00",
   "articles": [
     {
       "title": "대구 상가 건물 천장 구조물 '와르르' 붕괴…30여 명 부상",
@@ -7,7 +7,7 @@
       "link": "https://dgmbc.com/NewsArticle/866667",
       "press": "dgmbc.com",
       "press_name": "대구MBC",
-      "press_count": 100,
+      "press_count": 101,
       "press_list": [
         "4th.kr",
         "ajunews.com",
@@ -49,6 +49,7 @@
         "kmib.co.kr",
         "kookje.co.kr",
         "kukinews.com",
+        "kwnews.co.kr",
         "kyeonggi.com",
         "kyongbuk.co.kr",
         "livebiz.today",
@@ -141,6 +142,7 @@
         "kado.net",
         "kookje.co.kr",
         "kukinews.com",
+        "kwnews.co.kr",
         "kyeonggi.com",
         "livebiz.today",
         "m-economynews.com",
@@ -210,6 +212,12 @@
         "한국경제"
       ],
       "related": [
+        {
+          "title": "경찰, 대구 상가 천장 붕괴 원인 밝힌다…11일 합동 감식",
+          "link": "https://www.sidae.com/article/2026101016325910751",
+          "press": "sidae.com",
+          "press_name": "sidae.com"
+        },
         {
           "title": "대구 건물 천장 붕괴 사고 현장 오늘 합동 감식",
           "link": "https://www.ytn.co.kr/_ln/0115_202610110001116575",
@@ -655,16 +663,16 @@
           "press_name": "busan.com"
         },
         {
-          "title": "대구 상가 천장 마감재 10초간 '와르르'… 38명 부상, 9명 병원행(종합)",
-          "link": "https://www.newscj.com/news/articleView.html?idxno=3439170",
-          "press": "newscj.com",
-          "press_name": "newscj.com"
-        },
-        {
           "title": "추경호 대구시장, 관음동 건물 천장 붕괴 현장 긴급 점검…“시민 안전...",
           "link": "https://www.news2day.co.kr/article/20261010500006",
           "press": "news2day.co.kr",
           "press_name": "news2day.co.kr"
+        },
+        {
+          "title": "대구 상가 천장 마감재 10초간 '와르르'… 38명 부상, 9명 병원행(종합)",
+          "link": "https://www.newscj.com/news/articleView.html?idxno=3439170",
+          "press": "newscj.com",
+          "press_name": "newscj.com"
         },
         {
           "title": "대구 북구 노인 대상 판촉 행사장서 천장 붕괴… 38명 부상",
@@ -733,22 +741,16 @@
           "press_name": "news.bbsi.co.kr"
         },
         {
-          "title": "대구 마트 천장 붕괴…38명 부상·9명 병원 이송",
-          "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5070167",
-          "press": "shinailbo.co.kr",
-          "press_name": "shinailbo.co.kr"
-        },
-        {
           "title": "대구 북구 한 마트 2층 홍보관서 천장 마감재 붕괴… 38명 부상",
           "link": "https://www.dkilbo.com/news/articleView.html?idxno=556646",
           "press": "dkilbo.com",
           "press_name": "dkilbo.com"
         },
         {
-          "title": "대구 상가 천장 붕괴로 38명 부상…이 대통령 \"구조·수습 총력\"",
-          "link": "https://www.sidae.com/article/2026101013451570807",
-          "press": "sidae.com",
-          "press_name": "sidae.com"
+          "title": "대구 마트 천장 붕괴…38명 부상·9명 병원 이송",
+          "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5070167",
+          "press": "shinailbo.co.kr",
+          "press_name": "shinailbo.co.kr"
         },
         {
           "title": "대구 마트 천장 붕괴…손님 66명 대피 중 38명 다쳐",
@@ -757,22 +759,28 @@
           "press_name": "tjb.co.kr"
         },
         {
+          "title": "대구 상가 천장 붕괴로 38명 부상…이 대통령 \"구조·수습 총력\"",
+          "link": "https://www.sidae.com/article/2026101013451570807",
+          "press": "sidae.com",
+          "press_name": "sidae.com"
+        },
+        {
           "title": "대구 북구 건물서 천장 붕괴…38명 부상",
           "link": "http://www.inews24.com/view/2013527",
           "press": "inews24.com",
           "press_name": "inews24.com"
         },
         {
-          "title": "대구 상가 천장 10초간 연쇄 붕괴⋯노인 등 38명 부상 [종합 2보]",
-          "link": "https://www.etoday.co.kr/news/view/2634217",
-          "press": "etoday.co.kr",
-          "press_name": "etoday.co.kr"
-        },
-        {
           "title": "[속보]대구 관음동 건물 천장 '와르르'...노인 등 38명 부상",
           "link": "https://www.tbc.co.kr/news/view?pno=20261010140549AE06642&id=211946",
           "press": "tbc.co.kr",
           "press_name": "TBC"
+        },
+        {
+          "title": "대구 상가 천장 10초간 연쇄 붕괴⋯노인 등 38명 부상 [종합 2보]",
+          "link": "https://www.etoday.co.kr/news/view/2634217",
+          "press": "etoday.co.kr",
+          "press_name": "etoday.co.kr"
         },
         {
           "title": "대구 마트서 천장 붕괴…정부 \"장비·인력 총동원\" 긴급지시",
@@ -854,6 +862,12 @@
         },
         {
           "title": "대구 건물 천장 붕괴 현장 살펴보는 소방 관계자",
+          "link": "https://www.yna.co.kr/view/PYH20261010025400053?input=1196m",
+          "press": "yna.co.kr",
+          "press_name": "연합뉴스"
+        },
+        {
+          "title": "대구 건물 천장 붕괴 현장 살펴보는 소방 관계자",
           "link": "https://www.yna.co.kr/view/PYH20261010025300053?input=1196m",
           "press": "yna.co.kr",
           "press_name": "연합뉴스"
@@ -865,16 +879,16 @@
           "press_name": "연합뉴스"
         },
         {
-          "title": "대구 건물 천장 붕괴 현장 살펴보는 소방 관계자",
-          "link": "https://www.yna.co.kr/view/PYH20261010025400053?input=1196m",
-          "press": "yna.co.kr",
-          "press_name": "연합뉴스"
-        },
-        {
           "title": "대구 폐업 마트 건물 2층서 천장 마감재 붕괴…9명 부상",
           "link": "https://www.newsworks.co.kr/news/articleView.html?idxno=856078",
           "press": "newsworks.co.kr",
           "press_name": "newsworks.co.kr"
+        },
+        {
+          "title": "대구 북구 관음동 상가 천장 와르르, 38명 경상",
+          "link": "https://www.newsis.com/view/NISI20261010_0021483236",
+          "press": "newsis.com",
+          "press_name": "뉴시스"
         },
         {
           "title": "대구 북구 관음동 상가 천장 와르르, 38명 경상",
@@ -883,14 +897,14 @@
           "press_name": "뉴시스"
         },
         {
-          "title": "대구 북구 관음동 상가 천장 와르르, 38명 경상",
-          "link": "https://www.newsis.com/view/NISI20261010_0021483244",
+          "title": "대구 관음동 상가 천장 '반자' 무너져, 38명 경상",
+          "link": "https://www.newsis.com/view/NISI20261010_0021483241",
           "press": "newsis.com",
           "press_name": "뉴시스"
         },
         {
           "title": "대구 북구 관음동 상가 천장 와르르, 38명 경상",
-          "link": "https://www.newsis.com/view/NISI20261010_0021483236",
+          "link": "https://www.newsis.com/view/NISI20261010_0021483244",
           "press": "newsis.com",
           "press_name": "뉴시스"
         },
@@ -907,14 +921,14 @@
           "press_name": "뉴시스"
         },
         {
-          "title": "대구 관음동 상가 천장 '반자' 무너져, 38명 경상",
-          "link": "https://www.newsis.com/view/NISI20261010_0021483241",
+          "title": "대구 북구 관음동 상가 천장 와르르, 38명 경상",
+          "link": "https://www.newsis.com/view/NISI20261010_0021483243",
           "press": "newsis.com",
           "press_name": "뉴시스"
         },
         {
-          "title": "대구 북구 관음동 상가 천장 와르르, 38명 경상",
-          "link": "https://www.newsis.com/view/NISI20261010_0021483243",
+          "title": "대구 북구 관음동 상가 2층 천장 붕괴, 66명 대피·38명 경상",
+          "link": "https://www.newsis.com/view/NISI20261010_0021483238",
           "press": "newsis.com",
           "press_name": "뉴시스"
         },
@@ -927,12 +941,6 @@
         {
           "title": "대구 북구 관음동 상가 천장 와르르, 38명 경상",
           "link": "https://www.newsis.com/view/NISI20261010_0021483239",
-          "press": "newsis.com",
-          "press_name": "뉴시스"
-        },
-        {
-          "title": "대구 북구 관음동 상가 2층 천장 붕괴, 66명 대피·38명 경상",
-          "link": "https://www.newsis.com/view/NISI20261010_0021483238",
           "press": "newsis.com",
           "press_name": "뉴시스"
         },
@@ -956,13 +964,13 @@
         },
         {
           "title": "대구 건물 천장 붕괴 현장 살펴보는 추경호 대구시장",
-          "link": "https://www.yna.co.kr/view/PYH20261010024800053?input=1196m",
+          "link": "https://www.yna.co.kr/view/PYH20261010025000053?input=1196m",
           "press": "yna.co.kr",
           "press_name": "연합뉴스"
         },
         {
           "title": "대구 건물 천장 붕괴 현장 살펴보는 추경호 대구시장",
-          "link": "https://www.yna.co.kr/view/PYH20261010025000053?input=1196m",
+          "link": "https://www.yna.co.kr/view/PYH20261010024800053?input=1196m",
           "press": "yna.co.kr",
           "press_name": "연합뉴스"
         },
@@ -1051,16 +1059,16 @@
           "press_name": "ajunews.com"
         },
         {
-          "title": "한성숙 총리, 대구 마트 천장 붕괴에 \"가용 장비·인력 총동원\"",
-          "link": "https://www.fnnews.com/news/202610101322370863",
-          "press": "fnnews.com",
-          "press_name": "파이낸셜뉴스"
-        },
-        {
           "title": "대구서 노인 대상 주방용품 판매 중 천장 와르르…38명 부상",
           "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008791134&plink=ORI&cooper=NAVER",
           "press": "news.sbs.co.kr",
           "press_name": "SBS"
+        },
+        {
+          "title": "한성숙 총리, 대구 마트 천장 붕괴에 \"가용 장비·인력 총동원\"",
+          "link": "https://www.fnnews.com/news/202610101322370863",
+          "press": "fnnews.com",
+          "press_name": "파이낸셜뉴스"
         },
         {
           "title": "한 총리, 대구 마트 천장 붕괴에 \"인명피해 최소화\"",
@@ -1100,13 +1108,13 @@
         },
         {
           "title": "대구 관음동 건물 2층 천장 붕괴…9명 부상",
-          "link": "https://www.news1.kr/photos/8151977",
+          "link": "https://www.news1.kr/photos/8151976",
           "press": "news1.kr",
           "press_name": "뉴스1"
         },
         {
           "title": "대구 관음동 건물 2층 천장 붕괴…9명 부상",
-          "link": "https://www.news1.kr/photos/8151976",
+          "link": "https://www.news1.kr/photos/8151977",
           "press": "news1.kr",
           "press_name": "뉴스1"
         },
@@ -1129,16 +1137,16 @@
           "press_name": "ohmynews.com"
         },
         {
-          "title": "[그래픽] 대구 상가건물서 천장 붕괴 사고 발생",
-          "link": "https://www.yna.co.kr/view/GYH20261010000300044?input=1363m",
-          "press": "yna.co.kr",
-          "press_name": "연합뉴스"
-        },
-        {
           "title": "[단독] 대구 천장 붕괴 사고, 1층 마트 아닌 2층 당구장서 발생…38명 경...",
           "link": "https://www.segye.com/newsView/20261010504165?OutUrl=naver",
           "press": "segye.com",
           "press_name": "세계일보"
+        },
+        {
+          "title": "[그래픽] 대구 상가건물서 천장 붕괴 사고 발생",
+          "link": "https://www.yna.co.kr/view/GYH20261010000300044?input=1363m",
+          "press": "yna.co.kr",
+          "press_name": "연합뉴스"
         },
         {
           "title": "한성숙 총리, 대구 마트 천장 붕괴에 \"부상자 신속 이송… 재발 방지 최...",
@@ -1147,16 +1155,10 @@
           "press_name": "newscj.com"
         },
         {
-          "title": "대구 북구, 관음동 마트 천장 일부 붕괴…36명 경상",
-          "link": "https://www.ekn.kr/web/view.php?key=20261010024354406",
-          "press": "ekn.kr",
-          "press_name": "ekn.kr"
-        },
-        {
-          "title": "李대통령, 대구 상가 건물 천장 붕괴 사고에 “사고 수습 만전” 지시",
-          "link": "https://www.kyeonggi.com/article/20261010580049",
-          "press": "kyeonggi.com",
-          "press_name": "kyeonggi.com"
+          "title": "대구 건물 천장 마감재 붕괴로 38명 부상…李대통령 “인명구조에 총력...",
+          "link": "https://www.kukinews.com/article/view/kuk202610100014",
+          "press": "kukinews.com",
+          "press_name": "kukinews.com"
         },
         {
           "title": "대구서 노인대상 주방용품 판매장 천장 '와르르'…38명 부상",
@@ -1165,10 +1167,16 @@
           "press_name": "연합뉴스TV"
         },
         {
-          "title": "대구 건물 천장 마감재 붕괴로 38명 부상…李대통령 “인명구조에 총력...",
-          "link": "https://www.kukinews.com/article/view/kuk202610100014",
-          "press": "kukinews.com",
-          "press_name": "kukinews.com"
+          "title": "李대통령, 대구 상가 건물 천장 붕괴 사고에 “사고 수습 만전” 지시",
+          "link": "https://www.kyeonggi.com/article/20261010580049",
+          "press": "kyeonggi.com",
+          "press_name": "kyeonggi.com"
+        },
+        {
+          "title": "대구 북구, 관음동 마트 천장 일부 붕괴…36명 경상",
+          "link": "https://www.ekn.kr/web/view.php?key=20261010024354406",
+          "press": "ekn.kr",
+          "press_name": "ekn.kr"
         },
         {
           "title": "대구 북구 관음동 건물 천장 구조물 붕괴 사고 발생",
@@ -1279,16 +1287,16 @@
           "press_name": "연합뉴스"
         },
         {
-          "title": "한성숙 총리, 대구 관음동 2층 천장 붕괴 사고에 긴급 지시…“가용 인...",
-          "link": "https://www.yeongnam.com/web/view.php?key=20261010023323554",
-          "press": "yeongnam.com",
-          "press_name": "영남일보"
-        },
-        {
           "title": "대구 마트 건물 2층 천장 마감재 붕괴…38명 부상(종합2)",
           "link": "http://www.4th.kr/news/articleView.html?idxno=2119504",
           "press": "4th.kr",
           "press_name": "4th.kr"
+        },
+        {
+          "title": "한성숙 총리, 대구 관음동 2층 천장 붕괴 사고에 긴급 지시…“가용 인...",
+          "link": "https://www.yeongnam.com/web/view.php?key=20261010023323554",
+          "press": "yeongnam.com",
+          "press_name": "영남일보"
         },
         {
           "title": "대구 북구 관음동 건물 천장 붕괴…66명 대피, 9명 병원 이송",
@@ -1357,12 +1365,6 @@
           "press_name": "아시아경제"
         },
         {
-          "title": "李대통령, 대구 천장붕괴 사고에 \"인명구조에 총력 다하라\"",
-          "link": "https://www.yna.co.kr/view/AKR20261010026700001?input=1195m",
-          "press": "yna.co.kr",
-          "press_name": "연합뉴스"
-        },
-        {
           "title": "이 대통령, '대구 마트 천장 붕괴'에 인명 구조 총력 지시",
           "link": "https://www.ytn.co.kr/_ln/0101_202610101250288963",
           "press": "ytn.co.kr",
@@ -1375,16 +1377,16 @@
           "press_name": "4th.kr"
         },
         {
+          "title": "李대통령, 대구 천장붕괴 사고에 \"인명구조에 총력 다하라\"",
+          "link": "https://www.yna.co.kr/view/AKR20261010026700001?input=1195m",
+          "press": "yna.co.kr",
+          "press_name": "연합뉴스"
+        },
+        {
           "title": "이 대통령, 대구 마트 천장 붕괴사고 관련 \"인명 구조에 총력 다하라\" 지...",
           "link": "https://imnews.imbc.com/news/2026/politics/article/6856951_36911.html",
           "press": "imnews.imbc.com",
           "press_name": "MBC"
-        },
-        {
-          "title": "대구서 노인 대상 행사장 천장 구조물 무너져 장보던 38명 부상",
-          "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000021409&cp=nv",
-          "press": "kmib.co.kr",
-          "press_name": "국민일보"
         },
         {
           "title": "대구서 마트 천장 무너져 38명 부상…모두 경상, 생명 지장 없어",
@@ -1397,6 +1399,12 @@
           "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=337640",
           "press": "mediatoday.co.kr",
           "press_name": "mediatoday.co.kr"
+        },
+        {
+          "title": "대구서 노인 대상 행사장 천장 구조물 무너져 장보던 38명 부상",
+          "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000021409&cp=nv",
+          "press": "kmib.co.kr",
+          "press_name": "국민일보"
         },
         {
           "title": "대구 건물서 천장 무너져 38명 부상…생명엔 지장 없어",
@@ -1471,6 +1479,18 @@
           "press_name": "파이낸셜뉴스"
         },
         {
+          "title": "[속보] 이 대통령, 대구 마트 천장붕괴 사고에 \"총력 대응\" 지시",
+          "link": "http://www.yonhapnewstv.co.kr/news/AKR20261010123323ORF",
+          "press": "yonhapnewstv.co.kr",
+          "press_name": "연합뉴스TV"
+        },
+        {
+          "title": "이재명 대통령, 대구 천장 붕괴 사고에 “구조 총력” 지시",
+          "link": "https://www.khan.co.kr/article/202610101234001",
+          "press": "khan.co.kr",
+          "press_name": "경향신문"
+        },
+        {
           "title": "이 대통령, 대구 마트 천장 붕괴 사고에 \"인명 구조 총력 다 해야\"",
           "link": "https://www.hankookilbo.com/news/article/A2026101012260005990?did=NA",
           "press": "hankookilbo.com",
@@ -1481,18 +1501,6 @@
           "link": "https://www.slist.kr/news/articleView.html?idxno=772351",
           "press": "slist.kr",
           "press_name": "slist.kr"
-        },
-        {
-          "title": "이재명 대통령, 대구 천장 붕괴 사고에 “구조 총력” 지시",
-          "link": "https://www.khan.co.kr/article/202610101234001",
-          "press": "khan.co.kr",
-          "press_name": "경향신문"
-        },
-        {
-          "title": "[속보] 이 대통령, 대구 마트 천장붕괴 사고에 \"총력 대응\" 지시",
-          "link": "http://www.yonhapnewstv.co.kr/news/AKR20261010123323ORF",
-          "press": "yonhapnewstv.co.kr",
-          "press_name": "연합뉴스TV"
         },
         {
           "title": "대구 식자재마트 천장 붕괴···36명 부상·9명 병원 이송",
@@ -1543,28 +1551,16 @@
           "press_name": "biz.heraldcorp.com"
         },
         {
-          "title": "李대통령, 대구 마트 천장 붕괴에 인명 구조 총력 지시",
-          "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438539",
-          "press": "news.einfomax.co.kr",
-          "press_name": "news.einfomax.co.kr"
-        },
-        {
-          "title": "李대통령, 대구 마트 천장 붕괴 사고에 “인명 구조 총력” 긴급 지시",
-          "link": "https://www.etoday.co.kr/news/view/2634210",
-          "press": "etoday.co.kr",
-          "press_name": "etoday.co.kr"
-        },
-        {
           "title": "대구 마트서 천장 붕괴…36명 부상, 9명 병원 이송",
           "link": "https://www.jasm.co.kr/news/articleView.html?idxno=320956",
           "press": "jasm.co.kr",
           "press_name": "jasm.co.kr"
         },
         {
-          "title": "李대통령, 대구 마트 천장 붕괴에 '인명 구조 총력' 지시",
-          "link": "https://www.ajunews.com/view/20261010122324968",
-          "press": "ajunews.com",
-          "press_name": "ajunews.com"
+          "title": "李대통령, 대구 마트 천장 붕괴에 인명 구조 총력 지시",
+          "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438539",
+          "press": "news.einfomax.co.kr",
+          "press_name": "news.einfomax.co.kr"
         },
         {
           "title": "이 대통령, '대구 마트천장 붕괴사고'에 인명구조 총력 지시",
@@ -1573,10 +1569,10 @@
           "press_name": "뉴시스"
         },
         {
-          "title": "[속보] 李대통령, 대구 마트 붕괴사고에 \"인명 구조에 총력...수습에 만...",
-          "link": "https://www.fnnews.com/news/202610101220152744",
-          "press": "fnnews.com",
-          "press_name": "파이낸셜뉴스"
+          "title": "李대통령, 대구 마트 천장 붕괴 사고에 “인명 구조 총력” 긴급 지시",
+          "link": "https://www.etoday.co.kr/news/view/2634210",
+          "press": "etoday.co.kr",
+          "press_name": "etoday.co.kr"
         },
         {
           "title": "이 대통령, 대구 마트 천장 붕괴 사고에 “인명 구조 총력·수습 만전”...",
@@ -1591,10 +1587,10 @@
           "press_name": "newspim.com"
         },
         {
-          "title": "[속보] 李대통령, 대구 마트 천장 붕괴에 \"인명 구조 총력·수습 만전\" ...",
-          "link": "https://www.etoday.co.kr/news/view/2634209",
-          "press": "etoday.co.kr",
-          "press_name": "etoday.co.kr"
+          "title": "[속보] 李대통령, 대구 마트 붕괴사고에 \"인명 구조에 총력...수습에 만...",
+          "link": "https://www.fnnews.com/news/202610101220152744",
+          "press": "fnnews.com",
+          "press_name": "파이낸셜뉴스"
         },
         {
           "title": "李대통령, 대구 마트 사고에 \"인명 구조에 총력 다하라\" 지시",
@@ -1603,10 +1599,22 @@
           "press_name": "머니투데이"
         },
         {
+          "title": "대구 상가건물서 천장 마감재 와르르…노인 대상 판매행사 중 38명 부상",
+          "link": "https://www.kwnews.co.kr/article/20261010500034",
+          "press": "kwnews.co.kr",
+          "press_name": "kwnews.co.kr"
+        },
+        {
           "title": "대구 마트 천장 무너져 36명 부상, 9명 병원 이송",
           "link": "https://www.newscj.com/news/articleView.html?idxno=3439157",
           "press": "newscj.com",
           "press_name": "newscj.com"
+        },
+        {
+          "title": "[속보] 李대통령, 대구 마트 천장 붕괴에 \"인명 구조 총력·수습 만전\" ...",
+          "link": "https://www.etoday.co.kr/news/view/2634209",
+          "press": "etoday.co.kr",
+          "press_name": "etoday.co.kr"
         },
         {
           "title": "李, 대구 상가건물 천장 붕괴 사고에 “인명 구조 총력” 지시",
@@ -1621,22 +1629,16 @@
           "press_name": "조선일보"
         },
         {
-          "title": "대구 북구 대형마트 천장 붕괴…36명 부상, 9명 병원 이송",
-          "link": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4086668",
-          "press": "kyongbuk.co.kr",
-          "press_name": "경북일보"
-        },
-        {
           "title": "[속보] 李대통령, 대구 마트 천장 붕괴 사고에 \"인명 구조 총력\" 지시",
           "link": "https://www.dailian.co.kr/news/view/1699886/?sc=Naver",
           "press": "dailian.co.kr",
           "press_name": "dailian.co.kr"
         },
         {
-          "title": "대구 관음동 마트 천장 와르르, 36명 부상…9명 병원이송(종합)",
-          "link": "https://www.newsis.com/view/NISX20261010_0003820531",
-          "press": "newsis.com",
-          "press_name": "뉴시스"
+          "title": "대구 북구 대형마트 천장 붕괴…36명 부상, 9명 병원 이송",
+          "link": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4086668",
+          "press": "kyongbuk.co.kr",
+          "press_name": "경북일보"
         },
         {
           "title": "李대통령, 대구 마트 천장 붕괴에 \"인명 구조 총력·수습 만전\" 지시",
@@ -1645,16 +1647,16 @@
           "press_name": "한국경제"
         },
         {
+          "title": "대구 관음동 마트 천장 와르르, 36명 부상…9명 병원이송(종합)",
+          "link": "https://www.newsis.com/view/NISX20261010_0003820531",
+          "press": "newsis.com",
+          "press_name": "뉴시스"
+        },
+        {
           "title": "[속보] 이재명 대통령, 대구 마트 천장 붕괴 사고에 \"사고 수습 만전 기...",
           "link": "https://www.ajunews.com/view/20261010121925967",
           "press": "ajunews.com",
           "press_name": "ajunews.com"
-        },
-        {
-          "title": "“천장이 10초만에 우르르 무너져”… 대구 상가 2층서 38명 다쳤다",
-          "link": "https://www.chosun.com/national/2026/10/10/MSIAXZKUVVFFPB22ZD3GGXLZYA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-          "press": "chosun.com",
-          "press_name": "조선일보"
         },
         {
           "title": "[속보] 靑 \"이 대통령, '대구 마트 붕괴사고' 인명구조 총력 지시\"",
@@ -1669,10 +1671,10 @@
           "press_name": "news.bbsi.co.kr"
         },
         {
-          "title": "대구서 건물서 천장 붕괴…38명 부상·9명 병원 이송 [종합]",
-          "link": "https://www.hankyung.com/article/2026101034007",
-          "press": "hankyung.com",
-          "press_name": "한국경제"
+          "title": "“천장이 10초만에 우르르 무너져”… 대구 상가 2층서 38명 다쳤다",
+          "link": "https://www.chosun.com/national/2026/10/10/MSIAXZKUVVFFPB22ZD3GGXLZYA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+          "press": "chosun.com",
+          "press_name": "조선일보"
         },
         {
           "title": "[속보] 李대통령, 대구 마트 천장 붕괴에 \"인명 구조 총력·수습 만전\" ...",
@@ -1681,16 +1683,16 @@
           "press_name": "뉴스1"
         },
         {
+          "title": "대구서 건물서 천장 붕괴…38명 부상·9명 병원 이송 [종합]",
+          "link": "https://www.hankyung.com/article/2026101034007",
+          "press": "hankyung.com",
+          "press_name": "한국경제"
+        },
+        {
           "title": "대구 식자재 마트 천장 붕괴…36명 경상·9명 병원 이송",
           "link": "https://www.ajunews.com/view/20261010121059959",
           "press": "ajunews.com",
           "press_name": "ajunews.com"
-        },
-        {
-          "title": "대구 마트서 천장 무너져...수십여명 부상",
-          "link": "https://www.news1.kr/photos/8151868",
-          "press": "news1.kr",
-          "press_name": "뉴스1"
         },
         {
           "title": "[속보]대구 북구 마트서 천장 붕괴…36명 부상",
@@ -1699,16 +1701,16 @@
           "press_name": "노컷뉴스"
         },
         {
+          "title": "대구 마트서 천장 무너져...수십여명 부상",
+          "link": "https://www.news1.kr/photos/8151868",
+          "press": "news1.kr",
+          "press_name": "뉴스1"
+        },
+        {
           "title": "대구 북구 마트서 2층 천장 붕괴...36명 부상·66명 긴급 대피",
           "link": "https://www.pointe.co.kr/news/articleView.html?idxno=85855",
           "press": "pointe.co.kr",
           "press_name": "pointe.co.kr"
-        },
-        {
-          "title": "대구 북구 식자재마트 천장 붕괴… 36명 부상·9명 병원 이송 [종합]",
-          "link": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1299948",
-          "press": "jeonmae.co.kr",
-          "press_name": "jeonmae.co.kr"
         },
         {
           "title": "[속보] 대구 노인 대상 주방용품 판매장 천장 붕괴…38명 경상·9명 병원...",
@@ -1717,10 +1719,10 @@
           "press_name": "kado.net"
         },
         {
-          "title": "대구 마트서 천장 붕괴…36명 경상, 5명 병원 이송 치료",
-          "link": "https://www.livebiz.today/news/articleView.html?idxno=205480",
-          "press": "livebiz.today",
-          "press_name": "livebiz.today"
+          "title": "대구 북구 식자재마트 천장 붕괴… 36명 부상·9명 병원 이송 [종합]",
+          "link": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1299948",
+          "press": "jeonmae.co.kr",
+          "press_name": "jeonmae.co.kr"
         },
         {
           "title": "대구 북구 마트서 천장 무너져…9명 병원 이송",
@@ -1729,16 +1731,16 @@
           "press_name": "대구신문"
         },
         {
+          "title": "대구 마트서 천장 붕괴…36명 경상, 5명 병원 이송 치료",
+          "link": "https://www.livebiz.today/news/articleView.html?idxno=205480",
+          "press": "livebiz.today",
+          "press_name": "livebiz.today"
+        },
+        {
           "title": "대구 상가 2층서 10초간 천장 와르르…38명 부상, 9명 이송",
           "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000021406&cp=nv",
           "press": "kmib.co.kr",
           "press_name": "국민일보"
-        },
-        {
-          "title": "[1보] \"건물 천장이 내려앉았다\"… 대구 북구 마트 붕괴 사고 현장",
-          "link": "https://www.gukjenews.com/news/articleView.html?idxno=3717475",
-          "press": "gukjenews.com",
-          "press_name": "gukjenews.com"
         },
         {
           "title": "대구 북구 마트 천장 일부 붕괴… 소방 당국, 인명피해 우려 긴급 구조...",
@@ -1747,14 +1749,14 @@
           "press_name": "jeonmae.co.kr"
         },
         {
-          "title": "대구 건물 천장 붕괴 현장",
-          "link": "https://www.yna.co.kr/view/PYH20261010016400053?input=1196m",
-          "press": "yna.co.kr",
-          "press_name": "연합뉴스"
+          "title": "[1보] \"건물 천장이 내려앉았다\"… 대구 북구 마트 붕괴 사고 현장",
+          "link": "https://www.gukjenews.com/news/articleView.html?idxno=3717475",
+          "press": "gukjenews.com",
+          "press_name": "gukjenews.com"
         },
         {
-          "title": "대구 상가건물서 천장 일부 무너져 36명 부상, 9명 병원 이송(종합)",
-          "link": "https://www.yna.co.kr/view/AKR20261010023951053?input=1195m",
+          "title": "대구 건물 천장 붕괴 현장",
+          "link": "https://www.yna.co.kr/view/PYH20261010016400053?input=1196m",
           "press": "yna.co.kr",
           "press_name": "연합뉴스"
         },
@@ -1763,6 +1765,12 @@
           "link": "https://www.kukinews.com/article/view/kuk202610100011",
           "press": "kukinews.com",
           "press_name": "kukinews.com"
+        },
+        {
+          "title": "대구 상가건물서 천장 일부 무너져 36명 부상, 9명 병원 이송(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261010023951053?input=1195m",
+          "press": "yna.co.kr",
+          "press_name": "연합뉴스"
         },
         {
           "title": "‘연휴 날벼락’ 대구 마트 천장 붕괴...36명 경상",
@@ -1775,12 +1783,6 @@
           "link": "https://www.seoul.co.kr/news/society/2026/10/10/20261010500011?wlog_tag3=naver",
           "press": "seoul.co.kr",
           "press_name": "서울신문"
-        },
-        {
-          "title": "대구 마트 건물 천장 붕괴…\"9명 병원 이송\"",
-          "link": "http://www.yonhapnewstv.co.kr/news/AKR20261010115841PeB",
-          "press": "yonhapnewstv.co.kr",
-          "press_name": "연합뉴스TV"
         },
         {
           "title": "대구 마트서 천장 붕괴…36명 경상",
@@ -1801,6 +1803,12 @@
           "press_name": "YTN"
         },
         {
+          "title": "대구 마트 건물 천장 붕괴…\"9명 병원 이송\"",
+          "link": "http://www.yonhapnewstv.co.kr/news/AKR20261010115841PeB",
+          "press": "yonhapnewstv.co.kr",
+          "press_name": "연합뉴스TV"
+        },
+        {
           "title": "[속보] 대구 건물서 천장 붕괴…\"5명 병원 이송\"",
           "link": "http://www.yonhapnewstv.co.kr/news/MYH20261010115619Did",
           "press": "yonhapnewstv.co.kr",
@@ -1819,10 +1827,10 @@
           "press_name": "뉴시스"
         },
         {
-          "title": "대구 관음동 건물 천장 붕괴…66명 대피·36명 경상 잠정 집계",
-          "link": "https://www.kbmaeil.com/article/20261010500061",
-          "press": "kbmaeil.com",
-          "press_name": "경북매일"
+          "title": "[속보] 대구 북구 관음동 마트서 천장 일부 붕괴…\"부상자 발생\"",
+          "link": "https://www.dailian.co.kr/news/view/1699882/?sc=Naver",
+          "press": "dailian.co.kr",
+          "press_name": "dailian.co.kr"
         },
         {
           "title": "대구 마트서 천장 붕괴 사고…수십 명 부상",
@@ -1831,16 +1839,10 @@
           "press_name": "sidae.com"
         },
         {
-          "title": "[속보] 대구 북구 관음동 마트서 천장 일부 붕괴…\"부상자 발생\"",
-          "link": "https://www.dailian.co.kr/news/view/1699882/?sc=Naver",
-          "press": "dailian.co.kr",
-          "press_name": "dailian.co.kr"
-        },
-        {
-          "title": "대구 마트서 천장 붕괴 사고…소방당국 \"인명구조 중\"",
-          "link": "https://view.asiae.co.kr/article/2026101011510277571",
-          "press": "view.asiae.co.kr",
-          "press_name": "아시아경제"
+          "title": "대구 관음동 건물 천장 붕괴…66명 대피·36명 경상 잠정 집계",
+          "link": "https://www.kbmaeil.com/article/20261010500061",
+          "press": "kbmaeil.com",
+          "press_name": "경북매일"
         },
         {
           "title": "[속보] 대구 마트서 천장 일부 무너져…소방당국 \"인명 구조 중\"",
@@ -1849,16 +1851,22 @@
           "press_name": "economist.co.kr"
         },
         {
-          "title": "대구 마트서 천장 무너져…수십명 부상",
-          "link": "https://biz.heraldcorp.com/article/10898168?ref=naver",
-          "press": "biz.heraldcorp.com",
-          "press_name": "biz.heraldcorp.com"
+          "title": "대구 마트서 천장 붕괴 사고…소방당국 \"인명구조 중\"",
+          "link": "https://view.asiae.co.kr/article/2026101011510277571",
+          "press": "view.asiae.co.kr",
+          "press_name": "아시아경제"
         },
         {
           "title": "[속보]대구 관음동 건물 천장 내려앉아 수십 명 부상",
           "link": "https://www.tbc.co.kr/news/view?pno=20261010114448AE06639&id=211943",
           "press": "tbc.co.kr",
           "press_name": "TBC"
+        },
+        {
+          "title": "대구 마트서 천장 무너져…수십명 부상",
+          "link": "https://biz.heraldcorp.com/article/10898168?ref=naver",
+          "press": "biz.heraldcorp.com",
+          "press_name": "biz.heraldcorp.com"
         },
         {
           "title": "대구 관음동 건물 천장 붕괴...30여 명 다쳐",
@@ -1873,6 +1881,12 @@
           "press_name": "YTN"
         },
         {
+          "title": "대구 관음동 마트 천장 붕괴로 36명 다쳐…5명 병원 이송(상보)",
+          "link": "https://www.news1.kr/local/daegu-gyeongbuk/6315532",
+          "press": "news1.kr",
+          "press_name": "뉴스1"
+        },
+        {
           "title": "대구 마트 천장 무너져‥인명 피해 발생",
           "link": "https://imnews.imbc.com/replay/2026/nw1200/article/6856947_36967.html",
           "press": "imnews.imbc.com",
@@ -1885,28 +1899,22 @@
           "press_name": "news.skbroadband.com"
         },
         {
-          "title": "대구 관음동 마트 천장 붕괴로 36명 다쳐…5명 병원 이송(상보)",
-          "link": "https://www.news1.kr/local/daegu-gyeongbuk/6315532",
-          "press": "news1.kr",
-          "press_name": "뉴스1"
-        },
-        {
           "title": "[속보]대구 북구 마트 천장 무너져…부상자 발생, 구조 작업 중",
           "link": "https://dgmbc.com/NewsArticle/866643",
           "press": "dgmbc.com",
           "press_name": "대구MBC"
         },
         {
-          "title": "[속보] 대구 마트서 천장 붕괴…소방 \"인명 구조중\"",
-          "link": "http://www.yonhapnewstv.co.kr/news/MYH20261010114413dVt",
-          "press": "yonhapnewstv.co.kr",
-          "press_name": "연합뉴스TV"
-        },
-        {
           "title": "대구 북구 관음동 마트 천장 붕괴 사고…수십 명 부상",
           "link": "http://www.4th.kr/news/articleView.html?idxno=2119502",
           "press": "4th.kr",
           "press_name": "4th.kr"
+        },
+        {
+          "title": "[속보] 대구 마트서 천장 붕괴…소방 \"인명 구조중\"",
+          "link": "http://www.yonhapnewstv.co.kr/news/MYH20261010114413dVt",
+          "press": "yonhapnewstv.co.kr",
+          "press_name": "연합뉴스TV"
         },
         {
           "title": "[속보]대구 마트서 천장 붕괴 사고…수십명 부상",
@@ -1927,16 +1935,28 @@
           "press_name": "KBS"
         },
         {
+          "title": "[속보] 대구 관음동 마트 천장 붕괴…소방당국 긴급 '구조작업'",
+          "link": "https://www.ngonews.kr/news/articleView.html?idxno=240229",
+          "press": "ngonews.kr",
+          "press_name": "ngonews.kr"
+        },
+        {
           "title": "[속보] 대구 북구 관음동 건물 천장 붕괴…66명 자력대피 완료",
           "link": "http://www.yonhapnewstv.co.kr/news/AKR20261010114132Pal",
           "press": "yonhapnewstv.co.kr",
           "press_name": "연합뉴스TV"
         },
         {
-          "title": "[속보] 대구 관음동 마트 천장 붕괴…소방당국 긴급 '구조작업'",
-          "link": "https://www.ngonews.kr/news/articleView.html?idxno=240229",
-          "press": "ngonews.kr",
-          "press_name": "ngonews.kr"
+          "title": "대구 마트서 천장 붕괴…부상자 구조 진행중",
+          "link": "http://www.metroseoul.co.kr/article/20261010500010",
+          "press": "metroseoul.co.kr",
+          "press_name": "metroseoul.co.kr"
+        },
+        {
+          "title": "[단독] 대구 마트서 천장 무너져 수십명 인명 피해…4명 병원 이송",
+          "link": "https://www.munhwa.com/article/11622482?ref=naver",
+          "press": "munhwa.com",
+          "press_name": "문화일보"
         },
         {
           "title": "[속보] 대구 북구 마트 천장 일부 붕괴…38명 부상",
@@ -1949,18 +1969,6 @@
           "link": "https://imnews.imbc.com/news/2026/society/article/6856942_36918.html",
           "press": "imnews.imbc.com",
           "press_name": "MBC"
-        },
-        {
-          "title": "[단독] 대구 마트서 천장 무너져 수십명 인명 피해…4명 병원 이송",
-          "link": "https://www.munhwa.com/article/11622482?ref=naver",
-          "press": "munhwa.com",
-          "press_name": "문화일보"
-        },
-        {
-          "title": "대구 마트서 천장 붕괴…부상자 구조 진행중",
-          "link": "http://www.metroseoul.co.kr/article/20261010500010",
-          "press": "metroseoul.co.kr",
-          "press_name": "metroseoul.co.kr"
         },
         {
           "title": "대구 관음동 마트 천장 붕괴…\"수십 명 깔렸다\" 목격담 잇따라",
@@ -1981,10 +1989,10 @@
           "press_name": "dkilbo.com"
         },
         {
-          "title": "대구 북구 건물서 천장 마감재 와르르…38명 다쳐",
-          "link": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000554446",
-          "press": "ichannela.com",
-          "press_name": "ichannela.com"
+          "title": "[속보] 대구 마트서 천장 무너져…수십명 부상",
+          "link": "https://www.viva100.com/article/20261010500073",
+          "press": "viva100.com",
+          "press_name": "viva100.com"
         },
         {
           "title": "대구 마트서 천장 일부 무너져…소방 당국 \"인명구조 중\"",
@@ -1993,10 +2001,10 @@
           "press_name": "파이낸셜뉴스"
         },
         {
-          "title": "[속보] 대구 마트서 천장 무너져…수십명 부상",
-          "link": "https://www.viva100.com/article/20261010500073",
-          "press": "viva100.com",
-          "press_name": "viva100.com"
+          "title": "대구 북구 건물서 천장 마감재 와르르…38명 다쳐",
+          "link": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000554446",
+          "press": "ichannela.com",
+          "press_name": "ichannela.com"
         },
         {
           "title": "대구 마트서 천장 일부 붕괴…소방 당국 \"인명구조 중\"",
@@ -2005,10 +2013,10 @@
           "press_name": "매일경제"
         },
         {
-          "title": "노인 대상 판매 행사장서 날벼락…대구 북구 상가건물 천장 무너져 38명...",
-          "link": "https://www.hidomin.com/news/articleView.html?idxno=724217",
-          "press": "hidomin.com",
-          "press_name": "hidomin.com"
+          "title": "대구 북구 마트 천장 붕괴, 수십명 부상 … 李 대통령 \"인명 구조 총력...",
+          "link": "https://www.newdaily.co.kr/site/data/html/2026/10/10/2026101000033.html",
+          "press": "newdaily.co.kr",
+          "press_name": "newdaily.co.kr"
         },
         {
           "title": "[속보] 대구 북구 마트서 천장 일부 붕괴…\"인명 구조 중\"",
@@ -2017,16 +2025,16 @@
           "press_name": "뉴스1"
         },
         {
+          "title": "노인 대상 판매 행사장서 날벼락…대구 북구 상가건물 천장 무너져 38명...",
+          "link": "https://www.hidomin.com/news/articleView.html?idxno=724217",
+          "press": "hidomin.com",
+          "press_name": "hidomin.com"
+        },
+        {
           "title": "[속보] 대구 마트서 천장 무너져…수십명 부상",
           "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5070159",
           "press": "shinailbo.co.kr",
           "press_name": "shinailbo.co.kr"
-        },
-        {
-          "title": "대구 북구 마트 천장 붕괴, 수십명 부상 … 李 대통령 \"인명 구조 총력...",
-          "link": "https://www.newdaily.co.kr/site/data/html/2026/10/10/2026101000033.html",
-          "press": "newdaily.co.kr",
-          "press_name": "newdaily.co.kr"
         },
         {
           "title": "[속보]대구 마트서 천장 일부 붕괴…36명 부상·9명 병원 이송",
@@ -2035,10 +2043,10 @@
           "press_name": "이데일리"
         },
         {
-          "title": "[속보] 대구 마트서 천장 붕괴…수십명 부상",
-          "link": "https://www.news1.kr/local/daegu-gyeongbuk/6315525",
-          "press": "news1.kr",
-          "press_name": "뉴스1"
+          "title": "대구 마트서 천장 일부 무너져…소방 당국 \"인명구조 중\"",
+          "link": "https://www.livebiz.today/news/articleView.html?idxno=205478",
+          "press": "livebiz.today",
+          "press_name": "livebiz.today"
         },
         {
           "title": "[속보] 대구서 마트 천장 무너져···현재 구조 작업 진행중",
@@ -2047,10 +2055,10 @@
           "press_name": "todaykorea.co.kr"
         },
         {
-          "title": "대구 마트서 천장 일부 무너져…소방 당국 \"인명구조 중\"",
-          "link": "https://www.livebiz.today/news/articleView.html?idxno=205478",
-          "press": "livebiz.today",
-          "press_name": "livebiz.today"
+          "title": "[속보] 대구 마트서 천장 붕괴…수십명 부상",
+          "link": "https://www.news1.kr/local/daegu-gyeongbuk/6315525",
+          "press": "news1.kr",
+          "press_name": "뉴스1"
         },
         {
           "title": "대구 마트서 천장 무너져... 36명 경상, 9명 병원 이송",
@@ -2083,24 +2091,6 @@
           "press_name": "news.bbsi.co.kr"
         },
         {
-          "title": "대구 마트서 천장 일부 무너져…소방 당국 \"인명구조 중\"",
-          "link": "https://www.hankyung.com/article/2026101033837",
-          "press": "hankyung.com",
-          "press_name": "한국경제"
-        },
-        {
-          "title": "[속보] 대구 마트서 천장 무너져…수십명 부상",
-          "link": "https://www.fnnews.com/news/202610101125451310",
-          "press": "fnnews.com",
-          "press_name": "파이낸셜뉴스"
-        },
-        {
-          "title": "[속보] 대구 마트서 천장 일부 무너져…\"인명구조 중\"",
-          "link": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202610100020&t=NN",
-          "press": "wowtv.co.kr",
-          "press_name": "wowtv.co.kr"
-        },
-        {
           "title": "대구서 건물 2층 천장 마감재 떨어져 38명 부상…9명 병원 이송",
           "link": "https://news.jtbc.co.kr/article/NB12322306?influxDiv=NAVER",
           "press": "news.jtbc.co.kr",
@@ -2119,6 +2109,36 @@
           "press_name": "서울신문"
         },
         {
+          "title": "대구 마트서 천장 일부 무너져…소방 당국 \"인명구조 중\"",
+          "link": "https://www.hankyung.com/article/2026101033837",
+          "press": "hankyung.com",
+          "press_name": "한국경제"
+        },
+        {
+          "title": "[속보] 대구 마트서 천장 일부 무너져…\"인명구조 중\"",
+          "link": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202610100020&t=NN",
+          "press": "wowtv.co.kr",
+          "press_name": "wowtv.co.kr"
+        },
+        {
+          "title": "[속보] 대구 마트서 천장 무너져…수십명 부상",
+          "link": "https://www.fnnews.com/news/202610101125451310",
+          "press": "fnnews.com",
+          "press_name": "파이낸셜뉴스"
+        },
+        {
+          "title": "[속보] 대구 마트서 천장 붕괴 사고…수십명 부상",
+          "link": "https://view.asiae.co.kr/article/2026101011260336851",
+          "press": "view.asiae.co.kr",
+          "press_name": "아시아경제"
+        },
+        {
+          "title": "[속보] 대구 마트 천장 붕괴, 수십명 부상",
+          "link": "https://www.newscj.com/news/articleView.html?idxno=3439152",
+          "press": "newscj.com",
+          "press_name": "newscj.com"
+        },
+        {
           "title": "[속보] 대구 마트서 천장 무너져…수십명 부상",
           "link": "http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00009&news_seq_no=5224018",
           "press": "mbn.mk.co.kr",
@@ -2131,34 +2151,16 @@
           "press_name": "wikitree.co.kr"
         },
         {
-          "title": "[속보] 대구 마트 천장 붕괴, 수십명 부상",
-          "link": "https://www.newscj.com/news/articleView.html?idxno=3439152",
-          "press": "newscj.com",
-          "press_name": "newscj.com"
-        },
-        {
-          "title": "[속보] 대구 마트서 천장 붕괴 사고…수십명 부상",
-          "link": "https://view.asiae.co.kr/article/2026101011260336851",
-          "press": "view.asiae.co.kr",
-          "press_name": "아시아경제"
-        },
-        {
-          "title": "대구 마트서 천장 무너져…36명 부상, 9명 병원 이송",
-          "link": "https://www.sedaily.com/article/20099977?ref=naver",
-          "press": "sedaily.com",
-          "press_name": "서울경제"
-        },
-        {
           "title": "[속보] 대구 마트서 천장 무너져…수십명 부상",
           "link": "https://www.mk.co.kr/article/12172682",
           "press": "mk.co.kr",
           "press_name": "매일경제"
         },
         {
-          "title": "대구 마트서 천장 무너져…수십명 부상",
-          "link": "https://biz.sbs.co.kr/article_hub/20000339166?division=NAVER",
-          "press": "biz.sbs.co.kr",
-          "press_name": "SBS"
+          "title": "대구 마트서 천장 무너져…36명 부상, 9명 병원 이송",
+          "link": "https://www.sedaily.com/article/20099977?ref=naver",
+          "press": "sedaily.com",
+          "press_name": "서울경제"
         },
         {
           "title": "대구 상가서 노인 대상 주방용품 판매 중 천장 ‘와르르’…38명 부상",
@@ -2171,6 +2173,12 @@
           "link": "https://www.newspim.com/news/view/20261010000029",
           "press": "newspim.com",
           "press_name": "newspim.com"
+        },
+        {
+          "title": "대구 마트서 천장 무너져…수십명 부상",
+          "link": "https://biz.sbs.co.kr/article_hub/20000339166?division=NAVER",
+          "press": "biz.sbs.co.kr",
+          "press_name": "SBS"
         },
         {
           "title": "대구 상가건물서 천장 일부 무너져…소방 당국 \"인명구조 중\"",
@@ -2190,7 +2198,7 @@
       "category": "사건사고",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 105.358
+      "importance": 106.302
     },
     {
       "title": "포항 장흥동서 승용차·오토바이 충돌…3명 다쳐 병원 이송",
@@ -2254,7 +2262,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 7.277
+      "importance": 7.182
     },
     {
       "title": "경북 포항 욕실자재업체서 불…인명피해 없어",
@@ -2302,7 +2310,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 5.576
+      "importance": 5.481
     },
     {
       "title": "홍준표 \"김부겸 밀었지만 대구시민들 진심 안 받아줘…지역감정, 더 당...",
@@ -2356,7 +2364,7 @@
       "category": "정치행정",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 5.407
+      "importance": 5.326
     },
     {
       "title": "포항 소매점 인근서 화재…1시간여 만에 초진",
@@ -2388,7 +2396,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 3.526
+      "importance": 3.43
     },
     {
       "title": "포항 환호동 상가서 화재 진화 중...현재까지 인명피해 없어",
@@ -2420,7 +2428,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 3.449
+      "importance": 3.353
     },
     {
       "title": "\"천장이 파도처럼 와르르\"…대구 붕괴사고 '공포의 순간'",
@@ -2450,7 +2458,7 @@
       "category": "사건사고",
       "region": "대구",
       "gb_zones": [],
-      "importance": 3.3
+      "importance": 3.204
     },
     {
       "title": "“순식간에 천장이 내려앉았어\"…긴박했던 대구 붕괴사고 순간 [사건수...",
@@ -2480,7 +2488,7 @@
       "category": "사건사고",
       "region": "대구",
       "gb_zones": [],
-      "importance": 3.273
+      "importance": 3.178
     },
     {
       "title": "한 총리, 대구 마트천장 붕괴 사고에 \"모든 장비·인력 동원해 인명구조...",
@@ -2510,45 +2518,7 @@
       "category": "사건사고",
       "region": "대구",
       "gb_zones": [],
-      "importance": 3.231
-    },
-    {
-      "title": "대구시, 5등급 차량 운행제한 앞두고 모의단속 두 차례",
-      "desc": "뉴데일리 강승탁 기자 = 대구시가 겨울철 미세먼지 계절관리기간에 시행할 배출가스 5등급 차량 운행제한을... 대구시는 오는 12월 1일부터 내년 3월 31일까지 예정된 ‘제8차 미세먼지 계절관리기간’ 운행제한에 앞서...",
-      "link": "https://tk.newdaily.co.kr/site/data/html/2026/10/10/2026101000014.html",
-      "press": "tk.newdaily.co.kr",
-      "press_name": "뉴데일리대구경북",
-      "press_count": 3,
-      "press_list": [
-        "imaeil.com",
-        "tk.newdaily.co.kr",
-        "yna.co.kr"
-      ],
-      "press_name_list": [
-        "뉴데일리대구경북",
-        "매일신문",
-        "연합뉴스"
-      ],
-      "related": [
-        {
-          "title": "대구시, 배출가스 5등급 차량 모의 단속 12일 시작…과태료 없다",
-          "link": "https://www.imaeil.com/page/view/2026101007113276778",
-          "press": "imaeil.com",
-          "press_name": "매일신문"
-        },
-        {
-          "title": "대구시, 과태료 부과 없는 배출가스 5등급 차량 운행 모의 단속",
-          "link": "https://www.yna.co.kr/view/AKR20261008130000053?input=1195m",
-          "press": "yna.co.kr",
-          "press_name": "연합뉴스"
-        }
-      ],
-      "is_routine": false,
-      "pub_date": "2026-10-10T09:38:00+09:00",
-      "category": "일반",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 3.216
+      "importance": 3.135
     },
     {
       "title": "경산 자동차정비공장 화재··· 큰 불길 50여 분 만에 잡혀",
@@ -2578,7 +2548,7 @@
       "category": "사건사고",
       "region": "경북",
       "gb_zones": [],
-      "importance": 3.188
+      "importance": 3.092
     },
     {
       "title": "문경 선유동천 나들길서 벌떼 습격…탐방객 8명 병원 이송",
@@ -2610,37 +2580,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 3.029
-    },
-    {
-      "title": "대구 군위경찰서, 농산물 절도·보이스피싱 예방에 앞장",
-      "desc": "대구군위경찰서는 지난 8일 군위종합운동장에서 열린 ‘군위군민체육대회’에서 지역 주민 8000여 명을... 이러한 노력은 주민들의 안전을 보장하고 지역사회의 신뢰를 높이는 데 기여할 것으로 기대된다. 대구 군위=",
-      "link": "https://www.viva100.com/article/20261010500009",
-      "press": "viva100.com",
-      "press_name": "viva100.com",
-      "press_count": 2,
-      "press_list": [
-        "straightnews.co.kr",
-        "viva100.com"
-      ],
-      "press_name_list": [
-        "straightnews.co.kr",
-        "viva100.com"
-      ],
-      "related": [
-        {
-          "title": "군위경찰서, 체육대회서 농산물 절도·보이스피싱 예방 홍보",
-          "link": "https://www.straightnews.co.kr/news/articleView.html?idxno=312863",
-          "press": "straightnews.co.kr",
-          "press_name": "straightnews.co.kr"
-        }
-      ],
-      "is_routine": false,
-      "pub_date": "2026-10-10T09:12:00+09:00",
-      "category": "범죄사법",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 3.009
+      "importance": 2.945
     },
     {
       "title": "포항 ‘ALL GOOD 통합돌봄’ 200일간 1022명 지원",
@@ -2672,37 +2612,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 2.814
-    },
-    {
-      "title": "경북교육청, 경북 공립 유·초·특수교사 임용 경쟁률 3.44대 1",
-      "desc": "기자 = 경북지역 공립 유치원·초등학교·특수학교 교사 임용시험 경쟁률이 지난해보다 높아졌다. 2027학년도 임용시험 원서접수 결과 287명 선발에 986명이 지원해 평균 3.44대 1의 경쟁률을 기록했다. 경북교육청...",
-      "link": "https://tk.newdaily.co.kr/site/data/html/2026/10/10/2026101000011.html",
-      "press": "tk.newdaily.co.kr",
-      "press_name": "뉴데일리대구경북",
-      "press_count": 2,
-      "press_list": [
-        "dgmbc.com",
-        "tk.newdaily.co.kr"
-      ],
-      "press_name_list": [
-        "뉴데일리대구경북",
-        "대구MBC"
-      ],
-      "related": [
-        {
-          "title": "2027학년도 경북 공립 초·유치원 교사 임용 경쟁률 3.44대 1···전년 대...",
-          "link": "https://dgmbc.com/NewsArticle/866336",
-          "press": "dgmbc.com",
-          "press_name": "대구MBC"
-        }
-      ],
-      "is_routine": false,
-      "pub_date": "2026-10-10T09:26:00+09:00",
-      "category": "사회복지",
-      "region": "경북",
-      "gb_zones": [],
-      "importance": 2.773
+      "importance": 2.73
     },
     {
       "title": "영주시, 베어링에서 경량소재·방산까지…미래산업 투자유치 시동",
@@ -2734,7 +2644,28 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 2.716
+      "importance": 2.635
+    },
+    {
+      "title": "[천지일보 이슈종합] 이화영 가석방 요구·대구 상가건물 천장 붕괴·잠...",
+      "desc": "대구 북구의 한 상가건물에서 천장 마감재가 연쇄적으로 무너져 방문객 38명이 다쳤다. 전산장애가 잦은... ◆대구 상가 천장 마감재 10초간 '와르르'… 38명 부상, 9명 병원행☞ 대구 북구의 한 상가건물에서 천장 마감재가...",
+      "link": "https://www.newscj.com/news/articleView.html?idxno=3439261",
+      "press": "newscj.com",
+      "press_name": "newscj.com",
+      "press_count": 1,
+      "press_list": [
+        "newscj.com"
+      ],
+      "press_name_list": [
+        "newscj.com"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-11T07:00:00+09:00",
+      "category": "사건사고",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 2.584
     },
     {
       "title": "경산 자동차 정비소에 불...인천 앞바다서 어선 침수",
@@ -2768,7 +2699,28 @@
       "category": "사건사고",
       "region": "경북",
       "gb_zones": [],
-      "importance": 2.552
+      "importance": 2.457
+    },
+    {
+      "title": "남한은 소설, 북한은 시(詩)...잊혀진 대구 10월항쟁, 문학에 되새긴 아...",
+      "desc": "해방 이후 한반도 최초의 민중항쟁인 '대구 10월항쟁' 미군정의 경제 정책 실패와 콜레라, 친일 경찰 등용... 대구경북작가회의 10월문학제위원회, 10월문학회는 10일 오후 대구문학관(중구 중앙대로 449)에서 '10월항쟁...",
+      "link": "https://www.pn.or.kr/news/articleView.html?idxno=34210",
+      "press": "pn.or.kr",
+      "press_name": "pn.or.kr",
+      "press_count": 1,
+      "press_list": [
+        "pn.or.kr"
+      ],
+      "press_name_list": [
+        "pn.or.kr"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-11T04:40:00+09:00",
+      "category": "범죄사법",
+      "region": "대구경북",
+      "gb_zones": [],
+      "importance": 2.424
     },
     {
       "title": "포항 욕실 자재 판매업소 화재로 일대 검은 연기",
@@ -2804,7 +2756,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 2.478
+      "importance": 2.383
     },
     {
       "title": "포항 환호동 상가건물 화재…주민들 연기 불편 호소",
@@ -2827,7 +2779,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 2.46
+      "importance": 2.365
     },
     {
       "title": "중부내륙고속도로 문경2터널서 차량 6대 연쇄 추돌···2명 경상",
@@ -2850,7 +2802,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 2.428
+      "importance": 2.333
     },
     {
       "title": "경북지역 고속도로 사고·화재 잇따라",
@@ -2874,43 +2826,7 @@
         "동해안",
         "북부"
       ],
-      "importance": 2.428
-    },
-    {
-      "title": "포항 상가 화재 잔불 정리",
-      "desc": "10일 오후 5시 33분쯤 경북 포항시 북구 삼호로의 한 상가건물에서 원인을 알 수 없는 불이 나 소방 당국이 진화를 하고 있다. 이 불로 상가건물 한동이 전소됐으며 소방당국은 중장비를 투입, 잔불을 진화 중이다....",
-      "link": "https://www.news1.kr/photos/8152173",
-      "press": "news1.kr",
-      "press_name": "뉴스1",
-      "press_count": 1,
-      "press_list": [
-        "news1.kr"
-      ],
-      "press_name_list": [
-        "뉴스1"
-      ],
-      "related": [
-        {
-          "title": "포항 상가 잔불 정리",
-          "link": "https://www.news1.kr/photos/8152176",
-          "press": "news1.kr",
-          "press_name": "뉴스1"
-        },
-        {
-          "title": "포항 북구 상가 건물서 화재",
-          "link": "https://www.news1.kr/photos/8152137",
-          "press": "news1.kr",
-          "press_name": "뉴스1"
-        }
-      ],
-      "is_routine": false,
-      "pub_date": "2026-10-10T21:13:00+09:00",
-      "category": "사건사고",
-      "region": "경북",
-      "gb_zones": [
-        "동해안"
-      ],
-      "importance": 2.414
+      "importance": 2.333
     },
     {
       "title": "밤샘 진화 중인 포항상가 화재",
@@ -2933,7 +2849,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 2.414
+      "importance": 2.319
     },
     {
       "title": "노인들에 상품 팔다 '와르르'...38명 부상",
@@ -2954,7 +2870,7 @@
       "category": "사건사고",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.409
+      "importance": 2.313
     },
     {
       "title": "포항 환호동 소매점 뒤편 화재…1시간 10분 만에 초진·인명피해 없어",
@@ -2977,7 +2893,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 2.37
+      "importance": 2.274
     },
     {
       "title": "\"현장 안전이 최우선\" 영천시의회, 청소행정 구조적 개선 나선다",
@@ -2998,7 +2914,7 @@
       "category": "사건사고",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 2.367
+      "importance": 2.272
     },
     {
       "title": "포항 환호동 소매점 뒤편 화재…검은 연기에 주민 호흡곤란 호소",
@@ -3021,28 +2937,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 2.352
-    },
-    {
-      "title": "대구 상가 천장 붕괴 때 “쥐 지나가는 듯한 소리 났다”",
-      "desc": "중 대구 북구의 한 상가 건물에서 천장 마감재가 무너져 내려 이용객들이 다치고 수십 명이 대피하는 사고가 발생했다. 현장을 찾은 추경호 대구시장은 철저한 원인 규명과 함께 추가 위험 점검을 긴급 지시했다. 10일...",
-      "link": "https://www.segye.com/newsView/20261010506403?OutUrl=naver",
-      "press": "segye.com",
-      "press_name": "세계일보",
-      "press_count": 1,
-      "press_list": [
-        "segye.com"
-      ],
-      "press_name_list": [
-        "세계일보"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T18:47:00+09:00",
-      "category": "사건사고",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 2.348
+      "importance": 2.256
     },
     {
       "title": "\"우리 동네에서 이런 일이\" 철렁…대구 천장 붕괴 원인은",
@@ -3063,7 +2958,28 @@
       "category": "사건사고",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.348
+      "importance": 2.253
+    },
+    {
+      "title": "대구 상가 천장 붕괴 때 “쥐 지나가는 듯한 소리 났다”",
+      "desc": "중 대구 북구의 한 상가 건물에서 천장 마감재가 무너져 내려 이용객들이 다치고 수십 명이 대피하는 사고가 발생했다. 현장을 찾은 추경호 대구시장은 철저한 원인 규명과 함께 추가 위험 점검을 긴급 지시했다. 10일...",
+      "link": "https://www.segye.com/newsView/20261010506403?OutUrl=naver",
+      "press": "segye.com",
+      "press_name": "세계일보",
+      "press_count": 1,
+      "press_list": [
+        "segye.com"
+      ],
+      "press_name_list": [
+        "세계일보"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T18:47:00+09:00",
+      "category": "사건사고",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 2.253
     },
     {
       "title": "“우수수 떨어져 아수라장” 대구서 상가 천장 마감재 붕괴로 노인 38명...",
@@ -3084,7 +3000,7 @@
       "category": "사건사고",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.343
+      "importance": 2.248
     },
     {
       "title": "대구시 상가 건물 천장 마감재 붕괴사고…경찰 전담수사팀 구성",
@@ -3105,7 +3021,7 @@
       "category": "사건사고",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.34
+      "importance": 2.245
     },
     {
       "title": "포항 라메르웨딩홀 맞은편 상가서 화재…소방당국 진화 중",
@@ -3128,7 +3044,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 2.339
+      "importance": 2.244
     },
     {
       "title": "포항 소매점 인근 화재로 검은 연기…소방 당국 진화 중",
@@ -3151,7 +3067,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 2.337
+      "importance": 2.242
     },
     {
       "title": "문경소방서, 다수사상자 구급대응 역량강화 교육 실시",
@@ -3174,7 +3090,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 2.331
+      "importance": 2.239
     },
     {
       "title": "대구 상가 천장 사고 내일 합동 감식…경찰 33명, 구조 결함·안전조치...",
@@ -3195,7 +3111,7 @@
       "category": "사건사고",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.295
+      "importance": 2.199
     },
     {
       "title": "대구 천장 사고 현장에 어르신 피해자 왜 많았나 봤더니…‘무료 화장지...",
@@ -3216,7 +3132,7 @@
       "category": "사건사고",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.288
+      "importance": 2.192
     },
     {
       "title": "대구경찰청, 붕괴사고 전담수사팀 편성 수사 착수",
@@ -3237,7 +3153,7 @@
       "category": "사건사고",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.286
+      "importance": 2.19
     },
     {
       "title": "천장 무너진 대구 상가 행사장… 아수라장 된 현장보니",
@@ -3258,7 +3174,7 @@
       "category": "사건사고",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.28
+      "importance": 2.185
     },
     {
       "title": "대구경찰, '북구 상가건물 천장 마감재 낙하 사고' 전담수사팀 편성",
@@ -3279,7 +3195,7 @@
       "category": "사건사고",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.277
+      "importance": 2.181
     },
     {
       "title": "대구 관음동 상가 천장 붕괴에 놀란 80대 어르신 “천장 보니 위험하다...",
@@ -3300,28 +3216,7 @@
       "category": "사건사고",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.276
-    },
-    {
-      "title": "경산 자동차 정비공장서 불…약 2시간 만에 진화",
-      "desc": "경북 경산의 한 자동차 정비공장에서 불이 나 약 2시간 만에 진화됐다. 10일 경북소방본부에 따르면 이날 오전 8시 55분쯤 경산시 중산동의 한 자동차 정비공장에서 불이 나 1시간 51분 만에 꺼졌다. 이 화재로 397...",
-      "link": "https://www.seoul.co.kr/news/society/2026/10/10/20261010500017?wlog_tag3=naver",
-      "press": "seoul.co.kr",
-      "press_name": "서울신문",
-      "press_count": 1,
-      "press_list": [
-        "seoul.co.kr"
-      ],
-      "press_name_list": [
-        "서울신문"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T15:57:00+09:00",
-      "category": "사건사고",
-      "region": "경북",
-      "gb_zones": [],
-      "importance": 2.272
+      "importance": 2.181
     },
     {
       "title": "\"경찰관 정신건강은 국민 안전의 기반\"…스트레스·PTSD 대책 모색",
@@ -3342,7 +3237,28 @@
       "category": "범죄사법",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 2.27
+      "importance": 2.178
+    },
+    {
+      "title": "경산 자동차 정비공장서 불…약 2시간 만에 진화",
+      "desc": "경북 경산의 한 자동차 정비공장에서 불이 나 약 2시간 만에 진화됐다. 10일 경북소방본부에 따르면 이날 오전 8시 55분쯤 경산시 중산동의 한 자동차 정비공장에서 불이 나 1시간 51분 만에 꺼졌다. 이 화재로 397...",
+      "link": "https://www.seoul.co.kr/news/society/2026/10/10/20261010500017?wlog_tag3=naver",
+      "press": "seoul.co.kr",
+      "press_name": "서울신문",
+      "press_count": 1,
+      "press_list": [
+        "seoul.co.kr"
+      ],
+      "press_name_list": [
+        "서울신문"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T15:57:00+09:00",
+      "category": "사건사고",
+      "region": "경북",
+      "gb_zones": [],
+      "importance": 2.176
     },
     {
       "title": "30년 된 노후 건물 점검 대상서 제외… 대구 북구 마감재 붕괴 사고 원인...",
@@ -3363,7 +3279,7 @@
       "category": "사건사고",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.267
+      "importance": 2.172
     },
     {
       "title": "“10초도 안 돼 천장 와르르”…대구 천장 붕괴에 李 긴급 지시",
@@ -3384,175 +3300,7 @@
       "category": "사건사고",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.254
-    },
-    {
-      "title": "\"드르륵…천장이 파도처럼 덮쳐\" 대구 붕괴 생존자 증언",
-      "desc": "10일 대구 북구의 한 식자재 마트에선 천장 일부가 무너져 방문객 30여 명이 부상하는 사고가 발생한 가운데 생존자가 당시 상황을 증언했다. 10일 대구 북구 관음동의 한 4층 건물에 있는 2층 생활근린시설에서 천장...",
-      "link": "https://www.edaily.co.kr/News/Read?newsId=02236966645611608&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-      "press": "edaily.co.kr",
-      "press_name": "이데일리",
-      "press_count": 1,
-      "press_list": [
-        "edaily.co.kr"
-      ],
-      "press_name_list": [
-        "이데일리"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T15:13:00+09:00",
-      "category": "사건사고",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 2.252
-    },
-    {
-      "title": "“드르륵 소리 나더니, 파도처럼 우르르 내려앉았다”…대구 붕괴 사고...",
-      "desc": "10일 오전 대구 북구 관음동의 한 4층짜리 건물 2층에서 천장 일부가 무너지는 사고가 발생했다. 당시 건물... / 뉴스1대구 건물 천장 붕괴 사고 당시 안에 있었던 사고 목격자 증언이 전해졌다.사고가 난 건물은 1994년...",
-      "link": "https://www.wikitree.co.kr/articles/1165157",
-      "press": "wikitree.co.kr",
-      "press_name": "wikitree.co.kr",
-      "press_count": 1,
-      "press_list": [
-        "wikitree.co.kr"
-      ],
-      "press_name_list": [
-        "wikitree.co.kr"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T15:04:00+09:00",
-      "category": "사건사고",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 2.248
-    },
-    {
-      "title": "대구 상가 건물 천장 붕괴…노인 대상 행사 도중 '우르르'(종합)",
-      "desc": "대구의 한 상가건물에서 노인들을 대상으로 주방용품 등을 판매하는 홍보 행사가 열리던 중 천장 마감재... 10일 대구소방본부와 대구 북구청 등에 따르면 이날 오전 10시16분께 북구 관음동의 한 4층짜리 건물 2층에서...",
-      "link": "https://www.jasm.co.kr/news/articleView.html?idxno=320965",
-      "press": "jasm.co.kr",
-      "press_name": "jasm.co.kr",
-      "press_count": 1,
-      "press_list": [
-        "jasm.co.kr"
-      ],
-      "press_name_list": [
-        "jasm.co.kr"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T14:34:00+09:00",
-      "category": "사건사고",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 2.234
-    },
-    {
-      "title": "경찰, 천장 구조물 붕괴 사고 감식 등 원인 규명 나서",
-      "desc": "대구 북구에서 발생한 건물 천장 구조물 붕괴 사고와 관련해 경찰이 사고 원인 규명에 나섭니다. 대구강북경찰서는 2층 천장 특정 부분 마감재가 먼저 떨어진 뒤 다른 부분 마감재들도 연쇄적으로 떨어졌다는 목격자...",
-      "link": "https://dgmbc.com/NewsArticle/866648",
-      "press": "dgmbc.com",
-      "press_name": "대구MBC",
-      "press_count": 1,
-      "press_list": [
-        "dgmbc.com"
-      ],
-      "press_name_list": [
-        "대구MBC"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T14:33:00+09:00",
-      "category": "사건사고",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 2.234
-    },
-    {
-      "title": "‘천장 붕괴’ 대구 건물, 32년 됐지만…정기 안전점검 대상 아냐, 왜?",
-      "desc": "10일 대구광역시 북구 관음동 건물 천장 붕괴 사고로 노인 38명이 다친 가운데 준공된 지 32년 된 해당 건물이... 10일 연합뉴스에 따르면 이날 오전 10시 16분께 붕괴 사고가 난 대구 북구 관음동의 건물은 4층짜리로 1994년...",
-      "link": "https://biz.heraldcorp.com/article/10898210?ref=naver",
-      "press": "biz.heraldcorp.com",
-      "press_name": "biz.heraldcorp.com",
-      "press_count": 1,
-      "press_list": [
-        "biz.heraldcorp.com"
-      ],
-      "press_name_list": [
-        "biz.heraldcorp.com"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T14:12:00+09:00",
-      "category": "사건사고",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 2.224
-    },
-    {
-      "title": "대구 천장붕괴 원인은 마감재 낙하…추경호 \"추가 위험 점검\"(종합)",
-      "desc": "대구 북구에서 발생한 천장 붕괴사고의 원인이 마감재 낙하로 파악된 가운데, 현장을 찾은 추경호 대구시장이 추가 위험 점검에 나설 것을 지시했다. 10일 대구소방안전본부와 대구 북구청에 따르면 이날 오전 10시 16분쯤...",
-      "link": "https://www.nocutnews.co.kr/news/6589468?utm_source=naver&utm_medium=article&utm_campaign=20261010020858",
-      "press": "nocutnews.co.kr",
-      "press_name": "노컷뉴스",
-      "press_count": 1,
-      "press_list": [
-        "nocutnews.co.kr"
-      ],
-      "press_name_list": [
-        "노컷뉴스"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T14:09:00+09:00",
-      "category": "사건사고",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 2.223
-    },
-    {
-      "title": "대구서 노인들 대상 '홍보관' 천장 붕괴 사고..38명 부상",
-      "desc": "10일 대구소방본부와 대구 북구청 등에 따르면 10일 오전 10시 16분께 북구 관음동의 한 4층짜리 상가 건물 2층에서 천장 반자(천장에 설치된 마감재나 구조물) 일부가 아래로 떨어졌다. 당시 건물 2층에서는 한 업체가...",
-      "link": "https://www.smarttoday.co.kr/ko-kr/articles/112458",
-      "press": "smarttoday.co.kr",
-      "press_name": "smarttoday.co.kr",
-      "press_count": 1,
-      "press_list": [
-        "smarttoday.co.kr"
-      ],
-      "press_name_list": [
-        "smarttoday.co.kr"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T14:06:00+09:00",
-      "category": "사건사고",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 2.222
-    },
-    {
-      "title": "추경호 대구시장, 38명 부상 사고에 “전문가 안전점검·재발 방지 총력...",
-      "desc": "10일 대구 북구 관음동의 한 상가건물 2층에서 천장 마감 구조물이 떨어져 38명이 다친 가운데, 추경호 대구시장이 사고 현장을 찾아 소방 관계자들과 피해 상황을 점검하고 있다. 현장에는 떨어진 천장 패널과 철제...",
-      "link": "https://www.yeongnam.com/web/view.php?key=20261010028573564",
-      "press": "yeongnam.com",
-      "press_name": "영남일보",
-      "press_count": 1,
-      "press_list": [
-        "yeongnam.com"
-      ],
-      "press_name_list": [
-        "영남일보"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T14:06:00+09:00",
-      "category": "사건사고",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 2.222
+      "importance": 2.159
     },
     {
       "title": "경주시, 8년 만의 FEALAC 문화도시 회의 개최… 동아시아·중남미 교류의...",
@@ -3582,7 +3330,175 @@
       "category": "문화생활",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 2.22
+      "importance": 2.158
+    },
+    {
+      "title": "\"드르륵…천장이 파도처럼 덮쳐\" 대구 붕괴 생존자 증언",
+      "desc": "10일 대구 북구의 한 식자재 마트에선 천장 일부가 무너져 방문객 30여 명이 부상하는 사고가 발생한 가운데 생존자가 당시 상황을 증언했다. 10일 대구 북구 관음동의 한 4층 건물에 있는 2층 생활근린시설에서 천장...",
+      "link": "https://www.edaily.co.kr/News/Read?newsId=02236966645611608&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "press": "edaily.co.kr",
+      "press_name": "이데일리",
+      "press_count": 1,
+      "press_list": [
+        "edaily.co.kr"
+      ],
+      "press_name_list": [
+        "이데일리"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T15:13:00+09:00",
+      "category": "사건사고",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 2.157
+    },
+    {
+      "title": "“드르륵 소리 나더니, 파도처럼 우르르 내려앉았다”…대구 붕괴 사고...",
+      "desc": "10일 오전 대구 북구 관음동의 한 4층짜리 건물 2층에서 천장 일부가 무너지는 사고가 발생했다. 당시 건물... / 뉴스1대구 건물 천장 붕괴 사고 당시 안에 있었던 사고 목격자 증언이 전해졌다.사고가 난 건물은 1994년...",
+      "link": "https://www.wikitree.co.kr/articles/1165157",
+      "press": "wikitree.co.kr",
+      "press_name": "wikitree.co.kr",
+      "press_count": 1,
+      "press_list": [
+        "wikitree.co.kr"
+      ],
+      "press_name_list": [
+        "wikitree.co.kr"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T15:04:00+09:00",
+      "category": "사건사고",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 2.153
+    },
+    {
+      "title": "대구 상가 건물 천장 붕괴…노인 대상 행사 도중 '우르르'(종합)",
+      "desc": "대구의 한 상가건물에서 노인들을 대상으로 주방용품 등을 판매하는 홍보 행사가 열리던 중 천장 마감재... 10일 대구소방본부와 대구 북구청 등에 따르면 이날 오전 10시16분께 북구 관음동의 한 4층짜리 건물 2층에서...",
+      "link": "https://www.jasm.co.kr/news/articleView.html?idxno=320965",
+      "press": "jasm.co.kr",
+      "press_name": "jasm.co.kr",
+      "press_count": 1,
+      "press_list": [
+        "jasm.co.kr"
+      ],
+      "press_name_list": [
+        "jasm.co.kr"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T14:34:00+09:00",
+      "category": "사건사고",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 2.139
+    },
+    {
+      "title": "경찰, 천장 구조물 붕괴 사고 감식 등 원인 규명 나서",
+      "desc": "대구 북구에서 발생한 건물 천장 구조물 붕괴 사고와 관련해 경찰이 사고 원인 규명에 나섭니다. 대구강북경찰서는 2층 천장 특정 부분 마감재가 먼저 떨어진 뒤 다른 부분 마감재들도 연쇄적으로 떨어졌다는 목격자...",
+      "link": "https://dgmbc.com/NewsArticle/866648",
+      "press": "dgmbc.com",
+      "press_name": "대구MBC",
+      "press_count": 1,
+      "press_list": [
+        "dgmbc.com"
+      ],
+      "press_name_list": [
+        "대구MBC"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T14:33:00+09:00",
+      "category": "사건사고",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 2.139
+    },
+    {
+      "title": "‘천장 붕괴’ 대구 건물, 32년 됐지만…정기 안전점검 대상 아냐, 왜?",
+      "desc": "10일 대구광역시 북구 관음동 건물 천장 붕괴 사고로 노인 38명이 다친 가운데 준공된 지 32년 된 해당 건물이... 10일 연합뉴스에 따르면 이날 오전 10시 16분께 붕괴 사고가 난 대구 북구 관음동의 건물은 4층짜리로 1994년...",
+      "link": "https://biz.heraldcorp.com/article/10898210?ref=naver",
+      "press": "biz.heraldcorp.com",
+      "press_name": "biz.heraldcorp.com",
+      "press_count": 1,
+      "press_list": [
+        "biz.heraldcorp.com"
+      ],
+      "press_name_list": [
+        "biz.heraldcorp.com"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T14:12:00+09:00",
+      "category": "사건사고",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 2.129
+    },
+    {
+      "title": "대구 천장붕괴 원인은 마감재 낙하…추경호 \"추가 위험 점검\"(종합)",
+      "desc": "대구 북구에서 발생한 천장 붕괴사고의 원인이 마감재 낙하로 파악된 가운데, 현장을 찾은 추경호 대구시장이 추가 위험 점검에 나설 것을 지시했다. 10일 대구소방안전본부와 대구 북구청에 따르면 이날 오전 10시 16분쯤...",
+      "link": "https://www.nocutnews.co.kr/news/6589468?utm_source=naver&utm_medium=article&utm_campaign=20261010020858",
+      "press": "nocutnews.co.kr",
+      "press_name": "노컷뉴스",
+      "press_count": 1,
+      "press_list": [
+        "nocutnews.co.kr"
+      ],
+      "press_name_list": [
+        "노컷뉴스"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T14:09:00+09:00",
+      "category": "사건사고",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 2.128
+    },
+    {
+      "title": "추경호 대구시장, 38명 부상 사고에 “전문가 안전점검·재발 방지 총력...",
+      "desc": "10일 대구 북구 관음동의 한 상가건물 2층에서 천장 마감 구조물이 떨어져 38명이 다친 가운데, 추경호 대구시장이 사고 현장을 찾아 소방 관계자들과 피해 상황을 점검하고 있다. 현장에는 떨어진 천장 패널과 철제...",
+      "link": "https://www.yeongnam.com/web/view.php?key=20261010028573564",
+      "press": "yeongnam.com",
+      "press_name": "영남일보",
+      "press_count": 1,
+      "press_list": [
+        "yeongnam.com"
+      ],
+      "press_name_list": [
+        "영남일보"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T14:06:00+09:00",
+      "category": "사건사고",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 2.126
+    },
+    {
+      "title": "대구서 노인들 대상 '홍보관' 천장 붕괴 사고..38명 부상",
+      "desc": "10일 대구소방본부와 대구 북구청 등에 따르면 10일 오전 10시 16분께 북구 관음동의 한 4층짜리 상가 건물 2층에서 천장 반자(천장에 설치된 마감재나 구조물) 일부가 아래로 떨어졌다. 당시 건물 2층에서는 한 업체가...",
+      "link": "https://www.smarttoday.co.kr/ko-kr/articles/112458",
+      "press": "smarttoday.co.kr",
+      "press_name": "smarttoday.co.kr",
+      "press_count": 1,
+      "press_list": [
+        "smarttoday.co.kr"
+      ],
+      "press_name_list": [
+        "smarttoday.co.kr"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T14:06:00+09:00",
+      "category": "사건사고",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 2.126
     },
     {
       "title": "\"'드르륵' 하더니 천장 '와르르'\"…대구 붕괴 사고 순간 '아찔'",
@@ -3603,28 +3519,7 @@
       "category": "사건사고",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.218
-    },
-    {
-      "title": "[대구경북 기후재난 보고서④·끝]‘걷는 도시’로 탄소 줄이고, AI로 재...",
-      "desc": "지난해 7월 대구 북구 노곡동에서 갑작스러운 폭우로 도로가 침수되자 경북119구조대 대원들이 고무보트를 이용해 수색 및 구조 작업을 벌이고 있다. 영남일보 DB 영남일보는 '대구·경북 기후재난 보고서' 세 편을 통해...",
-      "link": "https://www.yeongnam.com/web/view.php?key=20261010025341929",
-      "press": "yeongnam.com",
-      "press_name": "영남일보",
-      "press_count": 1,
-      "press_list": [
-        "yeongnam.com"
-      ],
-      "press_name_list": [
-        "영남일보"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T13:54:00+09:00",
-      "category": "사건사고",
-      "region": "대구경북",
-      "gb_zones": [],
-      "importance": 2.216
+      "importance": 2.123
     },
     {
       "title": "선거구민 식사비 결제한 청도군의원 낙선자, 벌금형",
@@ -3645,7 +3540,28 @@
       "category": "범죄사법",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 2.213
+      "importance": 2.121
+    },
+    {
+      "title": "[대구경북 기후재난 보고서④·끝]‘걷는 도시’로 탄소 줄이고, AI로 재...",
+      "desc": "지난해 7월 대구 북구 노곡동에서 갑작스러운 폭우로 도로가 침수되자 경북119구조대 대원들이 고무보트를 이용해 수색 및 구조 작업을 벌이고 있다. 영남일보 DB 영남일보는 '대구·경북 기후재난 보고서' 세 편을 통해...",
+      "link": "https://www.yeongnam.com/web/view.php?key=20261010025341929",
+      "press": "yeongnam.com",
+      "press_name": "영남일보",
+      "press_count": 1,
+      "press_list": [
+        "yeongnam.com"
+      ],
+      "press_name_list": [
+        "영남일보"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T13:54:00+09:00",
+      "category": "사건사고",
+      "region": "대구경북",
+      "gb_zones": [],
+      "importance": 2.121
     },
     {
       "title": "건물 천장 마감재 붕괴사고 브리핑 듣는 추경호 대구시장",
@@ -3666,7 +3582,7 @@
       "category": "사건사고",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.202
+      "importance": 2.107
     },
     {
       "title": "대구 마트서 천장 갑자기 무너졌다... 방문객 60여명 긴급 대피",
@@ -3687,49 +3603,7 @@
       "category": "사건사고",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.194
-    },
-    {
-      "title": "대구 38명 부상 사고에 대통령·총리 긴급 지시…추경호 시장도 현장 진...",
-      "desc": "10일 대구 북구 관음동의 한 상가건물 2층에서 천장 마감 구조물이 떨어져 38명이 다친 가운데, 추경호 대구시장이 사고 현장을 찾아 소방 관계자들과 피해 상황을 점검하고 있다. 현장에는 떨어진 천장 패널과 철제 구조물...",
-      "link": "https://www.yeongnam.com/web/view.php?key=20261010029243551",
-      "press": "yeongnam.com",
-      "press_name": "영남일보",
-      "press_count": 1,
-      "press_list": [
-        "yeongnam.com"
-      ],
-      "press_name_list": [
-        "영남일보"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T12:32:00+09:00",
-      "category": "사건사고",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 2.179
-    },
-    {
-      "title": "[속보] 대구 상가건물서 천장 마감재 와르르…노인 대상 판매행사 중 38...",
-      "desc": "대구의 한 상가건물에서 노인들을 대상으로 주방용품 등을 판매하는 행사가 진행되던 중 천장 마감재가 무너져 38명이 다치는 사고가 발생했다. 10일 대구소방본부와 대구 북구청 등에 따르면 이날 오전 10시 16분께 북구...",
-      "link": "https://www.kwnews.co.kr/article/20261010500034",
-      "press": "kwnews.co.kr",
-      "press_name": "kwnews.co.kr",
-      "press_count": 1,
-      "press_list": [
-        "kwnews.co.kr"
-      ],
-      "press_name_list": [
-        "kwnews.co.kr"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T12:24:00+09:00",
-      "category": "사건사고",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 2.176
+      "importance": 2.098
     },
     {
       "title": "임종식 경북도교육감 \"미래세대 통일교육 강화…평화통일 이뤄야\"",
@@ -3750,7 +3624,28 @@
       "category": "사회복지",
       "region": "경북",
       "gb_zones": [],
-      "importance": 2.174
+      "importance": 2.089
+    },
+    {
+      "title": "대구 38명 부상 사고에 대통령·총리 긴급 지시…추경호 시장도 현장 진...",
+      "desc": "10일 대구 북구 관음동의 한 상가건물 2층에서 천장 마감 구조물이 떨어져 38명이 다친 가운데, 추경호 대구시장이 사고 현장을 찾아 소방 관계자들과 피해 상황을 점검하고 있다. 현장에는 떨어진 천장 패널과 철제 구조물...",
+      "link": "https://www.yeongnam.com/web/view.php?key=20261010029243551",
+      "press": "yeongnam.com",
+      "press_name": "영남일보",
+      "press_count": 1,
+      "press_list": [
+        "yeongnam.com"
+      ],
+      "press_name_list": [
+        "영남일보"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T12:32:00+09:00",
+      "category": "사건사고",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 2.084
     },
     {
       "title": "[종합]\"우르릉 소리 나더니 갑자기 무너져\"…대구 북구 상가 천장 마감...",
@@ -3771,7 +3666,7 @@
       "category": "사건사고",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.169
+      "importance": 2.074
     },
     {
       "title": "[속보]어르신 수십 명 모인 행사장서 ‘와르르’···대구서 천장 구조...",
@@ -3792,7 +3687,7 @@
       "category": "사건사고",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.158
+      "importance": 2.063
     },
     {
       "title": "경북 차량 정비공장 불, 1시간50분만에 진화…사상 없어(종합)",
@@ -3813,7 +3708,7 @@
       "category": "사건사고",
       "region": "경북",
       "gb_zones": [],
-      "importance": 2.149
+      "importance": 2.054
     },
     {
       "title": "“10초도 안 돼 다 무너졌다”…대구 천장 붕괴, 노인들 필사의 탈출",
@@ -3834,7 +3729,49 @@
       "category": "사건사고",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.148
+      "importance": 2.052
+    },
+    {
+      "title": "통합돌봄 신청 비율…읍·면·동 전담 인력은 '0명'",
+      "desc": "전국 통합돌봄 사업 시행 5개월 동안 인구 대비 신청 비율이 대구 군위군이 가장 높은 것으로 나타났습니다. 더불어민주당 소병훈 의원실이 보건복지부로부터 제출받은 자료에 따르면 군위군은 인구 2만2,493명...",
+      "link": "https://www.tbc.co.kr/news/view?pno=20261007095419AE06507&id=211952",
+      "press": "tbc.co.kr",
+      "press_name": "TBC",
+      "press_count": 1,
+      "press_list": [
+        "tbc.co.kr"
+      ],
+      "press_name_list": [
+        "TBC"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T21:02:00+09:00",
+      "category": "사회복지",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 2.047
+    },
+    {
+      "title": "경북 특수학교 장거리 통학 비율 전국 최고",
+      "desc": "경북 특수학교 학생들의 편도 1시간 이상 통학 비율이 15.3%로 전국에서 가장 높은 것으로 나타났습니다. 더불어민주당 한병도 의원실이 교육부 자료를 분석한 결과, 올해(2026년) 경북 특수학교 통학생 1,614명...",
+      "link": "https://www.tbc.co.kr/news/view?pno=20261007095043AE06506&id=211951",
+      "press": "tbc.co.kr",
+      "press_name": "TBC",
+      "press_count": 1,
+      "press_list": [
+        "tbc.co.kr"
+      ],
+      "press_name_list": [
+        "TBC"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T21:02:00+09:00",
+      "category": "사회복지",
+      "region": "경북",
+      "gb_zones": [],
+      "importance": 2.047
     },
     {
       "title": "경산 중산동 자동차 정비공장서 불…건물 1동·차량 전소",
@@ -3855,7 +3792,7 @@
       "category": "사건사고",
       "region": "경북",
       "gb_zones": [],
-      "importance": 2.139
+      "importance": 2.043
     },
     {
       "title": "경북 차량정비공장 화재, 초진…완진까지 장시간 걸릴듯",
@@ -3876,7 +3813,7 @@
       "category": "사건사고",
       "region": "경북",
       "gb_zones": [],
-      "importance": 2.136
+      "importance": 2.041
     },
     {
       "title": "청송 산불피해목 처리사업 입찰 두고 공정성 논란",
@@ -3899,7 +3836,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 2.135
+      "importance": 2.04
     },
     {
       "title": "경산 자동차 정비공장 화재 진화 중…인명 피해 없어",
@@ -3920,70 +3857,7 @@
       "category": "사건사고",
       "region": "경북",
       "gb_zones": [],
-      "importance": 2.134
-    },
-    {
-      "title": "통합돌봄 신청 비율…읍·면·동 전담 인력은 '0명'",
-      "desc": "전국 통합돌봄 사업 시행 5개월 동안 인구 대비 신청 비율이 대구 군위군이 가장 높은 것으로 나타났습니다. 더불어민주당 소병훈 의원실이 보건복지부로부터 제출받은 자료에 따르면 군위군은 인구 2만2,493명...",
-      "link": "https://www.tbc.co.kr/news/view?pno=20261007095419AE06507&id=211952",
-      "press": "tbc.co.kr",
-      "press_name": "TBC",
-      "press_count": 1,
-      "press_list": [
-        "tbc.co.kr"
-      ],
-      "press_name_list": [
-        "TBC"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T21:02:00+09:00",
-      "category": "사회복지",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 2.131
-    },
-    {
-      "title": "경북 특수학교 장거리 통학 비율 전국 최고",
-      "desc": "경북 특수학교 학생들의 편도 1시간 이상 통학 비율이 15.3%로 전국에서 가장 높은 것으로 나타났습니다. 더불어민주당 한병도 의원실이 교육부 자료를 분석한 결과, 올해(2026년) 경북 특수학교 통학생 1,614명...",
-      "link": "https://www.tbc.co.kr/news/view?pno=20261007095043AE06506&id=211951",
-      "press": "tbc.co.kr",
-      "press_name": "TBC",
-      "press_count": 1,
-      "press_list": [
-        "tbc.co.kr"
-      ],
-      "press_name_list": [
-        "TBC"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T21:02:00+09:00",
-      "category": "사회복지",
-      "region": "경북",
-      "gb_zones": [],
-      "importance": 2.131
-    },
-    {
-      "title": "【속보】경북 경산시 정방동 소재 자동차 정비공장서 화재",
-      "desc": "경산시 정방동 소재 한 자동차 정비공장에서 화재가 발생해 소방당국이 진화에 나섰다. (영상:독자제공) 원본 기사 보기:브레이크뉴스 대구경북",
-      "link": "http://www.breaknews.com/1242021",
-      "press": "breaknews.com",
-      "press_name": "breaknews.com",
-      "press_count": 1,
-      "press_list": [
-        "breaknews.com"
-      ],
-      "press_name_list": [
-        "breaknews.com"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T10:20:00+09:00",
-      "category": "사건사고",
-      "region": "대구경북",
-      "gb_zones": [],
-      "importance": 2.12
+      "importance": 2.039
     },
     {
       "title": "태극권 종찰 청암사, '2026 김천 전국 태극권 교류대회' 개최",
@@ -4004,7 +3878,7 @@
       "category": "정치행정",
       "region": "경북",
       "gb_zones": [],
-      "importance": 2.116
+      "importance": 2.035
     },
     {
       "title": "대구한의대 한의학과 동문들, 모교에 학과발전기금 1506만원 전달",
@@ -4025,7 +3899,28 @@
       "category": "사회복지",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.111
+      "importance": 2.027
+    },
+    {
+      "title": "【속보】경북 경산시 정방동 소재 자동차 정비공장서 화재",
+      "desc": "경산시 정방동 소재 한 자동차 정비공장에서 화재가 발생해 소방당국이 진화에 나섰다. (영상:독자제공) 원본 기사 보기:브레이크뉴스 대구경북",
+      "link": "http://www.breaknews.com/1242021",
+      "press": "breaknews.com",
+      "press_name": "breaknews.com",
+      "press_count": 1,
+      "press_list": [
+        "breaknews.com"
+      ],
+      "press_name_list": [
+        "breaknews.com"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T10:20:00+09:00",
+      "category": "사건사고",
+      "region": "대구경북",
+      "gb_zones": [],
+      "importance": 2.024
     },
     {
       "title": "경주를 '문화의 다보스'로…경북도-경주시, '세계경주포럼 비전' 선언",
@@ -4046,7 +3941,7 @@
       "category": "정치행정",
       "region": "경북",
       "gb_zones": [],
-      "importance": 2.09
+      "importance": 2.009
     },
     {
       "title": "의료기기 체험에서 기업 상담까지…대구보건대, 보건계열 진로 탐색",
@@ -4067,7 +3962,70 @@
       "category": "경제",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.085
+      "importance": 2.004
+    },
+    {
+      "title": "\"평화·번영의 미래 열자\"…경북도, 경주 통일전서 '제48회 통일서원제...",
+      "desc": "제48회 통일서원제 이날 행사에는 이철우 경북도지사, 김희수 경북도의회 의장, 임종식 경북도교육감, 주낙영 경주시장, 임활 경주시의회 의장 등 주요 기관·단체장과 보훈단체 회원, 학생, 시·도민 등 1,000여 명이...",
+      "link": "https://www.gukjenews.com/news/articleView.html?idxno=3717051",
+      "press": "gukjenews.com",
+      "press_name": "gukjenews.com",
+      "press_count": 1,
+      "press_list": [
+        "gukjenews.com"
+      ],
+      "press_name_list": [
+        "gukjenews.com"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T22:46:00+09:00",
+      "category": "정치행정",
+      "region": "경북",
+      "gb_zones": [],
+      "importance": 1.998
+    },
+    {
+      "title": "한글날 연휴 마지막 날 전국 내륙 소나기…일교차 15도 건강 주의",
+      "desc": "동부, 대구·경북 내륙·북동 산지, 경남 서부 내륙은 5~10㎜다. 늦은 오후부터 저녁 사이 중부 내륙에는... 오전 5시 현재 기온은 서울 15.5도, 춘천 11.8도, 대전 15.5도, 광주 17.9도, 대구 17.5도, 부산 21.4도, 제주 21....",
+      "link": "https://www.imaeil.com/page/view/2026101107181182551",
+      "press": "imaeil.com",
+      "press_name": "매일신문",
+      "press_count": 1,
+      "press_list": [
+        "imaeil.com"
+      ],
+      "press_name_list": [
+        "매일신문"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-11T07:19:00+09:00",
+      "category": "일반",
+      "region": "대구경북",
+      "gb_zones": [],
+      "importance": 1.994
+    },
+    {
+      "title": "'관내 현안' 듣겠다며 관외 수성구 음식점으로[대구의회 업무추진비②]",
+      "desc": "뉴시스는 대구 기초의회의 업무추진비 집행·공개·점검 실태를 짚고, 이어 의정비 인상과 의원 겸직정보의 공개·관리 실태를 살펴본다. [편집자 주] 김정화 정재익 이상제 기자 = 대구 동구·중구의회가 관내 현안...",
+      "link": "https://www.newsis.com/view/NISX20260918_0003795629",
+      "press": "newsis.com",
+      "press_name": "뉴시스",
+      "press_count": 1,
+      "press_list": [
+        "newsis.com"
+      ],
+      "press_name_list": [
+        "뉴시스"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-11T07:00:00+09:00",
+      "category": "일반",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 1.988
     },
     {
       "title": "문경약돌한우 생생장터 첫날 2000여명 찾아 2억3629만원 매출 ‘대박’",
@@ -4090,28 +4048,28 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 2.079
+      "importance": 1.987
     },
     {
-      "title": "\"평화·번영의 미래 열자\"…경북도, 경주 통일전서 '제48회 통일서원제...",
-      "desc": "제48회 통일서원제 이날 행사에는 이철우 경북도지사, 김희수 경북도의회 의장, 임종식 경북도교육감, 주낙영 경주시장, 임활 경주시의회 의장 등 주요 기관·단체장과 보훈단체 회원, 학생, 시·도민 등 1,000여 명이...",
-      "link": "https://www.gukjenews.com/news/articleView.html?idxno=3717051",
-      "press": "gukjenews.com",
-      "press_name": "gukjenews.com",
+      "title": "10승 도전 후라도, 타선 부활 시급한 삼성라이온즈…KT와 마지막 2연전",
+      "desc": "11일 오후 2시 대구삼성라이온즈파크에서 펼쳐지는 2026 신한 SOL KBO리그 KT위즈와의 맞대결에서 삼성은 선발... 최종 순위가 확정된 2위 삼성과 1위 KT의 맞대결로 삼성의 정규리그가 마무리하는 가운데 대구문화방송은...",
+      "link": "https://dgmbc.com/NewsArticle/866669",
+      "press": "dgmbc.com",
+      "press_name": "대구MBC",
       "press_count": 1,
       "press_list": [
-        "gukjenews.com"
+        "dgmbc.com"
       ],
       "press_name_list": [
-        "gukjenews.com"
+        "대구MBC"
       ],
       "related": [],
       "is_routine": false,
-      "pub_date": "2026-10-10T22:46:00+09:00",
-      "category": "정치행정",
-      "region": "경북",
+      "pub_date": "2026-10-11T06:42:00+09:00",
+      "category": "일반",
+      "region": "대구",
       "gb_zones": [],
-      "importance": 2.078
+      "importance": 1.982
     },
     {
       "title": "영천 완산동 지사협, 취약계층 20가구에 보행보조차 지원",
@@ -4132,7 +4090,31 @@
       "category": "사회복지",
       "region": "경북",
       "gb_zones": [],
-      "importance": 2.063
+      "importance": 1.978
+    },
+    {
+      "title": "대구·경북 구름 많고 내륙, 북동 산지에 소나기",
+      "desc": "11일 대구·경북은 구름이 많은 가운데 소나기가 내리는 곳이 있겠다. 이날 오전 5시 현재 기온은 대구 17.5도, 구미 16.5도, 포항 19.0도, 영천 15.5도, 안동 15.6도 등이다. 낮 기온은 24∼28도로 예보됐다. 소나기는...",
+      "link": "https://www.yna.co.kr/view/AKR20261011004500053?input=1195m",
+      "press": "yna.co.kr",
+      "press_name": "연합뉴스",
+      "press_count": 1,
+      "press_list": [
+        "yna.co.kr"
+      ],
+      "press_name_list": [
+        "연합뉴스"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-11T06:04:00+09:00",
+      "category": "일반",
+      "region": "대구경북",
+      "gb_zones": [
+        "동해안",
+        "북부"
+      ],
+      "importance": 1.968
     },
     {
       "title": "\"방금 봉화 다녀왔다\"… 이 대통령 고향 안동서 터진 이진숙의 '직격탄...",
@@ -4155,28 +4137,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 2.045
-    },
-    {
-      "title": "12일부터 전통시장 76곳에서 온누리상품권 환급행사",
-      "desc": "대구시는 오는 12일부터 전통시장 76곳에서 온누리상품권 환급행사인 '대구 대박세일'을 진행한다고 밝혔습니다. 행사에 참여하는 전통시장에서 당일 구매한 영수증을 합산한 금액이 3만 원을 넘으면 5천 원권, 5만 원...",
-      "link": "https://www.tbc.co.kr/news/view?pno=20261008154808AE06605&id=211955",
-      "press": "tbc.co.kr",
-      "press_name": "TBC",
-      "press_count": 1,
-      "press_list": [
-        "tbc.co.kr"
-      ],
-      "press_name_list": [
-        "TBC"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T21:02:00+09:00",
-      "category": "정치행정",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 2.039
+      "importance": 1.965
     },
     {
       "title": "[놓아경] 대구 아파트 30대 매수인 첫 30%대",
@@ -4197,28 +4158,49 @@
       "category": "정치행정",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.039
+      "importance": 1.958
     },
     {
-      "title": "대구 교통사고 사망자 61명으로 23% 증가···교통안전 대책 추진",
-      "desc": "대구 지역 교통사고 사망자가 2026년 9월 말 기준 2025년보다 27% 늘어난 것으로 나타났습니다. 대구경찰청은 교통사고 사망자가 2026년 9월 말 기준 61명으로, 이 가운데 보행자 사망자가 23명으로 가장 많았다고...",
-      "link": "https://dgmbc.com/NewsArticle/865844",
-      "press": "dgmbc.com",
-      "press_name": "대구MBC",
+      "title": "12일부터 전통시장 76곳에서 온누리상품권 환급행사",
+      "desc": "대구시는 오는 12일부터 전통시장 76곳에서 온누리상품권 환급행사인 '대구 대박세일'을 진행한다고 밝혔습니다. 행사에 참여하는 전통시장에서 당일 구매한 영수증을 합산한 금액이 3만 원을 넘으면 5천 원권, 5만 원...",
+      "link": "https://www.tbc.co.kr/news/view?pno=20261008154808AE06605&id=211955",
+      "press": "tbc.co.kr",
+      "press_name": "TBC",
       "press_count": 1,
       "press_list": [
-        "dgmbc.com"
+        "tbc.co.kr"
       ],
       "press_name_list": [
-        "대구MBC"
+        "TBC"
       ],
       "related": [],
       "is_routine": false,
-      "pub_date": "2026-10-10T07:13:00+09:00",
-      "category": "사건사고",
+      "pub_date": "2026-10-10T21:02:00+09:00",
+      "category": "정치행정",
       "region": "대구",
       "gb_zones": [],
-      "importance": 2.035
+      "importance": 1.958
+    },
+    {
+      "title": "날씨 \"제주 40mm 비\" 서울27도·대구28도 늦더위 언제까지",
+      "desc": "23도, 대구 28도, 부산 26도, 제주도 25도를 기록하며 가을날씨예보했다. 전국 내륙을 중심으로... 대구날씨는 11일 오후(12~18시)부터 저녁(18~21시) 사이 대구, 경북내륙, 경북북동산지에 소나기가 내리는...",
+      "link": "https://www.gukjenews.com/news/articleView.html?idxno=3717677",
+      "press": "gukjenews.com",
+      "press_name": "gukjenews.com",
+      "press_count": 1,
+      "press_list": [
+        "gukjenews.com"
+      ],
+      "press_name_list": [
+        "gukjenews.com"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-11T04:30:00+09:00",
+      "category": "일반",
+      "region": "대구경북",
+      "gb_zones": [],
+      "importance": 1.936
     },
     {
       "title": "고령군, 어린이 식생활 뮤지컬 ‘공룡마을 구출대작전’ 성황리 개최",
@@ -4239,53 +4221,7 @@
       "category": "사회복지",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 2.017
-    },
-    {
-      "title": "경북 아파트값 보합 한 주 만에 다시 하락…포항 매매·전세 낙폭 확대",
-      "desc": "경북지역 아파트 매매가격이 보합으로 돌아선 지 한 주 만에 다시 하락했다. 전세가격은 낙폭이... 포항은 매매와 전세 모두 하락폭이 확대됐다.한국부동산원의 주간 아파트가격 동향에 따르면 10월 1주차 경북...",
-      "link": "https://www.ksmnews.co.kr/news/view.php?idx=624861",
-      "press": "ksmnews.co.kr",
-      "press_name": "ksmnews.co.kr",
-      "press_count": 1,
-      "press_list": [
-        "ksmnews.co.kr"
-      ],
-      "press_name_list": [
-        "ksmnews.co.kr"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T19:44:00+09:00",
-      "category": "경제",
-      "region": "경북",
-      "gb_zones": [
-        "동해안"
-      ],
-      "importance": 2.009
-    },
-    {
-      "title": "이진숙 \"법대로 안 되면 법 바꿔\"…안동서 정부·민주당 비판",
-      "desc": "이진숙 국민의힘 의원이 10일 경북 안동에서 열린 부정선거 규탄 집회에 참석해 \"법대로 안 되면 법을 바꾼다... 집회에 앞서 이재명 대통령 부모의 경북 봉화 묘소를 방문한 사실도 공개했다. 이 의원은 봉화군이 여러 차례...",
-      "link": "https://www.news1.kr/local/daegu-gyeongbuk/6315673",
-      "press": "news1.kr",
-      "press_name": "뉴스1",
-      "press_count": 1,
-      "press_list": [
-        "news1.kr"
-      ],
-      "press_name_list": [
-        "뉴스1"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T19:43:00+09:00",
-      "category": "정치행정",
-      "region": "경북",
-      "gb_zones": [
-        "북부"
-      ],
-      "importance": 2.009
+      "importance": 1.933
     },
     {
       "title": "포항운하 수면 위로 쏟아지는 불빛… 시민과 함께 만든 ‘포항 낙화의 ...",
@@ -4308,7 +4244,74 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 2.008
+      "importance": 1.928
+    },
+    {
+      "title": "경북 아파트값 보합 한 주 만에 다시 하락…포항 매매·전세 낙폭 확대",
+      "desc": "경북지역 아파트 매매가격이 보합으로 돌아선 지 한 주 만에 다시 하락했다. 전세가격은 낙폭이... 포항은 매매와 전세 모두 하락폭이 확대됐다.한국부동산원의 주간 아파트가격 동향에 따르면 10월 1주차 경북...",
+      "link": "https://www.ksmnews.co.kr/news/view.php?idx=624861",
+      "press": "ksmnews.co.kr",
+      "press_name": "ksmnews.co.kr",
+      "press_count": 1,
+      "press_list": [
+        "ksmnews.co.kr"
+      ],
+      "press_name_list": [
+        "ksmnews.co.kr"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T19:44:00+09:00",
+      "category": "경제",
+      "region": "경북",
+      "gb_zones": [
+        "동해안"
+      ],
+      "importance": 1.928
+    },
+    {
+      "title": "이진숙 \"법대로 안 되면 법 바꿔\"…안동서 정부·민주당 비판",
+      "desc": "이진숙 국민의힘 의원이 10일 경북 안동에서 열린 부정선거 규탄 집회에 참석해 \"법대로 안 되면 법을 바꾼다... 집회에 앞서 이재명 대통령 부모의 경북 봉화 묘소를 방문한 사실도 공개했다. 이 의원은 봉화군이 여러 차례...",
+      "link": "https://www.news1.kr/local/daegu-gyeongbuk/6315673",
+      "press": "news1.kr",
+      "press_name": "뉴스1",
+      "press_count": 1,
+      "press_list": [
+        "news1.kr"
+      ],
+      "press_name_list": [
+        "뉴스1"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T19:43:00+09:00",
+      "category": "정치행정",
+      "region": "경북",
+      "gb_zones": [
+        "북부"
+      ],
+      "importance": 1.928
+    },
+    {
+      "title": "대구 군위경찰서, 농산물 절도·보이스피싱 예방에 앞장",
+      "desc": "대구군위경찰서는 지난 8일 군위종합운동장에서 열린 ‘군위군민체육대회’에서 지역 주민 8000여 명을... 이러한 노력은 주민들의 안전을 보장하고 지역사회의 신뢰를 높이는 데 기여할 것으로 기대된다. 대구 군위=",
+      "link": "https://www.viva100.com/article/20261010500009",
+      "press": "viva100.com",
+      "press_name": "viva100.com",
+      "press_count": 1,
+      "press_list": [
+        "viva100.com"
+      ],
+      "press_name_list": [
+        "viva100.com"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T09:12:00+09:00",
+      "category": "범죄사법",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 1.917
     },
     {
       "title": "대구시 동구청, 최미희·문현주 장애극복상 수상자 선정...장애인 복지 ...",
@@ -4329,28 +4332,7 @@
       "category": "사회복지",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.99
-    },
-    {
-      "title": "대구교육팔공산수련원, 가족과 함께하는 ‘가을 단풍 캠프’ 운영",
-      "desc": "오는 31일~11월 1일 진행...100가족 모집, 12일부터 참가 신청 대구교육팔공산수련원이 팔공산의 가을 정취를 즐기며 가족이 함께 다양한 체험활동을 할 수 있는 캠프를 운영한다. 대구교육팔공산수련원(원장 이교화)은...",
-      "link": "https://www.pressian.com/pages/articles/2026101013151081198?utm_source=naver&utm_medium=search",
-      "press": "pressian.com",
-      "press_name": "프레시안",
-      "press_count": 1,
-      "press_list": [
-        "pressian.com"
-      ],
-      "press_name_list": [
-        "프레시안"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T14:15:00+09:00",
-      "category": "사회복지",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 1.969
+      "importance": 1.906
     },
     {
       "title": "이진숙, 李 부모 묘소 직접 찾아 \"원상회복커녕 영구화 작업? 대통령 일...",
@@ -4373,28 +4355,28 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 1.968
+      "importance": 1.887
     },
     {
-      "title": "농산물 절도 피해액 지난해 154억원…1년 새 2배, 검거율은 48%",
-      "desc": "경기남부 30억2천60만원, 경북 7억5천546만원이 뒤를 이었다. 강원 한 곳의 피해액이 전체 지난해 피해액의 절반을 훌쩍 넘는다. 피해 규모가 커지고 있지만 경찰청이 주관한 전국 단위 농수산물 절도 특별단속은...",
-      "link": "https://www.imaeil.com/page/view/2026101007104177975",
-      "press": "imaeil.com",
-      "press_name": "매일신문",
+      "title": "대구교육팔공산수련원, 가족과 함께하는 ‘가을 단풍 캠프’ 운영",
+      "desc": "오는 31일~11월 1일 진행...100가족 모집, 12일부터 참가 신청 대구교육팔공산수련원이 팔공산의 가을 정취를 즐기며 가족이 함께 다양한 체험활동을 할 수 있는 캠프를 운영한다. 대구교육팔공산수련원(원장 이교화)은...",
+      "link": "https://www.pressian.com/pages/articles/2026101013151081198?utm_source=naver&utm_medium=search",
+      "press": "pressian.com",
+      "press_name": "프레시안",
       "press_count": 1,
       "press_list": [
-        "imaeil.com"
+        "pressian.com"
       ],
       "press_name_list": [
-        "매일신문"
+        "프레시안"
       ],
       "related": [],
       "is_routine": false,
-      "pub_date": "2026-10-10T07:14:00+09:00",
-      "category": "범죄사법",
-      "region": "경북",
+      "pub_date": "2026-10-10T14:15:00+09:00",
+      "category": "사회복지",
+      "region": "대구",
       "gb_zones": [],
-      "importance": 1.957
+      "importance": 1.885
     },
     {
       "title": "“김밥을 영어로 하면 바비킴?”…2년 만에 전국 1위 오른 김천김밥축제...",
@@ -4415,7 +4397,7 @@
       "category": "정치행정",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.94
+      "importance": 1.86
     },
     {
       "title": "문경 오미자 하프마라톤 상금·기념품·주차장 안내",
@@ -4438,7 +4420,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 1.925
+      "importance": 1.852
     },
     {
       "title": "'역사 왜곡 논란' 암살자(들), 경북 1개교 단체 관람…1곳은 취소",
@@ -4459,7 +4441,7 @@
       "category": "사회복지",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.924
+      "importance": 1.839
     },
     {
       "title": "‘9개의 불꽃, 하나 된 달성’…1만여명 함께한 달성군민체육대회",
@@ -4480,7 +4462,7 @@
       "category": "정치행정",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.914
+      "importance": 1.834
     },
     {
       "title": "경북 파크골프 열풍에 제도적 지원 근거 마련한다",
@@ -4501,7 +4483,7 @@
       "category": "사회복지",
       "region": "경북",
       "gb_zones": [],
-      "importance": 1.909
+      "importance": 1.824
     },
     {
       "title": "철도역 거점으로 청년 판로 개척…코레일유통물류, 동대구역서 청년마...",
@@ -4522,49 +4504,7 @@
       "category": "일반",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.882
-    },
-    {
-      "title": "기계농·특산물 홍보·판매축제 다음달 7일 열린다",
-      "desc": "지역에서 생산한 친환경 농·특산물을 홍보·판매해 농가 판로 확대와 소득 증대를 돕고 있다.올해 축제에서는 지역 특색을 살린 마을 향토음식 잔치와 먹거리 장터를 운영하고 다문화가정의 세계 음식도 선보인다.경북도...",
-      "link": "https://www.kbsm.net/news/view.php?idx=536997",
-      "press": "kbsm.net",
-      "press_name": "경북신문",
-      "press_count": 1,
-      "press_list": [
-        "kbsm.net"
-      ],
-      "press_name_list": [
-        "경북신문"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T10:32:00+09:00",
-      "category": "사회복지",
-      "region": "경북",
-      "gb_zones": [],
-      "importance": 1.88
-    },
-    {
-      "title": "역사왜곡 논란 영화 '암살자들' 학교 단체관람…전국 17개교 추진",
-      "desc": "대구는 단체관람 사례가 없었다. 10일 국회 교육위원회 소속 이인선 국민의힘 의원이 전국 17개 시·도교육청에서 제출받은 영화 '암살자들' 학교 단체관람 현황을 분석한 결과, 경기·강원·충남 지역에서 각각 2개교가...",
-      "link": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4086667",
-      "press": "kyongbuk.co.kr",
-      "press_name": "경북일보",
-      "press_count": 1,
-      "press_list": [
-        "kyongbuk.co.kr"
-      ],
-      "press_name_list": [
-        "경북일보"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T10:28:00+09:00",
-      "category": "사회복지",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 1.878
+      "importance": 1.809
     },
     {
       "title": "황병직 영주시장 \"시민 중심 행정 펼치겠다, 첫 단추는 민원 해결\"",
@@ -4587,7 +4527,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 1.878
+      "importance": 1.797
     },
     {
       "title": "포항 욕실 자재업체 인근 불‥인명 피해 없어",
@@ -4610,7 +4550,49 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 1.87
+      "importance": 1.796
+    },
+    {
+      "title": "기계농·특산물 홍보·판매축제 다음달 7일 열린다",
+      "desc": "지역에서 생산한 친환경 농·특산물을 홍보·판매해 농가 판로 확대와 소득 증대를 돕고 있다.올해 축제에서는 지역 특색을 살린 마을 향토음식 잔치와 먹거리 장터를 운영하고 다문화가정의 세계 음식도 선보인다.경북도...",
+      "link": "https://www.kbsm.net/news/view.php?idx=536997",
+      "press": "kbsm.net",
+      "press_name": "경북신문",
+      "press_count": 1,
+      "press_list": [
+        "kbsm.net"
+      ],
+      "press_name_list": [
+        "경북신문"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T10:32:00+09:00",
+      "category": "사회복지",
+      "region": "경북",
+      "gb_zones": [],
+      "importance": 1.796
+    },
+    {
+      "title": "역사왜곡 논란 영화 '암살자들' 학교 단체관람…전국 17개교 추진",
+      "desc": "대구는 단체관람 사례가 없었다. 10일 국회 교육위원회 소속 이인선 국민의힘 의원이 전국 17개 시·도교육청에서 제출받은 영화 '암살자들' 학교 단체관람 현황을 분석한 결과, 경기·강원·충남 지역에서 각각 2개교가...",
+      "link": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4086667",
+      "press": "kyongbuk.co.kr",
+      "press_name": "경북일보",
+      "press_count": 1,
+      "press_list": [
+        "kyongbuk.co.kr"
+      ],
+      "press_name_list": [
+        "경북일보"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T10:28:00+09:00",
+      "category": "사회복지",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 1.794
     },
     {
       "title": "로봇도 지나간 시간을 기억한다… DGIST 김기섭 교수팀, 세계 로봇학회...",
@@ -4631,7 +4613,7 @@
       "category": "일반",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.863
+      "importance": 1.79
     },
     {
       "title": "불에 탄 포항 상가 건물",
@@ -4648,14 +4630,14 @@
       ],
       "related": [
         {
-          "title": "화염에 무너진 포항 상가 건물",
-          "link": "https://www.news1.kr/photos/8152171",
+          "title": "불에 무너져 내린 포항 상가",
+          "link": "https://www.news1.kr/photos/8152175",
           "press": "news1.kr",
           "press_name": "뉴스1"
         },
         {
-          "title": "불에 무너져 내린 포항 상가",
-          "link": "https://www.news1.kr/photos/8152175",
+          "title": "화염에 무너진 포항 상가 건물",
+          "link": "https://www.news1.kr/photos/8152171",
           "press": "news1.kr",
           "press_name": "뉴스1"
         }
@@ -4667,28 +4649,43 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 1.858
+      "importance": 1.785
     },
     {
-      "title": "대구시 햇빛소득마을 공모 성과…달성 1곳 선정·6곳 조건부 선정",
-      "desc": "뉴데일리 강승탁 기자 = 주민이 태양광 발전 수익을 마을 복지와 소득으로 나누는 ‘햇빛소득마을’ 사업에 대구 지역 7개 마을이 선정 또는 조건부 선정됐다. 대구시는 달성군과 군위군을 중심으로 사업계획 보완과 후속...",
-      "link": "https://tk.newdaily.co.kr/site/data/html/2026/10/10/2026101000013.html",
-      "press": "tk.newdaily.co.kr",
-      "press_name": "뉴데일리대구경북",
+      "title": "포항 상가 잔불 정리",
+      "desc": "10일 오후 5시 33분쯤 경북 포항시 북구 삼호로의 한 상가건물에서 원인을 알 수 없는 불이 나 소방 당국이 진화를 하고 있다. 이 불로 상가건물 한동이 전소됐으며 소방당국은 중장비를 투입, 잔불을 진화 중이다....",
+      "link": "https://www.news1.kr/photos/8152176",
+      "press": "news1.kr",
+      "press_name": "뉴스1",
       "press_count": 1,
       "press_list": [
-        "tk.newdaily.co.kr"
+        "news1.kr"
       ],
       "press_name_list": [
-        "뉴데일리대구경북"
+        "뉴스1"
       ],
-      "related": [],
+      "related": [
+        {
+          "title": "포항 상가 화재 잔불 정리",
+          "link": "https://www.news1.kr/photos/8152173",
+          "press": "news1.kr",
+          "press_name": "뉴스1"
+        },
+        {
+          "title": "포항 북구 상가 건물서 화재",
+          "link": "https://www.news1.kr/photos/8152137",
+          "press": "news1.kr",
+          "press_name": "뉴스1"
+        }
+      ],
       "is_routine": false,
-      "pub_date": "2026-10-10T09:34:00+09:00",
-      "category": "사회복지",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 1.857
+      "pub_date": "2026-10-10T21:13:00+09:00",
+      "category": "일반",
+      "region": "경북",
+      "gb_zones": [
+        "동해안"
+      ],
+      "importance": 1.784
     },
     {
       "title": "연기 치솟는 포항상가 건물",
@@ -4711,7 +4708,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 1.857
+      "importance": 1.784
     },
     {
       "title": "[축제 개막] 영천 강변공원 7만 인파 열기, 보현산으로…영천의 밤하늘...",
@@ -4732,7 +4729,28 @@
       "category": "정치행정",
       "region": "경북",
       "gb_zones": [],
-      "importance": 1.854
+      "importance": 1.773
+    },
+    {
+      "title": "대구시 햇빛소득마을 공모 성과…달성 1곳 선정·6곳 조건부 선정",
+      "desc": "뉴데일리 강승탁 기자 = 주민이 태양광 발전 수익을 마을 복지와 소득으로 나누는 ‘햇빛소득마을’ 사업에 대구 지역 7개 마을이 선정 또는 조건부 선정됐다. 대구시는 달성군과 군위군을 중심으로 사업계획 보완과 후속...",
+      "link": "https://tk.newdaily.co.kr/site/data/html/2026/10/10/2026101000013.html",
+      "press": "tk.newdaily.co.kr",
+      "press_name": "뉴데일리대구경북",
+      "press_count": 1,
+      "press_list": [
+        "tk.newdaily.co.kr"
+      ],
+      "press_name_list": [
+        "뉴데일리대구경북"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T09:34:00+09:00",
+      "category": "사회복지",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 1.772
     },
     {
       "title": "[여행스케치] 안동 세계유산축전 막 올랐다…천년고찰에 울린 전자음악",
@@ -4755,7 +4773,28 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 1.852
+      "importance": 1.771
+    },
+    {
+      "title": "경북교육청, 경북 공립 유·초·특수교사 임용 경쟁률 3.44대 1",
+      "desc": "기자 = 경북지역 공립 유치원·초등학교·특수학교 교사 임용시험 경쟁률이 지난해보다 높아졌다. 2027학년도 임용시험 원서접수 결과 287명 선발에 986명이 지원해 평균 3.44대 1의 경쟁률을 기록했다. 경북교육청...",
+      "link": "https://tk.newdaily.co.kr/site/data/html/2026/10/10/2026101000011.html",
+      "press": "tk.newdaily.co.kr",
+      "press_name": "뉴데일리대구경북",
+      "press_count": 1,
+      "press_list": [
+        "tk.newdaily.co.kr"
+      ],
+      "press_name_list": [
+        "뉴데일리대구경북"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T09:26:00+09:00",
+      "category": "사회복지",
+      "region": "경북",
+      "gb_zones": [],
+      "importance": 1.769
     },
     {
       "title": "휘발유값 21주 연속 하락…서울·대구 기름값 얼마나 차이 날까",
@@ -4776,7 +4815,7 @@
       "category": "일반",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.83
+      "importance": 1.757
     },
     {
       "title": "대구 서구, 교통유발부담금 12억 4천여만 원 부과",
@@ -4797,7 +4836,7 @@
       "category": "일반",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.825
+      "importance": 1.752
     },
     {
       "title": "드디어 첫 승, 한국가스공사…라건아·알루마 '51득점 24리바운드' 합작",
@@ -4818,7 +4857,7 @@
       "category": "일반",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.814
+      "importance": 1.741
     },
     {
       "title": "대구디지털혁신진흥원, 지역 전략산업 AI 대전환 본격 추진",
@@ -4839,7 +4878,7 @@
       "category": "일반",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.796
+      "importance": 1.723
     },
     {
       "title": "대구가톨릭대 건축학과 학생팀, 한국농촌건축대전 대상 수상",
@@ -4860,7 +4899,7 @@
       "category": "일반",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.794
+      "importance": 1.72
     },
     {
       "title": "문경시의회·문창고 학생, 관광 활성화 간담회…청소년 정책 제안",
@@ -4883,7 +4922,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 1.786
+      "importance": 1.705
     },
     {
       "title": "대구시 선수들, 아시안게임 금빛 활약…추경호 시장 격려금 전달",
@@ -4904,7 +4943,7 @@
       "category": "정치행정",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.774
+      "importance": 1.694
     },
     {
       "title": "대구시, 전통시장 76곳 ‘대구대박세일’…온누리상품권 환급",
@@ -4925,7 +4964,49 @@
       "category": "정치행정",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.771
+      "importance": 1.691
+    },
+    {
+      "title": "\"왕실 진상품의 풍미\"…제15회 경산 대추축제&농산물한마당 16일 개막",
+      "desc": "전국 최대 대추 주산지인 경북 경산시에서 '제15회 경산 대추 축제&농산물 한마당'이 열린다. 11일 경산시에 따르면 10월 16~18일 경산 생활체육공원 온마루 광장에서 개최하는 축제는 '왕실 진상품 경산 대추 미식 페스타'를...",
+      "link": "https://www.news1.kr/local/daegu-gyeongbuk/6314455",
+      "press": "news1.kr",
+      "press_name": "뉴스1",
+      "press_count": 1,
+      "press_list": [
+        "news1.kr"
+      ],
+      "press_name_list": [
+        "뉴스1"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-11T07:02:00+09:00",
+      "category": "문화생활",
+      "region": "경북",
+      "gb_zones": [],
+      "importance": 1.69
+    },
+    {
+      "title": "반시 먹으며 웃고 즐긴다…청도서 '감+코미디' 축제 한판",
+      "desc": "오는 16일부터 사흘간 경북 청도에서 지역 특산물인 반시와 국내외 코미디를 한자리에서 즐길 수 있는 축제가 열린다. 9일 청도군에 따르면 제23회 청도반시축제와 청도세계코미디아트페스티벌이 16~18일 청도야외공연장...",
+      "link": "https://www.news1.kr/local/daegu-gyeongbuk/6312762",
+      "press": "news1.kr",
+      "press_name": "뉴스1",
+      "press_count": 1,
+      "press_list": [
+        "news1.kr"
+      ],
+      "press_name_list": [
+        "뉴스1"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-11T07:01:00+09:00",
+      "category": "문화생활",
+      "region": "경북",
+      "gb_zones": [],
+      "importance": 1.69
     },
     {
       "title": "구미시 '굿모닝 수요특강' 200회…\"축제·투자유치 성과 밑바탕\"",
@@ -4946,7 +5027,49 @@
       "category": "경제",
       "region": "경북",
       "gb_zones": [],
-      "importance": 1.77
+      "importance": 1.69
+    },
+    {
+      "title": "대구 화엄사, 창건 30주년 기념 대법회 봉행",
+      "desc": "대구시 북구 읍내동에 위치한 화엄사가 창건 30주년을 맞아 오늘(10일) 경내 법당에서 기념 법회를 봉행하며... 기념법회에는 동화사 주지 선광스님과 이근수 대구 북구청장 등 지역 사회 지도자들도 자리를 함께 하며...",
+      "link": "https://news.bbsi.co.kr/news/articleView.html?idxno=4111324",
+      "press": "news.bbsi.co.kr",
+      "press_name": "news.bbsi.co.kr",
+      "press_count": 1,
+      "press_list": [
+        "news.bbsi.co.kr"
+      ],
+      "press_name_list": [
+        "news.bbsi.co.kr"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T16:32:00+09:00",
+      "category": "일반",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 1.686
+    },
+    {
+      "title": "홍콩반점, 신 메뉴 막창짬뽕 출시...대구 막창구이 재해석",
+      "desc": "메뉴는 대구의 막창구이를 짬뽕에 접목한 메뉴로 출시됐다. 앞서 회사 측은 전국 8대 지역의 음식 등을 짬뽕에 접목했다. 6월 부산 돼지국밥, 7월 전남광주 애호박찌개, 9월 경기 의정부 부대찌개 등이다. 이번에는 대구의...",
+      "link": "https://www.wflower.info/news/article.html?no=12461",
+      "press": "wflower.info",
+      "press_name": "wflower.info",
+      "press_count": 1,
+      "press_list": [
+        "wflower.info"
+      ],
+      "press_name_list": [
+        "wflower.info"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-11T01:22:00+09:00",
+      "category": "스포츠",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 1.683
     },
     {
       "title": "3만 원 구매하면 5000원 환급…대구 76개 전통시장 동시 ‘대박세일’ ...",
@@ -4967,7 +5090,28 @@
       "category": "정치행정",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.763
+      "importance": 1.682
+    },
+    {
+      "title": "숨비소리 따라 모였다…‘경북 해녀 한마당 축제’ 12일 개막",
+      "desc": "바닷속에서 삶을 일궈온 경북 해녀들의 삶과 문화 가치를 한눈에 둘러볼 수 있는 대축제가 열린다. 경북도는 오는 12일 경북이웃어촌지원센터에서 ‘2026년 경북 해녀 한마당 축제’를 개최한다고 밝혔다. 이번 축제는...",
+      "link": "https://www.segye.com/newsView/20261009505624?OutUrl=naver",
+      "press": "segye.com",
+      "press_name": "세계일보",
+      "press_count": 1,
+      "press_list": [
+        "segye.com"
+      ],
+      "press_name_list": [
+        "세계일보"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-11T06:35:00+09:00",
+      "category": "문화생활",
+      "region": "경북",
+      "gb_zones": [],
+      "importance": 1.682
     },
     {
       "title": "김학홍 문경시장, 생활비 부담 낮추고 농업·관광 소득 높인다",
@@ -4990,56 +5134,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 1.763
-    },
-    {
-      "title": "대구 화엄사, 창건 30주년 기념 대법회 봉행",
-      "desc": "대구시 북구 읍내동에 위치한 화엄사가 창건 30주년을 맞아 오늘(10일) 경내 법당에서 기념 법회를 봉행하며... 기념법회에는 동화사 주지 선광스님과 이근수 대구 북구청장 등 지역 사회 지도자들도 자리를 함께 하며...",
-      "link": "https://news.bbsi.co.kr/news/articleView.html?idxno=4111324",
-      "press": "news.bbsi.co.kr",
-      "press_name": "news.bbsi.co.kr",
-      "press_count": 1,
-      "press_list": [
-        "news.bbsi.co.kr"
-      ],
-      "press_name_list": [
-        "news.bbsi.co.kr"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T16:32:00+09:00",
-      "category": "일반",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 1.76
-    },
-    {
-      "title": "김철희 상주문협 회장, '2026 상주시민상' 수상",
-      "desc": "김철희(59) 한국문인협회 경북 상주지부 회장이 지난 8일 오후 상주시민운동장에서 시 승격 40주년 기념식과 함께 열린 상주시민의 날 행사에서 안재민 상주시장으로부터 '상주시민상(문화체육 부문)'을 수상하고 있다....",
-      "link": "https://daily.hankooki.com/news/articleView.html?idxno=1413428",
-      "press": "daily.hankooki.com",
-      "press_name": "daily.hankooki.com",
-      "press_count": 1,
-      "press_list": [
-        "daily.hankooki.com"
-      ],
-      "press_name_list": [
-        "daily.hankooki.com"
-      ],
-      "related": [
-        {
-          "title": "김철희 상주문협 회장, '2026 상주시민상(문화체육 부문)' 수상",
-          "link": "https://daily.hankooki.com/news/articleView.html?idxno=1413427",
-          "press": "daily.hankooki.com",
-          "press_name": "daily.hankooki.com"
-        }
-      ],
-      "is_routine": false,
-      "pub_date": "2026-10-10T08:32:00+09:00",
-      "category": "정치행정",
-      "region": "경북",
-      "gb_zones": [],
-      "importance": 1.752
+      "importance": 1.682
     },
     {
       "title": "대구상가 천장 순식간 와르르…혼비백산 노인들 우르르",
@@ -5060,28 +5155,7 @@
       "category": "일반",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.751
-    },
-    {
-      "title": "홍콩반점, 신 메뉴 막창짬뽕 출시...대구 막창구이 재해석",
-      "desc": "메뉴는 대구의 막창구이를 짬뽕에 접목한 메뉴로 출시됐다. 앞서 회사 측은 전국 8대 지역의 음식 등을 짬뽕에 접목했다. 6월 부산 돼지국밥, 7월 전남광주 애호박찌개, 9월 경기 의정부 부대찌개 등이다. 이번에는 대구의...",
-      "link": "https://www.wflower.info/news/article.html?no=12461",
-      "press": "wflower.info",
-      "press_name": "wflower.info",
-      "press_count": 1,
-      "press_list": [
-        "wflower.info"
-      ],
-      "press_name_list": [
-        "wflower.info"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-11T01:22:00+09:00",
-      "category": "스포츠",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 1.749
+      "importance": 1.678
     },
     {
       "title": "대구시 동구청, 장찬규·박정심·김태연...'26년 자랑스러운 동구인상 수...",
@@ -5102,7 +5176,7 @@
       "category": "일반",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.73
+      "importance": 1.657
     },
     {
       "title": "대구·경북 산림사업 현장서 5년간 18명 사망…경북 인명피해 전국 두 번...",
@@ -5123,70 +5197,7 @@
       "category": "일반",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.73
-    },
-    {
-      "title": "온누리상품권 전통시장 10%·지방 골목 8%, 가을 장바구니 아끼는 법",
-      "desc": "대구 남구 대명동 아우름길과 안지랑곱창골목도 충전식 결제가 가능해졌다. 내년부터는 지정 문턱이 지역마다 달라진다. 재정자립도 상위 25% 지자체는 점포 30개 이상, 하위 25%와 인구감소지역은 15개 이상이면 된다....",
-      "link": "https://www.imaeil.com/page/view/2026101006463893407",
-      "press": "imaeil.com",
-      "press_name": "매일신문",
-      "press_count": 1,
-      "press_list": [
-        "imaeil.com"
-      ],
-      "press_name_list": [
-        "매일신문"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T07:04:00+09:00",
-      "category": "정치행정",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 1.719
-    },
-    {
-      "title": "가을빛 물든 금오산 달린다…10일 '구미시장배 트레일 레이스'",
-      "desc": "제5회 구미시장배 금오산 트레일 레이스대회가 오는 10일 경북 구미시 금오산 일대에서 열린다. 이 대회에는 전국 각지에서 700여 명의 트레일 러너들이 참가해 가을빛으로 물든 금오산을 배경으로 산길과 숲길을 달린다....",
-      "link": "https://www.news1.kr/local/daegu-gyeongbuk/6312608",
-      "press": "news1.kr",
-      "press_name": "뉴스1",
-      "press_count": 1,
-      "press_list": [
-        "news1.kr"
-      ],
-      "press_name_list": [
-        "뉴스1"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T07:00:00+09:00",
-      "category": "정치행정",
-      "region": "경북",
-      "gb_zones": [],
-      "importance": 1.717
-    },
-    {
-      "title": "대구공공시설관리공단, 수성대와 지역인재 육성 협약",
-      "desc": "대구공공시설관리공단 동부사업처가 지역 대학생들의 취업 역량 강화와 공공기관 이해도를 높이기 위해... 문기봉 대구공공시설관리공단 이사장은 \"청년들이 공공기관의 업무 현장을 직접 체험하며 진로 탐색의 폭을...",
-      "link": "https://www.dkilbo.com/news/articleView.html?idxno=556647",
-      "press": "dkilbo.com",
-      "press_name": "dkilbo.com",
-      "press_count": 1,
-      "press_list": [
-        "dkilbo.com"
-      ],
-      "press_name_list": [
-        "dkilbo.com"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T14:26:00+09:00",
-      "category": "일반",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 1.716
+      "importance": 1.657
     },
     {
       "title": "이규섭 원주 DB 감독, '어제의 동지' 부산 KCC 85-79 제압…대구 한국가...",
@@ -5207,7 +5218,28 @@
       "category": "스포츠",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.713
+      "importance": 1.647
+    },
+    {
+      "title": "대구공공시설관리공단, 수성대와 지역인재 육성 협약",
+      "desc": "대구공공시설관리공단 동부사업처가 지역 대학생들의 취업 역량 강화와 공공기관 이해도를 높이기 위해... 문기봉 대구공공시설관리공단 이사장은 \"청년들이 공공기관의 업무 현장을 직접 체험하며 진로 탐색의 폭을...",
+      "link": "https://www.dkilbo.com/news/articleView.html?idxno=556647",
+      "press": "dkilbo.com",
+      "press_name": "dkilbo.com",
+      "press_count": 1,
+      "press_list": [
+        "dkilbo.com"
+      ],
+      "press_name_list": [
+        "dkilbo.com"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T14:26:00+09:00",
+      "category": "일반",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 1.643
     },
     {
       "title": "제40회 의성문화제 개최…홍술장군 정신 기리고 군민 화합 다져",
@@ -5230,28 +5262,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 1.69
-    },
-    {
-      "title": "대동모빌리티, 대구서 '국내 최초' 에너지 자급형 전기 스쿠터 공유 서...",
-      "desc": "초 대구 성서산단 내 '대동모빌리티 슈퍼스테이션'을 열었다. 개소식에서 (왼쪽부터)성서 산업단지관리공단 정연주 본부장, 한국산업단지공단 윤영수 대구지역본부장, 대구시 지형재 기후에너지환경국장, 대동모빌리티...",
-      "link": "http://www.metroseoul.co.kr/article/20261009500008",
-      "press": "metroseoul.co.kr",
-      "press_name": "metroseoul.co.kr",
-      "press_count": 1,
-      "press_list": [
-        "metroseoul.co.kr"
-      ],
-      "press_name_list": [
-        "metroseoul.co.kr"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T05:04:00+09:00",
-      "category": "경제",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 1.673
+      "importance": 1.628
     },
     {
       "title": "가을날의 경산에서 만나는 고즈넉한 사찰과 자연 명소 가볼 만한 곳",
@@ -5272,30 +5283,7 @@
       "category": "일반",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.672
-    },
-    {
-      "title": "예천국제스마트폰영화제, 9일 본선작 상영…개막식은 10일",
-      "desc": "87개국 1317편 출품 역대 최다…메가박스 경북도청점서 11일까지 무료 상영 개막작 '뫼비우스' 비롯 26편 시상... 경북도와 예천군은 9일부터 11일까지 메가박스 경북도청점에서 본선 진출작을 무료로 상영한다고 9일...",
-      "link": "https://www.ajunews.com/view/20261010013955851",
-      "press": "ajunews.com",
-      "press_name": "ajunews.com",
-      "press_count": 1,
-      "press_list": [
-        "ajunews.com"
-      ],
-      "press_name_list": [
-        "ajunews.com"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T05:00:00+09:00",
-      "category": "정치행정",
-      "region": "경북",
-      "gb_zones": [
-        "북부"
-      ],
-      "importance": 1.671
+      "importance": 1.599
     },
     {
       "title": "김천 상무, 전병관·박세진·이건희 포함 13명 전역 발표",
@@ -5316,7 +5304,7 @@
       "category": "일반",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.665
+      "importance": 1.592
     },
     {
       "title": "경북 경산 자동차 정비업체에 불...1시간 40분 만에 완진",
@@ -5344,7 +5332,7 @@
       "category": "일반",
       "region": "경북",
       "gb_zones": [],
-      "importance": 1.647
+      "importance": 1.574
     },
     {
       "title": "“달빛으로 엮은 남도 우정” 전남광주·대구 여성단체, 2026 달빛동맹 교...",
@@ -5365,7 +5353,7 @@
       "category": "일반",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.63
+      "importance": 1.557
     },
     {
       "title": "겸재 정선의 붓끝 따라… 포항서 맥 이어가는 ‘2026 열린세대전’",
@@ -5388,70 +5376,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 1.629
-    },
-    {
-      "title": "[마기자가 간다] 대구 달성토성 앞에 4층 공영주차장?···세계문화유산...",
-      "desc": "국가사적 대구 달성. 그런데 달성공원 앞에 4층 규모의 공영주차장이 조성되고 있습니다. 주차난을 해결하는 데 필요하다는 주민들이 있는 반면, 문화유산의 경관을 훼손할 수 있다는 우려도 나오고 있는데요. 특히 대구시...",
-      "link": "https://dgmbc.com/NewsArticle/866341",
-      "press": "dgmbc.com",
-      "press_name": "대구MBC",
-      "press_count": 1,
-      "press_list": [
-        "dgmbc.com"
-      ],
-      "press_name_list": [
-        "대구MBC"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T10:06:00+09:00",
-      "category": "일반",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 1.626
-    },
-    {
-      "title": "김천시 의정동우회, 회전교차로·농업 현안 해법 모색",
-      "desc": "경북 김천시 의정동우회가 전·현직 의원들의 의정 경험을 바탕으로 지역 현안 해결과 지방자치 발전을 위한 소통에 나섰다. 김천시 의정동우회는 지난 8일 2026년도 하반기 10월 회의를 열고 주요 사업 성과를 점검하는...",
-      "link": "https://view.asiae.co.kr/article/2026101010015970500",
-      "press": "view.asiae.co.kr",
-      "press_name": "아시아경제",
-      "press_count": 1,
-      "press_list": [
-        "view.asiae.co.kr"
-      ],
-      "press_name_list": [
-        "아시아경제"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T10:05:00+09:00",
-      "category": "일반",
-      "region": "경북",
-      "gb_zones": [],
-      "importance": 1.625
-    },
-    {
-      "title": "\"몸은 타지에 있어도 마음은 성주에\"…김창록 대표의 따뜻한 기부",
-      "desc": "김 대표는 평소에도 지역사회 공익활동에 꾸준히 참여해 왔으며, 과거 민주평화통일자문회의 대구 북구 협의회장을 지내는 등 지역사회와의 인연도 이어왔다. 이번 기부 역시 고향에 대한 애정을 지역 발전으로...",
-      "link": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4086663",
-      "press": "kyongbuk.co.kr",
-      "press_name": "경북일보",
-      "press_count": 1,
-      "press_list": [
-        "kyongbuk.co.kr"
-      ],
-      "press_name_list": [
-        "경북일보"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T09:46:00+09:00",
-      "category": "일반",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 1.619
+      "importance": 1.556
     },
     {
       "title": "광주-대구 여성단체 상생·협력 다져",
@@ -5472,7 +5397,91 @@
       "category": "문화생활",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.616
+      "importance": 1.553
+    },
+    {
+      "title": "[마기자가 간다] 대구 달성토성 앞에 4층 공영주차장?···세계문화유산...",
+      "desc": "국가사적 대구 달성. 그런데 달성공원 앞에 4층 규모의 공영주차장이 조성되고 있습니다. 주차난을 해결하는 데 필요하다는 주민들이 있는 반면, 문화유산의 경관을 훼손할 수 있다는 우려도 나오고 있는데요. 특히 대구시...",
+      "link": "https://dgmbc.com/NewsArticle/866341",
+      "press": "dgmbc.com",
+      "press_name": "대구MBC",
+      "press_count": 1,
+      "press_list": [
+        "dgmbc.com"
+      ],
+      "press_name_list": [
+        "대구MBC"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T10:06:00+09:00",
+      "category": "일반",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 1.552
+    },
+    {
+      "title": "김천시 의정동우회, 회전교차로·농업 현안 해법 모색",
+      "desc": "경북 김천시 의정동우회가 전·현직 의원들의 의정 경험을 바탕으로 지역 현안 해결과 지방자치 발전을 위한 소통에 나섰다. 김천시 의정동우회는 지난 8일 2026년도 하반기 10월 회의를 열고 주요 사업 성과를 점검하는...",
+      "link": "https://view.asiae.co.kr/article/2026101010015970500",
+      "press": "view.asiae.co.kr",
+      "press_name": "아시아경제",
+      "press_count": 1,
+      "press_list": [
+        "view.asiae.co.kr"
+      ],
+      "press_name_list": [
+        "아시아경제"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T10:05:00+09:00",
+      "category": "일반",
+      "region": "경북",
+      "gb_zones": [],
+      "importance": 1.552
+    },
+    {
+      "title": "\"몸은 타지에 있어도 마음은 성주에\"…김창록 대표의 따뜻한 기부",
+      "desc": "김 대표는 평소에도 지역사회 공익활동에 꾸준히 참여해 왔으며, 과거 민주평화통일자문회의 대구 북구 협의회장을 지내는 등 지역사회와의 인연도 이어왔다. 이번 기부 역시 고향에 대한 애정을 지역 발전으로...",
+      "link": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4086663",
+      "press": "kyongbuk.co.kr",
+      "press_name": "경북일보",
+      "press_count": 1,
+      "press_list": [
+        "kyongbuk.co.kr"
+      ],
+      "press_name_list": [
+        "경북일보"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T09:46:00+09:00",
+      "category": "일반",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 1.545
+    },
+    {
+      "title": "대구시, 5등급 차량 운행제한 앞두고 모의단속 두 차례",
+      "desc": "뉴데일리 강승탁 기자 = 대구시가 겨울철 미세먼지 계절관리기간에 시행할 배출가스 5등급 차량 운행제한을... 대구시는 오는 12월 1일부터 내년 3월 31일까지 예정된 ‘제8차 미세먼지 계절관리기간’ 운행제한에 앞서...",
+      "link": "https://tk.newdaily.co.kr/site/data/html/2026/10/10/2026101000014.html",
+      "press": "tk.newdaily.co.kr",
+      "press_name": "뉴데일리대구경북",
+      "press_count": 1,
+      "press_list": [
+        "tk.newdaily.co.kr"
+      ],
+      "press_name_list": [
+        "뉴데일리대구경북"
+      ],
+      "related": [],
+      "is_routine": false,
+      "pub_date": "2026-10-10T09:38:00+09:00",
+      "category": "일반",
+      "region": "대구",
+      "gb_zones": [],
+      "importance": 1.543
     },
     {
       "title": "경북TP, 영천·경북 로컬 브랜드 한자리에…자율형 공동스토어 '금호장...",
@@ -5493,7 +5502,7 @@
       "category": "일반",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.615
+      "importance": 1.542
     },
     {
       "title": "휘발유 가격 21주 연속 하락, 서울과 대구 주유소 가격 비교 눈길",
@@ -5514,7 +5523,7 @@
       "category": "일반",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.612
+      "importance": 1.538
     },
     {
       "title": "경북 영덕군, 군민과 함께 미래 100년을 설계하다",
@@ -5537,7 +5546,61 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 1.608
+      "importance": 1.534
+    },
+    {
+      "title": "낙화 불꽃놀이 열린 포항 운하",
+      "desc": "10일 오후 경북 포항운하에서 ‘2026 포항 낙화의 밤’ 이튿날 낙화 불꽃놀이 공연이 열리고 있다. 2026.10.10/뉴스1",
+      "link": "https://www.news1.kr/photos/8152186",
+      "press": "news1.kr",
+      "press_name": "뉴스1",
+      "press_count": 1,
+      "press_list": [
+        "news1.kr"
+      ],
+      "press_name_list": [
+        "뉴스1"
+      ],
+      "related": [
+        {
+          "title": "낙화 불꽃이 열린 포항운하",
+          "link": "https://www.news1.kr/photos/8152191",
+          "press": "news1.kr",
+          "press_name": "뉴스1"
+        },
+        {
+          "title": "낙화 쏟아지는 포항 운하",
+          "link": "https://www.news1.kr/photos/8152185",
+          "press": "news1.kr",
+          "press_name": "뉴스1"
+        },
+        {
+          "title": "낙화 불꽃에 물든 포항 운하",
+          "link": "https://www.news1.kr/photos/8152183",
+          "press": "news1.kr",
+          "press_name": "뉴스1"
+        },
+        {
+          "title": "포항 운하 낙화의 밤",
+          "link": "https://www.news1.kr/photos/8152179",
+          "press": "news1.kr",
+          "press_name": "뉴스1"
+        },
+        {
+          "title": "낙화에 물든 포항 운하",
+          "link": "https://www.news1.kr/photos/8152178",
+          "press": "news1.kr",
+          "press_name": "뉴스1"
+        }
+      ],
+      "is_routine": false,
+      "pub_date": "2026-10-10T21:48:00+09:00",
+      "category": "문화생활",
+      "region": "경북",
+      "gb_zones": [
+        "동해안"
+      ],
+      "importance": 1.527
     },
     {
       "title": "한국경영기술지도사회, 울산·대구경북지회 찾아 현장 소통…“회원이...",
@@ -5558,67 +5621,7 @@
       "category": "일반",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.594
-    },
-    {
-      "title": "포항 운하 물들인 낙화불꽃",
-      "desc": "10일 오후 경북 포항운하에서 ‘2026 포항 낙화의 밤’ 이튿날 낙화 불꽃놀이 공연이 열리고 있다. 2026.10.10/뉴스1",
-      "link": "https://www.news1.kr/photos/8152182",
-      "press": "news1.kr",
-      "press_name": "뉴스1",
-      "press_count": 1,
-      "press_list": [
-        "news1.kr"
-      ],
-      "press_name_list": [
-        "뉴스1"
-      ],
-      "related": [
-        {
-          "title": "낙화 불꽃에 물든 포항 운하",
-          "link": "https://www.news1.kr/photos/8152183",
-          "press": "news1.kr",
-          "press_name": "뉴스1"
-        },
-        {
-          "title": "낙화 불꽃놀이 열린 포항 운하",
-          "link": "https://www.news1.kr/photos/8152186",
-          "press": "news1.kr",
-          "press_name": "뉴스1"
-        },
-        {
-          "title": "낙화 쏟아지는 포항 운하",
-          "link": "https://www.news1.kr/photos/8152185",
-          "press": "news1.kr",
-          "press_name": "뉴스1"
-        },
-        {
-          "title": "낙화 불꽃이 열린 포항운하",
-          "link": "https://www.news1.kr/photos/8152191",
-          "press": "news1.kr",
-          "press_name": "뉴스1"
-        },
-        {
-          "title": "낙화에 물든 포항 운하",
-          "link": "https://www.news1.kr/photos/8152178",
-          "press": "news1.kr",
-          "press_name": "뉴스1"
-        },
-        {
-          "title": "포항 운하 낙화의 밤",
-          "link": "https://www.news1.kr/photos/8152179",
-          "press": "news1.kr",
-          "press_name": "뉴스1"
-        }
-      ],
-      "is_routine": false,
-      "pub_date": "2026-10-10T21:49:00+09:00",
-      "category": "문화생활",
-      "region": "경북",
-      "gb_zones": [
-        "동해안"
-      ],
-      "importance": 1.589
+      "importance": 1.52
     },
     {
       "title": "코레일유통물류, 동대구역서 청년마을 상품 팝업스토어 운영",
@@ -5639,7 +5642,7 @@
       "category": "일반",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.588
+      "importance": 1.515
     },
     {
       "title": "'극한직업' 돼지고기에 인생 걸다 편, 대구 비산동 돼지국밥 & 이천 창전...",
@@ -5660,114 +5663,7 @@
       "category": "문화생활",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.577
-    },
-    {
-      "title": "1,200년의 시간을 품은 정원, 사유원…대구를 다시 읽다(하)",
-      "desc": "대구 국채보상운동기념도서관에서 이 단어들을 따라가다 대구광역시 군위군에 있는 '사유원(思惟園)'이라는 곳을 알게 되었다. 이름이 끌렸다. 무엇을 위해 만든 공간인지 이름에 이미 드러나 있다. 도서관이 책을 통해...",
-      "link": "https://www.newsverse.kr/news/articleView.html?idxno=11626",
-      "press": "newsverse.kr",
-      "press_name": "newsverse.kr",
-      "press_count": 1,
-      "press_list": [
-        "newsverse.kr"
-      ],
-      "press_name_list": [
-        "newsverse.kr"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T07:30:00+09:00",
-      "category": "일반",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 1.571
-    },
-    {
-      "title": "무너진 6할, 넘어선 55패…삼성라이온즈 '타선 회복' 절실한 마지막 2연...",
-      "desc": "11일부터 홈인 대구삼성라이온즈파크에서 이어지는 2026 신한 SOL KBO리그 KT위즈와 시즌 마지막 2연전에서... 분위기를 가져오면서 시즌을 마무리하겠다는 각오의 삼성은 KT와의 2연전을 남겨둔 가운데 대구MBC는 이 두...",
-      "link": "https://dgmbc.com/NewsArticle/866637",
-      "press": "dgmbc.com",
-      "press_name": "대구MBC",
-      "press_count": 1,
-      "press_list": [
-        "dgmbc.com"
-      ],
-      "press_name_list": [
-        "대구MBC"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T07:19:00+09:00",
-      "category": "일반",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 1.568
-    },
-    {
-      "title": "국립대구박물관, 60세 이상 참여 프로그램 '함께 걷는 박물관' 만들어",
-      "desc": "국립대구박물관이 60세 이상을 대상으로 '함께 걷는 박물관' 프로그램을 만듭니다. 10월 15일부터 11월... 60세 이상이면 누구나 참여 가능하며, 국립대구박물관 홈페이지 또는 전화로 신청할 수 있습니다. 국립대구박물관...",
-      "link": "https://dgmbc.com/NewsArticle/866052",
-      "press": "dgmbc.com",
-      "press_name": "대구MBC",
-      "press_count": 1,
-      "press_list": [
-        "dgmbc.com"
-      ],
-      "press_name_list": [
-        "대구MBC"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T07:13:00+09:00",
-      "category": "일반",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 1.566
-    },
-    {
-      "title": "청송군의회, \"새 교정시설 지어 달라 \" 법무부에 건의",
-      "desc": "경북 청송군의회는 새 교정시설 조성 대상지로 청송을 선정해 달라고 법무부에 건의했다고 10일 밝혔다. 군의회는 건의문에서 \"청송 지역사회는 1981년 청송보호감호소 개청 이후 40년 넘게 교정시설과 함께해왔다\"며 \"새...",
-      "link": "https://www.yna.co.kr/view/AKR20261008059200053?input=1195m",
-      "press": "yna.co.kr",
-      "press_name": "연합뉴스",
-      "press_count": 1,
-      "press_list": [
-        "yna.co.kr"
-      ],
-      "press_name_list": [
-        "연합뉴스"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T07:11:00+09:00",
-      "category": "일반",
-      "region": "경북",
-      "gb_zones": [
-        "북부"
-      ],
-      "importance": 1.565
-    },
-    {
-      "title": "의정비 올랐는데…밤늦은 식사도 업추비[대구의회 업무추진비①]",
-      "desc": "뉴시스는 대구 기초의회의 업무추진비 집행·공개·점검 실태를 짚고, 이어 의정비 인상과 의원 겸직정보의 공개·관리 실태를 살펴본다. [편집자 주] 김정화 이상제 정재익 기자 = 의정활동 지원이 확대된 대구...",
-      "link": "https://www.newsis.com/view/NISX20260918_0003795580",
-      "press": "newsis.com",
-      "press_name": "뉴시스",
-      "press_count": 1,
-      "press_list": [
-        "newsis.com"
-      ],
-      "press_name_list": [
-        "뉴시스"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T07:00:00+09:00",
-      "category": "일반",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 1.561
+      "importance": 1.514
     },
     {
       "title": "가을바람 솔솔…경북서 만나는 ‘반려동물 축제 3선’",
@@ -5788,28 +5684,7 @@
       "category": "문화생활",
       "region": "경북",
       "gb_zones": [],
-      "importance": 1.557
-    },
-    {
-      "title": "전국 주유소 휘발유값 21주째 하락…L당 1857원",
-      "desc": "가장 저렴한 지역은 대구로, 전주 대비 0.3원 내린 1천829.8원이었다. 상표별로는 GS칼텍스 주유소가 L당 1천861.0원으로 가장 높았고, 알뜰주유소가 1천845.7원으로 가장 낮았다. 경유도 내림세를 이어갔다. 경유 평균...",
-      "link": "https://www.imaeil.com/page/view/2026101006253846240",
-      "press": "imaeil.com",
-      "press_name": "매일신문",
-      "press_count": 1,
-      "press_list": [
-        "imaeil.com"
-      ],
-      "press_name_list": [
-        "매일신문"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T06:30:00+09:00",
-      "category": "일반",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 1.551
+      "importance": 1.495
     },
     {
       "title": "청명한 가을 속 두류공원 아이 웃음소리 가득...대구 유아차 걷기 한마...",
@@ -5830,28 +5705,7 @@
       "category": "문화생활",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.538
-    },
-    {
-      "title": "[대구·경북 날씨예보] 중남부 오전부터 오후 사이 5~10mm 비",
-      "desc": "오늘(10일) 대구와 경북은 낮 기온이 최고 28도까지 오르는 가운데 일부 지역에 가을비가 내리겠다. 내륙을 중심으로 낮과 밤의 기온차가 15도 안팎으로 벌어져 건강관리에 주의가 필요하다. 대구지방기상청에 따르면...",
-      "link": "https://www.thefairnews.co.kr/news/articleView.html?idxno=90229",
-      "press": "thefairnews.co.kr",
-      "press_name": "thefairnews.co.kr",
-      "press_count": 1,
-      "press_list": [
-        "thefairnews.co.kr"
-      ],
-      "press_name_list": [
-        "thefairnews.co.kr"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T05:54:00+09:00",
-      "category": "일반",
-      "region": "대구경북",
-      "gb_zones": [],
-      "importance": 1.538
+      "importance": 1.476
     },
     {
       "title": "'극한직업' 50년 돼지갈비·대구 돼지국밥·구미 족발 맛집",
@@ -5872,30 +5726,7 @@
       "category": "문화생활",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.53
-    },
-    {
-      "title": "청송군의회, 신규 교정시설 조성 부지 공모에 청송 선정 건의",
-      "desc": "[사진=청송군의회] 경북 청송군의회가 법무부의 신규 교정시설 조성 부지 선정 공모와 관련해 청송군을... 청송군의회는 청송군이 1981년 청송보호감호소 개청 이후 경북 제1·2·3교도소와 경북직업훈련교도소가 자리한...",
-      "link": "https://www.ajunews.com/view/20261010013055850",
-      "press": "ajunews.com",
-      "press_name": "ajunews.com",
-      "press_count": 1,
-      "press_list": [
-        "ajunews.com"
-      ],
-      "press_name_list": [
-        "ajunews.com"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T05:02:00+09:00",
-      "category": "일반",
-      "region": "경북",
-      "gb_zones": [
-        "북부"
-      ],
-      "importance": 1.52
+      "importance": 1.468
     },
     {
       "title": "“판매 행사 중 천장 무너져”…대구 북구 30여명 경상 [현장영상]",
@@ -5916,7 +5747,7 @@
       "category": "문화생활",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.456
+      "importance": 1.394
     },
     {
       "title": "노인에 생활용품판매, 대구상가 천장 와르르…38명 경상(종합2보)",
@@ -5937,7 +5768,7 @@
       "category": "문화생활",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.451
+      "importance": 1.389
     },
     {
       "title": "문경약돌한우 상생장터 개막",
@@ -5960,7 +5791,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 1.451
+      "importance": 1.389
     },
     {
       "title": "홍지윤·아즈마 아키, 15일 김천시민체육대회 공연…시간은?",
@@ -5981,7 +5812,7 @@
       "category": "문화생활",
       "region": "경북",
       "gb_zones": [],
-      "importance": 1.44
+      "importance": 1.377
     },
     {
       "title": "예천스타디움 달군 1만 군민의 함성…호명읍, 체육대회 4연패 달성",
@@ -6004,7 +5835,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 1.414
+      "importance": 1.352
     },
     {
       "title": "포항시의회, 개원 이후 첫 산하기관장 인사청문 실시",
@@ -6027,7 +5858,7 @@
       "gb_zones": [
         "동해안"
       ],
-      "importance": 1.406
+      "importance": 1.35
     },
     {
       "title": "경북도, 반려동물 문화축제 잇따라 개최…산업으로 육성",
@@ -6051,7 +5882,7 @@
         "동해안",
         "북부"
       ],
-      "importance": 1.402
+      "importance": 1.34
     },
     {
       "title": "문경약돌 한우 상생장터 개장…첫날 판매액 2억3629만 원",
@@ -6074,7 +5905,7 @@
       "gb_zones": [
         "북부"
       ],
-      "importance": 1.4
+      "importance": 1.338
     },
     {
       "title": "대구보건대, 2026 스쿨업 커리업 잡페어 ‘성료’",
@@ -6095,7 +5926,7 @@
       "category": "문화생활",
       "region": "대구",
       "gb_zones": [],
-      "importance": 1.38
+      "importance": 1.318
     },
     {
       "title": "용성진종조사 다례재·특별법회…법륜스님 \"AI·기후위기 시대, 불교도...",
@@ -6116,49 +5947,35 @@
       "category": "문화생활",
       "region": "대구경북",
       "gb_zones": [],
-      "importance": 1.376
+      "importance": 1.314
     },
     {
-      "title": "현대미술 특별전' 개최···10월 13일부터 대구 대덕문화전당 전시실",
-      "desc": "'현대미술 특별전'이 10월 13일부터 대구 대덕문화전당 전시실 전관에서 열립니다. 김결수 작가가... 1~3전시실에서 진행하는 그룹전 'D:AVANT'은 대구(Daegu)의 'D'와 아방가르드(Avant-Garde)의 'Avant'를 결합한...",
-      "link": "https://dgmbc.com/NewsArticle/866306",
-      "press": "dgmbc.com",
-      "press_name": "대구MBC",
+      "title": "김철희 상주문협 회장, '2026 상주시민상(문화체육 부문)' 수상",
+      "desc": "김철희(59) 한국문인협회 경북 상주지부 회장이 지난 8일 오후 상주시민운동장에서 시 승격 40주년 기념식과 함께 열린 상주시민의 날 행사에서 '상주시민상(문화체육 부문)'을 부인과 함께 수상하고 있다. '상주시민상'은...",
+      "link": "https://daily.hankooki.com/news/articleView.html?idxno=1413427",
+      "press": "daily.hankooki.com",
+      "press_name": "daily.hankooki.com",
       "press_count": 1,
       "press_list": [
-        "dgmbc.com"
+        "daily.hankooki.com"
       ],
       "press_name_list": [
-        "대구MBC"
+        "daily.hankooki.com"
       ],
-      "related": [],
+      "related": [
+        {
+          "title": "김철희 상주문협 회장, '2026 상주시민상' 수상",
+          "link": "https://daily.hankooki.com/news/articleView.html?idxno=1413428",
+          "press": "daily.hankooki.com",
+          "press_name": "daily.hankooki.com"
+        }
+      ],
       "is_routine": false,
-      "pub_date": "2026-10-10T07:13:00+09:00",
-      "category": "문화생활",
-      "region": "대구",
-      "gb_zones": [],
-      "importance": 1.331
-    },
-    {
-      "title": "경북도, AI 돌봄 로봇 보급 중간보고회 개최",
-      "desc": "경상북도는 8일 경북테크노파크에서 'AI 돌봄 지원 로봇 보급 시범사업' 중간보고회를 열어 사업 추진 현황과 성과를 점검했다.2026.10.8.[사진=경북도] 경상북도는 8일 경북테크노파크에서 'AI 돌봄 지원 로봇 보급...",
-      "link": "https://www.straightnews.co.kr/news/articleView.html?idxno=312862",
-      "press": "straightnews.co.kr",
-      "press_name": "straightnews.co.kr",
-      "press_count": 1,
-      "press_list": [
-        "straightnews.co.kr"
-      ],
-      "press_name_list": [
-        "straightnews.co.kr"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T06:44:00+09:00",
+      "pub_date": "2026-10-10T08:32:00+09:00",
       "category": "문화생활",
       "region": "경북",
       "gb_zones": [],
-      "importance": 1.322
+      "importance": 1.292
     },
     {
       "title": "[지방의회]경북도의회 행정보건복지위, 소관 결산 및 조례안 등 심사",
@@ -6179,35 +5996,14 @@
       "category": "정치행정",
       "region": "경북",
       "gb_zones": [],
-      "importance": 1.316
-    },
-    {
-      "title": "경북도, 12일 해녀 한마당 축제…전통문화 보전·어촌 활력 모색",
-      "desc": "[사진=경상북도] 경북도가 해녀 전통문화를 알리고 지역 주민과 관광객이 함께 어촌문화를 체험하는 축제의 장을 마련한다. 도는 오는 12일 경북 이웃어촌지원센터에서 ‘2026년 경북 해녀 한마당 축제’를 개최한다고 9일...",
-      "link": "https://www.ajunews.com/view/20261010012500849",
-      "press": "ajunews.com",
-      "press_name": "ajunews.com",
-      "press_count": 1,
-      "press_list": [
-        "ajunews.com"
-      ],
-      "press_name_list": [
-        "ajunews.com"
-      ],
-      "related": [],
-      "is_routine": false,
-      "pub_date": "2026-10-10T05:02:00+09:00",
-      "category": "문화생활",
-      "region": "경북",
-      "gb_zones": [],
-      "importance": 1.292
+      "importance": 1.26
     }
   ],
   "youtube": [],
   "stats": {
-    "total_articles_raw": 1101,
-    "total_relevant": 543,
-    "total_clusters": 172,
-    "excluded": 558
+    "total_articles_raw": 1079,
+    "total_relevant": 531,
+    "total_clusters": 164,
+    "excluded": 548
   }
 }
